@@ -1,0 +1,83 @@
+{
+  "name": "navi",
+  "sorts": [
+    "type_drop",
+    "type_drop_go_to",
+    "type_drop_go_to_take",
+    "type_go_to",
+    "type_go_to_take",
+    "type_take"
+  ],
+  "predicates": {
+    "drop": {
+      "arg_sorts": [
+        [
+          "type_drop",
+          "type_drop_go_to",
+          "type_drop_go_to_take"
+        ]
+      ]
+    },
+    "go_to": {
+      "arg_sorts": [
+        [
+          "type_drop_go_to",
+          "type_drop_go_to_take",
+          "type_go_to",
+          "type_go_to_take"
+        ]
+      ]
+    },
+    "take": {
+      "arg_sorts": [
+        [
+          "type_drop_go_to_take",
+          "type_go_to_take",
+          "type_take"
+        ]
+      ]
+    }
+  },
+  "constants": {
+    "type_drop": [
+      "apple_bucket",
+      "bin"
+    ],
+    "type_drop_go_to": [
+      "bucket"
+    ],
+    "type_drop_go_to_take": [
+      "apple",
+      "orange",
+      "pear"
+    ],
+    "type_go_to": [
+      "apple_trashcan",
+      "cup",
+      "home",
+      "house",
+      "house's_vicinity",
+      "orange_bin",
+      "transh_can",
+      "trash_bin",
+      "trash_can",
+      "trash_receptacle",
+      "trashcan",
+      "waste_basket",
+      "waste_bin",
+      "waste_receptacle"
+    ],
+    "type_go_to_take": [
+      "flag",
+      "peach",
+      "tree"
+    ],
+    "type_take": [
+      "anything",
+      "bear",
+      "fruit"
+    ]
+  },
+  "provenance": "priorwork-synthesized from navi.jsonl + navi_clusters.json",
+  "notes": "Types inferred by predicate-slot co-occurrence partitioning."
+}

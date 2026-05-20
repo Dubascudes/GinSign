@@ -1,0 +1,32 @@
+{
+  "_doc": "Maps 108 paraphrastic navi predicates to 3 canonical predicates. Edit by hand; signature_builder asserts the mapping is total and disjoint over the cleaned navi corpus. _drop lists raw predicates that always appear bare (arity 0) and have no sensible canonical analog under the 3-verb signature -- they are dropped during build.",
+  "_drop": ["walk", "move", "stay", "moving", "move_around", "drop_by"],
+  "canonical_to_raw": {
+    "go_to": [
+      "advance_to", "approach", "arrive_at", "be_at", "be_in", "be_near",
+      "come", "come_to", "contact", "get_close", "get_near",
+      "get_to", "go", "go_by", "go_near", "go_past", "go_to", "go_visit",
+      "going_to", "got_to", "journey_by", "journey_to", "make_contact",
+      "make_contact_with", "make_to", "make_way", "make_way_for",
+      "make_way_to", "make_your_way", "migrate_to",
+      "move_forward", "move_near", "move_past", "move_to", "move_towards",
+      "pass_by", "present_at", "proceed_to", "reach", "set_out_to",
+      "shift_to", "show_yourself_near", "spend_time_at", "stand_by",
+      "start_going_to", "stop_by", "take_to", "touch", "track_towards",
+      "travel", "travel_by", "travel_to", "venture", "venture_to",
+      "venture_towards", "visit", "walk_near", "walk_to"
+    ],
+    "take": [
+      "acquire", "bring", "capture", "clutch", "collect", "gather", "get",
+      "get_hold", "get_hold_of", "getting", "grab", "grab_hold", "grasp",
+      "grip", "haul", "have", "have_in", "have_possession_of", "hold",
+      "hold_on", "hold_on_to", "hold_onto", "keep", "lay_hold_of", "obtain",
+      "pick_up", "procure", "scoop_up", "secure", "seize", "snag", "snatch",
+      "snatch_up", "steal", "take", "take_possession_of", "tax", "withhold",
+      "withold"
+    ],
+    "drop": [
+      "drop", "let_go", "withdraw", "yield", "put_in"
+    ]
+  }
+}

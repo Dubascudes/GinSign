@@ -1,0 +1,16 @@
+{
+  "raw_pred_counts": {
+    "at->at": 23906
+  },
+  "partition_membership": {
+    "type_at": [
+      {
+        "predicate": "at",
+        "slot": 0
+      }
+    ]
+  },
+  "type_sizes": {
+    "type_at": 4
+  }
+}

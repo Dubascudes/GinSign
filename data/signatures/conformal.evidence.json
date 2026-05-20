@@ -1,0 +1,37 @@
+{
+  "raw_pred_counts": {
+    "at->at": 1898,
+    "pickup->pickup": 441,
+    "put_down->put_down": 346,
+    "photo->photo": 269
+  },
+  "partition_membership": {
+    "type_at": [
+      {
+        "predicate": "at",
+        "slot": 0
+      }
+    ],
+    "type_at_pickup": [
+      {
+        "predicate": "at",
+        "slot": 0
+      },
+      {
+        "predicate": "pickup",
+        "slot": 0
+      }
+    ],
+    "type_pickup": [
+      {
+        "predicate": "pickup",
+        "slot": 0
+      }
+    ]
+  },
+  "type_sizes": {
+    "type_at": 173,
+    "type_at_pickup": 2,
+    "type_pickup": 56
+  }
+}

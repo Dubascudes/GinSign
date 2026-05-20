@@ -1,0 +1,23 @@
+{
+  "name": "GLTL",
+  "sorts": [
+    "type_at"
+  ],
+  "predicates": {
+    "at": {
+      "arg_sorts": [
+        "type_at"
+      ]
+    }
+  },
+  "constants": {
+    "type_at": [
+      "blue_room",
+      "green_room",
+      "red_room",
+      "yellow_room"
+    ]
+  },
+  "provenance": "priorwork-synthesized from GLTL.jsonl",
+  "notes": "Types inferred by predicate-slot co-occurrence partitioning."
+}

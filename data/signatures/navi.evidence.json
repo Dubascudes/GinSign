@@ -1,0 +1,169 @@
+{
+  "raw_pred_counts": {
+    "go_to->go_to": 970,
+    "drop->drop": 678,
+    "go_by->go_to": 614,
+    "pick_up->take": 413,
+    "let_go->drop": 391,
+    "reach->go_to": 384,
+    "venture_to->go_to": 353,
+    "travel_to->go_to": 340,
+    "grab->take": 321,
+    "visit->go_to": 301,
+    "move_to->go_to": 288,
+    "secure->take": 270,
+    "approach->go_to": 234,
+    "withhold->take": 224,
+    "venture_towards->go_to": 213,
+    "present_at->go_to": 209,
+    "acquire->take": 197,
+    "bring->take": 196,
+    "gather->take": 194,
+    "put_in->drop": 194,
+    "touch->go_to": 190,
+    "go_near->go_to": 189,
+    "stop_by->go_to": 189,
+    "proceed_to->go_to": 187,
+    "take->take": 184,
+    "take_to->go_to": 178,
+    "pass_by->go_to": 177,
+    "collect->take": 174,
+    "seize->take": 171,
+    "hold->take": 170,
+    "get_to->go_to": 170,
+    "grasp->take": 169,
+    "get->take": 165,
+    "procure->take": 161,
+    "obtain->take": 159,
+    "going_to->go_to": 157,
+    "journey_to->go_to": 153,
+    "venture->go_to": 150,
+    "journey_by->go_to": 140,
+    "get_hold->take": 134,
+    "get_close->go_to": 129,
+    "advance_to->go_to": 126,
+    "have->take": 126,
+    "contact->go_to": 121,
+    "capture->take": 120,
+    "go_visit->go_to": 119,
+    "get_hold_of->take": 115,
+    "go_past->go_to": 113,
+    "start_going_to->go_to": 112,
+    "be_at->go_to": 111,
+    "scoop_up->take": 110,
+    "make_way->go_to": 78,
+    "migrate_to->go_to": 77,
+    "snag->take": 75,
+    "be_in->go_to": 73,
+    "lay_hold_of->take": 72,
+    "keep->take": 71,
+    "withdraw->drop": 70,
+    "get_near->go_to": 70,
+    "tax->take": 69,
+    "move_near->go_to": 69,
+    "travel_by->go_to": 67,
+    "withold->take": 67,
+    "snatch_up->take": 66,
+    "make_contact_with->go_to": 64,
+    "go->go_to": 64,
+    "have_in->take": 64,
+    "move_past->go_to": 63,
+    "spend_time_at->go_to": 63,
+    "come->go_to": 63,
+    "clutch->take": 62,
+    "hold_on_to->take": 62,
+    "make_your_way->go_to": 62,
+    "make_way_to->go_to": 62,
+    "steal->take": 61,
+    "track_towards->go_to": 61,
+    "make_to->go_to": 61,
+    "grip->take": 61,
+    "walk_to->go_to": 60,
+    "take_possession_of->take": 60,
+    "grab_hold->take": 59,
+    "got_to->go_to": 58,
+    "show_yourself_near->go_to": 57,
+    "have_possession_of->take": 57,
+    "be_near->go_to": 57,
+    "come_to->go_to": 55,
+    "travel->go_to": 55,
+    "haul->take": 55,
+    "move_forward->go_to": 55,
+    "set_out_to->go_to": 55,
+    "arrive_at->go_to": 55,
+    "hold_onto->take": 54,
+    "hold_on->take": 54,
+    "yield->drop": 54,
+    "make_way_for->go_to": 53,
+    "snatch->take": 52,
+    "shift_to->go_to": 50,
+    "make_contact->go_to": 50,
+    "stand_by->go_to": 49,
+    "walk_near->go_to": 49,
+    "move_towards->go_to": 49,
+    "getting->take": 46
+  },
+  "partition_membership": {
+    "type_go_to_take": [
+      {
+        "predicate": "go_to",
+        "slot": 0
+      },
+      {
+        "predicate": "take",
+        "slot": 0
+      }
+    ],
+    "type_take": [
+      {
+        "predicate": "take",
+        "slot": 0
+      }
+    ],
+    "type_drop_go_to_take": [
+      {
+        "predicate": "drop",
+        "slot": 0
+      },
+      {
+        "predicate": "go_to",
+        "slot": 0
+      },
+      {
+        "predicate": "take",
+        "slot": 0
+      }
+    ],
+    "type_go_to": [
+      {
+        "predicate": "go_to",
+        "slot": 0
+      }
+    ],
+    "type_drop_go_to": [
+      {
+        "predicate": "drop",
+        "slot": 0
+      },
+      {
+        "predicate": "go_to",
+        "slot": 0
+      }
+    ],
+    "type_drop": [
+      {
+        "predicate": "drop",
+        "slot": 0
+      }
+    ]
+  },
+  "type_sizes": {
+    "type_drop": 2,
+    "type_drop_go_to": 1,
+    "type_drop_go_to_take": 3,
+    "type_go_to": 14,
+    "type_go_to_take": 3,
+    "type_take": 3
+  },
+  "props_dropped_by_cluster_map": 168
+}

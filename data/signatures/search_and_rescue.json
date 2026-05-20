@@ -1,0 +1,98 @@
+{
+  "name": "search_and_rescue",
+  "sorts": [
+    "person",
+    "threat"
+  ],
+  "predicates": {
+    "avoid": {
+      "arg_sorts": [
+        "threat"
+      ]
+    },
+    "communicate": {
+      "arg_sorts": [
+        "person"
+      ]
+    },
+    "deliver_aid": {
+      "arg_sorts": [
+        "person"
+      ]
+    },
+    "get_help": {
+      "arg_sorts": []
+    },
+    "go_home": {
+      "arg_sorts": []
+    },
+    "photo": {
+      "arg_sorts": [
+        [
+          "person",
+          "threat"
+        ]
+      ]
+    },
+    "record": {
+      "arg_sorts": [
+        [
+          "person",
+          "threat"
+        ]
+      ]
+    }
+  },
+  "constants": {
+    "person": [
+      "injured_civilian",
+      "injured_hostile",
+      "injured_person",
+      "injured_rescuer",
+      "injured_victim",
+      "safe_civilian",
+      "safe_hostile",
+      "safe_person",
+      "safe_rescuer",
+      "safe_victim",
+      "unsafe_civilian",
+      "unsafe_person",
+      "unsafe_rescuer",
+      "unsafe_victim"
+    ],
+    "threat": [
+      "active_debris",
+      "active_fire_source",
+      "active_flood",
+      "active_gas_leak",
+      "active_unstable_beam",
+      "debris",
+      "fire_source",
+      "flood",
+      "gas_leak",
+      "impending_debris",
+      "impending_fire_source",
+      "impending_flood",
+      "impending_gas_leak",
+      "impending_unstable_beam",
+      "inactive_debris",
+      "inactive_fire_source",
+      "inactive_flood",
+      "inactive_gas_leak",
+      "inactive_unstable_beam",
+      "nearest_debris",
+      "nearest_fire_source",
+      "nearest_flood",
+      "nearest_gas_leak",
+      "nearest_unstable_beam",
+      "probable_debris",
+      "probable_fire_source",
+      "probable_flood",
+      "probable_gas_leak",
+      "probable_unstable_beam",
+      "unstable_beam"
+    ]
+  },
+  "provenance": "vltl-bench (auto-extracted from search_and_rescue.jsonl)",
+  "notes": null
+}

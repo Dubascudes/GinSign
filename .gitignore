@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtualenvs
+.venv/
+venv/
+env/
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Training artifacts (large; regeneratable)
+wandb/
+outputs_*/
+ICML_BERT_Grounder_Joint/
+*.ckpt
+*.bin
+*.safetensors
+
+# Pre-restructure archive (40+GB of old experiments; kept locally, not committed)
+deprecated/
+archive/
+
+# Ablation combos (~245MB; regeneratable from raw data)
+grounding_data_combined/
+grounding_data_combined_*/
+
+# Misc legacy artifacts kept locally
+cross_encoder_eval_results/
+
+# Raw-data archives (we ship the unpacked tree under data/)
+data/*.zip
+
+# HF cache (if cached locally)
+.cache/

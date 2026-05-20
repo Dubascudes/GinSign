@@ -1,0 +1,121 @@
+{
+  "name": "warehouse",
+  "sorts": [
+    "item",
+    "location"
+  ],
+  "predicates": {
+    "deliver": {
+      "arg_sorts": [
+        "item",
+        "location"
+      ]
+    },
+    "get_help": {
+      "arg_sorts": []
+    },
+    "idle": {
+      "arg_sorts": []
+    },
+    "pickup": {
+      "arg_sorts": [
+        "item"
+      ]
+    },
+    "search": {
+      "arg_sorts": [
+        "item"
+      ]
+    }
+  },
+  "constants": {
+    "item": [
+      "aeroplane",
+      "apple",
+      "backpack",
+      "banana",
+      "baseball_bat",
+      "baseball_glove",
+      "bear",
+      "bed",
+      "bench",
+      "bicycle",
+      "bird",
+      "boat",
+      "book",
+      "bottle",
+      "bowl",
+      "broccoli",
+      "bus",
+      "cake",
+      "car",
+      "carrot",
+      "cat",
+      "cell_phone",
+      "chair",
+      "clock",
+      "cow",
+      "cup",
+      "dining_table",
+      "dog",
+      "donut",
+      "elephant",
+      "fire_hydrant",
+      "fork",
+      "frisbee",
+      "giraffe",
+      "hair-drier",
+      "handbag",
+      "horse",
+      "hot_dog",
+      "keyboard",
+      "kite",
+      "knife",
+      "laptop",
+      "microwave",
+      "motorbike",
+      "mouse",
+      "orange",
+      "oven",
+      "parking_meter",
+      "person",
+      "pizza",
+      "potted_plant",
+      "refrigerator",
+      "remote",
+      "sandwich",
+      "scissors",
+      "sheep",
+      "sink",
+      "skateboard",
+      "skis",
+      "snowboard",
+      "sofa",
+      "spoon",
+      "sports_ball",
+      "stop_sign",
+      "suitcase",
+      "surfboard",
+      "teddy-bear",
+      "tennis_racket",
+      "tie",
+      "toaster",
+      "toilet",
+      "toothbrush",
+      "traffic_light",
+      "train",
+      "truck",
+      "tv_monitor",
+      "umbrella",
+      "vase",
+      "wine_glass",
+      "zebra"
+    ],
+    "location": [
+      "loading_dock",
+      "shelf"
+    ]
+  },
+  "provenance": "vltl-bench (auto-extracted from warehouse.jsonl)",
+  "notes": null
+}
