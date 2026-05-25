@@ -1,15 +1,22 @@
 #!/usr/bin/env python
-"""Run GPT-5 lifted translation on priorwork test sets.
+"""GPT-5 lifted translation via the OpenAI Batch API.
 
-For each priorwork domain, reads the first N test entries from
-eval_data/translation_eval/nl2tl/raw_nl/{domain}.jsonl, sends the
-lifted NL sentence (grounded_sentence with prop_N placeholders) to
-GPT-5, and writes the full entry + prediction to
-eval_data/translation_eval/llm_direct/gpt-5/{domain}.jsonl.
+Workflow:
+  1. submit  - Build JSONL batch request, upload, create batch job
+  2. poll    - Check batch status until complete
+  3. collect - Download results, merge predictions into output JSONL
 
 Usage:
-  python scripts/llm_translate.py --domains cleanup_world GLTL conformal navi
-  python scripts/llm_translate.py --domains navi --limit 500
+  # Submit batch for all 4 priorwork domains:
+  python scripts/llm_translate.py submit \
+      --domains cleanup_world GLTL conformal navi --model gpt-5
+
+  # Poll until done:
+  python scripts/llm_translate.py poll --batch-id <id>
+
+  # Collect results:
+  python scripts/llm_translate.py collect --batch-id <id> \
+      --domains cleanup_world GLTL conformal navi
 """
 
 from __future__ import annotations
@@ -29,6 +36,7 @@ load_dotenv(ROOT / ".env")
 EVAL_DIR = ROOT / "eval_data" / "translation_eval"
 INPUT_DIR = EVAL_DIR / "nl2tl" / "raw_nl"
 OUTPUT_DIR = EVAL_DIR / "llm_direct" / "gpt-5"
+BATCH_DIR = ROOT / "eval_data" / "batch_jobs"
 
 SYSTEM_PROMPT = """\
 You are a temporal logic translator. Given an English specification \
@@ -52,119 +60,216 @@ Do not include any explanation, markdown, or formatting.\
 """
 
 FEW_SHOT = [
-    {
-        "input": "Whenever prop_1 holds, prop_2 holds as well.",
-        "output": "globally ( prop_1 implies prop_2 )",
-    },
-    {
-        "input": "prop_1 must eventually happen.",
-        "output": "finally prop_1",
-    },
-    {
-        "input": "prop_1 must always hold, with at most a two-step grace period for recovery.",
-        "output": "not globally ( not ( prop_1 and next prop_1 ) )",
-    },
-    {
-        "input": "prop_2 persists until prop_1 holds, or else prop_2 holds forever.",
-        "output": "( prop_2 until prop_1 ) or globally prop_2",
-    },
-    {
-        "input": "If prop_1 ever holds, prop_2 must have held beforehand.",
-        "output": "( finally prop_1 ) implies ( not prop_1 until ( prop_2 and not prop_1 ) )",
-    },
+    ("Whenever prop_1 holds, prop_2 holds as well.",
+     "globally ( prop_1 implies prop_2 )"),
+    ("prop_1 must eventually happen.",
+     "finally prop_1"),
+    ("prop_1 must always hold, with at most a two-step grace period for recovery.",
+     "not globally ( not ( prop_1 and next prop_1 ) )"),
+    ("prop_2 persists until prop_1 holds, or else prop_2 holds forever.",
+     "( prop_2 until prop_1 ) or globally prop_2"),
+    ("If prop_1 ever holds, prop_2 must have held beforehand.",
+     "( finally prop_1 ) implies ( not prop_1 until ( prop_2 and not prop_1 ) )"),
 ]
 
 
 def build_messages(lifted_sentence: str) -> list[dict]:
     msgs: list[dict] = [{"role": "system", "content": SYSTEM_PROMPT}]
-    for ex in FEW_SHOT:
-        msgs.append({"role": "user", "content": ex["input"]})
-        msgs.append({"role": "assistant", "content": ex["output"]})
+    for inp, out in FEW_SHOT:
+        msgs.append({"role": "user", "content": inp})
+        msgs.append({"role": "assistant", "content": out})
     msgs.append({"role": "user", "content": lifted_sentence})
     return msgs
 
 
-def translate_one(client: OpenAI, lifted_sentence: str, model: str) -> str:
-    msgs = build_messages(lifted_sentence)
-    resp = client.chat.completions.create(
-        model=model,
-        messages=msgs,
-        max_completion_tokens=4096,
+# ---------------------------------------------------------------------------
+# Submit
+# ---------------------------------------------------------------------------
+
+def cmd_submit(args):
+    client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
+    BATCH_DIR.mkdir(parents=True, exist_ok=True)
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    requests = []
+    index = {}  # custom_id -> (domain, row_index)
+
+    for domain in args.domains:
+        in_path = INPUT_DIR / f"{domain}.jsonl"
+        if not in_path.exists():
+            print(f"[{domain}] input not found at {in_path}, skipping")
+            continue
+        with in_path.open() as f:
+            for i, line in enumerate(f):
+                if i >= args.limit:
+                    break
+                row = json.loads(line)
+                lifted = " ".join(row.get("grounded_sentence", row.get("sentence", [])))
+                custom_id = f"{domain}-{row.get('id', i)}"
+                requests.append({
+                    "custom_id": custom_id,
+                    "method": "POST",
+                    "url": "/v1/chat/completions",
+                    "body": {
+                        "model": args.model,
+                        "messages": build_messages(lifted),
+                        "max_completion_tokens": 4096,
+                    },
+                })
+                index[custom_id] = (domain, i, row)
+
+    # Write batch request JSONL
+    batch_file = BATCH_DIR / "translate_request.jsonl"
+    with batch_file.open("w") as f:
+        for req in requests:
+            f.write(json.dumps(req) + "\n")
+    print(f"Wrote {len(requests)} requests to {batch_file}")
+
+    # Save index for collect step
+    index_file = BATCH_DIR / "translate_index.jsonl"
+    with index_file.open("w") as f:
+        for cid, (domain, i, row) in index.items():
+            f.write(json.dumps({"custom_id": cid, "domain": domain, "row_index": i, "row": row}) + "\n")
+    print(f"Wrote index to {index_file}")
+
+    # Upload and create batch
+    uploaded = client.files.create(file=batch_file.open("rb"), purpose="batch")
+    print(f"Uploaded file: {uploaded.id}")
+
+    batch = client.batches.create(
+        input_file_id=uploaded.id,
+        endpoint="/v1/chat/completions",
+        completion_window="24h",
     )
-    return resp.choices[0].message.content.strip()
+    print(f"Batch created: {batch.id}  status={batch.status}")
+    print(f"\nNext steps:")
+    print(f"  python scripts/llm_translate.py poll --batch-id {batch.id}")
+    print(f"  python scripts/llm_translate.py collect --batch-id {batch.id} --domains {' '.join(args.domains)}")
+
+    # Save batch ID for convenience
+    (BATCH_DIR / "latest_batch_id.txt").write_text(batch.id + "\n")
 
 
-def run_domain(
-    client: OpenAI,
-    domain: str,
-    model: str,
-    limit: int,
-    skip_existing: bool,
-) -> None:
-    in_path = INPUT_DIR / f"{domain}.jsonl"
-    out_path = OUTPUT_DIR / f"{domain}.jsonl"
-    out_path.parent.mkdir(parents=True, exist_ok=True)
+# ---------------------------------------------------------------------------
+# Poll
+# ---------------------------------------------------------------------------
 
-    if not in_path.exists():
-        print(f"[{domain}] input not found at {in_path}, skipping")
+def cmd_poll(args):
+    client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
+    batch_id = args.batch_id or (BATCH_DIR / "latest_batch_id.txt").read_text().strip()
+
+    while True:
+        batch = client.batches.retrieve(batch_id)
+        done = batch.request_counts.completed
+        failed = batch.request_counts.failed
+        total = batch.request_counts.total
+        print(f"[{batch.status}] {done}/{total} done, {failed} failed")
+        if batch.status in ("completed", "failed", "cancelled", "expired"):
+            if batch.output_file_id:
+                print(f"Output file: {batch.output_file_id}")
+            if batch.error_file_id:
+                print(f"Error file: {batch.error_file_id}")
+            break
+        time.sleep(30)
+
+
+# ---------------------------------------------------------------------------
+# Collect
+# ---------------------------------------------------------------------------
+
+def cmd_collect(args):
+    client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
+    batch_id = args.batch_id or (BATCH_DIR / "latest_batch_id.txt").read_text().strip()
+
+    batch = client.batches.retrieve(batch_id)
+    if batch.status != "completed":
+        print(f"Batch {batch_id} status={batch.status}, not collecting yet")
         return
 
-    existing_ids: set = set()
-    existing_rows: list[dict] = []
-    if skip_existing and out_path.exists():
-        with out_path.open() as f:
-            for line in f:
-                row = json.loads(line)
-                existing_ids.add(row.get("id"))
-                existing_rows.append(row)
-        print(f"[{domain}] {len(existing_ids)} existing predictions found")
+    # Download results
+    result_content = client.files.content(batch.output_file_id).text
+    result_path = BATCH_DIR / "translate_results.jsonl"
+    result_path.write_text(result_content)
+    print(f"Downloaded {len(result_content.splitlines())} results to {result_path}")
 
-    rows: list[dict] = []
-    with in_path.open() as f:
-        for i, line in enumerate(f):
-            if i >= limit:
-                break
-            rows.append(json.loads(line))
+    # Load index
+    index: dict = {}
+    index_path = BATCH_DIR / "translate_index.jsonl"
+    with index_path.open() as f:
+        for line in f:
+            entry = json.loads(line)
+            index[entry["custom_id"]] = entry
 
-    todo = [r for r in rows if r.get("id") not in existing_ids]
-    print(f"[{domain}] {len(rows)} total, {len(todo)} to translate")
+    # Parse results and group by domain
+    per_domain: dict[str, list] = {}
+    n_ok = 0
+    n_empty = 0
+    for line in result_content.splitlines():
+        result = json.loads(line)
+        cid = result["custom_id"]
+        entry = index.get(cid)
+        if entry is None:
+            continue
+        domain = entry["domain"]
+        row = entry["row"]
 
-    results = list(existing_rows)
-    for i, row in enumerate(todo):
-        lifted = " ".join(row.get("grounded_sentence", row.get("sentence", [])))
-        try:
-            pred = translate_one(client, lifted, model)
-        except Exception as e:
-            print(f"  [{domain}] row {row.get('id', i)} failed: {e}")
-            pred = ""
-            time.sleep(2)
+        resp = result.get("response", {})
+        body = resp.get("body", {})
+        choices = body.get("choices", [])
+        prediction = ""
+        if choices:
+            content = choices[0].get("message", {}).get("content", "")
+            prediction = content.strip()
+        if prediction:
+            n_ok += 1
+        else:
+            n_empty += 1
 
-        row["prediction"] = pred
-        results.append(row)
+        row["prediction"] = prediction
+        per_domain.setdefault(domain, []).append(row)
 
-        if (i + 1) % 50 == 0 or i + 1 == len(todo):
-            print(f"  [{domain}] {i+1}/{len(todo)} done")
+    # Write per-domain output files
+    for domain in (args.domains or sorted(per_domain)):
+        rows = per_domain.get(domain, [])
+        if not rows:
+            continue
+        out_path = OUTPUT_DIR / f"{domain}.jsonl"
+        with out_path.open("w") as f:
+            for r in rows:
+                f.write(json.dumps(r) + "\n")
+        n_with_pred = sum(1 for r in rows if r.get("prediction"))
+        print(f"[{domain}] wrote {len(rows)} rows ({n_with_pred} with predictions) to {out_path}")
 
-    with out_path.open("w") as f:
-        for r in results:
-            f.write(json.dumps(r) + "\n")
-
-    n_with_pred = sum(1 for r in results if r.get("prediction"))
-    print(f"[{domain}] wrote {len(results)} rows ({n_with_pred} with predictions) to {out_path}")
+    print(f"\nTotal: {n_ok} predictions, {n_empty} empty")
 
 
-def main() -> None:
+# ---------------------------------------------------------------------------
+# CLI
+# ---------------------------------------------------------------------------
+
+def main():
     p = argparse.ArgumentParser()
-    p.add_argument("--domains", nargs="+", default=["cleanup_world", "GLTL", "conformal", "navi"])
-    p.add_argument("--model", default="gpt-4.1")
-    p.add_argument("--limit", type=int, default=500)
-    p.add_argument("--skip-existing", action="store_true", default=True)
-    p.add_argument("--no-skip-existing", dest="skip_existing", action="store_false")
-    args = p.parse_args()
+    sub = p.add_subparsers(dest="cmd", required=True)
 
-    client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
-    for domain in args.domains:
-        run_domain(client, domain, args.model, args.limit, args.skip_existing)
+    p_submit = sub.add_parser("submit")
+    p_submit.add_argument("--domains", nargs="+", default=["cleanup_world", "GLTL", "conformal", "navi"])
+    p_submit.add_argument("--model", default="gpt-5")
+    p_submit.add_argument("--limit", type=int, default=500)
+
+    p_poll = sub.add_parser("poll")
+    p_poll.add_argument("--batch-id", default=None)
+
+    p_collect = sub.add_parser("collect")
+    p_collect.add_argument("--batch-id", default=None)
+    p_collect.add_argument("--domains", nargs="+", default=None)
+
+    args = p.parse_args()
+    if args.cmd == "submit":
+        cmd_submit(args)
+    elif args.cmd == "poll":
+        cmd_poll(args)
+    elif args.cmd == "collect":
+        cmd_collect(args)
 
 
 if __name__ == "__main__":
