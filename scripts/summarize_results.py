@@ -46,15 +46,30 @@ def load_ground_truth(domain):
 
 def parse_llm_content(content):
     content = content.strip()
+    # Strip markdown fences
     content = re.sub(r"^```(?:json)?\s*", "", content)
     content = re.sub(r"\s*```$", "", content)
+    # Strip leading "prop_dict:" or "**prop_dict**:" prefix
+    content = re.sub(r"^\*{0,2}prop_dict\*{0,2}\s*:\s*", "", content.strip())
+
+    def _try_parse(s):
+        try:
+            parsed = json.loads(s)
+        except json.JSONDecodeError:
+            return None
+        if not isinstance(parsed, dict):
+            return None
+        # Unwrap {"prop_dict": {...}} wrapper if present
+        if "prop_dict" in parsed and isinstance(parsed["prop_dict"], dict):
+            parsed = parsed["prop_dict"]
+        return parsed
+
     # Try direct parse first
-    try:
-        return json.loads(content.strip())
-    except json.JSONDecodeError:
-        pass
-    # Extract the last JSON object from mixed text (e.g. reasoning + JSON)
-    # Find all { ... } blocks and try parsing from the last one
+    result = _try_parse(content.strip())
+    if result is not None:
+        return result
+
+    # Extract JSON objects from mixed text (reasoning + JSON)
     brace_depth = 0
     last_start = -1
     for i, ch in enumerate(content):
@@ -65,11 +80,9 @@ def parse_llm_content(content):
         elif ch == "}":
             brace_depth -= 1
             if brace_depth == 0 and last_start >= 0:
-                candidate = content[last_start : i + 1]
-                try:
-                    return json.loads(candidate)
-                except json.JSONDecodeError:
-                    pass
+                result = _try_parse(content[last_start : i + 1])
+                if result is not None:
+                    return result
     return None
 
 

@@ -272,19 +272,15 @@ GROUNDING_PROMPT = """Scenario Configuration: {scenario}
 Sentence: {sentence}
 Lifted Sentence: {lifted_sentence}
 
-Return a dictionary of the types, predicates, and constants for each prop_n in the lifted sentence. The dictionary should be in this form:
-prop_dict: {{
-"prop_1": {{
-"action_canon": *string*,
-"args_canon": *list of strings*,
-}},
-"prop_2": {{
-"action_canon": *string*,
-"args_canon": *list of strings*,
-}}
-}}
-Now, predict:
-prop_dict:"""
+For each prop_n in the lifted sentence, identify which predicate from the \
+Scenario Configuration it corresponds to, and which constants are its arguments. \
+Use ONLY predicate names and constant names that appear in the Scenario Configuration above.
+
+Output ONLY a JSON object (no explanation, no markdown) in this exact form:
+{{
+  "prop_1": {{"action_canon": "<predicate_name>", "args_canon": ["<const1>", "<const2>"]}},
+  "prop_2": {{"action_canon": "<predicate_name>", "args_canon": ["<const1>"]}}
+}}"""
 
 
 async def run_grounding(client, model, domains, tag, concurrency):
@@ -306,7 +302,7 @@ async def run_grounding(client, model, domains, tag, concurrency):
                 scenario=scenario, sentence=sentence, lifted_sentence=lifted,
             )
             msgs = [{"role": "user", "content": prompt}]
-            requests.append((msgs, 512))
+            requests.append((msgs, 1024))
 
         results = await run_batch(client, model, requests, concurrency, f"[{domain}]")
 
