@@ -40,6 +40,7 @@ def main() -> None:
     p.add_argument("--warmup-steps", type=int, default=100)
     p.add_argument("--max-grad-norm", type=float, default=1.0)
     p.add_argument("--eval-every", type=int, default=500)
+    p.add_argument("--patience", type=int, default=5)
     p.add_argument("--seed", type=int, default=0)
     p.add_argument("--lambda-arg", type=float, default=1.0)
     p.add_argument("--device", default="auto")

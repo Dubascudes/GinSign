@@ -134,6 +134,7 @@ def train(config: TrainingConfig) -> dict:
     step = 0
     best_metric = -float("inf")
     best_state: Optional[dict] = None
+    patience_counter = 0
 
     t0 = time.time()
     done = False
@@ -185,16 +186,25 @@ def train(config: TrainingConfig) -> dict:
                 )
                 if m > best_metric:
                     best_metric = m
+                    patience_counter = 0
                     best_state = {k: v.detach().cpu().clone() for k, v in model.state_dict().items()}
                     torch.save({"state_dict": best_state, "metrics": metrics,
                                 "config": json.loads(config.to_json())},
                                out_dir / "best.pt")
+                elif config.patience >= 0:
+                    patience_counter += 1
+                    if patience_counter >= config.patience:
+                        print(
+                            f"  early stopping at step {step} "
+                            f"(no improvement for {config.patience} evals)"
+                        )
+                        done = True
                 torch.save({"state_dict": model.state_dict(), "metrics": metrics,
                             "config": json.loads(config.to_json())},
                            out_dir / "last.pt")
                 model.train()
 
-            if step >= total_steps:
+            if step >= total_steps or done:
                 done = True
                 break
 

@@ -165,3 +165,34 @@ def test_train_loss_decreases_on_tiny_overfit(tmp_path):
     # On 5 examples with 40 steps the model should nail pred_acc; arg
     # may be tougher in 40 steps so we only assert pred_acc here.
     assert final["pred_acc"] >= 0.6, f"pred_acc didn't budge: {final}"
+
+
+@needs_bert
+def test_early_stopping_triggers(tmp_path):
+    """With patience=1 and eval_every=2, training should stop well before
+    max_steps if the metric plateaus after the first eval."""
+    from ginsign.config import TrainingConfig
+    from ginsign.training import train
+
+    sig_path, corpus = _tiny_warehouse_setup(tmp_path)
+    out_dir = tmp_path / "earlystop"
+    cfg = TrainingConfig(
+        signature_path=str(sig_path),
+        train_corpus=str(corpus),
+        dev_corpus=str(corpus),
+        output_dir=str(out_dir),
+        max_steps=100,
+        max_epochs=100,
+        batch_size=5,
+        eval_every=2,
+        patience=1,
+        warmup_steps=1,
+        lr=5e-4,
+        device="cpu",
+        seed=0,
+    )
+    final = train(cfg)
+    lines = (out_dir / "metrics.jsonl").read_text().strip().splitlines()
+    last_step = json.loads(lines[-1])["step"]
+    # With patience=1, should stop much sooner than 100 steps
+    assert last_step < 50, f"expected early stop but ran to step {last_step}"

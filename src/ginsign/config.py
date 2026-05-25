@@ -30,6 +30,7 @@ class TrainingConfig:
     max_epochs: int = 3
     max_steps: int = -1                     # -1 = no cap, use max_epochs
     eval_every: int = 500                   # in optimizer steps
+    patience: int = 5                       # -1 = no early stopping
     seed: int = 0
 
     # Loss
