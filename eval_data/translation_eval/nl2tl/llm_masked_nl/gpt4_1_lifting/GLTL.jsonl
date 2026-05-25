@@ -1,0 +1,500 @@
+{"id": 1738, "lifted_sentence_prop_ids": [1, 0, 2, 0, 3], "grounded_sentence": ["prop_1", "or", "prop_2", "to", "prop_3"], "prediction": "prop_1 or prop_2 until prop_3"}
+{"id": 2969, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 5313, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "to", "prop_2"], "prediction": "prop_1 to prop_2"}
+{"id": 5588, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 2, 0, 3], "grounded_sentence": ["the", "robot", "has", "to", "prop_1", "or", "prop_2", "to", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 3333, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "without", "using", "prop_2"], "prediction": "prop_1 and globally ( not prop_2 )"}
+{"id": 8424, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "but", "do", "not", "prop_2"], "prediction": "prop_1 and negation ( prop_2 )"}
+{"id": 10110, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "only", "to", "reach", "prop_2"], "prediction": "prop_1 until prop_2"}
+{"id": 7651, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["to", "reach", "the", "prop_1", "do", "not", "go", "through", "the", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 2565, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "but", "do", "not", "prop_2"], "prediction": "prop_1 and negation ( prop_2 )"}
+{"id": 6268, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "without", "entering", "prop_2"], "prediction": "prop_1 and globally ( not prop_2 )"}
+{"id": 6034, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "without", "going", "through", "prop_2"], "prediction": "prop_1 and globally ( not prop_2 )"}
+{"id": 10258, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "but", "not", "through", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 4407, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "but", "avoid", "going", "through", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 8241, "lifted_sentence_prop_ids": [1, 0, 2, 0, 3, 0, 4], "grounded_sentence": ["prop_1", "and", "prop_2", "and", "prop_3", "and", "prop_4"], "prediction": "globally ( prop_1 and prop_2 and prop_3 and prop_4 )"}
+{"id": 5587, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2], "grounded_sentence": ["enter", "into", "prop_1", "that", "is", "not", "green", "and", "continue", "through", "prop_1", "into", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 10066, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "without", "going", "through", "prop_2"], "prediction": "prop_1 and globally ( not prop_2 )"}
+{"id": 10031, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "without", "passing", "through", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 9653, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["pass", "through", "prop_1", "to", "reach", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 3194, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "through", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 2393, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "but", "avoid", "the", "prop_2"], "prediction": "prop_1 and globally ( not prop_2 )"}
+{"id": 10465, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 2, 0, 0, 0, 0, 3], "grounded_sentence": ["only", "go", "through", "prop_1", "that", "are", "not", "prop_2", "to", "get", "to", "the", "prop_3"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 8907, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "get", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 8633, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["enter", "prop_1", "then", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 7723, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "via", "the", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 5097, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "but", "do", "not", "prop_2"], "prediction": "prop_1 and negation ( prop_2 )"}
+{"id": 2391, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 6240, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3], "grounded_sentence": ["go", "to", "prop_1", "through", "prop_2", "or", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 6360, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["avoid", "prop_1", "on", "your", "way", "into", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 5993, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3], "grounded_sentence": ["go", "the", "prop_1", "or", "prop_2", "into", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 10997, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "by", "going", "though", "prop_2"], "prediction": "prop_1 by prop_2"}
+{"id": 8164, "lifted_sentence_prop_ids": [1, 0, 2, 0], "grounded_sentence": ["prop_1", "through", "prop_2", "only"], "prediction": "globally ( prop_1 and prop_2 )"}
+{"id": 4156, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 0, 2, 0, 0, 0, 3], "grounded_sentence": ["the", "robot", "must", "move", "through", "prop_1", "or", "prop_2", "to", "get", "to", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 4320, "lifted_sentence_prop_ids": [0, 0, 1, 2, 3, 4], "grounded_sentence": ["don", "t", "prop_1", "prop_2", "prop_3", "prop_4"], "prediction": "negation ( prop_1 or prop_2 ) and globally ( negation ( prop_4 ) )"}
+{"id": 2730, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "but", "avoid", "going", "through", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 4499, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 3], "grounded_sentence": ["go", "through", "prop_1", "or", "prop_2", "and", "enter", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 4230, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "but", "do", "not", "prop_2"], "prediction": "prop_1 and negation ( prop_2 )"}
+{"id": 9616, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3], "grounded_sentence": ["go", "through", "prop_1", "or", "prop_2", "to", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 8607, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "get", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 3509, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "to", "get", "to", "prop_2"], "prediction": "prop_1 until prop_2"}
+{"id": 10240, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "then", "go", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 605, "lifted_sentence_prop_ids": [0, 0, 1, 2, 0, 0, 0, 3], "grounded_sentence": ["the", "robot", "prop_1", "prop_2", "to", "get", "to", "prop_3"], "prediction": "finally ( prop_1 and finally ( prop_2 and finally ( prop_3 and prop_4 ) ) )"}
+{"id": 10654, "lifted_sentence_prop_ids": [1, 2, 3, 4, 5, 6], "grounded_sentence": ["prop_1", "prop_2", "prop_3", "prop_4", "prop_5", "prop_6"], "prediction": "prop_1 and prop_2 and finally ( prop_3 and prop_4 ) and finally ( prop_5 and prop_6 )"}
+{"id": 4197, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "but", "don", "t", "prop_2"], "prediction": "prop_1 and negation ( prop_2 )"}
+{"id": 3077, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "and", "enter", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 9619, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "but", "do", "not", "prop_2"], "prediction": "prop_1 and negation ( prop_2 )"}
+{"id": 5601, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 664, "lifted_sentence_prop_ids": [1, 0, 2, 0, 3], "grounded_sentence": ["prop_1", "and", "prop_2", "to", "prop_3"], "prediction": "finally ( prop_1 and finally ( prop_2 and finally ( prop_3 and prop_4 ) ) )"}
+{"id": 2159, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "by", "avoiding", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 9981, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "enter", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 6085, "lifted_sentence_prop_ids": [1, 2, 0, 3], "grounded_sentence": ["prop_1", "prop_2", "then", "prop_3"], "prediction": "prop_1 and finally ( prop_2 and prop_3 )"}
+{"id": 3099, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "not", "using", "prop_2"], "prediction": "prop_1 and globally ( not prop_2 )"}
+{"id": 6760, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 3, 0, 4], "grounded_sentence": ["move", "prop_1", "to", "prop_2", "or", "prop_3", "to", "prop_4"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 2033, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 3, 0, 4, 0], "grounded_sentence": ["go", "through", "prop_1", "into", "prop_2", "but", "only", "if", "you", "go", "through", "prop_3", "or", "prop_4", "first"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 ) and finally prop_4"}
+{"id": 1732, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 10104, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "into", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 10180, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 8189, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 0, 0, 0, 3, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "or", "prop_2", "and", "head", "straight", "away", "to", "prop_3", "avoiding", "prop_2"], "prediction": "( finally ( prop_1 or prop_2 ) and globally ( not prop_2 ) )"}
+{"id": 4587, "lifted_sentence_prop_ids": [1, 2, 1, 3], "grounded_sentence": ["prop_1", "prop_2", "prop_1", "prop_3"], "prediction": "prop_1 or prop_2 and prop_3"}
+{"id": 7964, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 0, 3], "grounded_sentence": ["go", "through", "prop_1", "or", "prop_2", "to", "get", "to", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 3287, "lifted_sentence_prop_ids": [0, 0, 1, 2, 3, 4, 5], "grounded_sentence": ["the", "robot", "prop_1", "prop_2", "prop_3", "prop_4", "prop_5"], "prediction": "finally ( prop_1 and finally ( prop_2 and finally ( prop_3 and prop_4 ) ) ) and finally ( prop_5 and prop_6 )"}
+{"id": 5125, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "to", "prop_2"], "prediction": "prop_1 to prop_2"}
+{"id": 2214, "lifted_sentence_prop_ids": [1, 2, 0, 0, 3], "grounded_sentence": ["prop_1", "prop_2", "back", "to", "prop_3"], "prediction": "prop_1 and finally ( prop_2 and finally ( prop_3 and prop_4 ) )"}
+{"id": 7501, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 1198, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "without", "going", "to", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 3976, "lifted_sentence_prop_ids": [1, 2], "grounded_sentence": ["prop_1", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 1366, "lifted_sentence_prop_ids": [0, 1, 2, 0, 0, 0, 0, 3], "grounded_sentence": ["the", "prop_1", "prop_2", "to", "get", "to", "the", "prop_3"], "prediction": "finally ( prop_1 and finally prop_2 ) and finally prop_3"}
+{"id": 10362, "lifted_sentence_prop_ids": [0, 1, 2, 0, 3, 0, 0, 4, 0], "grounded_sentence": ["without", "prop_1", "prop_2", "then", "prop_3", "once", "you", "prop_4", "it"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) ) then prop_3"}
+{"id": 10812, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "through", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 6362, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "but", "not", "through", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 4981, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "while", "avoiding", "prop_2"], "prediction": "prop_1 and globally ( not prop_2 )"}
+{"id": 11004, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["enter", "prop_1", "that", "isn", "t", "yellow", "and", "proceed", "through", "to", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 3581, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "avoid", "prop_2"], "prediction": "prop_1 and globally ( not prop_2 )"}
+{"id": 10596, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 6062, "lifted_sentence_prop_ids": [1, 2, 0, 3, 0, 0, 4], "grounded_sentence": ["prop_1", "prop_2", "and", "prop_3", "it", "to", "prop_4"], "prediction": "prop_1 and finally ( prop_2 and prop_3 ) and finally ( prop_4 and prop_5 )"}
+{"id": 6146, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 8740, "lifted_sentence_prop_ids": [1, 2, 3, 4], "grounded_sentence": ["prop_1", "prop_2", "prop_3", "prop_4"], "prediction": "prop_1 and prop_2 and finally ( prop_4 and prop_5 )"}
+{"id": 6135, "lifted_sentence_prop_ids": [1, 0, 2, 0, 3], "grounded_sentence": ["prop_1", "and", "prop_2", "into", "prop_3"], "prediction": "finally ( prop_1 and finally ( prop_2 and finally ( prop_3 and prop_4 ) ) )"}
+{"id": 5169, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 3, 0, 1, 0, 4], "grounded_sentence": ["prop_1", "into", "prop_2", "by", "way", "of", "prop_3", "or", "prop_1", "avoiding", "prop_4"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 6448, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3], "grounded_sentence": ["go", "through", "prop_1", "and", "prop_2", "to", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 5098, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["first", "prop_1", "and", "then", "prop_2"], "prediction": "finally ( prop_1 ) and finally ( prop_2 )"}
+{"id": 5636, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 3], "grounded_sentence": ["prop_1", "or", "prop_2", "and", "then", "to", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 3179, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "but", "avoid", "going", "through", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 5467, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 5506, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["enter", "prop_1", "that", "is", "not", "yellow", "which", "will", "lead", "to", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 870, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 0, 0, 0, 3], "grounded_sentence": ["go", "through", "either", "prop_1", "or", "prop_2", "to", "get", "to", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 3721, "lifted_sentence_prop_ids": [1, 2, 0, 3, 4], "grounded_sentence": ["prop_1", "prop_2", "and", "prop_3", "prop_4"], "prediction": "prop_1 and prop_2 and prop_3 prop_4"}
+{"id": 4681, "lifted_sentence_prop_ids": [0, 0, 1, 2, 3, 4, 5, 6], "grounded_sentence": ["instead", "of", "prop_1", "prop_2", "prop_3", "prop_4", "prop_5", "prop_6"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) ) prop_3 prop_4 prop_5 prop_6"}
+{"id": 1360, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "get", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 7045, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "through", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 3129, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "until", "you", "prop_2"], "prediction": "prop_1 until prop_2"}
+{"id": 6488, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["the", "robot", "avoids", "prop_1", "to", "get", "to", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_1 ) )"}
+{"id": 6986, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "via", "the", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 2382, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 3, 0, 4, 0, 2], "grounded_sentence": ["prop_1", "into", "prop_2", "by", "way", "of", "prop_3", "or", "prop_4", "avoiding", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 8335, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "reach", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 7408, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2, 0, 0, 0, 0, 0, 3], "grounded_sentence": ["entering", "any", "prop_1", "that", "isn", "t", "prop_2", "will", "lead", "you", "to", "the", "prop_3"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) ) will finally ( prop_3 )"}
+{"id": 1127, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "but", "avoid", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 2571, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3], "grounded_sentence": ["go", "to", "prop_1", "or", "prop_2", "then", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 7528, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "through", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 1823, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2], "grounded_sentence": ["avoid", "prop_1", "while", "going", "to", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_1 ) )"}
+{"id": 5843, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "and", "enter", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 5123, "lifted_sentence_prop_ids": [1, 0, 0, 2, 0, 0, 0, 3], "grounded_sentence": ["prop_1", "by", "any", "prop_2", "that", "is", "not", "prop_3"], "prediction": "prop_1 and globally ( not prop_3 ) )"}
+{"id": 3264, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "into", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 4412, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 0, 3], "grounded_sentence": ["only", "prop_1", "or", "prop_2", "to", "get", "to", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 3774, "lifted_sentence_prop_ids": [1, 2, 3], "grounded_sentence": ["prop_1", "prop_2", "prop_3"], "prediction": "prop_1 and prop_2 and prop_3"}
+{"id": 5959, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["drive", "through", "prop_1", "and", "enter", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 949, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 0, 3], "grounded_sentence": ["go", "through", "prop_1", "or", "prop_2", "and", "go", "to", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 10306, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["enter", "prop_1", "then", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 3125, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2], "grounded_sentence": ["avoid", "prop_1", "and", "end", "at", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_1 ) )"}
+{"id": 2742, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 10352, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "but", "don", "t", "prop_2"], "prediction": "prop_1 and negation ( prop_2 )"}
+{"id": 10030, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 2], "grounded_sentence": ["make", "your", "way", "to", "prop_1", "while", "avoiding", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 141, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["first", "prop_1", "then", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 10418, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 0, 3], "grounded_sentence": ["go", "through", "prop_1", "or", "prop_2", "to", "get", "to", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 1501, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "without", "entering", "prop_2"], "prediction": "prop_1 and globally ( not prop_2 )"}
+{"id": 7936, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2], "grounded_sentence": ["the", "prop_1", "to", "get", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 65, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "not", "using", "prop_2"], "prediction": "prop_1 and globally ( not prop_2 )"}
+{"id": 10725, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2, 0], "grounded_sentence": ["go", "through", "prop_1", "to", "get", "to", "the", "prop_2", "one"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 3560, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "without", "passing", "prop_2"], "prediction": "prop_1 and globally ( not prop_2 )"}
+{"id": 4080, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "but", "do", "not", "go", "through", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 9107, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3], "grounded_sentence": ["go", "through", "prop_1", "and", "prop_2", "to", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 6257, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 0, 0, 2], "grounded_sentence": ["go", "through", "the", "opposite", "of", "prop_1", "to", "reach", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 4495, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 0, 0, 3], "grounded_sentence": ["go", "through", "either", "prop_1", "or", "prop_2", "to", "reach", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 10864, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "but", "do", "not", "pass", "through", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 1854, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "keep", "going", "and", "stop", "when", "you", "reach", "prop_2"], "prediction": "prop_1 until prop_2"}
+{"id": 5820, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 0, 0, 3], "grounded_sentence": ["go", "through", "the", "prop_1", "or", "prop_2", "to", "the", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 1950, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "through", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 10905, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "and", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 3209, "lifted_sentence_prop_ids": [1, 0, 2, 0, 3], "grounded_sentence": ["prop_1", "or", "prop_2", "and", "prop_3"], "prediction": "prop_1 or prop_2 and prop_3"}
+{"id": 2202, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 7016, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "then", "to", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 2536, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0, 3], "grounded_sentence": ["pass", "thru", "either", "the", "prop_1", "or", "prop_2", "to", "get", "to", "the", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 8206, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3], "grounded_sentence": ["go", "to", "prop_1", "through", "prop_2", "or", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 6169, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "reach", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 1553, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 1], "grounded_sentence": ["prop_1", "to", "prop_2", "by", "going", "through", "prop_1"], "prediction": "finally ( prop_1 and finally ( prop_2 and prop_3 ) )"}
+{"id": 4431, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "by", "avoiding", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 327, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 1], "grounded_sentence": ["prop_1", "to", "prop_2", "by", "going", "through", "prop_1"], "prediction": "finally ( prop_1 and finally ( prop_2 and prop_3 ) )"}
+{"id": 4064, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["avoid", "prop_1", "to", "reach", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 6735, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2], "grounded_sentence": ["follow", "prop_1", "to", "get", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 8551, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 9917, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "until", "you", "get", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 3057, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["enter", "prop_1", "that", "isn", "t", "red", "and", "proceed", "through", "to", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 9598, "lifted_sentence_prop_ids": [0, 0, 1, 2, 3, 4, 5], "grounded_sentence": ["don", "t", "prop_1", "prop_2", "prop_3", "prop_4", "prop_5"], "prediction": "negation ( prop_1 or prop_2 ) and globally ( negation ( prop_3 ) ) )"}
+{"id": 10274, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 2346, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 0, 3], "grounded_sentence": ["go", "through", "prop_1", "or", "prop_2", "to", "get", "to", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 6751, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "only", "to", "reach", "prop_2"], "prediction": "prop_1 until prop_2"}
+{"id": 406, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 1549, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 8887, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["first", "prop_1", "then", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 8392, "lifted_sentence_prop_ids": [1, 2, 3], "grounded_sentence": ["prop_1", "prop_2", "prop_3"], "prediction": "prop_1 and prop_2 and prop_3"}
+{"id": 10172, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 3, 0, 4], "grounded_sentence": ["avoid", "prop_1", "and", "enter", "prop_2", "through", "either", "prop_3", "or", "prop_4"], "prediction": "globally ( not prop_1 ) and finally ( prop_2 or prop_3 ) and finally ( prop_4 or prop_5 )"}
+{"id": 9483, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2, 0], "grounded_sentence": ["go", "through", "prop_1", "to", "get", "to", "the", "prop_2", "one"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 10003, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 3558, "lifted_sentence_prop_ids": [1, 2], "grounded_sentence": ["prop_1", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 1750, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "by", "going", "though", "prop_2"], "prediction": "prop_1 by prop_2"}
+{"id": 10632, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0], "grounded_sentence": ["go", "to", "prop_1", "but", "do", "not", "take", "prop_2", "to", "get", "there"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 639, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 2828, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 2132, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3], "grounded_sentence": ["go", "through", "prop_1", "or", "prop_2", "to", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 448, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "but", "don", "t", "prop_2"], "prediction": "prop_1 and negation ( prop_2 )"}
+{"id": 4070, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "then", "to", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 2604, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "through", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 7433, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 9274, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 6316, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 0, 0, 0, 3], "grounded_sentence": ["go", "through", "the", "prop_1", "or", "prop_2", "to", "reach", "the", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 4353, "lifted_sentence_prop_ids": [0, 1, 2, 3, 4], "grounded_sentence": ["please", "prop_1", "prop_2", "prop_3", "prop_4"], "prediction": "( prop_1 until prop_2 ) and prop_3 prop_4"}
+{"id": 6236, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "into", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 8814, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 1, 0, 3], "grounded_sentence": ["avoid", "prop_1", "and", "enter", "prop_2", "through", "either", "prop_1", "or", "prop_3"], "prediction": "globally ( not prop_1 ) and prop_2 ) or prop_3"}
+{"id": 6392, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3], "grounded_sentence": ["go", "to", "prop_1", "or", "prop_2", "then", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 948, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2, 0, 0, 3], "grounded_sentence": ["instead", "of", "prop_1", "move", "through", "prop_2", "to", "enter", "prop_3"], "prediction": "finally ( prop_1 and finally ( prop_2 and finally ( prop_3 and prop_4 ) ) )"}
+{"id": 5501, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "by", "avoiding", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 4008, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "get", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 8444, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["do", "not", "prop_1", "to", "reach", "prop_2"], "prediction": "negation ( prop_1 ) until prop_2"}
+{"id": 5637, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "and", "do", "not", "use", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 11089, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 2, 0, 0, 0, 3], "grounded_sentence": ["the", "robot", "has", "to", "prop_1", "or", "prop_2", "to", "get", "to", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 1639, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "through", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 4723, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "get", "to", "the", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 5076, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "avoid", "prop_2"], "prediction": "prop_1 and globally ( not prop_2 )"}
+{"id": 3565, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["enter", "prop_1", "then", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 9371, "lifted_sentence_prop_ids": [1, 0, 2, 0, 3], "grounded_sentence": ["prop_1", "and", "prop_2", "and", "prop_3"], "prediction": "prop_1 and prop_2 and prop_3"}
+{"id": 3365, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 8070, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2, 0, 0, 0], "grounded_sentence": ["prop_1", "but", "do", "not", "use", "prop_2", "to", "get", "there"], "prediction": "prop_1 and negation ( prop_2 )"}
+{"id": 5906, "lifted_sentence_prop_ids": [1, 0, 0, 2, 0, 0, 3], "grounded_sentence": ["prop_1", "through", "either", "prop_2", "or", "prop_3"], "prediction": "prop_1 or globally ( finally ( prop_2 ) and finally prop_3 )"}
+{"id": 6745, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "without", "passing", "prop_2"], "prediction": "prop_1 and globally ( not prop_2 )"}
+{"id": 10152, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "but", "don", "t", "prop_2"], "prediction": "prop_1 and negation ( prop_2 )"}
+{"id": 7423, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "reach", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 10118, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 7302, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "by", "going", "though", "prop_2"], "prediction": "prop_1 by prop_2"}
+{"id": 7750, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "but", "do", "not", "prop_2"], "prediction": "prop_1 and negation ( prop_2 )"}
+{"id": 9484, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["move", "through", "prop_1", "into", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 10932, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 6228, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "through", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 9957, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "to", "the", "prop_2"], "prediction": "prop_1 until prop_2"}
+{"id": 8427, "lifted_sentence_prop_ids": [1, 2, 3], "grounded_sentence": ["prop_1", "prop_2", "prop_3"], "prediction": "prop_1 and prop_2 and prop_3"}
+{"id": 2656, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "while", "avoiding", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 2754, "lifted_sentence_prop_ids": [0, 0, 1, 2, 0, 0, 3, 4], "grounded_sentence": ["avoiding", "the", "prop_1", "prop_2", "to", "the", "prop_3", "prop_4"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 5825, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 0, 3], "grounded_sentence": ["go", "thru", "prop_1", "or", "prop_2", "to", "get", "to", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 9426, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 2, 0, 0, 0], "grounded_sentence": ["go", "to", "prop_1", "but", "do", "not", "pass", "through", "prop_2", "on", "your", "way"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 8208, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 6471, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "to", "prop_2"], "prediction": "prop_1 to prop_2"}
+{"id": 8943, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "and", "into", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 2654, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["pass", "through", "prop_1", "to", "get", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 2794, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "via", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 5827, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "without", "crossing", "prop_2"], "prediction": "prop_1 and globally ( not prop_2 )"}
+{"id": 4302, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "only", "to", "reach", "prop_2"], "prediction": "prop_1 until prop_2"}
+{"id": 10182, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "but", "avoid", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 11076, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2, 0, 0, 0, 0, 3], "grounded_sentence": ["enter", "prop_1", "that", "is", "not", "prop_2", "which", "will", "lead", "to", "prop_3"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 1539, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["please", "prop_1", "through", "prop_2"], "prediction": "( prop_1 until prop_2 )"}
+{"id": 9638, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "into", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 2155, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "without", "using", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 7931, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 2, 0, 0, 0, 3], "grounded_sentence": ["the", "robot", "has", "to", "prop_1", "or", "prop_2", "to", "get", "to", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 8765, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 9632, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "ends", "up", "in", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 6296, "lifted_sentence_prop_ids": [0, 1, 2, 0, 0, 0, 3], "grounded_sentence": ["the", "prop_1", "prop_2", "to", "get", "to", "prop_3"], "prediction": "finally ( prop_1 and finally ( prop_2 and finally ( prop_3 and prop_4 ) ) )"}
+{"id": 4157, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 1442, "lifted_sentence_prop_ids": [1, 0, 2, 0, 3], "grounded_sentence": ["prop_1", "or", "prop_2", "and", "prop_3"], "prediction": "prop_1 or prop_2 and prop_3"}
+{"id": 3419, "lifted_sentence_prop_ids": [1, 2, 3, 4, 5], "grounded_sentence": ["prop_1", "prop_2", "prop_3", "prop_4", "prop_5"], "prediction": "prop_1 and prop_2 and finally ( prop_3 and prop_4 )"}
+{"id": 10090, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 1923, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2, 0, 0, 0, 3], "grounded_sentence": ["walk", "through", "prop_1", "except", "the", "prop_2", "to", "enter", "the", "prop_3"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 8355, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "to", "prop_2"], "prediction": "prop_1 to prop_2"}
+{"id": 6580, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "but", "do", "not", "prop_2"], "prediction": "prop_1 and negation ( prop_2 )"}
+{"id": 3311, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 0, 0, 0, 3], "grounded_sentence": ["go", "through", "either", "prop_1", "or", "prop_2", "to", "get", "to", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 9067, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 3], "grounded_sentence": ["go", "through", "prop_1", "or", "prop_2", "and", "enter", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 6658, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 3, 0, 1], "grounded_sentence": ["going", "through", "prop_1", "or", "prop_2", "straight", "to", "prop_3", "avoiding", "prop_1"], "prediction": "( finally ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 2912, "lifted_sentence_prop_ids": [1, 0, 2, 0, 3], "grounded_sentence": ["prop_1", "or", "prop_2", "them", "prop_3"], "prediction": "prop_1 or prop_2 and finally ( prop_3 and prop_4 )"}
+{"id": 8701, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 0, 0, 0, 3], "grounded_sentence": ["go", "through", "the", "prop_1", "or", "prop_2", "to", "reach", "the", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 1183, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "only", "to", "reach", "prop_2"], "prediction": "prop_1 until prop_2"}
+{"id": 393, "lifted_sentence_prop_ids": [1, 0, 2, 0, 3], "grounded_sentence": ["prop_1", "or", "prop_2", "into", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 10137, "lifted_sentence_prop_ids": [1, 0, 2, 0, 3], "grounded_sentence": ["prop_1", "and", "prop_2", "into", "prop_3"], "prediction": "finally ( prop_1 and finally ( prop_2 and finally ( prop_3 and prop_4 ) ) )"}
+{"id": 1511, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 239, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "without", "prop_2"], "prediction": "prop_1 and globally ( not prop_2 )"}
+{"id": 4108, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 10023, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "without", "going", "to", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 1005, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 1838, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0], "grounded_sentence": ["go", "to", "prop_1", "but", "do", "not", "use", "prop_2", "to", "get", "there"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 3861, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 1610, "lifted_sentence_prop_ids": [0, 1, 2], "grounded_sentence": ["avoiding", "prop_1", "prop_2"], "prediction": "globally ( not prop_1 ) and prop_2"}
+{"id": 10536, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3], "grounded_sentence": ["go", "to", "prop_1", "through", "prop_2", "and", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 7480, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3], "grounded_sentence": ["move", "through", "prop_1", "or", "prop_2", "to", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 1412, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 3817, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 0, 0, 0, 3], "grounded_sentence": ["go", "through", "either", "prop_1", "or", "prop_2", "to", "get", "to", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 2848, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["pass", "through", "prop_1", "to", "reach", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 1015, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0], "grounded_sentence": ["go", "to", "prop_1", "while", "not", "passing", "through", "prop_2", "on", "the", "way"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 1557, "lifted_sentence_prop_ids": [1, 0, 2, 0, 3], "grounded_sentence": ["prop_1", "or", "prop_2", "and", "prop_3"], "prediction": "prop_1 or prop_2 and prop_3"}
+{"id": 8773, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2, 0, 3], "grounded_sentence": ["prop_1", "by", "going", "through", "prop_2", "or", "prop_3"], "prediction": "prop_1 by prop_2 or prop_3"}
+{"id": 3029, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3, 0, 0, 4], "grounded_sentence": ["go", "to", "prop_1", "via", "prop_2", "or", "prop_3", "but", "not", "prop_4"], "prediction": "( finally ( prop_1 ) and globally ( not prop_4 ) )"}
+{"id": 5137, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["move", "through", "prop_1", "and", "into", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 5861, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "thru", "prop_1", "to", "get", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 5429, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "to", "prop_2"], "prediction": "prop_1 to prop_2"}
+{"id": 6184, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 7210, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 3], "grounded_sentence": ["go", "through", "prop_1", "or", "prop_2", "to", "reach", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 3243, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 3], "grounded_sentence": ["go", "through", "prop_1", "or", "prop_2", "to", "reach", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 8874, "lifted_sentence_prop_ids": [1, 0, 2, 0, 3, 0, 2], "grounded_sentence": ["prop_1", "to", "prop_2", "and", "prop_3", "to", "prop_2"], "prediction": "finally ( prop_1 and finally ( prop_2 and prop_3 ) )"}
+{"id": 5617, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 0, 3], "grounded_sentence": ["prop_1", "and", "prop_2", "and", "push", "it", "into", "prop_3"], "prediction": "finally ( prop_1 and prop_2 ) and finally ( prop_3 and prop_4 )"}
+{"id": 2678, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "then", "to", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 3154, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 695, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 0, 3], "grounded_sentence": ["pass", "through", "prop_1", "or", "prop_2", "and", "enter", "into", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 7993, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "to", "prop_2"], "prediction": "prop_1 to prop_2"}
+{"id": 10665, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "without", "going", "through", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 6144, "lifted_sentence_prop_ids": [1, 2, 3, 4, 5], "grounded_sentence": ["prop_1", "prop_2", "prop_3", "prop_4", "prop_5"], "prediction": "prop_1 and prop_2 and finally ( prop_3 and prop_4 )"}
+{"id": 9062, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "ends", "up", "in", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 9053, "lifted_sentence_prop_ids": [1, 2, 3, 4, 5, 6], "grounded_sentence": ["prop_1", "prop_2", "prop_3", "prop_4", "prop_5", "prop_6"], "prediction": "prop_1 and prop_2 and finally ( prop_3 and prop_4 ) and finally ( prop_5 and prop_6 )"}
+{"id": 9256, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 3, 0, 4, 0, 4], "grounded_sentence": ["prop_1", "into", "prop_2", "by", "way", "of", "prop_3", "or", "prop_4", "avoiding", "prop_4"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally ( prop_3 or prop_4 ) )"}
+{"id": 50, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 0, 0, 3], "grounded_sentence": ["pass", "through", "either", "prop_1", "or", "prop_2", "to", "reach", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 10626, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "through", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 2166, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 0, 0, 3], "grounded_sentence": ["go", "through", "either", "prop_1", "or", "prop_2", "to", "reach", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 5055, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "but", "do", "not", "pass", "through", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 4870, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "while", "avoiding", "prop_2"], "prediction": "prop_1 and globally ( not prop_2 )"}
+{"id": 663, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3], "grounded_sentence": ["go", "through", "prop_1", "or", "prop_2", "to", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 5860, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0, 3], "grounded_sentence": ["pass", "thru", "either", "the", "prop_1", "or", "prop_2", "to", "get", "to", "the", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 9123, "lifted_sentence_prop_ids": [1, 0, 2, 0, 3], "grounded_sentence": ["prop_1", "or", "prop_2", "and", "prop_3"], "prediction": "prop_1 or prop_2 and prop_3"}
+{"id": 7883, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 3], "grounded_sentence": ["the", "robot", "prop_1", "in", "prop_2", "prop_3"], "prediction": "finally ( prop_1 and finally ( prop_2 and finally ( prop_3 and prop_4 ) ) )"}
+{"id": 3926, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["avoiding", "prop_1", "navigate", "to", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_1 ) )"}
+{"id": 995, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["avoid", "prop_1", "to", "reach", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 6948, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["first", "prop_1", "and", "then", "prop_2"], "prediction": "finally ( prop_1 ) and finally ( prop_2 )"}
+{"id": 1077, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "get", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 8936, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 3, 0, 0, 4, 0, 5], "grounded_sentence": ["prop_1", "through", "prop_2", "drive", "through", "prop_3", "and", "exit", "prop_4", "to", "prop_5"], "prediction": "finally ( prop_1 and finally ( prop_2 and finally ( prop_3 and finally ( prop_4 and prop_5 ) ) )"}
+{"id": 434, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 0, 3], "grounded_sentence": ["prop_1", "or", "prop_2", "and", "then", "continue", "to", "prop_3"], "prediction": "prop_1 or prop_2 and finally ( prop_3 and globally prop_3 )"}
+{"id": 7286, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2], "grounded_sentence": ["avoid", "prop_1", "to", "get", "to", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_1 ) )"}
+{"id": 142, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "to", "enter", "prop_2"], "prediction": "prop_1 until prop_2"}
+{"id": 8423, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "without", "entering", "prop_2"], "prediction": "prop_1 and globally ( not prop_2 )"}
+{"id": 931, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["the", "prop_1", "through", "the", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 10636, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 0, 0, 3], "grounded_sentence": ["go", "through", "either", "prop_1", "or", "prop_2", "to", "reach", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 10069, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2], "grounded_sentence": ["avoid", "prop_1", "and", "end", "at", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_1 ) )"}
+{"id": 10851, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 6394, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "to", "prop_2"], "prediction": "prop_1 to prop_2"}
+{"id": 4308, "lifted_sentence_prop_ids": [1], "grounded_sentence": ["prop_1"], "prediction": "prop_1"}
+{"id": 637, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "through", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 6492, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 4965, "lifted_sentence_prop_ids": [1, 2], "grounded_sentence": ["prop_1", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 8622, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["pass", "through", "prop_1", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 3795, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["do", "not", "prop_1", "to", "reach", "prop_2"], "prediction": "negation ( prop_1 ) until prop_2"}
+{"id": 6910, "lifted_sentence_prop_ids": [1, 2, 3], "grounded_sentence": ["prop_1", "prop_2", "prop_3"], "prediction": "prop_1 and prop_2 and prop_3"}
+{"id": 5839, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 3, 0, 4, 0, 4], "grounded_sentence": ["prop_1", "into", "prop_2", "by", "way", "of", "prop_3", "or", "prop_4", "avoiding", "prop_4"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally ( prop_3 or prop_4 ) )"}
+{"id": 10237, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "through", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 10068, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "while", "moving", "to", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 8649, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 0, 3], "grounded_sentence": ["go", "through", "prop_1", "or", "prop_2", "to", "get", "to", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 9628, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 3, 0, 1], "grounded_sentence": ["going", "through", "prop_1", "or", "prop_2", "straight", "to", "prop_3", "avoiding", "prop_1"], "prediction": "( finally ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 7989, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 0, 0, 3], "grounded_sentence": ["pass", "through", "either", "prop_1", "or", "prop_2", "to", "reach", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 6324, "lifted_sentence_prop_ids": [1, 2, 3], "grounded_sentence": ["prop_1", "prop_2", "prop_3"], "prediction": "prop_1 and prop_2 and prop_3"}
+{"id": 953, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "through", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 10370, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0], "grounded_sentence": ["go", "to", "prop_1", "but", "do", "not", "use", "prop_2", "to", "get", "there"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 3571, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2, 0], "grounded_sentence": ["go", "to", "prop_1", "only", "and", "then", "prop_2", "only"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 608, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 3, 0, 4, 0], "grounded_sentence": ["go", "through", "prop_1", "into", "prop_2", "but", "only", "if", "you", "go", "through", "prop_3", "or", "prop_4", "first"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 ) and finally prop_4"}
+{"id": 3660, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "only", "to", "reach", "prop_2"], "prediction": "prop_1 until prop_2"}
+{"id": 9463, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2, 0, 0], "grounded_sentence": ["avoid", "prop_1", "on", "way", "to", "prop_2", "each", "time"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 7247, "lifted_sentence_prop_ids": [0, 0, 1, 2, 3, 4], "grounded_sentence": ["don", "t", "prop_1", "prop_2", "prop_3", "prop_4"], "prediction": "negation ( prop_1 or prop_2 ) and globally ( negation ( prop_4 ) )"}
+{"id": 4737, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "without", "going", "through", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 9347, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "only", "to", "reach", "prop_2"], "prediction": "prop_1 until prop_2"}
+{"id": 5065, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "into", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 8685, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 3], "grounded_sentence": ["go", "through", "prop_1", "or", "prop_2", "to", "reach", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 4933, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "while", "avoiding", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 11046, "lifted_sentence_prop_ids": [1, 2, 3], "grounded_sentence": ["prop_1", "prop_2", "prop_3"], "prediction": "prop_1 and prop_2 and prop_3"}
+{"id": 2684, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "reach", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 10528, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "but", "do", "not", "go", "through", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 5338, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["progress", "through", "prop_1", "to", "the", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 9165, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["to", "reach", "the", "prop_1", "go", "through", "the", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 3034, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "by", "avoiding", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 7523, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["without", "prop_1", "move", "into", "prop_2", "then", "stop", "once", "you", "enter", "it"], "prediction": "( finally ( prop_1 ) and globally ( not prop_1 ) )"}
+{"id": 5007, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "into", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 5417, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "by", "going", "though", "prop_2"], "prediction": "prop_1 by prop_2"}
+{"id": 6899, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "but", "not", "through", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 10946, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2], "grounded_sentence": ["always", "prop_1", "to", "get", "to", "prop_2"], "prediction": "globally ( prop_1 ) until prop_2"}
+{"id": 3002, "lifted_sentence_prop_ids": [0, 1, 2, 3, 4], "grounded_sentence": ["never", "prop_1", "prop_2", "prop_3", "prop_4"], "prediction": "globally ( negation ( prop_1 ) ) and globally ( negation ( prop_2 ) )"}
+{"id": 5246, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2], "grounded_sentence": ["avoid", "prop_1", "and", "end", "at", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_1 ) )"}
+{"id": 1881, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 3, 0, 4], "grounded_sentence": ["avoid", "prop_1", "and", "enter", "prop_2", "through", "either", "prop_3", "or", "prop_4"], "prediction": "globally ( not prop_1 ) and finally ( prop_2 or prop_3 ) and finally ( prop_4 or prop_5 )"}
+{"id": 2696, "lifted_sentence_prop_ids": [1, 0, 2, 0, 3], "grounded_sentence": ["prop_1", "or", "prop_2", "into", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 4632, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 0, 0, 3], "grounded_sentence": ["pass", "through", "either", "prop_1", "or", "prop_2", "to", "reach", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 7772, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "without", "passing", "through", "prop_2"], "prediction": "prop_1 and globally ( not prop_2 )"}
+{"id": 8027, "lifted_sentence_prop_ids": [1, 2], "grounded_sentence": ["prop_1", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 3009, "lifted_sentence_prop_ids": [1, 2, 3, 4], "grounded_sentence": ["prop_1", "prop_2", "prop_3", "prop_4"], "prediction": "prop_1 and prop_2 and finally ( prop_4 and prop_5 )"}
+{"id": 7454, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 2970, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 4873, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "via", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 3672, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 1214, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 3], "grounded_sentence": ["prop_1", "and", "prop_2", "back", "into", "prop_3"], "prediction": "finally ( prop_1 and finally ( prop_2 and finally ( prop_3 and prop_4 ) ) )"}
+{"id": 341, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 4005, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "thru", "prop_1", "to", "get", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 9778, "lifted_sentence_prop_ids": [0, 0, 1, 2, 0, 0, 3, 4], "grounded_sentence": ["avoiding", "the", "prop_1", "prop_2", "to", "the", "prop_3", "prop_4"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 9373, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 5143, "lifted_sentence_prop_ids": [1, 0, 2, 3, 0, 0, 4], "grounded_sentence": ["prop_1", "then", "prop_2", "prop_3", "back", "into", "prop_4"], "prediction": "prop_1 until ( prop_2 and finally ( prop_3 and finally ( prop_4 and prop_5 ) ) )"}
+{"id": 9533, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["enter", "prop_1", "then", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 11023, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "by", "going", "through", "prop_2"], "prediction": "prop_1 by prop_2"}
+{"id": 2212, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "by", "way", "of", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 1165, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2], "grounded_sentence": ["avoid", "prop_1", "while", "going", "to", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_1 ) )"}
+{"id": 5486, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "while", "avoiding", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 2257, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2], "grounded_sentence": ["the", "prop_1", "to", "get", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 8443, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["pass", "through", "prop_1", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 5431, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "but", "don", "t", "go", "through", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 5185, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "but", "do", "not", "pass", "through", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 9283, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "to", "prop_2"], "prediction": "prop_1 to prop_2"}
+{"id": 8371, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "by", "avoiding", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 5175, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["avoid", "prop_1", "on", "your", "way", "into", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 2317, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["to", "reach", "the", "prop_1", "do", "not", "go", "through", "the", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 9449, "lifted_sentence_prop_ids": [1, 2, 3], "grounded_sentence": ["prop_1", "prop_2", "prop_3"], "prediction": "prop_1 and prop_2 and prop_3"}
+{"id": 3389, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "to", "prop_2"], "prediction": "prop_1 to prop_2"}
+{"id": 10656, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3], "grounded_sentence": ["go", "through", "prop_1", "and", "prop_2", "to", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 9825, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "via", "the", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 8952, "lifted_sentence_prop_ids": [1, 2, 3], "grounded_sentence": ["prop_1", "prop_2", "prop_3"], "prediction": "prop_1 and prop_2 and prop_3"}
+{"id": 1593, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "get", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 1276, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 3], "grounded_sentence": ["walk", "through", "prop_1", "except", "prop_2", "to", "enter", "prop_3"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 1493, "lifted_sentence_prop_ids": [1, 2], "grounded_sentence": ["prop_1", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 10433, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2, 0], "grounded_sentence": ["prop_1", "by", "going", "through", "prop_2", "first"], "prediction": "prop_1 by prop_2"}
+{"id": 615, "lifted_sentence_prop_ids": [1, 2, 0, 3, 2, 0, 4], "grounded_sentence": ["prop_1", "prop_2", "then", "prop_3", "prop_2", "to", "prop_4"], "prediction": "prop_1 and finally ( prop_2 and finally ( prop_3 and finally ( prop_4 and prop_5 ) ) )"}
+{"id": 7122, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 904, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "by", "avoiding", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 8571, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "without", "using", "prop_2"], "prediction": "prop_1 and globally ( not prop_2 )"}
+{"id": 7354, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0], "grounded_sentence": ["go", "to", "prop_1", "but", "do", "not", "take", "prop_2", "to", "get", "there"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 7213, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "but", "avoid", "prop_2"], "prediction": "prop_1 and globally ( not prop_2 )"}
+{"id": 3298, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "but", "don", "t", "go", "through", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 10621, "lifted_sentence_prop_ids": [1, 0, 2, 0, 3, 0, 4], "grounded_sentence": ["prop_1", "or", "prop_2", "and", "prop_3", "until", "prop_4"], "prediction": "prop_1 or prop_2 and prop_3 until prop_4"}
+{"id": 286, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "through", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 7594, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "but", "do", "not", "pass", "through", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 10213, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "to", "prop_2"], "prediction": "prop_1 to prop_2"}
+{"id": 6784, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "without", "going", "through", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 3572, "lifted_sentence_prop_ids": [1, 2, 3, 4, 5], "grounded_sentence": ["prop_1", "prop_2", "prop_3", "prop_4", "prop_5"], "prediction": "prop_1 and prop_2 and finally ( prop_3 and prop_4 )"}
+{"id": 7607, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 0, 3], "grounded_sentence": ["prop_1", "or", "prop_2", "and", "then", "continue", "to", "prop_3"], "prediction": "prop_1 or prop_2 and finally ( prop_3 and globally prop_3 )"}
+{"id": 723, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 7777, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 7748, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 0, 0, 3, 0, 1], "grounded_sentence": ["prop_1", "or", "prop_2", "and", "head", "straight", "away", "to", "prop_3", "avoiding", "prop_1"], "prediction": "( finally ( prop_1 ) or prop_2 ) and finally ( prop_3 )"}
+{"id": 6199, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 3], "grounded_sentence": ["prop_1", "and", "prop_2", "back", "to", "prop_3"], "prediction": "finally ( prop_1 and finally ( prop_2 and finally ( prop_3 and prop_4 ) ) )"}
+{"id": 2978, "lifted_sentence_prop_ids": [0, 0, 1, 2, 3], "grounded_sentence": ["don", "t", "prop_1", "prop_2", "prop_3"], "prediction": "negation ( prop_1 ) and prop_2"}
+{"id": 412, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3], "grounded_sentence": ["go", "through", "prop_1", "or", "prop_2", "to", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 5104, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2, 0], "grounded_sentence": ["go", "to", "prop_1", "only", "and", "then", "prop_2", "only"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 1672, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "but", "not", "through", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 4893, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "out", "into", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 6158, "lifted_sentence_prop_ids": [1, 0, 2, 0, 3], "grounded_sentence": ["prop_1", "or", "prop_2", "to", "prop_3"], "prediction": "prop_1 or prop_2 until prop_3"}
+{"id": 5186, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "but", "not", "through", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 1079, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 3], "grounded_sentence": ["go", "through", "prop_1", "or", "prop_2", "and", "enter", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 8683, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2, 0, 3], "grounded_sentence": ["prop_1", "by", "going", "through", "prop_2", "or", "prop_3"], "prediction": "prop_1 by prop_2 or prop_3"}
+{"id": 1736, "lifted_sentence_prop_ids": [1, 2, 3, 4], "grounded_sentence": ["prop_1", "prop_2", "prop_3", "prop_4"], "prediction": "prop_1 and prop_2 and finally ( prop_4 and prop_5 )"}
+{"id": 10461, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "in", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 3580, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "through", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 1213, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "by", "passing", "through", "prop_2"], "prediction": "prop_1 by prop_2"}
+{"id": 6282, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 10606, "lifted_sentence_prop_ids": [1, 0, 0, 2, 0, 0, 3], "grounded_sentence": ["prop_1", "then", "to", "prop_2", "then", "to", "prop_3"], "prediction": "finally ( prop_1 and finally ( prop_2 and finally ( prop_3 and prop_4 ) ) )"}
+{"id": 7377, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "via", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 7516, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["the", "prop_1", "to", "get", "to", "the", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 6787, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 1762, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 3, 0, 4, 0], "grounded_sentence": ["go", "through", "prop_1", "into", "prop_2", "but", "only", "if", "you", "go", "through", "prop_3", "or", "prop_4", "first"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 ) and finally prop_4"}
+{"id": 7514, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 3893, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "do", "not", "use", "prop_2"], "prediction": "prop_1 and negation ( prop_2 )"}
+{"id": 6424, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 3, 0, 4, 0, 1], "grounded_sentence": ["prop_1", "into", "prop_2", "by", "way", "of", "prop_3", "or", "prop_4", "avoiding", "prop_1"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 4736, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 1, 0, 3], "grounded_sentence": ["avoid", "prop_1", "and", "enter", "prop_2", "through", "either", "prop_1", "or", "prop_3"], "prediction": "globally ( not prop_1 ) and prop_2 ) or prop_3"}
+{"id": 4418, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 0, 0, 3], "grounded_sentence": ["go", "through", "the", "prop_1", "or", "prop_2", "to", "the", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 9024, "lifted_sentence_prop_ids": [0, 0, 1, 2, 3, 4], "grounded_sentence": ["don", "t", "prop_1", "prop_2", "prop_3", "prop_4"], "prediction": "negation ( prop_1 or prop_2 ) and globally ( negation ( prop_4 ) )"}
+{"id": 4532, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["only", "go", "through", "prop_1", "to", "get", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 3158, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "by", "avoiding", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 8926, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 10938, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 3], "grounded_sentence": ["go", "through", "prop_1", "or", "prop_2", "and", "enter", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 2792, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "then", "to", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 9626, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2, 0], "grounded_sentence": ["go", "to", "prop_1", "but", "do", "not", "enter", "prop_2", "first"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 5036, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "without", "crossing", "prop_2"], "prediction": "prop_1 and globally ( not prop_2 )"}
+{"id": 6351, "lifted_sentence_prop_ids": [1, 0, 2, 0, 3, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2", "and", "prop_3", "to", "prop_2"], "prediction": "finally ( prop_1 and prop_2 and finally ( prop_3 and prop_4 ) )"}
+{"id": 3841, "lifted_sentence_prop_ids": [1, 2], "grounded_sentence": ["prop_1", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 2000, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "but", "avoid", "prop_2"], "prediction": "prop_1 and globally ( not prop_2 )"}
+{"id": 4143, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "and", "prop_2", "on", "the", "other", "side"], "prediction": "globally ( prop_1 and prop_2 )"}
+{"id": 6744, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["first", "prop_1", "then", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 5323, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 3], "grounded_sentence": ["prop_1", "or", "prop_2", "and", "then", "to", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 224, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 6898, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 8965, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["pass", "through", "prop_1", "to", "get", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 10168, "lifted_sentence_prop_ids": [1, 2, 3], "grounded_sentence": ["prop_1", "prop_2", "prop_3"], "prediction": "prop_1 and prop_2 and prop_3"}
+{"id": 11062, "lifted_sentence_prop_ids": [1, 2, 3], "grounded_sentence": ["prop_1", "prop_2", "prop_3"], "prediction": "prop_1 and prop_2 and prop_3"}
+{"id": 8757, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "into", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 10969, "lifted_sentence_prop_ids": [1, 2, 3], "grounded_sentence": ["prop_1", "prop_2", "prop_3"], "prediction": "prop_1 and prop_2 and prop_3"}
+{"id": 9241, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "through", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 623, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "reach", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 9011, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 3, 0, 2], "grounded_sentence": ["going", "through", "prop_1", "or", "prop_2", "straight", "to", "prop_3", "avoiding", "prop_2"], "prediction": "( finally ( prop_1 or prop_2 ) and globally ( not prop_2 ) )"}
+{"id": 10495, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "through", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 7285, "lifted_sentence_prop_ids": [1, 2, 3, 4, 5], "grounded_sentence": ["prop_1", "prop_2", "prop_3", "prop_4", "prop_5"], "prediction": "prop_1 and prop_2 and finally ( prop_3 and prop_4 )"}
+{"id": 4040, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2, 0, 0, 0, 3], "grounded_sentence": ["walk", "through", "prop_1", "except", "the", "prop_2", "to", "enter", "the", "prop_3"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 2145, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3], "grounded_sentence": ["go", "through", "prop_1", "or", "prop_2", "to", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 10114, "lifted_sentence_prop_ids": [1, 0, 2, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2", "to", "prop_2"], "prediction": "prop_1 and prop_2 and finally ( prop_2 and prop_3 )"}
+{"id": 5162, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "via", "the", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 10924, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "to", "gain", "access", "to", "prop_2"], "prediction": "prop_1 to prop_2"}
+{"id": 1567, "lifted_sentence_prop_ids": [1, 0, 2, 0, 3, 0, 0, 4, 0, 5, 0, 0, 6, 0, 7], "grounded_sentence": ["prop_1", "to", "prop_2", "the", "prop_3", "by", "not", "prop_4", "the", "prop_5", "which", "is", "prop_6", "and", "prop_7"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) ) and globally ( not prop_4 ) )"}
+{"id": 5370, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "through", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 9458, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "via", "the", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 3121, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "without", "going", "through", "prop_2"], "prediction": "prop_1 and globally ( not prop_2 )"}
+{"id": 3468, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "without", "prop_2"], "prediction": "prop_1 and globally ( not prop_2 )"}
+{"id": 2485, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "proceed", "until", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 6480, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 0, 0, 3, 0, 2], "grounded_sentence": ["prop_1", "or", "prop_2", "and", "head", "straight", "away", "to", "prop_3", "avoiding", "prop_2"], "prediction": "( finally ( prop_1 ) or prop_2 ) and finally ( prop_3 ) )"}
+{"id": 6622, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["first", "prop_1", "and", "then", "prop_2"], "prediction": "finally ( prop_1 ) and finally ( prop_2 )"}
+{"id": 8582, "lifted_sentence_prop_ids": [1, 2, 0, 3, 4], "grounded_sentence": ["prop_1", "prop_2", "and", "prop_3", "prop_4"], "prediction": "prop_1 and prop_2 and prop_3 prop_4"}
+{"id": 2586, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "by", "way", "of", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 1864, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "get", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 8357, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "get", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 8690, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "through", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 9253, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["pass", "through", "prop_1", "to", "enter", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 10780, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3], "grounded_sentence": ["go", "to", "prop_1", "through", "prop_2", "or", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 6308, "lifted_sentence_prop_ids": [1, 0, 2, 0, 3, 0, 4, 0, 5], "grounded_sentence": ["prop_1", "from", "prop_2", "to", "prop_3", "or", "prop_4", "to", "prop_5"], "prediction": "finally ( prop_1 or prop_2 ) and finally ( prop_3 and finally ( prop_4 and finally ( prop_5 and prop_6 ) ) )"}
+{"id": 110, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "through", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 231, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["pass", "through", "prop_1", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 6447, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["pass", "through", "prop_1", "to", "enter", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 7368, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 0, 3], "grounded_sentence": ["go", "through", "prop_1", "or", "prop_2", "and", "go", "to", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 7264, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "into", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 1131, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0], "grounded_sentence": ["go", "to", "prop_1", "but", "do", "not", "take", "prop_2", "to", "get", "there"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 6770, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 10551, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 6561, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["the", "robot", "prop_1", "to", "get", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 5814, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2, 0], "grounded_sentence": ["prop_1", "but", "do", "not", "enter", "prop_2", "first"], "prediction": "prop_1 and negation ( prop_2 )"}
+{"id": 2323, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 3, 0, 4], "grounded_sentence": ["prop_1", "and", "prop_2", "through", "either", "prop_3", "or", "prop_4"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 ) or prop_4"}
+{"id": 1673, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "through", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 5287, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "but", "don", "t", "go", "through", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 8619, "lifted_sentence_prop_ids": [1], "grounded_sentence": ["prop_1"], "prediction": "prop_1"}
+{"id": 6905, "lifted_sentence_prop_ids": [1, 2, 3], "grounded_sentence": ["prop_1", "prop_2", "prop_3"], "prediction": "prop_1 and prop_2 and prop_3"}
+{"id": 9836, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "through", "prop_2", "that", "isn", "t", "yellow"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 9124, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["while", "avoiding", "prop_1", "follow", "the", "shortest", "path", "to", "prop_2"], "prediction": "globally ( not prop_1 ) imply finally ( prop_2 )"}
+{"id": 2707, "lifted_sentence_prop_ids": [0, 0, 1, 2, 3, 4, 5, 6], "grounded_sentence": ["instead", "of", "prop_1", "prop_2", "prop_3", "prop_4", "prop_5", "prop_6"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) ) prop_3 prop_4 prop_5 prop_6"}
+{"id": 5224, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "avoid", "prop_2"], "prediction": "prop_1 and globally ( not prop_2 )"}
+{"id": 4212, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "by", "avoiding", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 10088, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "then", "go", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 3919, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "but", "do", "not", "go", "through", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 96, "lifted_sentence_prop_ids": [1, 2, 3, 4], "grounded_sentence": ["prop_1", "prop_2", "prop_3", "prop_4"], "prediction": "prop_1 and prop_2 and finally ( prop_4 and prop_5 )"}
+{"id": 10954, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "without", "passing", "through", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 7027, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 0, 0, 0, 3], "grounded_sentence": ["go", "through", "either", "prop_1", "or", "prop_2", "to", "get", "to", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 5554, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "then", "to", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 7940, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "get", "to", "the", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 4798, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "through", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 8537, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["go", "via", "prop_1", "to", "reach", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 6381, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "while", "avoiding", "prop_2"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 7054, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "via", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 3464, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2, 0, 3, 0], "grounded_sentence": ["go", "to", "prop_1", "by", "using", "prop_2", "or", "prop_3", "first"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 9086, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "without", "using", "prop_2"], "prediction": "prop_1 and globally ( not prop_2 )"}
+{"id": 4433, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 3], "grounded_sentence": ["prop_1", "through", "prop_2", "that", "isn", "t", "prop_3"], "prediction": "( finally ( prop_1 ) and globally ( not prop_3 ) )"}
+{"id": 5474, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 4366, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "only", "through", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 544, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}
+{"id": 8713, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 7359, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "through", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 9641, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 0, 0, 3, 0, 2], "grounded_sentence": ["prop_1", "or", "prop_2", "and", "head", "straight", "away", "to", "prop_3", "avoiding", "prop_2"], "prediction": "( finally ( prop_1 ) or prop_2 ) and finally ( prop_3 ) )"}
+{"id": 586, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 7871, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 2, 0, 0, 0, 0, 3], "grounded_sentence": ["only", "go", "through", "prop_1", "that", "are", "not", "prop_2", "to", "get", "to", "the", "prop_3"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 8780, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 0, 3], "grounded_sentence": ["go", "through", "prop_1", "or", "prop_2", "to", "get", "to", "prop_3"], "prediction": "finally ( ( prop_1 or prop_2 ) and finally prop_3 )"}
+{"id": 5794, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "without", "entering", "prop_2"], "prediction": "prop_1 and globally ( not prop_2 )"}
+{"id": 6383, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "then", "to", "prop_2"], "prediction": "finally ( prop_1 and finally prop_2 )"}
+{"id": 3627, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 2, 0, 3, 4], "grounded_sentence": ["the", "robot", "is", "to", "prop_1", "towards", "prop_2", "without", "prop_3", "prop_4"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 2363, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "by", "prop_2"], "prediction": "prop_1 and prop_2"}
+{"id": 4315, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2, 0, 0], "grounded_sentence": ["avoid", "prop_1", "on", "way", "to", "prop_2", "each", "time"], "prediction": "( finally ( prop_1 ) and globally ( not prop_2 ) )"}
+{"id": 4656, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "then", "prop_2"], "prediction": "prop_1 and finally ( prop_2 )"}

@@ -1,0 +1,300 @@
+{"id": 729, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 2, 0, 3], "grounded_sentence": ["Keep", "prop_1", "while", "ensuring", "you", "do", "not", "prop_2", "before", "prop_3"]}
+{"id": 69, "lifted_sentence_prop_ids": [0, 1], "grounded_sentence": ["Never", "prop_1"]}
+{"id": 461, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 0, 2, 0, 0], "grounded_sentence": ["Ensure", "you", "stay", "away", "from", "prop_1", "until", "prop_2", "is", "visited"]}
+{"id": 60, "lifted_sentence_prop_ids": [1], "grounded_sentence": ["prop_1"]}
+{"id": 11, "lifted_sentence_prop_ids": [0, 1], "grounded_sentence": ["Keep", "prop_1"]}
+{"id": 299, "lifted_sentence_prop_ids": [1, 0, 0, 0], "grounded_sentence": ["prop_1", "and", "never", "leave"]}
+{"id": 893, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0], "grounded_sentence": ["Eventually(Ensure", "you", "prop_1", "and", "prop_2)"]}
+{"id": 419, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0], "grounded_sentence": ["Avoid", "prop_1", "at", "all", "times"]}
+{"id": 416, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2, 0, 3, 0, 4], "grounded_sentence": ["Remain", "in", "prop_1", "until", "you", "deliver", "prop_2", "from", "prop_3", "to", "prop_4"]}
+{"id": 147, "lifted_sentence_prop_ids": [0, 2, 0, 3], "grounded_sentence": ["prop_1,", "prop_2", "and", "prop_3"]}
+{"id": 215, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0], "grounded_sentence": ["Avoid", "prop_1", "at", "all", "times"]}
+{"id": 566, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 3], "grounded_sentence": ["Keep", "prop_1", "until", "you", "prop_2", "to", "prop_3"]}
+{"id": 164, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2, 0, 0, 3], "grounded_sentence": ["Do", "not", "prop_1", "until", "you", "prop_2", "as", "you", "prop_3"]}
+{"id": 463, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0], "grounded_sentence": ["Ensure", "you", "prop_1", "and", "prop_2", "there", "permanently"]}
+{"id": 37, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["Keep", "prop_1", "from", "prop_2"]}
+{"id": 474, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 0, 3], "grounded_sentence": ["prop_1", "to", "prop_2", "and", "transport", "it", "to", "prop_3"]}
+{"id": 490, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0], "grounded_sentence": ["Ensure", "prop_1", "is", "visited", "repeatedly", "over", "time"]}
+{"id": 897, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 3, 0, 0, 0, 4, 5], "grounded_sentence": ["Keep", "prop_1", "from", "prop_2", "to", "prop_3", "and", "also", "regularly", "prop_4", "prop_5"]}
+{"id": 638, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0], "grounded_sentence": ["Do", "not", "prop_1", "at", "any", "time"]}
+{"id": 191, "lifted_sentence_prop_ids": [0, 1], "grounded_sentence": ["Never", "prop_1"]}
+{"id": 612, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["Eventually", "prop_1", "and", "prop_2"]}
+{"id": 544, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["Take", "a", "picture", "of", "prop_1,", "but", "do", "not", "enter", "prop_1", "until", "you", "reach", "prop_2"]}
+{"id": 858, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2, 0, 0, 0, 0, 0, 0, 3], "grounded_sentence": ["Refrain", "from", "prop_1", "until", "you", "prop_2", "and", "then", "make", "your", "way", "to", "prop_3"]}
+{"id": 133, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2, 0, 3], "grounded_sentence": ["Avoid", "prop_1", "as", "you", "keep", "prop_2", "of", "prop_3"]}
+{"id": 498, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0], "grounded_sentence": ["Ensure", "prop_1", "is", "visited", "repeatedly", "over", "time"]}
+{"id": 96, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["Stay", "in", "prop_1", "until", "you", "reach", "prop_2"]}
+{"id": 642, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1,", "prop_2,", "and", "continuously", "remain", "there"]}
+{"id": 508, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["Remain", "in", "prop_1", "until", "you", "arrive", "at", "prop_2"]}
+{"id": 849, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 0], "grounded_sentence": ["Never", "prop_1", "to", "prop_2", "under", "any", "conditions"]}
+{"id": 677, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 3, 0, 4, 0, 1], "grounded_sentence": ["Refrain", "from", "prop_1", "until", "you", "prop_2,", "and", "then", "ensure", "you", "prop_3", "and", "prop_4", "in", "prop_1"]}
+{"id": 726, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 3], "grounded_sentence": ["Persistently", "prop_1", "while", "repeatedly", "prop_2", "from", "prop_3"]}
+{"id": 415, "lifted_sentence_prop_ids": [0, 0, 1], "grounded_sentence": ["Always", "eventually", "prop_1"]}
+{"id": 356, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0], "grounded_sentence": ["Ensure", "you", "prop_1", "before", "prop_2."]}
+{"id": 278, "lifted_sentence_prop_ids": [1, 0, 2, 0, 3, 0, 4, 0], "grounded_sentence": ["prop_1", "to", "prop_2", "and", "prop_3", "to", "prop_4", "indefinitely"]}
+{"id": 66, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2, 0, 3, 0, 4], "grounded_sentence": ["Stay", "in", "prop_1", "until", "you", "take", "prop_2", "from", "prop_3", "to", "prop_4"]}
+{"id": 768, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["Ensure", "you", "avoid", "prop_1", "while", "prop_2"]}
+{"id": 709, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["Remain", "in", "prop_1", "until", "you", "prop_2"]}
+{"id": 73, "lifted_sentence_prop_ids": [0, 1], "grounded_sentence": ["Keep", "prop_1"]}
+{"id": 12, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0], "grounded_sentence": ["Avoid", "prop_1", "until", "prop_2", "is", "reached"]}
+{"id": 288, "lifted_sentence_prop_ids": [0, 1, 0], "grounded_sentence": ["Avoid", "prop_1", "indefinitely"]}
+{"id": 546, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["Stay", "within", "prop_1", "and", "do", "not", "leave", "until", "you", "reach", "prop_2"]}
+{"id": 371, "lifted_sentence_prop_ids": [1, 0, 2, 0], "grounded_sentence": ["prop_1", "and", "prop_2", "afterward"]}
+{"id": 595, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "then", "prop_2"]}
+{"id": 628, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["Avoid", "prop_1", "until", "you", "arrive", "at", "prop_2"]}
+{"id": 259, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2, 0, 3, 0, 4], "grounded_sentence": ["Keep", "prop_1", "as", "you", "repeatedly", "prop_2", "from", "prop_3", "to", "prop_4"]}
+{"id": 696, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0], "grounded_sentence": ["Eventually", "prop_1", "and", "prop_2", "continuously"]}
+{"id": 624, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2, 0, 3, 0, 4], "grounded_sentence": ["Remain", "in", "prop_1", "and", "continuously", "prop_2", "from", "prop_3", "to", "prop_4"]}
+{"id": 14, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["Go", "to", "prop_1", "and", "stay", "there", "but", "do", "not", "go", "there", "until", "you", "reach", "prop_2"]}
+{"id": 505, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0], "grounded_sentence": ["Ensure", "you", "never", "prop_1", "at", "any", "time"]}
+{"id": 228, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"]}
+{"id": 236, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"]}
+{"id": 951, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0], "grounded_sentence": ["Do", "not", "prop_1", "under", "any", "circumstances"]}
+{"id": 104, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["Avoid", "prop_1", "until", "you", "prop_2,", "and", "eventually", "prop_3."]}
+{"id": 350, "lifted_sentence_prop_ids": [0], "grounded_sentence": ["prop_1."]}
+{"id": 920, "lifted_sentence_prop_ids": [1, 0, 0, 2, 0], "grounded_sentence": ["prop_1", "and", "also", "prop_2", "constantly"]}
+{"id": 392, "lifted_sentence_prop_ids": [0, 1, 0, 0], "grounded_sentence": ["Regularly", "prop_1", "without", "stopping"]}
+{"id": 663, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["Persistently", "prop_1", "while", "prop_2"]}
+{"id": 600, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["Never", "pass", "through", "prop_1", "on", "your", "way", "to", "prop_2"]}
+{"id": 199, "lifted_sentence_prop_ids": [1, 0, 0, 2, 0, 3, 0], "grounded_sentence": ["prop_1", "and", "then", "prop_2", "and", "prop_3", "there"]}
+{"id": 404, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["Ensure", "you", "never", "prop_1", "or", "prop_2"]}
+{"id": 671, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["Ensure", "you", "prop_1", "and", "never", "prop_2"]}
+{"id": 679, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0], "grounded_sentence": ["Stay", "away", "from", "prop_1", "until", "you", "reach", "prop_2,", "after", "which", "you", "must", "enter", "and", "stay", "in", "prop_1", "continuously"]}
+{"id": 744, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2, 0, 3, 0, 0, 0, 0, 4], "grounded_sentence": ["Remain", "in", "prop_1", "until", "you", "pick", "up", "prop_2", "from", "prop_3", "and", "deliver", "it", "to", "prop_4"]}
+{"id": 590, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 3, 0, 0, 0, 0, 4, 5], "grounded_sentence": ["Keep", "prop_1", "from", "prop_2", "to", "prop_3", "while", "ensuring", "you", "frequently", "prop_4", "prop_5"]}
+{"id": 875, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 3, 0, 4, 0, 5], "grounded_sentence": ["Refrain", "from", "prop_1", "until", "you", "prop_2,", "and", "then", "prop_3", "from", "prop_4", "to", "prop_5"]}
+{"id": 958, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1,", "and", "then", "prop_2,", "staying", "there", "continuously"]}
+{"id": 266, "lifted_sentence_prop_ids": [1, 0, 2, 0], "grounded_sentence": ["prop_1", "and", "prop_2", "there"]}
+{"id": 81, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "while", "never", "entering", "prop_2"]}
+{"id": 515, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 3, 0, 0, 4, 5], "grounded_sentence": ["Continuously", "prop_1", "from", "prop_2", "to", "prop_3", "while", "repeatedly", "prop_4", "prop_5"]}
+{"id": 538, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5], "grounded_sentence": ["Avoid", "prop_1", "until", "you", "prop_2,", "and", "ensure", "you", "prop_3,", "prop_4,", "and", "then", "prop_5"]}
+{"id": 861, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"]}
+{"id": 740, "lifted_sentence_prop_ids": [0, 0, 1], "grounded_sentence": ["Always", "avoid", "prop_1"]}
+{"id": 967, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0], "grounded_sentence": ["Do", "not", "prop_1", "under", "any", "circumstances"]}
+{"id": 323, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["Do", "not", "prop_1", "before", "prop_2"]}
+{"id": 715, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2, 3, 0, 4, 0, 5, 0, 0, 6], "grounded_sentence": ["Refrain", "from", "prop_1", "until", "you", "prop_2", "prop_3", "from", "prop_4", "and", "prop_5", "it", "in", "prop_6"]}
+{"id": 423, "lifted_sentence_prop_ids": [0, 0, 0, 1, 2, 0, 0], "grounded_sentence": ["Ensure", "you", "repeatedly", "prop_1", "prop_2", "over", "time"]}
+{"id": 186, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2, 0, 0, 3, 0, 4, 0, 5, 0, 1], "grounded_sentence": ["Do", "not", "prop_1", "until", "you", "prop_2", "as", "you", "prop_3", "from", "prop_4", "and", "prop_5", "in", "prop_1"]}
+{"id": 913, "lifted_sentence_prop_ids": [1, 0, 2, 0, 3], "grounded_sentence": ["prop_1", "and", "prop_2", "to", "prop_3"]}
+{"id": 727, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2, 0, 3], "grounded_sentence": ["Ensure", "you", "continuously", "prop_1", "and", "repeatedly", "prop_2", "from", "prop_3"]}
+{"id": 354, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0], "grounded_sentence": ["Be", "in", "prop_1", "until", "you", "arrive", "at", "prop_2."]}
+{"id": 702, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3, 0, 4], "grounded_sentence": ["Ensure", "you", "prop_1", "while", "prop_2", "from", "prop_3", "to", "prop_4"]}
+{"id": 316, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "to", "prop_2"]}
+{"id": 453, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 3, 0], "grounded_sentence": ["Ensure", "you", "prop_1", "and", "then", "prop_2,", "where", "you", "prop_3", "forever"]}
+{"id": 282, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0], "grounded_sentence": ["Ensure", "you", "prop_1", "and", "prop_2", "forever"]}
+{"id": 585, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["Ensure", "prop_1", "and", "prop_2"]}
+{"id": 933, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3, 0, 4], "grounded_sentence": ["Ensure", "you", "prop_1", "while", "prop_2", "from", "prop_3", "to", "prop_4"]}
+{"id": 377, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["Continuously", "prop_1,", "and", "(ensure", "that", "you", "eventually", "prop_2,", "prop_3,", "and", "prop_4)"]}
+{"id": 181, "lifted_sentence_prop_ids": [1, 0, 0, 2, 0, 0, 0], "grounded_sentence": ["prop_1", "and", "then", "prop_2", "and", "stay", "there"]}
+{"id": 103, "lifted_sentence_prop_ids": [1, 2, 3, 4, 5, 6], "grounded_sentence": ["prop_1", "prop_2", "prop_3", "prop_4", "prop_5", "prop_6"]}
+{"id": 550, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 0, 2, 0, 0, 0, 3, 0, 4, 0, 5], "grounded_sentence": ["Ensure", "you", "stay", "away", "from", "prop_1", "until", "prop_2", "is", "reached,", "while", "prop_3", "from", "prop_4", "to", "prop_5"]}
+{"id": 146, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2, 0, 3], "grounded_sentence": ["Keep", "prop_1", "as", "you", "periodically", "prop_2", "of", "prop_3"]}
+{"id": 185, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2, 0, 3, 0, 4], "grounded_sentence": ["Keep", "prop_1", "while", "you", "also", "periodically", "prop_2", "from", "prop_3", "to", "prop_4"]}
+{"id": 792, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 3], "grounded_sentence": ["Do", "not", "prop_1", "before", "prop_2,", "and", "ensure", "to", "prop_3"]}
+{"id": 155, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2, 0, 0, 3, 0, 4, 0, 5], "grounded_sentence": ["Do", "not", "prop_1", "until", "you", "prop_2", "as", "you", "prop_3", "from", "prop_4", "to", "prop_5"]}
+{"id": 352, "lifted_sentence_prop_ids": [1, 0, 2, 3, 4], "grounded_sentence": ["prop_1", "by", "prop_2", "prop_3", "prop_4"]}
+{"id": 719, "lifted_sentence_prop_ids": [1, 0, 0, 2, 3], "grounded_sentence": ["prop_1", "while", "regularly", "prop_2", "prop_3"]}
+{"id": 641, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 3, 0], "grounded_sentence": ["Eventually", "prop_1", "and", "prop_2", "and", "prop_3", "there"]}
+{"id": 273, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0], "grounded_sentence": ["Stay", "within", "prop_1", "until", "prop_2", "is", "reached"]}
+{"id": 899, "lifted_sentence_prop_ids": [1, 0, 2, 0, 3, 0, 0, 4, 0, 5], "grounded_sentence": ["prop_1", "from", "prop_2", "to", "prop_3", "while", "also", "prop_4", "to", "prop_5"]}
+{"id": 100, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["Avoid", "prop_1", "as", "you", "prop_2"]}
+{"id": 293, "lifted_sentence_prop_ids": [1, 0, 0, 0], "grounded_sentence": ["prop_1", "and", "never", "leave"]}
+{"id": 409, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 3], "grounded_sentence": ["Eventually", "prop_1", "and", "prop_2", "while", "prop_3"]}
+{"id": 867, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["Stay", "away", "from", "prop_1", "until", "you", "go", "to", "prop_2", "and", "ensure", "you", "take", "a", "photograph"]}
+{"id": 556, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["Stay", "away", "from", "prop_1", "at", "all", "times", "and", "also", "take", "a", "picture", "of", "prop_2"]}
+{"id": 896, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 3, 0, 0, 4, 5], "grounded_sentence": ["Repeatedly", "prop_1", "from", "prop_2", "to", "prop_3", "while", "repeatedly", "prop_4", "prop_5"]}
+{"id": 699, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 0], "grounded_sentence": ["Make", "sure", "to", "prop_1", "and", "prop_2", "afterward"]}
+{"id": 226, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["Ensure", "that", "prop_1", "and", "prop_2", "are", "never", "entered", "at", "any", "time"]}
+{"id": 367, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0], "grounded_sentence": ["Repeatedly", "prop_1", "and", "prop_2", "there"]}
+{"id": 342, "lifted_sentence_prop_ids": [0, 1, 2, 3, 4, 5, 0], "grounded_sentence": ["Keep", "prop_1", "prop_2", "prop_3", "prop_4", "prop_5", "periodically"]}
+{"id": 287, "lifted_sentence_prop_ids": [0, 0, 0, 1, 2, 0, 3], "grounded_sentence": ["Ensure", "you", "repeatedly", "prop_1", "prop_2", "from", "prop_3"]}
+{"id": 222, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "while", "ensuring", "you", "never", "prop_2"]}
+{"id": 623, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 2], "grounded_sentence": ["Start", "by", "prop_1,", "and", "then", "prop_2"]}
+{"id": 747, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 3, 0, 4, 0, 5], "grounded_sentence": ["Continue", "prop_1", "until", "you", "prop_2", "from", "prop_3", "and", "prop_4", "in", "prop_5"]}
+{"id": 253, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 0, 0, 3], "grounded_sentence": ["prop_1", "and", "prop_2,", "as", "you", "ensure", "you", "never", "enter", "prop_3"]}
+{"id": 749, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 4, 0, 5], "grounded_sentence": ["Stay", "within", "prop_1", "until", "you", "arrive", "at", "prop_2,", "after", "which", "take", "prop_3", "from", "prop_4", "to", "prop_5"]}
+{"id": 843, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1,", "prop_2,", "and", "stay", "there", "indefinitely"]}
+{"id": 327, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2, 0, 3, 0, 4], "grounded_sentence": ["Ensure", "you", "prop_1", "regularly", "as", "you", "continue", "prop_2", "from", "prop_3", "to", "prop_4"]}
+{"id": 406, "lifted_sentence_prop_ids": [0, 0, 0, 3], "grounded_sentence": ["prop_1,", "prop_2,", "and", "prop_3"]}
+{"id": 728, "lifted_sentence_prop_ids": [0, 0, 0, 0, 2, 0, 0, 0, 0, 3], "grounded_sentence": ["Continuously", "prop_1,", "but", "avoid", "prop_2", "until", "you", "arrive", "at", "prop_3"]}
+{"id": 332, "lifted_sentence_prop_ids": [1, 0, 2, 0, 3, 0, 0], "grounded_sentence": ["prop_1", "and", "prop_2", "at", "prop_3", "without", "leaving"]}
+{"id": 331, "lifted_sentence_prop_ids": [0, 1], "grounded_sentence": ["Regularly", "prop_1"]}
+{"id": 823, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 3, 0, 4, 0, 5], "grounded_sentence": ["Refrain", "from", "prop_1", "until", "you", "prop_2,", "and", "then", "ensure", "you", "prop_3", "from", "prop_4", "to", "prop_5"]}
+{"id": 445, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 3], "grounded_sentence": ["Ensure", "you", "prop_1", "from", "prop_2", "without", "ever", "prop_3"]}
+{"id": 47, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 0, 0, 3], "grounded_sentence": ["Place", "prop_1", "in", "prop_2", "after", "getting", "it", "from", "prop_3"]}
+{"id": 836, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 3, 0, 4, 0, 5], "grounded_sentence": ["Avoid", "prop_1", "until", "you", "prop_2", "from", "prop_3", "and", "prop_4", "on", "prop_5"]}
+{"id": 209, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2, 0, 3, 0, 4], "grounded_sentence": ["Revisit", "prop_1", "periodically", "while", "repeatedly", "delivering", "prop_2", "from", "prop_3", "to", "prop_4"]}
+{"id": 586, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0], "grounded_sentence": ["Ensure", "you", "prop_1", "repeatedly", "over", "time"]}
+{"id": 856, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 3], "grounded_sentence": ["Avoid", "prop_1", "until", "you", "prop_2,", "and", "then", "prop_3"]}
+{"id": 391, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 0, 0, 0], "grounded_sentence": ["Ensure", "that", "you", "do", "not", "prop_1", "at", "any", "point"]}
+{"id": 892, "lifted_sentence_prop_ids": [0, 0, 0], "grounded_sentence": ["Eventually(prop_1", "and", "prop_2)"]}
+{"id": 935, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 3, 0, 4], "grounded_sentence": ["Keep", "going", "to", "prop_1", "while", "you", "consistently", "take", "prop_2", "from", "prop_3", "to", "prop_4"]}
+{"id": 943, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["Persistently", "prop_1", "while", "periodically", "prop_2"]}
+{"id": 818, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0], "grounded_sentence": ["Refrain", "from", "prop_1", "at", "all", "times"]}
+{"id": 139, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2, 0, 3], "grounded_sentence": ["Stay", "in", "prop_1", "until", "you", "prop_2", "of", "prop_3"]}
+{"id": 811, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2, 0, 0, 0], "grounded_sentence": ["Persistently", "prop_1", "and", "make", "sure", "you", "prop_2", "at", "some", "point"]}
+{"id": 447, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2, 0, 3], "grounded_sentence": ["Keep", "prop_1", "as", "you", "repeatedly", "prop_2", "of", "prop_3"]}
+{"id": 210, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 3, 0, 4, 0, 0], "grounded_sentence": ["Avoid", "prop_1", "as", "you", "prop_2", "from", "prop_3", "and", "prop_4", "to", "prop_5."]}
+{"id": 298, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["Do", "not", "prop_1", "before", "prop_2"]}
+{"id": 108, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["stay", "in", "prop_1", "until", "you", "take", "the", "picture", "of", "prop_2"]}
+{"id": 802, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["Refrain", "from", "prop_1", "until", "you", "prop_2"]}
+{"id": 625, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2, 0, 3, 0, 4], "grounded_sentence": ["Stay", "within", "prop_1", "while", "repeatedly", "taking", "prop_2", "from", "prop_3", "to", "prop_4"]}
+{"id": 555, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 0], "grounded_sentence": ["Do", "not", "prop_1", "by", "prop_2", "at", "any", "point"]}
+{"id": 318, "lifted_sentence_prop_ids": [0, 0, 0, 0, 2, 0, 3, 0], "grounded_sentence": ["prop_1,", "and", "after", "that,", "prop_2", "and", "prop_3", "permanently"]}
+{"id": 317, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["Ensure", "you", "regularly", "prop_1", "and", "prop_2"]}
+{"id": 20, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 2, 0, 3], "grounded_sentence": ["Avoid", "prop_1", "until", "you", "prop_2", "as", "you", "prop_2", "of", "prop_3"]}
+{"id": 63, "lifted_sentence_prop_ids": [1, 0, 2, 0], "grounded_sentence": ["prop_1", "and", "prop_2", "there"]}
+{"id": 296, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["Keep", "prop_1", "as", "you", "work", "your", "way", "to", "prop_2"]}
+{"id": 520, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "first,", "and", "then", "prop_2"]}
+{"id": 102, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2, 0, 0, 3, 0, 4, 1], "grounded_sentence": ["Do", "not", "prop_1", "until", "you", "prop_2", "as", "you", "prop_3", "and", "prop_4", "prop_1"]}
+{"id": 894, "lifted_sentence_prop_ids": [0, 0, 0, 0], "grounded_sentence": ["Eventually", "(prop_1", "and", "prop_2)"]}
+{"id": 289, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["Go", "to", "prop_1", "without", "ever", "visiting", "prop_2"]}
+{"id": 530, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0], "grounded_sentence": ["Avoid", "prop_1", "or", "prop_2", "indefinitely"]}
+{"id": 250, "lifted_sentence_prop_ids": [1, 0, 0], "grounded_sentence": ["prop_1", "and", "prop_2."]}
+{"id": 978, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "then", "prop_2"]}
+{"id": 666, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2, 0, 0, 0, 4, 0, 5, 0, 1], "grounded_sentence": ["Refrain", "from", "prop_1", "until", "you", "prop_2", "at", "prop_3,", "while", "prop_4", "from", "prop_5", "to", "prop_1"]}
+{"id": 413, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"]}
+{"id": 521, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["Remain", "in", "prop_1", "until", "you", "arrive", "at", "prop_2"]}
+{"id": 582, "lifted_sentence_prop_ids": [1, 0, 0, 2, 0, 3, 0, 4], "grounded_sentence": ["prop_1", "repeatedly", "while", "prop_2", "from", "prop_3", "to", "prop_4"]}
+{"id": 583, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["Remain", "at", "prop_1", "until", "you", "have", "reached", "prop_2"]}
+{"id": 117, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 3, 4], "grounded_sentence": ["Keep", "prop_1", "of", "prop_2,", "while", "you", "never", "prop_3", "prop_4"]}
+{"id": 985, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 2, 0, 3, 0, 4], "grounded_sentence": ["Ensure", "you", "do", "not", "prop_1", "as", "you", "prop_2", "from", "prop_3", "to", "prop_4"]}
+{"id": 478, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0], "grounded_sentence": ["Release", "prop_1", "and", "prop_2,", "staying", "there", "permanently"]}
+{"id": 640, "lifted_sentence_prop_ids": [0, 0, 0, 3, 0], "grounded_sentence": ["prop_1,", "prop_2,", "and", "prop_3", "there"]}
+{"id": 5, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2, 0, 0, 3, 0, 2], "grounded_sentence": ["Do", "not", "prop_1", "until", "you", "prop_2", "as", "you", "prop_3", "from", "prop_2"]}
+{"id": 572, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 0], "grounded_sentence": ["Always", "avoid:", "prop_1", "and", "prop_2", "at", "any", "time"]}
+{"id": 460, "lifted_sentence_prop_ids": [0, 0, 1], "grounded_sentence": ["Ensure", "you", "prop_1"]}
+{"id": 547, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["Avoid", "prop_1", "for", "the", "purpose", "of", "prop_2"]}
+{"id": 430, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 3, 0, 4, 0, 2], "grounded_sentence": ["Stay", "in", "prop_1", "until", "you", "arrive", "at", "prop_2", "while", "transporting", "prop_3", "from", "prop_4", "to", "prop_2"]}
+{"id": 13, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1,", "but", "never", "putting", "anything", "down"]}
+{"id": 183, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 3, 0, 4, 0], "grounded_sentence": ["Keep", "going", "to", "prop_1", "while", "you", "keep", "taking", "prop_2", "from", "prop_3", "to", "prop_4", "periodically"]}
+{"id": 56, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"]}
+{"id": 507, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0], "grounded_sentence": ["Always", "eventually", "visit", "prop_1,", "and", "ensure", "that", "you", "eventually", "go", "to", "prop_2,", "pick", "up", "prop_3,", "and", "then", "go", "to", "prop_4", "and", "deliver", "it"]}
+{"id": 172, "lifted_sentence_prop_ids": [1, 0, 2, 0], "grounded_sentence": ["prop_1", "and", "prop_2", "there"]}
+{"id": 895, "lifted_sentence_prop_ids": [0, 0, 0, 0, 2, 0], "grounded_sentence": ["Eventually", "(prop_1", "and", "also", "prop_2", "forever)"]}
+{"id": 574, "lifted_sentence_prop_ids": [1, 0, 2, 0], "grounded_sentence": ["prop_1", "and", "prop_2", "indefinitely"]}
+{"id": 826, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3, 0, 4, 0, 0, 5], "grounded_sentence": ["Stay", "in", "prop_1", "before", "prop_2", "from", "prop_3", "and", "prop_4", "it", "to", "prop_5"]}
+{"id": 676, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 3, 0, 4, 0, 1], "grounded_sentence": ["Avoid", "prop_1", "until", "you", "prop_2", "and", "then", "prop_3", "and", "prop_4", "in", "prop_1"]}
+{"id": 940, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 3, 0, 4], "grounded_sentence": ["Continuously", "prop_1", "while", "periodically", "prop_2", "from", "prop_3", "to", "prop_4"]}
+{"id": 333, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["Do", "not", "enter", "prop_1", "until", "you", "have", "reached", "prop_2", "and", "taken", "a", "picture"]}
+{"id": 205, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 3, 0, 4, 5, 0, 2], "grounded_sentence": ["Avoid", "prop_1", "until", "you", "prop_2", "prop_3", "while", "prop_4", "prop_5", "from", "prop_2"]}
+{"id": 179, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["Keep", "prop_1", "of", "prop_2"]}
+{"id": 980, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 3], "grounded_sentence": ["Keep", "prop_1", "while", "repeatedly", "prop_2", "of", "prop_3"]}
+{"id": 452, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["Eventually", "prop_1", "and", "prop_2"]}
+{"id": 479, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["Never", "prop_1", "with", "prop_2"]}
+{"id": 723, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 0, 3, 0, 0, 4], "grounded_sentence": ["Eventually", "you", "should", "prop_1", "in", "prop_2", "and", "prop_3", "it", "to", "prop_4"]}
+{"id": 591, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["Do", "not", "prop_1", "until", "you", "have", "prop_2"]}
+{"id": 918, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0], "grounded_sentence": ["Keep", "prop_1", "at", "regular", "intervals"]}
+{"id": 688, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 0, 3], "grounded_sentence": ["Eventually", "prop_1", "and", "prop_2", "while", "remaining", "in", "prop_3"]}
+{"id": 771, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 0, 2, 0, 3], "grounded_sentence": ["Always", "stay", "away", "from", "prop_1", "while", "ensuring", "you", "prop_2", "of", "prop_3"]}
+{"id": 16, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "to", "prop_2", "to", "take", "a", "picture"]}
+{"id": 324, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "and", "prop_2,", "where", "you", "stay", "permanently"]}
+{"id": 870, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 3], "grounded_sentence": ["prop_1,", "prop_2,", "while", "always", "staying", "out", "of", "prop_3"]}
+{"id": 439, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"]}
+{"id": 617, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3], "grounded_sentence": ["Do", "not", "prop_1", "before", "prop_2,", "and", "ensure", "you", "eventually", "prop_3"]}
+{"id": 89, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"]}
+{"id": 488, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 2, 0], "grounded_sentence": ["Find", "your", "way", "to", "prop_1", "and", "remain", "prop_2", "forever"]}
+{"id": 330, "lifted_sentence_prop_ids": [1], "grounded_sentence": ["prop_1"]}
+{"id": 224, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "and", "prop_2,", "staying", "there", "indefintely"]}
+{"id": 873, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 3, 0, 4, 0, 5], "grounded_sentence": ["Do", "not", "prop_1", "before", "prop_2,", "and", "ensure", "you", "prop_3", "from", "prop_4", "to", "prop_5"]}
+{"id": 735, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["Always", "stay", "away", "from", "prop_1", "while", "persistently", "taking", "pictures", "of", "prop_2"]}
+{"id": 486, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["Refrain", "from", "prop_1", "until", "after", "you", "prop_2"]}
+{"id": 369, "lifted_sentence_prop_ids": [1, 0, 2, 0, 3], "grounded_sentence": ["prop_1", "and", "prop_2", "at", "prop_3"]}
+{"id": 902, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"]}
+{"id": 173, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "then", "prop_2"]}
+{"id": 637, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1], "grounded_sentence": ["Ensure", "that", "you", "never", "prop_1"]}
+{"id": 821, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 3, 0, 4, 0, 5], "grounded_sentence": ["Do", "not", "prop_1", "before", "prop_2,", "while", "ensuring", "you", "prop_3", "from", "prop_4", "to", "prop_5"]}
+{"id": 921, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["Ensure", "you", "prop_1", "and", "prop_2"]}
+{"id": 563, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 3, 0, 4, 0, 1], "grounded_sentence": ["Avoid", "prop_1", "until", "prop_2,", "then", "you", "need", "to", "prop_2", "at", "prop_3", "and", "prop_4", "to", "prop_1"]}
+{"id": 7, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "but", "do", "not", "prop_2"]}
+{"id": 308, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "and", "ensure", "you", "do", "not", "leave", "prop_1."]}
+{"id": 431, "lifted_sentence_prop_ids": [0, 0, 0, 3], "grounded_sentence": ["prop_1,", "prop_2,", "and", "prop_3"]}
+{"id": 987, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3, 0, 4, 0, 5], "grounded_sentence": ["Do", "not", "prop_1", "while", "prop_2", "from", "prop_3", "and", "prop_4", "to", "prop_5"]}
+{"id": 614, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "subsequently", "prop_2"]}
+{"id": 932, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["Continuously", "prop_1", "while", "repeatedly", "prop_2"]}
+{"id": 218, "lifted_sentence_prop_ids": [1, 0, 0, 2, 0, 3, 0, 0], "grounded_sentence": ["prop_1", "and", "afterward", "prop_2", "and", "prop_3", "there", "indefinitely"]}
+{"id": 231, "lifted_sentence_prop_ids": [1, 0, 0], "grounded_sentence": ["prop_1", "over", "time"]}
+{"id": 850, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0], "grounded_sentence": ["Always", "refrain", "from", "prop_1", "for", "the", "purpose", "of", "prop_2", "at", "all", "times"]}
+{"id": 151, "lifted_sentence_prop_ids": [0, 0, 0, 0, 2], "grounded_sentence": ["Until", "you", "prop_1,", "avoid", "prop_2"]}
+{"id": 241, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0], "grounded_sentence": ["Avoid", "prop_1", "at", "all", "times"]}
+{"id": 194, "lifted_sentence_prop_ids": [0, 2, 0, 0, 0, 0, 3], "grounded_sentence": ["prop_1,", "prop_2", "and", "deliver", "it", "to", "prop_3"]}
+{"id": 791, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 3, 0, 0, 4], "grounded_sentence": ["Start", "by", "prop_1", "to", "prop_2,", "and", "then", "prop_3", "it", "to", "prop_4"]}
+{"id": 424, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"]}
+{"id": 407, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"]}
+{"id": 578, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 2], "grounded_sentence": ["Ensure", "you", "stay", "in", "prop_1", "until", "you", "prop_2"]}
+{"id": 195, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2], "grounded_sentence": ["Keep", "prop_1", "as", "you", "keep", "prop_2"]}
+{"id": 741, "lifted_sentence_prop_ids": [0, 0, 0, 1], "grounded_sentence": ["Ensure", "you", "never", "prop_1"]}
+{"id": 50, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2, 0, 0, 3, 0, 4], "grounded_sentence": ["Do", "not", "prop_1", "until", "you", "prop_2", "as", "you", "prop_3", "of", "prop_4"]}
+{"id": 807, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3], "grounded_sentence": ["Do", "not", "prop_1", "until", "prop_2", "is", "prop_3"]}
+{"id": 667, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 4, 0, 1], "grounded_sentence": ["Stay", "away", "from", "prop_1", "until", "you", "reach", "prop_2,", "and", "make", "sure", "to", "move", "prop_3", "from", "prop_4", "to", "prop_1"]}
+{"id": 633, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["Stay", "within", "prop_1", "until", "you", "prop_2"]}
+{"id": 945, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 3, 0, 4], "grounded_sentence": ["Do", "not", "prop_1", "before", "prop_2,", "and", "ensure", "you", "prop_3", "and", "prop_4"]}
+{"id": 170, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2, 0, 3, 0, 4], "grounded_sentence": ["Stay", "in", "prop_1", "until", "you", "take", "prop_2", "from", "prop_3", "to", "prop_4"]}
+{"id": 758, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["Stay", "in", "prop_1", "until", "you", "take", "a", "photo", "of", "prop_2"]}
+{"id": 864, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 3], "grounded_sentence": ["Avoid", "prop_1", "until", "you", "prop_2", "and", "prop_3"]}
+{"id": 161, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "but", "never", "prop_2"]}
+{"id": 707, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2, 0, 0, 0], "grounded_sentence": ["Eventually", "prop_1", "while", "refraining", "from", "prop_2", "at", "any", "time"]}
+{"id": 160, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0], "grounded_sentence": ["prop_1", "and", "prop_2", "and", "stay", "there"]}
+{"id": 6, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"]}
+{"id": 743, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0], "grounded_sentence": ["Stay", "away", "from", "prop_1", "permanently"]}
+{"id": 495, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3], "grounded_sentence": ["Refrain", "from", "prop_1", "while", "prop_2", "from", "prop_3"]}
+{"id": 309, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2, 0, 3, 0, 4], "grounded_sentence": ["Ensure", "you", "prop_1", "regularly", "while", "prop_2", "from", "prop_3", "to", "prop_4"]}
+{"id": 145, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 3, 0, 0, 0, 4], "grounded_sentence": ["Keep", "prop_1", "from", "prop_2", "to", "prop_3", "while", "also", "periodically", "prop_4"]}
+{"id": 518, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["Ensure", "you", "prop_1", "while", "prop_2"]}
+{"id": 74, "lifted_sentence_prop_ids": [1, 2, 3, 4, 5], "grounded_sentence": ["prop_1", "prop_2", "prop_3", "prop_4", "prop_5"]}
+{"id": 36, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"]}
+{"id": 995, "lifted_sentence_prop_ids": [1, 0, 2, 0, 3], "grounded_sentence": ["prop_1", "after", "prop_2", "from", "prop_3"]}
+{"id": 979, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 3, 0, 4], "grounded_sentence": ["prop_1", "from", "prop_2", "and", "subsequently", "prop_3", "to", "prop_4"]}
+{"id": 568, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2, 0, 3], "grounded_sentence": ["Refrain", "from", "prop_1", "as", "you", "prop_2", "of", "prop_3"]}
+{"id": 971, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 0, 0], "grounded_sentence": ["Make", "sure", "to", "prop_1", "and", "prop_2", "without", "leaving"]}
+{"id": 968, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0], "grounded_sentence": ["Eventually", "prop_1", "and", "prop_2", "there", "permanently"]}
+{"id": 923, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 2, 0, 3], "grounded_sentence": ["Keep", "prop_1", "at", "all", "times", "and", "periodically", "prop_2", "of", "prop_3"]}
+{"id": 276, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0], "grounded_sentence": ["Avoid", "prop_1", "and", "prop_2", "indefinitely"]}
+{"id": 620, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "first", "and", "then", "prop_2"]}
+{"id": 109, "lifted_sentence_prop_ids": [0, 1], "grounded_sentence": ["Never", "prop_1"]}
+{"id": 731, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2, 0, 0, 0, 0, 3], "grounded_sentence": ["Ensure", "you", "keep", "prop_1", "while", "avoiding", "prop_2", "until", "you", "have", "reached", "prop_3"]}
+{"id": 33, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["Take", "a", "picture", "of", "prop_1", "but", "do", "not", "go", "to", "prop_1", "until", "you", "reach", "prop_2"]}
+{"id": 297, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"]}
+{"id": 203, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 3], "grounded_sentence": ["prop_1", "to", "prop_2,", "but", "avoid", "prop_3"]}
+{"id": 712, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 3, 0, 4, 0, 5], "grounded_sentence": ["Avoid", "prop_1", "until", "you", "prop_2", "from", "prop_3", "and", "prop_4", "in", "prop_5"]}
+{"id": 270, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2, 0, 3], "grounded_sentence": ["Avoid", "prop_1", "until", "you", "have", "prop_2", "alongside", "prop_3"]}
+{"id": 132, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 0, 3, 0, 0, 0, 4], "grounded_sentence": ["Keep", "prop_1", "of", "prop_2", "but", "do", "not", "prop_3", "until", "you", "reach", "prop_4"]}
+{"id": 689, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 3], "grounded_sentence": ["Ensure", "you", "prop_1", "and", "prop_2", "while", "you", "prop_3"]}
+{"id": 890, "lifted_sentence_prop_ids": [1, 0, 2, 3, 4], "grounded_sentence": ["prop_1", "and", "prop_2", "prop_3", "prop_4"]}
+{"id": 87, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0], "grounded_sentence": ["prop_1", "and", "prop_2", "and", "stay", "there"]}
+{"id": 992, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 3, 0, 0, 0, 4], "grounded_sentence": ["Continuously", "prop_1", "to", "prop_2", "after", "prop_3", "it", "up", "from", "prop_4"]}
+{"id": 408, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 3, 0, 0, 4, 0, 0], "grounded_sentence": ["Always", "eventually", "visit", "prop_1,", "and", "eventually", "(you", "prop_2", "and", "eventually", "prop_3", "and", "then", "prop_4", "and", "prop_5)"]}
+{"id": 443, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 2], "grounded_sentence": ["Ensure", "you", "do", "not", "prop_1", "before", "prop_2"]}
+{"id": 783, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 3, 0, 0, 4, 0, 5], "grounded_sentence": ["Keep", "prop_1", "from", "prop_2", "to", "prop_3", "while", "periodically", "prop_4", "to", "prop_5"]}
+{"id": 280, "lifted_sentence_prop_ids": [1], "grounded_sentence": ["prop_1"]}
+{"id": 414, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "deliver", "it", "to", "prop_2"]}
+{"id": 285, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 3, 0, 4], "grounded_sentence": ["Avoid", "prop_1", "as", "you", "prop_2", "from", "prop_3", "to", "prop_4"]}
+{"id": 125, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2, 0, 3, 0, 4], "grounded_sentence": ["Stay", "in", "prop_1", "as", "you", "take", "prop_2", "from", "prop_3", "to", "prop_4"]}
+{"id": 964, "lifted_sentence_prop_ids": [0, 0, 1], "grounded_sentence": ["Always", "avoid", "prop_1"]}
+{"id": 487, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["Ensure", "you", "prop_1", "and", "prop_2"]}
+{"id": 553, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["Remain", "at", "prop_1", "until", "you", "have", "taken", "a", "photo", "of", "prop_2"]}
+{"id": 929, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2, 0, 0, 3, 0, 0, 0], "grounded_sentence": ["Stay", "in", "prop_1", "until", "you", "prop_2", "and", "then", "prop_3", "and", "remain", "there"]}
+{"id": 339, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["Ensure", "you", "never", "prop_1", "while", "prop_2"]}
+{"id": 79, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["Do", "not", "prop_1", "until", "you", "prop_2"]}
+{"id": 878, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0], "grounded_sentence": ["Refrain", "from", "prop_1", "at", "all", "times"]}
+{"id": 435, "lifted_sentence_prop_ids": [1], "grounded_sentence": ["prop_1"]}
+{"id": 592, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["Ensure", "prop_1", "and", "prop_2"]}
+{"id": 621, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["Ensure", "you", "prop_1", "and", "afterward", "prop_2"]}
+{"id": 429, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0], "grounded_sentence": ["Avoid", "prop_1", "at", "all", "times"]}
+{"id": 730, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 3], "grounded_sentence": ["Repeatedly", "prop_1,", "but", "refrain", "from", "prop_2", "until", "you", "get", "to", "prop_3"]}
+{"id": 64, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"]}
+{"id": 665, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 3, 0, 4, 0, 1], "grounded_sentence": ["Avoid", "prop_1", "before", "prop_2,", "as", "you", "prop_3", "from", "prop_4", "to", "prop_1"]}
+{"id": 328, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "and", "prop_2,", "where", "you", "stay", "permanently"]}
+{"id": 993, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["Repeatedly", "prop_1", "and", "prop_2"]}
+{"id": 57, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"]}
+{"id": 245, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 1], "grounded_sentence": ["prop_1", "and", "prop_2,", "ensuring", "you", "do", "not", "enter", "prop_3", "before", "retrieving", "prop_1"]}
+{"id": 539, "lifted_sentence_prop_ids": [1, 0, 2, 0], "grounded_sentence": ["prop_1", "and", "prop_2", "there"]}
+{"id": 99, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"]}
+{"id": 122, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 0, 3], "grounded_sentence": ["prop_1", "and", "prop_2", "while", "you", "stay", "in", "prop_3"]}
+{"id": 418, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2], "grounded_sentence": ["Avoid", "prop_1", "until", "you", "have", "prop_2"]}
+{"id": 80, "lifted_sentence_prop_ids": [0, 1], "grounded_sentence": ["Never", "prop_1"]}
+{"id": 865, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3], "grounded_sentence": ["Do", "not", "prop_1", "before", "prop_2", "and", "prop_3"]}
+{"id": 213, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "without", "putting", "anything", "down"]}
+{"id": 254, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["Stay", "within", "prop_1", "until", "you", "get", "to", "prop_2"]}
+{"id": 606, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2, 0, 3, 0, 4], "grounded_sentence": ["prop_1", "as", "you", "repeatedly", "prop_2", "from", "prop_3", "to", "prop_4"]}
+{"id": 49, "lifted_sentence_prop_ids": [1, 0, 2, 0], "grounded_sentence": ["prop_1", "and", "prop_2", "there"]}

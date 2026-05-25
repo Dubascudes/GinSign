@@ -1,0 +1,1012 @@
+{"id": 2918, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "but", "not", "through", "prop_2"]}
+{"id": 2227, "lifted_sentence_prop_ids": [0, 0, 2, 0, 1, 1, 0, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["enter", "the", "prop_2", "or", "prop_1", "and", "then", "continue", "to", "the", "prop_3"]}
+{"id": 654, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["enter", "the", "prop_1", "without", "entering", "a", "prop_2"]}
+{"id": 1795, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2457, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 881, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 2423, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 891, "lifted_sentence_prop_ids": [0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["only", "go", "to", "the", "prop_2", "by", "first", "entering", "the", "prop_1"]}
+{"id": 118, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "get", "to", "prop_2"]}
+{"id": 3074, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "prop_1", "without", "using", "the", "prop_2"]}
+{"id": 2886, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "green", "via", "green", "or", "yellow", "but", "not", "prop_2"]}
+{"id": 839, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 2, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_1", "or", "prop_2", "to", "get", "to", "the", "prop_3"]}
+{"id": 1756, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1380, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "and", "into", "the", "prop_2"]}
+{"id": 992, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2, 0], "grounded_sentence": ["go", "to", "the", "prop_1", "only", "and", "then", "the", "prop_2", "only"]}
+{"id": 579, "lifted_sentence_prop_ids": [0, 0, 2, 0, 1, 1, 0, 0, 0, 3, 3], "grounded_sentence": ["move", "to", "prop_2", "or", "prop_1", "them", "move", "to", "prop_3"]}
+{"id": 2299, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "and", "then", "go", "to", "the", "prop_2"]}
+{"id": 459, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "prop_1", "get", "chair", "go", "to", "prop_2"]}
+{"id": 1803, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2773, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "large", "prop_1", "while", "avoiding", "the", "small", "prop_2"]}
+{"id": 2566, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 2, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["the", "robot", "has", "to", "go", "through", "the", "prop_1", "or", "prop_2", "to", "get", "to", "the", "prop_3"]}
+{"id": 2676, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["while", "avoiding", "the", "prop_2", "follow", "the", "shortest", "path", "to", "the", "prop_1"]}
+{"id": 858, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_2", "via", "the", "prop_1"]}
+{"id": 1630, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "into", "the", "prop_1"]}
+{"id": 1737, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 564, "lifted_sentence_prop_ids": [0, 0, 1, 1], "grounded_sentence": ["move", "to", "prop_1"]}
+{"id": 2927, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "avoid", "the", "prop_2"]}
+{"id": 1174, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["move", "into", "the", "prop_2", "while", "being", "sure", "to", "pass", "through", "only", "the", "prop_1"]}
+{"id": 1317, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "get", "to", "the", "prop_2"]}
+{"id": 3108, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 2, 0], "grounded_sentence": ["enter", "the", "prop_1", "without", "passing", "the", "prop_2", "one"]}
+{"id": 1237, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["travel", "through", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 2795, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "only", "through", "rooms", "that", "are", "not", "prop_2", "to", "get", "to", "the", "prop_1"]}
+{"id": 2546, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "into", "the", "prop_1"]}
+{"id": 43, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_2", "by", "passing", "through", "the", "prop_1"]}
+{"id": 2022, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1997, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2949, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["walk", "to", "the", "prop_1", "while", "avoiding", "the", "prop_2"]}
+{"id": 1575, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1414, "lifted_sentence_prop_ids": [0, 0, 2, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["enter", "the", "prop_2", "by", "going", "though", "the", "prop_1"]}
+{"id": 2455, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 309, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 3267, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "while", "avoiding", "the", "prop_2"]}
+{"id": 432, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "and", "take", "the", "chair", "to", "the", "prop_2"]}
+{"id": 1458, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["enter", "the", "prop_1", "and", "exit", "into", "the", "prop_2"]}
+{"id": 76, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_2", "via", "the", "prop_1"]}
+{"id": 1824, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 606, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 1, 1, 0, 0, 3, 3], "grounded_sentence": ["move", "through", "the", "prop_2", "or", "prop_1", "to", "the", "prop_3"]}
+{"id": 1794, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 3142, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["enter", "the", "prop_1", "without", "entering", "a", "prop_2"]}
+{"id": 2085, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["enter", "the", "prop_1", "without", "entering", "a", "prop_2"]}
+{"id": 2143, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["travel", "to", "the", "prop_1", "but", "do", "not", "go", "through", "the", "prop_2"]}
+{"id": 2422, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "go", "to", "the", "prop_2"]}
+{"id": 3097, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "large", "prop_1", "while", "avoiding", "the", "small", "prop_2"]}
+{"id": 1280, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 0, 1, 0], "grounded_sentence": ["go", "to", "the", "prop_2", "area", "through", "prop_1", "area"]}
+{"id": 1859, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 2893, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["to", "reach", "the", "prop_1", "do", "not", "go", "through", "the", "prop_2"]}
+{"id": 728, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["push", "the", "object", "from", "the", "prop_1", "into", "the", "prop_2"]}
+{"id": 2653, "lifted_sentence_prop_ids": [0, 0, 3, 3, 0, 1, 0, 2, 2], "grounded_sentence": ["go", "to", "prop_3", "through", "prop_1", "or", "prop_2"]}
+{"id": 1167, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "toward", "the", "prop_1", "then", "into", "the", "prop_2"]}
+{"id": 3060, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["enter", "the", "prop_1", "without", "entering", "a", "prop_2"]}
+{"id": 738, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "yellow", "object", "in", "the", "prop_1", "and", "move", "it", "to", "the", "prop_2"]}
+{"id": 1542, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "then", "go", "to", "the", "prop_2"]}
+{"id": 1490, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "get", "to", "the", "prop_2"]}
+{"id": 1819, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1514, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "in", "to", "the", "prop_2"]}
+{"id": 1049, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["move", "through", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 1480, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 299, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 676, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 1, 0], "grounded_sentence": ["go", "through", "square", "that", "is", "not", "prop_2", "to", "get", "the", "prop_1", "rectangular"]}
+{"id": 440, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "prop_1", "and", "push", "the", "chair", "to", "the", "prop_2"]}
+{"id": 2753, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "do", "not", "go", "through", "prop_2"]}
+{"id": 3119, "lifted_sentence_prop_ids": [0, 0, 0, 0, 2, 2, 0, 0, 0, 1, 1], "grounded_sentence": ["pass", "through", "the", "non", "prop_2", "to", "reach", "the", "prop_1"]}
+{"id": 474, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 1, 1, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_2", "or", "prop_1", "to", "reach", "the", "prop_3"]}
+{"id": 155, "lifted_sentence_prop_ids": [0, 2, 2, 0, 1, 1], "grounded_sentence": ["enter", "prop_2", "via", "prop_1"]}
+{"id": 951, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 521, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "and", "then", "go", "to", "the", "prop_2"]}
+{"id": 955, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "get", "to", "the", "prop_2"]}
+{"id": 1031, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["travel", "through", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 1131, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "and", "enter", "the", "prop_2"]}
+{"id": 1129, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_2", "only", "through", "the", "prop_1"]}
+{"id": 2737, "lifted_sentence_prop_ids": [0, 0, 0, 0, 2, 0, 0, 0, 0, 1], "grounded_sentence": ["the", "robot", "avoids", "the", "prop_2", "to", "get", "to", "the", "prop_1"]}
+{"id": 2953, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 1, 1], "grounded_sentence": ["walk", "through", "any", "room", "except", "the", "prop_2", "to", "enter", "the", "prop_1"]}
+{"id": 1666, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1264, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "into", "the", "prop_2"]}
+{"id": 278, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 3087, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "while", "avoiding", "the", "prop_2"]}
+{"id": 857, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_2", "via", "the", "prop_1"]}
+{"id": 3025, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["enter", "into", "the", "room", "that", "is", "not", "prop_2", "and", "continue", "through", "that", "room", "into", "the", "prop_1"]}
+{"id": 1713, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 3192, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 1, 1, 0, 0, 0, 0], "grounded_sentence": ["drive", "through", "the", "room", "that", "is", "not", "prop_2", "and", "enter", "the", "prop_1", "on", "the", "other", "side"]}
+{"id": 922, "lifted_sentence_prop_ids": [0, 0, 0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["please", "go", "to", "the", "prop_2", "through", "the", "prop_1"]}
+{"id": 533, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 3344, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 1, 1, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_2", "or", "prop_1", "to", "the", "prop_3"]}
+{"id": 1474, "lifted_sentence_prop_ids": [0, 2, 2, 0, 1, 1], "grounded_sentence": ["enter", "prop_2", "via", "prop_1"]}
+{"id": 2044, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2, 0], "grounded_sentence": ["go", "to", "prop_1", "area", "avoiding", "prop_2", "area"]}
+{"id": 1760, "lifted_sentence_prop_ids": [0, 0, 1, 1], "grounded_sentence": ["go", "to", "prop_1"]}
+{"id": 3321, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 1, 0, 0, 0, 0, 0, 3, 0], "grounded_sentence": ["go", "thru", "the", "prop_2", "or", "prop_1", "box", "to", "get", "to", "the", "prop_3", "box"]}
+{"id": 101, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["move", "into", "the", "prop_2", "but", "only", "via", "the", "prop_1"]}
+{"id": 3271, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "large", "prop_1", "while", "avoiding", "the", "small", "prop_2"]}
+{"id": 1684, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1044, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "until", "you", "get", "to", "the", "prop_2"]}
+{"id": 2572, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 1, 1, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_2", "or", "prop_1", "into", "the", "prop_3"]}
+{"id": 2324, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "and", "then", "go", "into", "the", "prop_2"]}
+{"id": 1543, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "and", "into", "the", "prop_2"]}
+{"id": 2523, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 3343, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 1, 0, 2, 2, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["the", "robot", "must", "move", "through", "the", "prop_1", "or", "prop_2", "to", "get", "to", "the", "prop_3"]}
+{"id": 2118, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "large", "prop_1", "while", "avoiding", "the", "small", "prop_2"]}
+{"id": 3314, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 2, 2, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "either", "a", "prop_1", "or", "prop_2", "to", "enter", "the", "prop_3"]}
+{"id": 2394, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "into", "the", "prop_1", "and", "then", "into", "the", "prop_2"]}
+{"id": 3155, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "avoiding", "prop_2"]}
+{"id": 2355, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "then", "to", "the", "prop_2"]}
+{"id": 1165, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["first", "enter", "the", "prop_1", "and", "then", "proceed", "to", "the", "prop_2"]}
+{"id": 1242, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 0], "grounded_sentence": ["go", "through", "the", "prop_1", "box", "to", "get", "to", "the", "prop_2", "area"]}
+{"id": 2663, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 2, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_1", "or", "prop_2", "to", "the", "prop_3"]}
+{"id": 1148, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "get", "to", "the", "prop_2"]}
+{"id": 124, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["pass", "through", "the", "small", "prop_1", "to", "get", "to", "the", "large", "prop_2"]}
+{"id": 2734, "lifted_sentence_prop_ids": [0, 0, 0, 0, 2, 0, 0, 0, 0, 1], "grounded_sentence": ["the", "robot", "avoids", "the", "prop_2", "to", "get", "to", "the", "prop_1"]}
+{"id": 781, "lifted_sentence_prop_ids": [0, 0, 2, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["avoid", "the", "prop_2", "to", "get", "to", "the", "prop_1"]}
+{"id": 1403, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_2", "through", "the", "prop_1"]}
+{"id": 2558, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 3001, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 1, 1], "grounded_sentence": ["pass", "through", "any", "room", "that", "is", "not", "prop_2", "to", "reach", "the", "prop_1"]}
+{"id": 2266, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "prop_1", "and", "then", "prop_2"]}
+{"id": 1887, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 1982, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 1177, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_2", "by", "first", "entering", "the", "prop_1"]}
+{"id": 121, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_2", "and", "make", "sure", "to", "go", "through", "the", "prop_1"]}
+{"id": 1941, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "into", "the", "prop_1"]}
+{"id": 2871, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["enter", "the", "room", "that", "is", "not", "prop_2", "which", "will", "lead", "to", "the", "prop_1"]}
+{"id": 3232, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "without", "entering", "a", "prop_2"]}
+{"id": 1836, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 3227, "lifted_sentence_prop_ids": [0, 0, 2, 2, 0, 0, 0, 1, 1], "grounded_sentence": ["avoid", "the", "prop_2", "to", "reach", "the", "prop_1"]}
+{"id": 2212, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 1, 0, 0, 2, 0, 0, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["move", "the", "robot", "from", "the", "prop_1", "to", "the", "prop_2", "or", "red", "room", "to", "the", "big", "prop_3"]}
+{"id": 1673, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 3111, "lifted_sentence_prop_ids": [0, 0, 2, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["avoid", "the", "prop_2", "and", "move", "to", "the", "prop_1"]}
+{"id": 1138, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["walk", "through", "the", "prop_1", "until", "you", "reach", "the", "prop_2"]}
+{"id": 894, "lifted_sentence_prop_ids": [0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["only", "go", "to", "the", "prop_2", "by", "first", "entering", "the", "prop_1"]}
+{"id": 4, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "get", "to", "the", "prop_2"]}
+{"id": 2306, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "from", "the", "blue", "room", "to", "the", "yellow", "room", "and", "then", "go", "from", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 1343, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "reach", "the", "prop_2"]}
+{"id": 1056, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_2", "via", "the", "prop_1"]}
+{"id": 2635, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 2, 0, 3, 3], "grounded_sentence": ["go", "to", "prop_1", "or", "prop_2", "to", "prop_3"]}
+{"id": 1864, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 949, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["go", "into", "the", "prop_2", "through", "the", "prop_1"]}
+{"id": 769, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "and", "push", "the", "yellow", "thing", "into", "the", "prop_2"]}
+{"id": 3288, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2, 0, 0, 0], "grounded_sentence": ["go", "to", "the", "prop_1", "while", "avoiding", "the", "prop_2", "on", "the", "way"]}
+{"id": 1215, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "from", "the", "red", "room", "to", "the", "prop_2", "by", "going", "through", "the", "prop_1"]}
+{"id": 1067, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 0], "grounded_sentence": ["go", "thru", "the", "prop_1", "box", "to", "get", "to", "the", "prop_2", "box"]}
+{"id": 1905, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 2009, "lifted_sentence_prop_ids": [0, 0, 1, 1], "grounded_sentence": ["move", "to", "prop_1"]}
+{"id": 443, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "get", "the", "chair", "and", "then", "go", "back", "to", "the", "prop_2"]}
+{"id": 3094, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "large", "prop_1", "while", "avoiding", "the", "small", "prop_2"]}
+{"id": 2101, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2, 0], "grounded_sentence": ["go", "to", "prop_1", "area", "by", "avoiding", "prop_2", "area"]}
+{"id": 254, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2216, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 2, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_1", "or", "prop_2", "to", "reach", "the", "prop_3"]}
+{"id": 2369, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "from", "blue", "room", "to", "prop_1", "then", "move", "to", "prop_2"]}
+{"id": 2488, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1715, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 828, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3], "grounded_sentence": ["go", "to", "prop_1", "or", "prop_2", "then", "prop_3"]}
+{"id": 2559, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2817, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "do", "not", "use", "the", "prop_2", "to", "get", "there"]}
+{"id": 1583, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 626, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0], "grounded_sentence": ["take", "a", "path", "to", "reach", "the", "prop_1", "colour", "place", "by", "not", "taking", "the", "route", "which", "is", "prop_2", "and", "black"]}
+{"id": 2235, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 1, 1, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_2", "or", "prop_1", "and", "enter", "the", "prop_3"]}
+{"id": 640, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "large", "prop_1", "while", "avoiding", "the", "small", "prop_2"]}
+{"id": 2415, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "prop_1", "and", "then", "move", "to", "the", "prop_2"]}
+{"id": 1468, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 972, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 574, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "into", "the", "prop_1"]}
+{"id": 1288, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_2", "via", "the", "prop_1"]}
+{"id": 2297, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "and", "then", "go", "to", "the", "prop_2"]}
+{"id": 581, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 1, 1, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_2", "or", "prop_1", "and", "enter", "the", "prop_3"]}
+{"id": 1461, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["travel", "through", "the", "prop_1", "to", "the", "red", "rectangular", "prop_2"]}
+{"id": 1040, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 2, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "prop_2"]}
+{"id": 878, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["follow", "the", "path", "through", "the", "prop_1", "to", "get", "to", "the", "prop_2"]}
+{"id": 489, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 1, 1, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["the", "robot", "has", "to", "go", "through", "the", "prop_2", "or", "prop_1", "to", "get", "to", "the", "prop_3"]}
+{"id": 462, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "from", "the", "blue", "room", "to", "the", "prop_1", "then", "push", "the", "chair", "to", "the", "prop_2"]}
+{"id": 680, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "without", "going", "to", "prop_2"]}
+{"id": 2685, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["head", "to", "the", "blue", "rectangular", "room", "without", "passing", "through", "a", "yellow", "square", "prop_2"]}
+{"id": 1527, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "through", "the", "prop_1", "and", "out", "into", "the", "prop_2"]}
+{"id": 3191, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 1, 1, 0, 0, 0, 0], "grounded_sentence": ["drive", "through", "the", "room", "that", "is", "not", "prop_2", "and", "enter", "the", "prop_1", "on", "the", "other", "side"]}
+{"id": 3170, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "do", "not", "take", "the", "prop_2", "to", "get", "there"]}
+{"id": 1135, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["walk", "through", "the", "prop_1", "until", "you", "reach", "the", "prop_2"]}
+{"id": 2463, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 411, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "then", "get", "the", "chair", "then", "go", "back", "to", "the", "prop_2"]}
+{"id": 2811, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "prop_1", "but", "avoid", "the", "prop_2"]}
+{"id": 3224, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "while", "avoiding", "the", "prop_2"]}
+{"id": 1477, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "get", "to", "the", "prop_2"]}
+{"id": 736, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["push", "the", "object", "in", "the", "prop_1", "into", "the", "prop_2"]}
+{"id": 2094, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 2, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "room", "not", "using", "prop_2", "into", "the", "prop_1"]}
+{"id": 368, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "into", "the", "prop_1", "while", "totally", "avoiding", "the", "prop_2"]}
+{"id": 701, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "prop_1", "avoiding", "the", "prop_2"]}
+{"id": 2150, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "avoiding", "the", "prop_2"]}
+{"id": 3183, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 1, 1], "grounded_sentence": ["walk", "through", "any", "room", "except", "the", "prop_2", "to", "enter", "the", "prop_1"]}
+{"id": 3202, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2, 0], "grounded_sentence": ["go", "to", "prop_1", "area", "by", "avoiding", "prop_2", "area"]}
+{"id": 59, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["go", "thru", "the", "prop_1", "to", "get", "to", "the", "prop_2"]}
+{"id": 1857, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 3253, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "into", "the", "prop_1", "but", "do", "not", "enter", "the", "prop_2"]}
+{"id": 1991, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 353, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "avoid", "the", "prop_2"]}
+{"id": 326, "lifted_sentence_prop_ids": [0, 0, 1, 1], "grounded_sentence": ["move", "to", "prop_1"]}
+{"id": 2256, "lifted_sentence_prop_ids": [0, 0, 0, 3, 3, 0, 1, 0, 2], "grounded_sentence": ["go", "to", "the", "prop_3", "through", "prop_1", "and", "prop_2"]}
+{"id": 2645, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 1, 1, 0, 0, 3, 3], "grounded_sentence": ["move", "through", "the", "prop_2", "or", "prop_1", "to", "the", "prop_3"]}
+{"id": 1861, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2537, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1255, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["move", "into", "the", "prop_2", "but", "only", "via", "the", "prop_1"]}
+{"id": 1231, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["move", "into", "the", "prop_2", "through", "the", "prop_1"]}
+{"id": 3260, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "through", "the", "room", "that", "isn", "t", "prop_2", "and", "enter", "the", "prop_1"]}
+{"id": 1076, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["instead", "of", "going", "through", "the", "red", "room", "move", "through", "the", "prop_1", "to", "enter", "the", "prop_2"]}
+{"id": 1882, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 120, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["the", "robot", "goes", "through", "the", "prop_1", "to", "get", "to", "prop_2"]}
+{"id": 377, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "into", "the", "prop_1", "and", "push", "the", "chair", "back", "into", "the", "prop_2"]}
+{"id": 1392, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "into", "the", "prop_2"]}
+{"id": 3332, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2, 2, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_1", "or", "the", "prop_2", "to", "get", "to", "the", "prop_3"]}
+{"id": 378, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "and", "push", "the", "chair", "in", "front", "of", "the", "prop_2"]}
+{"id": 2658, "lifted_sentence_prop_ids": [0, 0, 0, 0, 2, 0, 0, 1, 1, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "either", "the", "prop_2", "or", "the", "prop_1", "to", "get", "to", "the", "prop_3"]}
+{"id": 256, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "into", "the", "prop_1"]}
+{"id": 1711, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2764, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["don", "t", "go", "through", "the", "prop_2", "towards", "the", "prop_1"]}
+{"id": 1700, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2650, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 0, 0, 0, 0, 3, 0], "grounded_sentence": ["up", "through", "the", "prop_1", "or", "prop_2", "box", "to", "reach", "the", "prop_3", "box"]}
+{"id": 6, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["follow", "the", "path", "through", "the", "prop_1", "to", "get", "to", "the", "prop_2"]}
+{"id": 341, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "without", "entering", "a", "prop_2"]}
+{"id": 286, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 402, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "go", "behind", "the", "chair", "then", "bring", "the", "chair", "to", "the", "prop_2"]}
+{"id": 2011, "lifted_sentence_prop_ids": [0, 0, 1, 1], "grounded_sentence": ["go", "to", "prop_1"]}
+{"id": 1417, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["go", "towards", "the", "prop_2", "through", "the", "prop_1"]}
+{"id": 1282, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 0, 1, 0], "grounded_sentence": ["go", "to", "the", "prop_2", "area", "through", "prop_1", "area"]}
+{"id": 586, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 2, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["move", "the", "robot", "through", "the", "prop_2", "or", "red", "small", "prop_3", "and", "then", "to", "the", "large", "green", "room"]}
+{"id": 1400, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["pass", "through", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 1778, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2347, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "into", "the", "prop_1", "then", "go", "into", "the", "prop_2"]}
+{"id": 37, "lifted_sentence_prop_ids": [0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["enter", "the", "prop_2", "through", "the", "prop_1"]}
+{"id": 764, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0], "grounded_sentence": ["go", "to", "the", "prop_1", "take", "the", "yellow", "color", "object", "from", "there", "and", "go", "to", "prop_2", "with", "this", "object"]}
+{"id": 2909, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "prop_1", "without", "entering", "a", "prop_2"]}
+{"id": 447, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "prop_1", "grab", "the", "chair", "then", "move", "to", "the", "prop_2"]}
+{"id": 960, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "into", "the", "prop_1", "and", "then", "the", "prop_2"]}
+{"id": 2045, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2, 0], "grounded_sentence": ["go", "to", "prop_1", "area", "avoiding", "prop_2", "area"]}
+{"id": 237, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 131, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["move", "through", "prop_1", "to", "the", "prop_2"]}
+{"id": 600, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["move", "through", "the", "prop_1", "or", "prop_2", "rooms", "and", "enter", "the", "prop_3"]}
+{"id": 2744, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 2, 0], "grounded_sentence": ["go", "to", "prop_1", "while", "avoiding", "prop_2", "rooms"]}
+{"id": 1669, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2499, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1714, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 899, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 357, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["enter", "the", "room", "that", "isn", "t", "prop_2", "and", "then", "proceed", "to", "the", "prop_1"]}
+{"id": 64, "lifted_sentence_prop_ids": [0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "large", "prop_2", "by", "passing", "through", "the", "small", "prop_1"]}
+{"id": 499, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["enter", "the", "prop_1", "then", "enter", "the", "prop_2"]}
+{"id": 1045, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "until", "you", "get", "to", "the", "prop_2"]}
+{"id": 549, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "middle", "of", "the", "prop_1"]}
+{"id": 287, "lifted_sentence_prop_ids": [0, 0, 1, 1], "grounded_sentence": ["go", "to", "prop_1"]}
+{"id": 2668, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 1, 1, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_2", "or", "prop_1", "to", "get", "to", "the", "prop_3"]}
+{"id": 2562, "lifted_sentence_prop_ids": [0, 0, 2, 0, 1, 1, 0, 0, 0, 3, 3], "grounded_sentence": ["move", "to", "prop_2", "or", "prop_1", "them", "move", "to", "prop_3"]}
+{"id": 2594, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 1, 1, 0, 0, 3, 3], "grounded_sentence": ["move", "through", "the", "prop_2", "or", "prop_1", "to", "the", "prop_3"]}
+{"id": 913, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "get", "to", "prop_2"]}
+{"id": 628, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "but", "not", "through", "prop_2"]}
+{"id": 2092, "lifted_sentence_prop_ids": [0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["enter", "prop_1", "via", "the", "non", "prop_2"]}
+{"id": 1798, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "into", "the", "prop_1"]}
+{"id": 670, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["to", "reach", "the", "prop_1", "do", "not", "go", "through", "the", "prop_2"]}
+{"id": 246, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 3005, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["don", "t", "go", "through", "the", "prop_2", "towards", "the", "prop_1"]}
+{"id": 2390, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "prop_1", "then", "move", "to", "the", "prop_2"]}
+{"id": 2564, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 2, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["the", "robot", "has", "to", "go", "through", "the", "prop_1", "or", "prop_2", "to", "get", "to", "the", "prop_3"]}
+{"id": 2132, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "room", "that", "isn", "t", "prop_2", "and", "then", "move", "into", "the", "prop_1"]}
+{"id": 2573, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 1, 0, 0, 0, 0, 0, 3, 0], "grounded_sentence": ["go", "thru", "the", "prop_2", "or", "prop_1", "box", "to", "get", "to", "the", "prop_3", "box"]}
+{"id": 2268, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "prop_1", "and", "then", "prop_2"]}
+{"id": 997, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["navigate", "through", "prop_1", "to", "reach", "prop_2"]}
+{"id": 2189, "lifted_sentence_prop_ids": [0, 0, 2, 0, 0, 0, 0, 0, 0, 1, 0], "grounded_sentence": ["avoid", "the", "prop_2", "rooms", "on", "your", "way", "into", "the", "prop_1", "rooms"]}
+{"id": 128, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 1365, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 1394, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "into", "the", "prop_2"]}
+{"id": 327, "lifted_sentence_prop_ids": [0, 0, 1, 1], "grounded_sentence": ["go", "to", "prop_1"]}
+{"id": 366, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "avoid", "using", "the", "prop_2"]}
+{"id": 2975, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2, 0], "grounded_sentence": ["go", "to", "prop_1", "area", "by", "avoiding", "prop_2", "area"]}
+{"id": 3217, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "while", "avoiding", "the", "prop_2"]}
+{"id": 1286, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 2, 2], "grounded_sentence": ["go", "to", "prop_1", "before", "prop_2"]}
+{"id": 241, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2331, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "then", "the", "prop_2"]}
+{"id": 2465, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2352, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "prop_1", "move", "to", "the", "prop_2"]}
+{"id": 3166, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2, 0, 0, 0], "grounded_sentence": ["go", "to", "the", "prop_1", "while", "avoiding", "the", "prop_2", "on", "the", "way"]}
+{"id": 1536, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["move", "through", "the", "hallway", "to", "the", "prop_2", "but", "only", "if", "it", "takes", "you", "through", "a", "prop_1"]}
+{"id": 12, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 367, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["travel", "to", "the", "prop_1", "through", "the", "room", "that", "isn", "t", "prop_2"]}
+{"id": 621, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "do", "not", "use", "the", "prop_2", "to", "get", "there"]}
+{"id": 2183, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "do", "not", "enter", "the", "prop_2"]}
+{"id": 2548, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "into", "the", "prop_1"]}
+{"id": 1369, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["pass", "through", "the", "prop_1", "rom", "to", "the", "prop_2"]}
+{"id": 236, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 1295, "lifted_sentence_prop_ids": [0, 0, 2, 2, 0, 1, 1], "grounded_sentence": ["go", "to", "prop_2", "through", "prop_1"]}
+{"id": 688, "lifted_sentence_prop_ids": [0, 0, 0, 0, 2, 2, 0, 0, 0, 1, 1], "grounded_sentence": ["do", "not", "take", "the", "prop_2", "to", "reach", "the", "prop_1"]}
+{"id": 1578, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 238, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1636, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 301, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 914, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "get", "to", "prop_2"]}
+{"id": 1738, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 2701, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["enter", "the", "prop_1", "without", "crossing", "the", "prop_2"]}
+{"id": 2131, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "room", "that", "isn", "t", "prop_2", "and", "then", "move", "into", "the", "prop_1"]}
+{"id": 977, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "then", "to", "the", "prop_2"]}
+{"id": 1876, "lifted_sentence_prop_ids": [0, 0, 1, 1], "grounded_sentence": ["move", "to", "prop_1"]}
+{"id": 441, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "prop_1", "then", "move", "the", "chair", "to", "the", "prop_2"]}
+{"id": 753, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "then", "push", "the", "chair", "from", "the", "prop_1", "into", "the", "prop_2"]}
+{"id": 207, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2095, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 2, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "room", "not", "using", "prop_2", "into", "the", "prop_1"]}
+{"id": 2350, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "into", "the", "prop_1", "then", "go", "into", "the", "prop_2"]}
+{"id": 1245, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "in", "to", "the", "prop_2"]}
+{"id": 3257, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "without", "passing", "through", "the", "prop_2"]}
+{"id": 3147, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "red", "room", "or", "the", "yellow", "room", "and", "head", "straight", "away", "to", "the", "prop_1", "avoiding", "the", "prop_2"]}
+{"id": 2348, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "into", "the", "prop_1", "then", "go", "into", "the", "prop_2"]}
+{"id": 3297, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "prop_1", "without", "entering", "a", "prop_2"]}
+{"id": 2946, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["walk", "to", "the", "prop_1", "while", "avoiding", "the", "prop_2"]}
+{"id": 717, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["do", "not", "enter", "the", "blue", "room", "through", "the", "green", "room", "but", "by", "the", "red", "prop_2"]}
+{"id": 463, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "red", "room", "and", "move", "the", "prop_1", "chair", "to", "the", "prop_2"]}
+{"id": 3164, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2, 0], "grounded_sentence": ["go", "to", "prop_1", "area", "avoiding", "prop_2", "area"]}
+{"id": 3118, "lifted_sentence_prop_ids": [0, 0, 0, 0, 2, 2, 0, 0, 0, 1, 1], "grounded_sentence": ["pass", "through", "the", "non", "prop_2", "to", "reach", "the", "prop_1"]}
+{"id": 605, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 2, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["pass", "through", "the", "prop_1", "or", "prop_2", "and", "enter", "into", "the", "prop_3"]}
+{"id": 1710, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 1919, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 2505, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1423, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["move", "through", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 841, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 1, 0, 2, 2, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["the", "robot", "must", "move", "through", "the", "prop_1", "or", "prop_2", "to", "get", "to", "the", "prop_3"]}
+{"id": 2335, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "then", "the", "prop_2"]}
+{"id": 2452, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 1329, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "and", "then", "go", "to", "the", "prop_2"]}
+{"id": 745, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "move", "behind", "the", "yellow", "object", "then", "move", "to", "the", "prop_2"]}
+{"id": 2575, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 1, 0, 0, 0, 0, 0, 3, 0], "grounded_sentence": ["go", "thru", "the", "prop_2", "or", "prop_1", "box", "to", "get", "to", "the", "prop_3", "box"]}
+{"id": 2705, "lifted_sentence_prop_ids": [0, 0, 2, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["avoid", "the", "prop_2", "and", "move", "to", "the", "prop_1"]}
+{"id": 896, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 1, 0], "grounded_sentence": ["go", "to", "the", "prop_2", "through", "the", "prop_1", "one"]}
+{"id": 657, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 0, 0, 1], "grounded_sentence": ["go", "through", "the", "prop_2", "and", "to", "the", "prop_1"]}
+{"id": 938, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "reach", "prop_2"]}
+{"id": 1585, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "in", "to", "the", "prop_1"]}
+{"id": 844, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 2, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_1", "and", "prop_2", "to", "the", "prop_3"]}
+{"id": 2568, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 1, 1, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_2", "or", "prop_1", "and", "enter", "the", "prop_3"]}
+{"id": 588, "lifted_sentence_prop_ids": [0, 0, 2, 0, 1, 1, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["enter", "the", "prop_2", "or", "prop_1", "and", "proceed", "to", "the", "prop_3"]}
+{"id": 3100, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "avoid", "the", "prop_2"]}
+{"id": 3347, "lifted_sentence_prop_ids": [0, 0, 3, 3, 0, 0, 0, 1, 0, 0, 2, 0], "grounded_sentence": ["enter", "the", "prop_3", "through", "either", "the", "prop_1", "or", "prop_2", "rooms"]}
+{"id": 282, "lifted_sentence_prop_ids": [0, 0, 1, 1], "grounded_sentence": ["move", "to", "prop_1"]}
+{"id": 2904, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "towards", "the", "prop_1", "and", "avoid", "the", "prop_2"]}
+{"id": 2067, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 0, 0, 0, 1], "grounded_sentence": ["the", "robot", "avoids", "prop_2", "to", "get", "to", "the", "prop_1"]}
+{"id": 2696, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "do", "not", "use", "the", "prop_2", "to", "get", "there"]}
+{"id": 1896, "lifted_sentence_prop_ids": [0, 0, 1, 1], "grounded_sentence": ["go", "to", "prop_1"]}
+{"id": 3323, "lifted_sentence_prop_ids": [0, 0, 0, 0, 2, 0, 1, 1, 0, 0, 0, 3, 3], "grounded_sentence": ["pass", "through", "either", "the", "prop_2", "or", "prop_1", "to", "reach", "the", "prop_3"]}
+{"id": 1588, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1229, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 0, 0, 1, 1, 0], "grounded_sentence": ["move", "to", "the", "prop_2", "by", "going", "through", "the", "prop_1", "first"]}
+{"id": 946, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["move", "through", "the", "prop_1", "into", "the", "prop_2"]}
+{"id": 1838, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 3106, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 2, 0], "grounded_sentence": ["enter", "the", "prop_1", "without", "passing", "the", "prop_2", "one"]}
+{"id": 1604, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 425, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "prop_1", "get", "the", "chair", "move", "to", "the", "prop_2"]}
+{"id": 1225, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["pass", "through", "the", "small", "prop_1", "to", "get", "to", "the", "large", "prop_2"]}
+{"id": 1072, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "prop_1", "and", "then", "to", "the", "prop_2"]}
+{"id": 2403, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "prop_1", "go", "to", "prop_2"]}
+{"id": 232, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 963, "lifted_sentence_prop_ids": [0, 0, 2, 0, 0, 1, 0], "grounded_sentence": ["go", "to", "prop_2", "rectangle", "via", "prop_1", "square"]}
+{"id": 2398, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "prop_1", "and", "then", "move", "to", "the", "prop_2"]}
+{"id": 2620, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 3], "grounded_sentence": ["go", "prop_1", "or", "prop_2", "to", "prop_3"]}
+{"id": 2683, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["head", "to", "the", "prop_1", "rectangular", "room", "without", "passing", "through", "a", "red", "square", "prop_2"]}
+{"id": 2400, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "prop_1", "go", "to", "prop_2"]}
+{"id": 2896, "lifted_sentence_prop_ids": [0, 2, 0, 0, 0, 0, 0, 1, 0], "grounded_sentence": ["avoid", "prop_2", "rooms", "while", "going", "to", "the", "prop_1", "one"]}
+{"id": 2445, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 2416, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "prop_1", "and", "then", "move", "to", "the", "prop_2"]}
+{"id": 7, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 3056, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["enter", "the", "room", "that", "isnt", "prop_2", "then", "go", "to", "the", "prop_1"]}
+{"id": 1975, "lifted_sentence_prop_ids": [0, 0, 1, 1], "grounded_sentence": ["go", "to", "prop_1"]}
+{"id": 3102, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "without", "going", "through", "prop_2"]}
+{"id": 782, "lifted_sentence_prop_ids": [0, 0, 0, 0, 2, 2, 0, 0, 0, 1, 1], "grounded_sentence": ["pass", "through", "the", "non", "prop_2", "to", "reach", "the", "prop_1"]}
+{"id": 2642, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 2, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["pass", "through", "the", "prop_1", "or", "prop_2", "and", "enter", "into", "the", "prop_3"]}
+{"id": 678, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "through", "the", "room", "that", "is", "not", "prop_2", "to", "get", "to", "the", "prop_1"]}
+{"id": 540, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "in", "and", "then", "go", "to", "the", "prop_1"]}
+{"id": 1850, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 77, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "door", "to", "the", "prop_1", "and", "continue", "into", "the", "prop_2"]}
+{"id": 3280, "lifted_sentence_prop_ids": [0, 0, 0, 0, 2, 2, 0, 0, 0, 1, 1], "grounded_sentence": ["pass", "through", "the", "non", "prop_2", "to", "enter", "the", "prop_1"]}
+{"id": 1915, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 925, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["travel", "through", "the", "blue", "square", "room", "to", "the", "large", "red", "rectangular", "prop_2"]}
+{"id": 920, "lifted_sentence_prop_ids": [0, 0, 0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["please", "go", "to", "the", "prop_2", "through", "the", "prop_1"]}
+{"id": 1687, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 175, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "into", "the", "prop_2"]}
+{"id": 2421, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "go", "to", "the", "prop_2"]}
+{"id": 903, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 0, 1, 0], "grounded_sentence": ["go", "to", "the", "prop_2", "area", "through", "prop_1", "area"]}
+{"id": 2940, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["enter", "the", "prop_1", "without", "entering", "a", "prop_2"]}
+{"id": 1806, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1559, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 2, 0], "grounded_sentence": ["go", "through", "prop_1", "rooms", "to", "get", "to", "the", "prop_2", "one"]}
+{"id": 806, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "while", "avoiding", "the", "prop_2"]}
+{"id": 544, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1], "grounded_sentence": ["go", "to", "the", "other", "prop_1"]}
+{"id": 2924, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "through", "the", "room", "that", "is", "not", "prop_2", "to", "get", "to", "the", "prop_1"]}
+{"id": 39, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["the", "robot", "moves", "through", "the", "prop_1", "to", "get", "to", "the", "prop_2"]}
+{"id": 271, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1875, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1197, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "into", "the", "prop_2", "by", "way", "of", "the", "prop_1"]}
+{"id": 1107, "lifted_sentence_prop_ids": [0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "large", "prop_2", "by", "passing", "through", "the", "small", "prop_1"]}
+{"id": 1813, "lifted_sentence_prop_ids": [0, 0, 1, 1], "grounded_sentence": ["enter", "the", "prop_1"]}
+{"id": 136, "lifted_sentence_prop_ids": [0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "prop_2", "through", "the", "prop_1"]}
+{"id": 2115, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 0], "grounded_sentence": ["go", "to", "the", "prop_1", "while", "avoiding", "the", "prop_2", "rooms"]}
+{"id": 502, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["first", "go", "to", "prop_1", "then", "go", "to", "prop_2"]}
+{"id": 546, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 3014, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "prop_1", "avoiding", "the", "prop_2"]}
+{"id": 3273, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "large", "prop_1", "while", "avoiding", "the", "small", "prop_2"]}
+{"id": 1923, "lifted_sentence_prop_ids": [0, 0, 0, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2091, "lifted_sentence_prop_ids": [0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["enter", "prop_1", "via", "the", "non", "prop_2"]}
+{"id": 2760, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "while", "avoiding", "the", "prop_2"]}
+{"id": 1933, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 466, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "get", "the", "chair", "and", "take", "it", "to", "the", "prop_2"]}
+{"id": 1909, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 1642, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1267, "lifted_sentence_prop_ids": [0, 0, 2, 2, 0, 0, 1, 0, 0], "grounded_sentence": ["enter", "the", "prop_2", "through", "the", "prop_1", "door", "only"]}
+{"id": 3235, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["travel", "to", "the", "prop_1", "without", "going", "through", "the", "prop_2"]}
+{"id": 1788, "lifted_sentence_prop_ids": [0, 0, 1, 1], "grounded_sentence": ["move", "to", "prop_1"]}
+{"id": 437, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "prop_1", "move", "chair", "to", "prop_2"]}
+{"id": 79, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "toward", "the", "prop_1", "then", "into", "the", "prop_2"]}
+{"id": 3208, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["enter", "the", "room", "that", "isn", "t", "prop_2", "and", "proceed", "through", "to", "the", "prop_1"]}
+{"id": 2043, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2, 0], "grounded_sentence": ["go", "to", "prop_1", "area", "avoiding", "prop_2", "area"]}
+{"id": 2086, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2, 0], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "do", "not", "enter", "the", "prop_2", "first"]}
+{"id": 1456, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["enter", "the", "prop_1", "and", "exit", "into", "the", "prop_2"]}
+{"id": 1256, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["move", "into", "the", "prop_2", "but", "only", "via", "the", "prop_1"]}
+{"id": 187, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["move", "into", "the", "prop_1", "and", "stay", "on", "the", "first", "square", "you", "end", "up", "on"]}
+{"id": 1745, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 718, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "and", "do", "not", "use", "the", "prop_2"]}
+{"id": 1137, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["walk", "through", "the", "prop_1", "until", "you", "reach", "the", "prop_2"]}
+{"id": 2850, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "avoid", "the", "prop_2"]}
+{"id": 3214, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "while", "avoiding", "the", "prop_2"]}
+{"id": 45, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["travel", "through", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 1407, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "into", "the", "prop_2"]}
+{"id": 3069, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "towards", "the", "prop_1", "and", "avoid", "the", "prop_2"]}
+{"id": 1816, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 850, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 2, 0, 0, 3, 3], "grounded_sentence": ["take", "the", "prop_1", "or", "prop_2", "into", "the", "prop_3"]}
+{"id": 213, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 594, "lifted_sentence_prop_ids": [0, 0, 2, 0, 1, 0, 0, 0, 0, 3, 0], "grounded_sentence": ["go", "through", "prop_2", "or", "prop_1", "square", "to", "get", "to", "prop_3", "square"]}
+{"id": 3249, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["enter", "any", "room", "that", "isn", "t", "prop_2", "to", "end", "up", "in", "the", "prop_1"]}
+{"id": 1034, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["travel", "through", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 780, "lifted_sentence_prop_ids": [0, 0, 2, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["avoid", "the", "prop_2", "and", "move", "to", "the", "prop_1"]}
+{"id": 2590, "lifted_sentence_prop_ids": [0, 0, 2, 0, 1, 1, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["enter", "the", "prop_2", "or", "prop_1", "and", "proceed", "to", "the", "prop_3"]}
+{"id": 2897, "lifted_sentence_prop_ids": [0, 2, 0, 0, 0, 0, 0, 1, 0], "grounded_sentence": ["avoid", "prop_2", "rooms", "while", "going", "to", "the", "prop_1", "one"]}
+{"id": 2675, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["while", "avoiding", "the", "prop_2", "follow", "the", "shortest", "path", "to", "the", "prop_1"]}
+{"id": 1852, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["i", "want", "you", "to", "go", "into", "the", "prop_1"]}
+{"id": 2761, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "while", "avoiding", "the", "prop_2"]}
+{"id": 876, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["follow", "the", "path", "through", "the", "prop_1", "to", "get", "to", "the", "prop_2"]}
+{"id": 2472, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "middle", "of", "the", "prop_1"]}
+{"id": 632, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["got", "to", "prop_1", "without", "going", "through", "prop_2"]}
+{"id": 22, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 1], "grounded_sentence": ["go", "to", "the", "prop_2", "through", "prop_1"]}
+{"id": 134, "lifted_sentence_prop_ids": [0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["move", "to", "reach", "the", "prop_2", "place", "by", "taking", "a", "path", "which", "has", "prop_1", "colour", "and", "white", "colour", "in", "it", "while", "avoiding", "black", "yellow", "and", "red", "colour"]}
+{"id": 387, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["go", "into", "the", "prop_2", "and", "find", "the", "chair", "then", "push", "it", "back", "into", "blue", "room"]}
+{"id": 995, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["navigate", "through", "prop_1", "to", "reach", "prop_2"]}
+{"id": 431, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "get", "the", "chair", "return", "to", "the", "prop_2"]}
+{"id": 3172, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "do", "not", "take", "the", "prop_2", "to", "get", "there"]}
+{"id": 1605, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 1173, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["move", "into", "the", "prop_2", "while", "being", "sure", "to", "pass", "through", "only", "the", "prop_1"]}
+{"id": 2993, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "through", "the", "room", "that", "isn", "t", "prop_2", "and", "enter", "the", "prop_1"]}
+{"id": 1332, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["the", "robot", "goes", "through", "the", "prop_1", "to", "get", "to", "prop_2"]}
+{"id": 2236, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 1, 1, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_2", "or", "prop_1", "and", "enter", "the", "prop_3"]}
+{"id": 1670, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1204, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["pass", "through", "the", "small", "prop_1", "to", "get", "to", "the", "large", "prop_2"]}
+{"id": 872, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 2, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "prop_2"]}
+{"id": 1872, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1547, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "get", "to", "the", "prop_2"]}
+{"id": 2758, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "while", "avoiding", "the", "prop_2"]}
+{"id": 376, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "avoid", "going", "through", "the", "prop_2"]}
+{"id": 2814, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "do", "not", "use", "the", "prop_2", "to", "get", "there"]}
+{"id": 1182, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["pass", "through", "the", "prop_1", "to", "reach", "the", "prop_2"]}
+{"id": 3013, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["going", "through", "the", "red", "room", "or", "the", "yellow", "room", "straight", "to", "the", "prop_1", "avoiding", "the", "prop_2"]}
+{"id": 2967, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "while", "avoiding", "the", "prop_2"]}
+{"id": 318, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "into", "the", "prop_1"]}
+{"id": 2343, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "prop_1", "and", "move", "into", "the", "prop_2"]}
+{"id": 3334, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2, 2, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_1", "or", "the", "prop_2", "to", "get", "to", "the", "prop_3"]}
+{"id": 2774, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "do", "not", "pass", "through", "the", "prop_2", "on", "your", "way"]}
+{"id": 3174, "lifted_sentence_prop_ids": [0, 2, 0, 0, 1], "grounded_sentence": ["avoiding", "prop_2", "navigate", "to", "prop_1"]}
+{"id": 2280, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "go", "to", "the", "prop_2"]}
+{"id": 2156, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "avoid", "the", "prop_2"]}
+{"id": 456, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "chair", "in", "the", "prop_1", "and", "then", "push", "the", "chair", "into", "the", "prop_2"]}
+{"id": 772, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "prop_1", "and", "then", "push", "the", "object", "into", "the", "prop_2"]}
+{"id": 2996, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 1, 1], "grounded_sentence": ["drive", "through", "the", "room", "that", "is", "not", "prop_2", "and", "enter", "the", "prop_1"]}
+{"id": 142, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "reach", "the", "prop_2"]}
+{"id": 260, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 2818, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "through", "the", "room", "that", "isn", "t", "prop_2", "and", "enter", "the", "prop_1"]}
+{"id": 115, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "via", "prop_1", "color", "path", "to", "reach", "prop_2"]}
+{"id": 3333, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2, 2, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_1", "or", "the", "prop_2", "to", "get", "to", "the", "prop_3"]}
+{"id": 3205, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2, 0], "grounded_sentence": ["go", "to", "prop_1", "area", "by", "avoiding", "prop_2", "area"]}
+{"id": 1741, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 989, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 1, 1], "grounded_sentence": ["go", "to", "large", "prop_2", "through", "prop_1"]}
+{"id": 2243, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2, 2, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_1", "or", "the", "prop_2", "to", "get", "to", "the", "prop_3"]}
+{"id": 1080, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "then", "to", "then", "prop_2"]}
+{"id": 1550, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "get", "to", "the", "prop_2"]}
+{"id": 2059, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["the", "robot", "is", "to", "move", "towards", "the", "prop_1", "without", "entering", "a", "prop_2"]}
+{"id": 170, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "get", "to", "the", "prop_2"]}
+{"id": 2070, "lifted_sentence_prop_ids": [0, 2, 0, 0, 0, 0, 1, 0, 0, 0], "grounded_sentence": ["avoid", "prop_2", "area", "on", "way", "to", "prop_1", "area", "each", "time"]}
+{"id": 646, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "only", "through", "rooms", "that", "are", "not", "prop_2", "to", "get", "to", "the", "prop_1"]}
+{"id": 126, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "prop_1", "then", "to", "prop_2"]}
+{"id": 2551, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "from", "the", "blue", "room", "to", "the", "red", "room", "then", "to", "the", "prop_1"]}
+{"id": 1186, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["the", "robot", "goes", "through", "the", "prop_1", "to", "get", "to", "the", "prop_2"]}
+{"id": 2935, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 2, 0], "grounded_sentence": ["enter", "the", "prop_1", "without", "crossing", "the", "prop_2", "one"]}
+{"id": 3200, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["get", "to", "the", "prop_1", "area", "by", "avoiding", "the", "prop_2"]}
+{"id": 1592, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["move", "into", "the", "prop_1", "and", "stay", "on", "the", "first", "square", "you", "end", "up", "on"]}
+{"id": 575, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "from", "the", "blue", "room", "to", "the", "red", "room", "then", "to", "the", "prop_1"]}
+{"id": 1544, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "and", "into", "the", "prop_2"]}
+{"id": 1181, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["pass", "through", "the", "prop_1", "to", "reach", "the", "prop_2"]}
+{"id": 2298, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "and", "then", "go", "to", "the", "prop_2"]}
+{"id": 1901, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2652, "lifted_sentence_prop_ids": [0, 0, 3, 3, 0, 1, 0, 2, 2], "grounded_sentence": ["go", "to", "prop_3", "through", "prop_1", "or", "prop_2"]}
+{"id": 2354, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "prop_1", "move", "to", "the", "prop_2"]}
+{"id": 1455, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["enter", "the", "prop_1", "and", "exit", "into", "the", "prop_2"]}
+{"id": 543, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 160, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "get", "to", "the", "prop_2"]}
+{"id": 614, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 1, 1, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_2", "or", "prop_1", "to", "get", "to", "the", "prop_3"]}
+{"id": 109, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_2", "via", "the", "prop_1"]}
+{"id": 2582, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 2, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["move", "the", "robot", "through", "the", "prop_2", "or", "red", "small", "prop_3", "and", "then", "to", "the", "large", "green", "room"]}
+{"id": 1196, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "into", "the", "prop_2", "by", "way", "of", "the", "prop_1"]}
+{"id": 1532, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "get", "to", "the", "prop_2"]}
+{"id": 279, "lifted_sentence_prop_ids": [0, 0, 1, 1], "grounded_sentence": ["move", "to", "prop_1"]}
+{"id": 2894, "lifted_sentence_prop_ids": [0, 2, 0, 0, 0, 0, 0, 1, 0], "grounded_sentence": ["avoid", "prop_2", "rooms", "while", "going", "to", "the", "prop_1", "one"]}
+{"id": 698, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["don", "t", "go", "through", "the", "prop_2", "towards", "the", "prop_1"]}
+{"id": 1653, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1473, "lifted_sentence_prop_ids": [0, 2, 2, 0, 1, 1], "grounded_sentence": ["enter", "prop_2", "via", "prop_1"]}
+{"id": 314, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 2542, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1193, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "reach", "the", "prop_2"]}
+{"id": 2863, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["enter", "the", "prop_1", "by", "any", "room", "that", "is", "not", "prop_2"]}
+{"id": 19, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "get", "to", "the", "prop_2"]}
+{"id": 203, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 2515, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1318, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "get", "to", "the", "prop_2"]}
+{"id": 1163, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["first", "enter", "the", "prop_1", "and", "then", "proceed", "to", "the", "prop_2"]}
+{"id": 2667, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 2, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_1", "or", "prop_2", "to", "get", "to", "the", "prop_3"]}
+{"id": 3125, "lifted_sentence_prop_ids": [0, 0, 2, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["avoid", "the", "prop_2", "when", "proceeding", "to", "the", "prop_1"]}
+{"id": 976, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "then", "to", "the", "prop_2"]}
+{"id": 644, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "prop_1", "not", "using", "prop_2"]}
+{"id": 1731, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0], "grounded_sentence": ["move", "to", "the", "prop_1", "and", "stop", "after", "entering"]}
+{"id": 1048, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["move", "through", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 375, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["don", "t", "go", "through", "the", "prop_2", "while", "going", "to", "the", "prop_1"]}
+{"id": 1483, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "up", "through", "the", "prop_1", "into", "the", "prop_2"]}
+{"id": 1041, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 2, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "prop_2"]}
+{"id": 351, "lifted_sentence_prop_ids": [0, 2, 0, 1], "grounded_sentence": ["avoid", "prop_2", "find", "prop_1"]}
+{"id": 2035, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2, 0], "grounded_sentence": ["proceed", "to", "prop_1", "area", "while", "avoiding", "the", "prop_2", "area"]}
+{"id": 2883, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "but", "not", "through", "prop_2"]}
+{"id": 2746, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "avoid", "the", "prop_2"]}
+{"id": 2845, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "prop_1", "avoiding", "the", "prop_2"]}
+{"id": 2146, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "avoid", "the", "prop_2"]}
+{"id": 2808, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["without", "stepping", "on", "prop_2", "spaces", "move", "into", "the", "prop_1", "then", "stop", "once", "you", "enter", "it"]}
+{"id": 2926, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "avoid", "the", "prop_2"]}
+{"id": 1113, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["enter", "the", "prop_1", "and", "then", "the", "prop_2"]}
+{"id": 3229, "lifted_sentence_prop_ids": [0, 0, 2, 2, 0, 0, 0, 1, 1], "grounded_sentence": ["avoid", "the", "prop_2", "to", "reach", "the", "prop_1"]}
+{"id": 918, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "prop_2"]}
+{"id": 1724, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 2750, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "do", "not", "go", "through", "prop_2"]}
+{"id": 2215, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 1, 1, 0, 0, 0, 3, 3], "grounded_sentence": ["move", "the", "robot", "from", "the", "red", "room", "to", "the", "prop_2", "or", "prop_1", "to", "the", "big", "prop_3"]}
+{"id": 1531, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "get", "to", "the", "prop_2"]}
+{"id": 1513, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "in", "to", "the", "prop_2"]}
+{"id": 1149, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "get", "to", "the", "prop_2"]}
+{"id": 1708, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 1220, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 2929, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "avoid", "the", "prop_2"]}
+{"id": 842, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 1, 1, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_2", "or", "prop_1", "to", "the", "prop_3"]}
+{"id": 545, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 3066, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "towards", "the", "prop_1", "and", "avoid", "the", "prop_2"]}
+{"id": 1597, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2986, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["only", "go", "through", "rooms", "that", "are", "not", "prop_2", "to", "get", "to", "the", "prop_1"]}
+{"id": 3113, "lifted_sentence_prop_ids": [0, 0, 2, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["avoid", "the", "prop_2", "and", "move", "to", "the", "prop_1"]}
+{"id": 3212, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "into", "prop_1", "but", "avoid", "prop_2"]}
+{"id": 58, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "in", "to", "the", "prop_2"]}
+{"id": 2514, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2470, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 123, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "reach", "the", "prop_2"]}
+{"id": 3319, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 1, 0, 0, 0, 0, 0, 3, 0], "grounded_sentence": ["go", "thru", "the", "prop_2", "or", "prop_1", "box", "to", "get", "to", "the", "prop_3", "box"]}
+{"id": 349, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 2, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "room", "not", "using", "prop_2", "into", "the", "prop_1"]}
+{"id": 1315, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "get", "to", "the", "prop_2"]}
+{"id": 2387, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "prop_1", "then", "move", "to", "the", "prop_2"]}
+{"id": 1652, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 452, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "down", "to", "the", "prop_1", "then", "move", "the", "chair", "up", "to", "the", "prop_2"]}
+{"id": 1074, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "prop_1", "and", "then", "to", "the", "prop_2"]}
+{"id": 3258, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "through", "the", "room", "that", "isn", "t", "prop_2", "and", "enter", "the", "prop_1"]}
+{"id": 1077, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["instead", "of", "going", "through", "the", "red", "room", "move", "through", "the", "prop_1", "to", "enter", "the", "prop_2"]}
+{"id": 141, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["go", "towards", "the", "prop_2", "through", "the", "prop_1"]}
+{"id": 2238, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 1, 1, 0, 0, 3, 3], "grounded_sentence": ["move", "through", "the", "prop_2", "or", "prop_1", "to", "the", "prop_3"]}
+{"id": 2875, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0], "grounded_sentence": ["go", "to", "the", "prop_1", "while", "not", "passing", "through", "the", "prop_2", "on", "the", "way"]}
+{"id": 2960, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "avoid", "using", "the", "prop_2"]}
+{"id": 694, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["only", "go", "through", "rooms", "that", "are", "not", "prop_2", "to", "get", "to", "the", "prop_1"]}
+{"id": 3161, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["don", "t", "go", "through", "the", "prop_2", "towards", "the", "prop_1"]}
+{"id": 2801, "lifted_sentence_prop_ids": [0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["the", "robot", "avoids", "the", "prop_2", "in", "going", "towards", "the", "prop_1"]}
+{"id": 3122, "lifted_sentence_prop_ids": [0, 0, 2, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["avoid", "the", "prop_2", "when", "proceeding", "to", "the", "prop_1"]}
+{"id": 2999, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 1, 1], "grounded_sentence": ["pass", "through", "any", "room", "that", "is", "not", "prop_2", "to", "reach", "the", "prop_1"]}
+{"id": 1275, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 1218, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "from", "the", "red", "room", "to", "the", "prop_2", "by", "going", "through", "the", "prop_1"]}
+{"id": 1496, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["follow", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 2710, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "but", "not", "through", "prop_2"]}
+{"id": 2138, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["to", "reach", "the", "prop_1", "do", "not", "go", "through", "the", "prop_2"]}
+{"id": 395, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "prop_1", "move", "the", "chair", "to", "the", "prop_2"]}
+{"id": 454, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "then", "push", "the", "chair", "into", "the", "prop_2"]}
+{"id": 324, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 838, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2, 2, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_1", "or", "the", "prop_2", "to", "get", "to", "the", "prop_3"]}
+{"id": 164, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "toward", "the", "prop_1", "then", "into", "the", "prop_2"]}
+{"id": 1601, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2878, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "only", "through", "rooms", "that", "are", "not", "prop_2", "to", "get", "to", "the", "prop_1"]}
+{"id": 1409, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "into", "the", "prop_2"]}
+{"id": 552, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "into", "the", "prop_1"]}
+{"id": 2545, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1467, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 3182, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 1, 1], "grounded_sentence": ["walk", "through", "any", "room", "except", "the", "prop_2", "to", "enter", "the", "prop_1"]}
+{"id": 69, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_2", "only", "through", "the", "prop_1"]}
+{"id": 1469, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 2932, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "without", "going", "to", "prop_2"]}
+{"id": 2735, "lifted_sentence_prop_ids": [0, 0, 0, 0, 2, 0, 0, 0, 0, 1], "grounded_sentence": ["the", "robot", "avoids", "the", "prop_2", "to", "get", "to", "the", "prop_1"]}
+{"id": 80, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["move", "into", "the", "prop_2", "while", "being", "sure", "to", "pass", "through", "only", "the", "prop_1"]}
+{"id": 2738, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["got", "to", "prop_1", "without", "going", "through", "prop_2"]}
+{"id": 1650, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "into", "the", "prop_1"]}
+{"id": 2665, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 2, 0, 1, 1, 0, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["move", "the", "robot", "to", "the", "small", "prop_2", "or", "prop_1", "and", "then", "to", "the", "large", "prop_3"]}
+{"id": 2563, "lifted_sentence_prop_ids": [0, 0, 2, 0, 1, 1, 0, 0, 0, 3, 3], "grounded_sentence": ["move", "to", "prop_2", "or", "prop_1", "them", "move", "to", "prop_3"]}
+{"id": 2785, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 2, 0], "grounded_sentence": ["go", "to", "the", "prop_1", "area", "by", "avoiding", "prop_2", "area"]}
+{"id": 2599, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 1, 1, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_2", "or", "prop_1", "to", "the", "prop_3"]}
+{"id": 3101, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "avoid", "the", "prop_2"]}
+{"id": 1963, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 2309, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "from", "the", "blue", "room", "to", "the", "red", "room", "and", "then", "go", "from", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 2300, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "and", "then", "go", "to", "the", "prop_2"]}
+{"id": 2090, "lifted_sentence_prop_ids": [0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["enter", "prop_1", "via", "the", "non", "prop_2"]}
+{"id": 1405, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_2", "through", "the", "prop_1"]}
+{"id": 2840, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 0, 0, 1], "grounded_sentence": ["go", "through", "the", "prop_2", "and", "to", "the", "prop_1"]}
+{"id": 837, "lifted_sentence_prop_ids": [0, 0, 2, 0, 1, 0, 0, 0, 3], "grounded_sentence": ["go", "through", "prop_2", "or", "prop_1", "to", "get", "to", "prop_3"]}
+{"id": 2671, "lifted_sentence_prop_ids": [0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 3, 3], "grounded_sentence": ["took", "the", "prop_2", "to", "the", "red", "room", "and", "the", "prop_1", "to", "the", "prop_3"]}
+{"id": 2050, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "into", "the", "prop_1", "without", "crossing", "the", "prop_2"]}
+{"id": 812, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["travel", "to", "the", "prop_1", "through", "the", "room", "that", "isn", "t", "prop_2"]}
+{"id": 277, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2275, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "then", "go", "to", "the", "prop_2"]}
+{"id": 87, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "while", "moving", "to", "the", "prop_2"]}
+{"id": 724, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "and", "push", "the", "chair", "into", "the", "prop_2"]}
+{"id": 3131, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "don", "t", "go", "through", "the", "prop_2"]}
+{"id": 1109, "lifted_sentence_prop_ids": [0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "large", "prop_2", "by", "passing", "through", "the", "small", "prop_1"]}
+{"id": 526, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "prop_1", "go", "to", "prop_2"]}
+{"id": 2024, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 216, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "into", "the", "prop_1"]}
+{"id": 2755, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["enter", "the", "prop_1", "without", "going", "through", "the", "prop_2"]}
+{"id": 978, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "then", "to", "the", "prop_2"]}
+{"id": 493, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "prop_1", "and", "then", "prop_2"]}
+{"id": 2165, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "avoid", "using", "the", "prop_2"]}
+{"id": 406, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "prop_1", "push", "the", "chair", "back", "to", "the", "prop_2"]}
+{"id": 1678, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "into", "the", "prop_1"]}
+{"id": 531, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "go", "to", "the", "prop_2"]}
+{"id": 3159, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["don", "t", "go", "through", "the", "prop_2", "towards", "the", "prop_1"]}
+{"id": 2230, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 2, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_1", "or", "prop_2", "and", "go", "to", "the", "prop_3"]}
+{"id": 84, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 1647, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 1608, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1095, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "enter", "the", "prop_2"]}
+{"id": 2849, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "through", "the", "room", "which", "isn", "t", "prop_2", "to", "get", "to", "the", "prop_1"]}
+{"id": 1827, "lifted_sentence_prop_ids": [0, 0, 1, 1], "grounded_sentence": ["go", "to", "prop_1"]}
+{"id": 2981, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["get", "to", "the", "prop_1", "by", "avoiding", "the", "prop_2"]}
+{"id": 2520, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "into", "the", "prop_1"]}
+{"id": 795, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "do", "not", "take", "the", "prop_2", "to", "get", "there"]}
+{"id": 1373, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 2948, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["walk", "to", "the", "prop_1", "while", "avoiding", "the", "prop_2"]}
+{"id": 1946, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2815, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "do", "not", "use", "the", "prop_2", "to", "get", "there"]}
+{"id": 2323, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "and", "then", "go", "into", "the", "prop_2"]}
+{"id": 843, "lifted_sentence_prop_ids": [0, 0, 3, 3, 0, 0, 0, 1, 0, 0, 2, 0], "grounded_sentence": ["enter", "the", "prop_3", "through", "either", "the", "prop_1", "or", "prop_2", "rooms"]}
+{"id": 3222, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "while", "avoiding", "the", "prop_2"]}
+{"id": 2490, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["move", "until", "you", "are", "one", "square", "into", "the", "prop_1"]}
+{"id": 1378, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["move", "through", "prop_1", "to", "the", "prop_2"]}
+{"id": 2362, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "and", "then", "to", "prop_2"]}
+{"id": 1878, "lifted_sentence_prop_ids": [0, 0, 1, 1], "grounded_sentence": ["move", "to", "prop_1"]}
+{"id": 284, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 1434, "lifted_sentence_prop_ids": [0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["enter", "the", "prop_2", "through", "the", "prop_1"]}
+{"id": 152, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["travel", "through", "the", "prop_1", "to", "the", "blue", "rectangular", "prop_2"]}
+{"id": 3234, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["travel", "to", "the", "prop_1", "without", "going", "through", "the", "prop_2"]}
+{"id": 1599, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2099, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2, 0], "grounded_sentence": ["go", "to", "prop_1", "area", "by", "avoiding", "prop_2", "area"]}
+{"id": 2741, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["got", "to", "prop_1", "without", "going", "through", "prop_2"]}
+{"id": 3083, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "and", "do", "not", "use", "the", "prop_2"]}
+{"id": 1257, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["move", "into", "the", "prop_2", "but", "only", "via", "the", "prop_1"]}
+{"id": 3239, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["travel", "to", "the", "prop_1", "through", "the", "room", "that", "isn", "t", "prop_2"]}
+{"id": 741, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "and", "push", "the", "box", "into", "the", "prop_2"]}
+{"id": 2965, "lifted_sentence_prop_ids": [0, 0, 0, 0, 2, 2, 0, 0, 0, 1, 1], "grounded_sentence": ["do", "not", "take", "the", "prop_2", "to", "reach", "the", "prop_1"]}
+{"id": 611, "lifted_sentence_prop_ids": [0, 0, 0, 0, 2, 0, 0, 1, 1, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "either", "the", "prop_2", "or", "the", "prop_1", "to", "get", "to", "the", "prop_3"]}
+{"id": 2733, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "without", "going", "through", "the", "prop_2"]}
+{"id": 643, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 2, 0], "grounded_sentence": ["go", "to", "the", "prop_1", "area", "by", "avoiding", "prop_2", "area"]}
+{"id": 3051, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["go", "to", "the", "yellow", "room", "through", "the", "prop_2", "that", "is", "not", "green"]}
+{"id": 1128, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_2", "only", "through", "the", "prop_1"]}
+{"id": 1834, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 217, "lifted_sentence_prop_ids": [0, 0, 1, 1], "grounded_sentence": ["move", "to", "prop_1"]}
+{"id": 255, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2017, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 1830, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2891, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["to", "reach", "the", "prop_1", "do", "not", "go", "through", "the", "prop_2"]}
+{"id": 2985, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["enter", "the", "room", "that", "isn", "t", "prop_2", "and", "proceed", "through", "to", "the", "prop_1"]}
+{"id": 186, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2770, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "large", "prop_1", "while", "avoiding", "the", "small", "prop_2"]}
+{"id": 1339, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "through", "the", "prop_1", "to", "gain", "access", "to", "the", "large", "prop_2"]}
+{"id": 1884, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 1751, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1671, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1292, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 0, 2, 0], "grounded_sentence": ["go", "up", "through", "the", "prop_1", "box", "to", "the", "prop_2", "box"]}
+{"id": 193, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "into", "the", "prop_1"]}
+{"id": 969, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_2", "through", "the", "prop_1"]}
+{"id": 2251, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 1, 1, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_2", "or", "prop_1", "to", "the", "prop_3"]}
+{"id": 2206, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 1, 1, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_2", "or", "prop_1", "to", "reach", "the", "prop_3"]}
+{"id": 1238, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["travel", "through", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 1564, "lifted_sentence_prop_ids": [0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "large", "prop_2", "by", "passing", "through", "the", "small", "prop_1"]}
+{"id": 2570, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 1, 1, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_2", "or", "prop_1", "into", "the", "prop_3"]}
+{"id": 996, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["navigate", "through", "prop_1", "to", "reach", "prop_2"]}
+{"id": 2278, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "go", "to", "the", "prop_2"]}
+{"id": 548, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 2338, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "then", "the", "prop_2"]}
+{"id": 3188, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "large", "prop_1", "while", "avoiding", "the", "small", "prop_2"]}
+{"id": 1619, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 2279, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "go", "to", "the", "prop_2"]}
+{"id": 2792, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["enter", "the", "prop_1", "without", "entering", "a", "prop_2"]}
+{"id": 2201, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["don", "t", "go", "through", "the", "prop_2", "while", "going", "to", "the", "prop_1"]}
+{"id": 1241, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 0], "grounded_sentence": ["go", "through", "the", "prop_1", "box", "to", "get", "to", "the", "prop_2", "area"]}
+{"id": 167, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "into", "the", "prop_2"]}
+{"id": 924, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["travel", "through", "the", "yellow", "square", "room", "to", "the", "large", "green", "rectangular", "prop_2"]}
+{"id": 879, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 1065, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["the", "robot", "moves", "towards", "the", "prop_2", "through", "the", "prop_1"]}
+{"id": 2567, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 1, 1, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_2", "or", "prop_1", "and", "enter", "the", "prop_3"]}
+{"id": 338, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "into", "the", "prop_1", "without", "crossing", "the", "prop_2"]}
+{"id": 3186, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "large", "prop_1", "while", "avoiding", "the", "small", "prop_2"]}
+{"id": 2678, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "do", "not", "pass", "through", "the", "prop_2"]}
+{"id": 2834, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "avoid", "the", "prop_2"]}
+{"id": 2661, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 2, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_1", "or", "prop_2", "to", "the", "prop_3"]}
+{"id": 1219, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 2429, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1846, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 266, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2037, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2, 0], "grounded_sentence": ["proceed", "to", "prop_1", "area", "while", "avoiding", "the", "prop_2", "area"]}
+{"id": 215, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1029, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["enter", "the", "door", "to", "the", "prop_1", "and", "exit", "the", "other", "door", "into", "the", "prop_2"]}
+{"id": 2072, "lifted_sentence_prop_ids": [0, 2, 0, 0, 0, 0, 1, 0, 0, 0], "grounded_sentence": ["avoid", "prop_2", "area", "on", "way", "to", "prop_1", "area", "each", "time"]}
+{"id": 3105, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "without", "going", "through", "prop_2"]}
+{"id": 393, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "red", "room", "move", "prop_1", "chair", "to", "prop_2"]}
+{"id": 2623, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2, 0, 3], "grounded_sentence": ["go", "prop_1", "to", "blue", "or", "prop_2", "to", "prop_3"]}
+{"id": 1692, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 3350, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 1, 1, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_2", "and", "prop_1", "to", "the", "prop_3"]}
+{"id": 1112, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["enter", "the", "prop_1", "and", "then", "the", "prop_2"]}
+{"id": 849, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 2, 2, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "either", "the", "prop_1", "or", "prop_2", "to", "reach", "the", "prop_3"]}
+{"id": 2269, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "into", "the", "prop_1", "and", "then", "go", "into", "the", "prop_2"]}
+{"id": 926, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["travel", "through", "the", "blue", "square", "room", "to", "the", "large", "yellow", "rectangular", "prop_2"]}
+{"id": 1561, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 2, 0], "grounded_sentence": ["go", "through", "prop_1", "rooms", "to", "get", "to", "the", "prop_2", "one"]}
+{"id": 1732, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 762, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "red", "room", "move", "to", "the", "object", "in", "the", "prop_1", "move", "the", "object", "to", "the", "prop_2"]}
+{"id": 1706, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 3037, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "but", "not", "through", "prop_2"]}
+{"id": 371, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "do", "not", "enter", "the", "prop_2"]}
+{"id": 2401, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "prop_1", "go", "to", "prop_2"]}
+{"id": 138, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_2", "through", "the", "prop_1"]}
+{"id": 2944, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "avoiding", "prop_2"]}
+{"id": 2433, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2762, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["don", "t", "go", "through", "the", "prop_2", "towards", "the", "prop_1"]}
+{"id": 3033, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "don", "t", "go", "through", "the", "prop_2"]}
+{"id": 1119, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["you", "must", "walk", "through", "the", "prop_1", "to", "get", "to", "the", "prop_2"]}
+{"id": 1587, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "in", "to", "the", "prop_1"]}
+{"id": 1962, "lifted_sentence_prop_ids": [0, 0, 1, 1], "grounded_sentence": ["go", "to", "prop_1"]}
+{"id": 2610, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 1, 1, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_2", "or", "prop_1", "to", "reach", "the", "prop_3"]}
+{"id": 487, "lifted_sentence_prop_ids": [0, 0, 3, 3, 0, 0, 1, 0, 2, 0, 0], "grounded_sentence": ["go", "to", "prop_3", "by", "using", "prop_1", "or", "prop_2", "rooms", "first"]}
+{"id": 313, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2631, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 2, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_1", "or", "prop_2", "to", "get", "to", "the", "prop_3"]}
+{"id": 1127, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_2", "only", "through", "the", "prop_1"]}
+{"id": 1807, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 2413, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "prop_1", "go", "to", "prop_2"]}
+{"id": 3282, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "do", "not", "enter", "the", "prop_2"]}
+{"id": 484, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 1, 1, 0, 0, 3, 3], "grounded_sentence": ["move", "through", "the", "prop_2", "or", "prop_1", "to", "the", "prop_3"]}
+{"id": 1120, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["you", "must", "walk", "through", "the", "prop_1", "to", "get", "to", "the", "prop_2"]}
+{"id": 2380, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "and", "then", "go", "to", "the", "prop_2"]}
+{"id": 2125, "lifted_sentence_prop_ids": [0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 1], "grounded_sentence": ["avoid", "the", "prop_2", "and", "end", "at", "the", "blue", "rectangular", "prop_1"]}
+{"id": 1516, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "through", "the", "prop_1", "and", "into", "the", "prop_2"]}
+{"id": 2148, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "avoid", "the", "prop_2"]}
+{"id": 3006, "lifted_sentence_prop_ids": [0, 2, 0, 0, 1], "grounded_sentence": ["avoid", "prop_2", "go", "to", "prop_1"]}
+{"id": 156, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "get", "to", "the", "prop_2"]}
+{"id": 1172, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["move", "into", "the", "prop_2", "while", "being", "sure", "to", "pass", "through", "only", "the", "prop_1"]}
+{"id": 809, "lifted_sentence_prop_ids": [0, 0, 2, 2, 0, 0, 0, 1, 1], "grounded_sentence": ["avoid", "the", "prop_2", "to", "reach", "the", "prop_1"]}
+{"id": 1622, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 1362, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 2, 0], "grounded_sentence": ["go", "through", "prop_1", "rooms", "to", "get", "to", "the", "prop_2", "one"]}
+{"id": 765, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "from", "blue", "room", "to", "the", "prop_1", "go", "under", "object", "and", "move", "it", "to", "the", "prop_2"]}
+{"id": 1686, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1868, "lifted_sentence_prop_ids": [0, 0, 1, 1], "grounded_sentence": ["move", "to", "prop_1"]}
+{"id": 323, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 883, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 2, 0], "grounded_sentence": ["go", "through", "prop_1", "rooms", "to", "get", "to", "the", "prop_2", "one"]}
+{"id": 539, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 407, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "get", "the", "chair", "and", "bring", "it", "to", "the", "prop_2"]}
+{"id": 176, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "through", "the", "prop_1", "to", "get", "to", "the", "prop_2"]}
+{"id": 2220, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 3, 3, 0, 0, 0, 0, 0, 0, 0, 2, 0, 1, 1, 0], "grounded_sentence": ["go", "through", "the", "passage", "into", "the", "prop_3", "but", "only", "if", "you", "go", "through", "a", "prop_2", "or", "prop_1", "first"]}
+{"id": 3204, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2, 0], "grounded_sentence": ["go", "to", "prop_1", "area", "by", "avoiding", "prop_2", "area"]}
+{"id": 1959, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 536, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 245, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 2205, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "avoid", "going", "through", "the", "prop_2"]}
+{"id": 1607, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 532, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 1804, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2473, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "middle", "of", "the", "prop_1"]}
+{"id": 2890, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["to", "reach", "the", "prop_1", "do", "not", "go", "through", "the", "prop_2"]}
+{"id": 3312, "lifted_sentence_prop_ids": [0, 0, 0, 3, 3, 0, 0, 0, 1, 1, 0, 0, 0, 2, 2, 0], "grounded_sentence": ["go", "to", "the", "prop_3", "either", "through", "the", "prop_1", "or", "through", "the", "prop_2", "only"]}
+{"id": 2825, "lifted_sentence_prop_ids": [0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["enter", "prop_1", "via", "the", "non", "prop_2"]}
+{"id": 2856, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "avoid", "the", "prop_2"]}
+{"id": 2887, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 1, 0, 0, 2], "grounded_sentence": ["go", "to", "yellow", "via", "green", "or", "prop_1", "but", "not", "prop_2"]}
+{"id": 1323, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "get", "to", "prop_2"]}
+{"id": 1576, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2405, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "prop_1", "go", "to", "prop_2"]}
+{"id": 2912, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["avoid", "the", "red", "room", "and", "end", "at", "the", "green", "rectangular", "prop_2"]}
+{"id": 535, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 861, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "into", "the", "prop_2"]}
+{"id": 2911, "lifted_sentence_prop_ids": [0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 1], "grounded_sentence": ["avoid", "the", "prop_2", "and", "end", "at", "the", "blue", "rectangular", "prop_1"]}
+{"id": 339, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "prop_1", "but", "don", "t", "go", "through", "the", "prop_2"]}
+{"id": 3352, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 2, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_1", "and", "prop_2", "to", "the", "prop_3"]}
+{"id": 2434, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1309, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2, 0], "grounded_sentence": ["only", "go", "through", "prop_1", "rooms", "to", "get", "to", "prop_2", "rooms"]}
+{"id": 2530, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["exit", "room", "and", "go", "right", "to", "the", "prop_1"]}
+{"id": 3039, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 1, 1], "grounded_sentence": ["go", "through", "the", "room", "that", "is", "not", "prop_2", "to", "the", "prop_1"]}
+{"id": 3266, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "while", "avoiding", "the", "prop_2"]}
+{"id": 1712, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2709, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "through", "room", "that", "is", "not", "prop_2", "to", "get", "to", "prop_1"]}
+{"id": 1701, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 50, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["travel", "through", "the", "prop_1", "to", "go", "into", "the", "prop_2"]}
+{"id": 3136, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["enter", "the", "room", "that", "isn", "t", "prop_2", "then", "go", "to", "the", "prop_1"]}
+{"id": 818, "lifted_sentence_prop_ids": [0, 0, 2, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["avoid", "the", "prop_2", "and", "continue", "to", "the", "prop_1"]}
+{"id": 2659, "lifted_sentence_prop_ids": [0, 0, 0, 0, 2, 0, 0, 1, 1, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "either", "the", "prop_2", "or", "the", "prop_1", "to", "get", "to", "the", "prop_3"]}
+{"id": 2688, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "into", "the", "prop_1", "without", "going", "through", "the", "prop_2"]}
+{"id": 1254, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["robot", "goes", "through", "prop_1", "and", "ends", "up", "in", "prop_2"]}
+{"id": 1355, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "prop_1", "then", "to", "prop_2"]}
+{"id": 2694, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "do", "not", "use", "the", "prop_2", "to", "get", "there"]}
+{"id": 415, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["move", "the", "chair", "from", "the", "prop_1", "into", "the", "prop_2"]}
+{"id": 2638, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 1, 1, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_2", "or", "prop_1", "to", "get", "to", "the", "prop_3"]}
+{"id": 2228, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 2, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_1", "or", "prop_2", "and", "go", "to", "the", "prop_3"]}
+{"id": 1391, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "into", "the", "prop_2"]}
+{"id": 1159, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "door", "to", "the", "prop_1", "and", "continue", "into", "the", "prop_2"]}
+{"id": 2016, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 731, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "into", "the", "prop_1", "and", "push", "the", "object", "into", "the", "prop_2"]}
+{"id": 3043, "lifted_sentence_prop_ids": [0, 2, 0, 0, 1], "grounded_sentence": ["avoiding", "prop_2", "navigate", "to", "prop_1"]}
+{"id": 1725, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 722, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "move", "chair", "to", "the", "prop_2"]}
+{"id": 2656, "lifted_sentence_prop_ids": [0, 0, 0, 0, 2, 0, 1, 1, 0, 0, 0, 3, 3], "grounded_sentence": ["move", "toward", "either", "the", "prop_2", "or", "prop_1", "then", "into", "the", "prop_3"]}
+{"id": 344, "lifted_sentence_prop_ids": [0, 0, 2, 0, 0, 1], "grounded_sentence": ["while", "avoiding", "prop_2", "navigate", "to", "prop_1"]}
+{"id": 1211, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "through", "the", "prop_1", "rooms", "to", "get", "to", "the", "prop_2"]}
+{"id": 1782, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "into", "the", "prop_1"]}
+{"id": 1495, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["follow", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 2231, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_1", "or", "prop_2", "to", "get", "to", "the", "prop_3"]}
+{"id": 1999, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 3099, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "avoid", "the", "prop_2"]}
+{"id": 1008, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["the", "robot", "moves", "through", "the", "prop_1", "to", "get", "to", "the", "prop_2"]}
+{"id": 1499, "lifted_sentence_prop_ids": [0, 0, 2, 0, 1], "grounded_sentence": ["go", "to", "prop_2", "via", "prop_1"]}
+{"id": 272, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 846, "lifted_sentence_prop_ids": [0, 0, 2, 0, 1, 1, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["enter", "the", "prop_2", "or", "prop_1", "and", "proceed", "until", "the", "prop_3"]}
+{"id": 1624, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 800, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 1, 1, 0, 0, 0, 0], "grounded_sentence": ["drive", "through", "the", "room", "that", "is", "not", "prop_2", "and", "enter", "the", "prop_1", "on", "the", "other", "side"]}
+{"id": 2919, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "but", "not", "through", "prop_2"]}
+{"id": 1042, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 2, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "prop_2"]}
+{"id": 1482, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 617, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "do", "not", "pass", "through", "the", "prop_2"]}
+{"id": 296, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 331, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 3247, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["enter", "any", "room", "that", "isn", "t", "prop_2", "to", "end", "up", "in", "the", "prop_1"]}
+{"id": 563, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 880, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 2052, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "into", "the", "prop_1", "without", "crossing", "the", "prop_2"]}
+{"id": 195, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 525, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "prop_1", "and", "then", "move", "to", "the", "prop_2"]}
+{"id": 1033, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["travel", "through", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 2474, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2028, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "only", "through", "rooms", "that", "are", "not", "prop_2", "to", "get", "to", "the", "prop_1"]}
+{"id": 1764, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1012, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["enter", "the", "prop_1", "and", "proceed", "until", "the", "prop_2"]}
+{"id": 159, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "get", "to", "the", "prop_2"]}
+{"id": 2780, "lifted_sentence_prop_ids": [0, 0, 2, 0, 0, 0, 1, 1], "grounded_sentence": ["never", "follow", "prop_2", "path", "to", "reach", "prop_1"]}
+{"id": 2978, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["get", "to", "the", "prop_1", "by", "avoiding", "the", "prop_2"]}
+{"id": 1948, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 1969, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1180, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["pass", "through", "the", "prop_1", "to", "reach", "the", "prop_2"]}
+{"id": 3325, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 3, 0], "grounded_sentence": ["move", "from", "the", "yellow", "box", "into", "the", "prop_3", "box", "by", "way", "of", "the", "prop_2", "or", "red", "box", "avoiding", "the", "prop_3", "box"]}
+{"id": 221, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 1094, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "get", "to", "the", "prop_2"]}
+{"id": 2702, "lifted_sentence_prop_ids": [0, 0, 2, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["avoid", "the", "prop_2", "and", "move", "to", "the", "prop_1"]}
+{"id": 2966, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "while", "avoiding", "the", "prop_2"]}
+{"id": 1934, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 267, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2109, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "through", "the", "room", "that", "is", "not", "prop_2", "to", "get", "to", "the", "prop_1"]}
+{"id": 1209, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "to", "get", "to", "the", "prop_2"]}
+{"id": 434, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "prop_1", "then", "push", "the", "chair", "to", "the", "prop_2"]}
+{"id": 3139, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 1, 1], "grounded_sentence": ["go", "through", "the", "room", "that", "is", "not", "prop_2", "to", "the", "prop_1"]}
+{"id": 1577, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 426, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "and", "move", "the", "chair", "to", "the", "prop_2"]}
+{"id": 2287, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "prop_1", "then", "go", "to", "the", "prop_2"]}
+{"id": 2370, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "from", "blue", "room", "to", "prop_1", "then", "move", "to", "prop_2"]}
+{"id": 53, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["the", "robot", "moves", "towards", "the", "prop_2", "through", "the", "prop_1"]}
+{"id": 1500, "lifted_sentence_prop_ids": [0, 0, 2, 0, 1], "grounded_sentence": ["go", "to", "prop_2", "via", "prop_1"]}
+{"id": 1914, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "into", "the", "prop_1"]}
+{"id": 498, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "prop_1", "then", "go", "to", "the", "prop_2"]}
+{"id": 1472, "lifted_sentence_prop_ids": [0, 2, 2, 0, 1, 1], "grounded_sentence": ["enter", "prop_2", "via", "prop_1"]}
+{"id": 1598, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1949, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 775, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "prop_1", "get", "chair", "bring", "to", "prop_2"]}
+{"id": 2544, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1106, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["walk", "pass", "the", "prop_1", "into", "the", "prop_2"]}
+{"id": 2283, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "prop_1", "go", "to", "prop_2"]}
+{"id": 635, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "do", "not", "go", "through", "prop_2"]}
+{"id": 1805, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2267, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "prop_1", "and", "then", "prop_2"]}
+{"id": 799, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "large", "prop_1", "while", "avoiding", "the", "small", "prop_2"]}
+{"id": 2074, "lifted_sentence_prop_ids": [0, 0, 2, 0, 0, 1], "grounded_sentence": ["while", "avoiding", "prop_2", "navigate", "to", "prop_1"]}
+{"id": 1595, "lifted_sentence_prop_ids": [0, 0, 1, 1], "grounded_sentence": ["go", "to", "prop_1"]}
+{"id": 2721, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "through", "the", "opposite", "of", "the", "prop_2", "to", "reach", "the", "prop_1"]}
+{"id": 798, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 1, 1], "grounded_sentence": ["walk", "through", "any", "room", "except", "the", "prop_2", "to", "enter", "the", "prop_1"]}
+{"id": 990, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 1, 1], "grounded_sentence": ["go", "to", "large", "prop_2", "through", "prop_1"]}
+{"id": 1290, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_2", "via", "the", "prop_1"]}
+{"id": 2759, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "while", "avoiding", "the", "prop_2"]}
+{"id": 825, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "without", "going", "through", "prop_2"]}
+{"id": 633, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 2, 0], "grounded_sentence": ["go", "to", "prop_1", "while", "avoiding", "prop_2", "rooms"]}
+{"id": 2689, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "into", "the", "prop_1", "without", "going", "through", "the", "prop_2"]}
+{"id": 2692, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "prop_1", "but", "don", "t", "go", "through", "the", "prop_2"]}
+{"id": 1920, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 1447, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_2", "via", "the", "prop_1"]}
+{"id": 2357, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "then", "to", "the", "prop_2"]}
+{"id": 3022, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["enter", "into", "the", "room", "that", "is", "not", "prop_2", "and", "continue", "through", "that", "room", "into", "the", "prop_1"]}
+{"id": 3158, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["don", "t", "go", "through", "the", "prop_2", "towards", "the", "prop_1"]}
+{"id": 83, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["the", "robot", "goes", "through", "the", "prop_1", "to", "get", "to", "the", "prop_2"]}
+{"id": 2440, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 693, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["enter", "the", "room", "that", "isn", "t", "prop_2", "and", "proceed", "through", "to", "the", "prop_1"]}
+{"id": 1023, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_2", "by", "passing", "through", "the", "prop_1"]}
+{"id": 480, "lifted_sentence_prop_ids": [0, 0, 2, 0, 1, 1, 0, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["enter", "the", "prop_2", "or", "prop_1", "and", "then", "continue", "to", "the", "prop_3"]}
+{"id": 3298, "lifted_sentence_prop_ids": [0, 0, 0, 3, 3, 0, 0, 1, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_3", "through", "the", "prop_1", "or", "prop_2"]}
+{"id": 1775, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "into", "the", "prop_1"]}
+{"id": 1990, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 410, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "prop_1", "and", "take", "the", "chair", "and", "go", "to", "prop_2"]}
+{"id": 501, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "and", "then", "go", "to", "the", "prop_2"]}
+{"id": 2460, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 2869, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 0, 0, 1], "grounded_sentence": ["the", "robot", "avoids", "prop_2", "to", "get", "to", "prop_1"]}
+{"id": 1659, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 196, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 1168, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "toward", "the", "prop_1", "then", "into", "the", "prop_2"]}
+{"id": 756, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "move", "the", "yellow", "thing", "into", "the", "prop_2"]}
+{"id": 703, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["enter", "into", "the", "room", "that", "is", "not", "prop_2", "and", "continue", "through", "that", "room", "into", "the", "prop_1"]}
+{"id": 1334, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["the", "robot", "goes", "through", "the", "prop_1", "to", "get", "to", "prop_2"]}
+{"id": 182, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2003, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1679, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "into", "the", "prop_1"]}
+{"id": 3228, "lifted_sentence_prop_ids": [0, 0, 2, 2, 0, 0, 0, 1, 1], "grounded_sentence": ["avoid", "the", "prop_2", "to", "reach", "the", "prop_1"]}
+{"id": 2539, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1755, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1705, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2497, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1907, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 729, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "push", "the", "yellow", "object", "into", "the", "prop_2"]}
+{"id": 1740, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 947, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["go", "into", "the", "prop_2", "through", "the", "prop_1"]}
+{"id": 2260, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "from", "the", "blue", "room", "to", "the", "blue", "room", "then", "go", "from", "the", "prop_1", "to", "the", "prop_2"]}
+{"id": 757, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "to", "the", "prop_1", "move", "the", "yellow", "item", "to", "the", "prop_2"]}
+{"id": 2865, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["enter", "the", "blue", "room", "by", "any", "prop_2", "that", "is", "not", "yellow"]}
+{"id": 796, "lifted_sentence_prop_ids": [0, 2, 0, 0, 1], "grounded_sentence": ["avoiding", "prop_2", "navigate", "to", "prop_1"]}
+{"id": 2649, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 0, 0, 0, 0, 3, 0], "grounded_sentence": ["up", "through", "the", "prop_1", "or", "prop_2", "box", "to", "reach", "the", "prop_3", "box"]}
+{"id": 1987, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 3307, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 0, 0, 3, 3], "grounded_sentence": ["go", "to", "the", "yellow", "room", "or", "the", "red", "room", "and", "head", "straight", "away", "to", "the", "prop_3", "avoiding", "the", "prop_3"]}
+{"id": 29, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_2", "through", "the", "prop_1"]}
+{"id": 1752, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1771, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 2064, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "without", "entering", "a", "prop_2"]}
+{"id": 2619, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 3], "grounded_sentence": ["go", "prop_1", "or", "prop_2", "to", "prop_3"]}
+{"id": 1937, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 2684, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["head", "to", "the", "blue", "rectangular", "room", "without", "passing", "through", "a", "green", "square", "prop_2"]}
+{"id": 991, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2, 0], "grounded_sentence": ["go", "to", "the", "prop_1", "only", "and", "then", "the", "prop_2", "only"]}
+{"id": 759, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "go", "the", "yellow", "chair", "push", "the", "yellow", "chair", "to", "the", "prop_2"]}
+{"id": 423, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "find", "the", "chair", "and", "bring", "it", "back", "to", "the", "prop_2"]}
+{"id": 675, "lifted_sentence_prop_ids": [0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 1], "grounded_sentence": ["avoid", "the", "prop_2", "and", "end", "at", "the", "blue", "rectangular", "prop_1"]}
+{"id": 2376, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "into", "the", "prop_1", "then", "move", "into", "the", "prop_2"]}
+{"id": 11, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 1, 0], "grounded_sentence": ["go", "to", "the", "prop_2", "through", "the", "prop_1", "one"]}
+{"id": 1006, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["make", "your", "way", "to", "the", "prop_2", "by", "going", "through", "the", "prop_1"]}
+{"id": 297, "lifted_sentence_prop_ids": [0, 0, 0, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 343, "lifted_sentence_prop_ids": [0, 2, 0, 0, 0, 0, 1, 0, 0, 0], "grounded_sentence": ["avoid", "prop_2", "area", "on", "way", "to", "prop_1", "area", "each", "time"]}
+{"id": 2449, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "in", "and", "then", "go", "to", "the", "prop_1"]}
+{"id": 776, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "prop_1", "go", "to", "far", "wall", "go", "to", "chair", "push", "chair", "to", "prop_2"]}
+{"id": 3370, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 2, 0, 0, 3, 3], "grounded_sentence": ["take", "the", "prop_1", "or", "prop_2", "into", "the", "prop_3"]}
+{"id": 690, "lifted_sentence_prop_ids": [0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["reach", "prop_1", "without", "going", "through", "prop_2"]}
+{"id": 791, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "avoiding", "prop_2"]}
+{"id": 2783, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 2, 0], "grounded_sentence": ["go", "to", "the", "prop_1", "area", "by", "avoiding", "prop_2", "area"]}
+{"id": 1103, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["walk", "pass", "the", "prop_1", "into", "the", "prop_2"]}
+{"id": 2565, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 2, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["the", "robot", "has", "to", "go", "through", "the", "prop_1", "or", "prop_2", "to", "get", "to", "the", "prop_3"]}
+{"id": 3363, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 2, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_1", "or", "prop_2", "to", "the", "prop_3"]}
+{"id": 191, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 1980, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 2732, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "without", "going", "through", "the", "prop_2"]}
+{"id": 471, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "prop_1", "go", "to", "far", "wall", "go", "to", "chair", "push", "chair", "to", "prop_2"]}
+{"id": 1381, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "and", "into", "the", "prop_2"]}
+{"id": 315, "lifted_sentence_prop_ids": [0, 0, 1, 1], "grounded_sentence": ["go", "to", "prop_1"]}
+{"id": 2180, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 0], "grounded_sentence": ["go", "to", "the", "prop_1", "while", "avoiding", "the", "prop_2", "rooms"]}
+{"id": 2857, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "but", "avoid", "the", "prop_2"]}
+{"id": 1842, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 477, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 2, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_1", "or", "prop_2", "to", "reach", "the", "prop_3"]}
+{"id": 2873, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["enter", "the", "room", "that", "is", "not", "prop_2", "which", "will", "lead", "to", "the", "prop_1"]}
+{"id": 1984, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "into", "the", "prop_1"]}
+{"id": 940, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 1], "grounded_sentence": ["go", "to", "the", "prop_2", "through", "prop_1"]}
+{"id": 1511, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "in", "to", "the", "prop_2"]}
+{"id": 265, "lifted_sentence_prop_ids": [0, 0, 1, 1], "grounded_sentence": ["go", "to", "prop_1"]}
+{"id": 2339, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "the", "prop_1", "and", "then", "go", "to", "the", "prop_2"]}
+{"id": 147, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["progress", "through", "prop_1", "rectangle", "room", "to", "the", "large", "prop_2"]}
+{"id": 24, "lifted_sentence_prop_ids": [0, 0, 0, 2, 2, 0, 0, 1, 1], "grounded_sentence": ["go", "into", "the", "prop_2", "through", "the", "prop_1"]}
+{"id": 859, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["go", "through", "the", "prop_1", "into", "the", "prop_2"]}
+{"id": 1376, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 2, 2], "grounded_sentence": ["move", "through", "prop_1", "to", "the", "prop_2"]}
+{"id": 604, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 1, 1, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_2", "or", "prop_1", "to", "get", "to", "the", "prop_3"]}
+{"id": 188, "lifted_sentence_prop_ids": [0, 0, 1, 1], "grounded_sentence": ["go", "to", "prop_1"]}
+{"id": 2447, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "in", "and", "then", "go", "to", "the", "prop_1"]}
+{"id": 3194, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "through", "the", "room", "which", "is", "not", "prop_2", "to", "get", "to", "the", "prop_1"]}
+{"id": 2706, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "through", "room", "that", "is", "not", "prop_2", "to", "get", "to", "prop_1"]}
+{"id": 90, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "through", "the", "prop_1", "rooms", "to", "get", "to", "the", "prop_2"]}
+{"id": 2634, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 2, 0, 3, 3], "grounded_sentence": ["go", "to", "prop_1", "or", "prop_2", "to", "prop_3"]}
+{"id": 2244, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2, 2, 0, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_1", "or", "the", "prop_2", "to", "get", "to", "the", "prop_3"]}
+{"id": 199, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 373, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 2, 0], "grounded_sentence": ["get", "to", "the", "prop_1", "rectangle", "but", "do", "not", "go", "through", "the", "prop_2", "square"]}
+{"id": 1831, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1070, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 0], "grounded_sentence": ["go", "thru", "the", "prop_1", "box", "to", "get", "to", "the", "prop_2", "box"]}
+{"id": 541, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "prop_1"]}
+{"id": 1627, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 768, "lifted_sentence_prop_ids": [0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["go", "to", "prop_1", "move", "the", "item", "and", "go", "to", "prop_2"]}
+{"id": 2471, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 1, 1], "grounded_sentence": ["move", "to", "the", "middle", "of", "the", "prop_1"]}
+{"id": 1214, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 2, 2], "grounded_sentence": ["move", "through", "the", "prop_1", "rooms", "to", "get", "to", "the", "prop_2"]}
+{"id": 303, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "into", "the", "prop_1"]}
+{"id": 1726, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 1779, "lifted_sentence_prop_ids": [0, 0, 0, 1, 1], "grounded_sentence": ["go", "to", "the", "prop_1"]}
+{"id": 627, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 1, 1], "grounded_sentence": ["go", "through", "the", "opposite", "of", "the", "prop_2", "to", "reach", "the", "prop_1"]}
+{"id": 1326, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["go", "through", "prop_1", "to", "get", "to", "prop_2"]}
+{"id": 2234, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 1, 1, 0, 0, 0, 3, 3], "grounded_sentence": ["go", "through", "the", "prop_2", "or", "prop_1", "and", "enter", "the", "prop_3"]}

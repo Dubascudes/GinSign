@@ -1,0 +1,500 @@
+{"id": 5390, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "or", "prop_2"]}
+{"id": 5999, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 2, 3], "grounded_sentence": ["at", "any", "time", "prop_1", "until", "when", "possible", "prop_2", "prop_3"]}
+{"id": 3757, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "prop_2"]}
+{"id": 5730, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "whenever", "prop_2"]}
+{"id": 6450, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"]}
+{"id": 6506, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "and", "prop_2"]}
+{"id": 1893, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2, 3], "grounded_sentence": ["never", "prop_1", "or", "at", "some", "time", "prop_2", "prop_3"]}
+{"id": 6221, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "when", "possible", "prop_2"]}
+{"id": 5253, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2, 0, 3], "grounded_sentence": ["hold", "prop_1", "and", "at", "any", "time", "prop_2", "to", "prop_3"]}
+{"id": 4059, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 4803, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "and", "whenever", "prop_2"]}
+{"id": 5583, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["whenever", "prop_1", "until", "prop_2"]}
+{"id": 1035, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "and", "whenever", "prop_2"]}
+{"id": 968, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "until", "when", "possible", "prop_2"]}
+{"id": 1439, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2, 3, 4], "grounded_sentence": ["at", "some", "time", "prop_1", "means", "that", "prop_2", "prop_3", "prop_4"]}
+{"id": 2835, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2, 3, 4], "grounded_sentence": ["prop_1", "and", "at", "any", "time", "prop_2", "prop_3", "prop_4"]}
+{"id": 501, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "or", "when", "possible", "prop_2"]}
+{"id": 5202, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "prop_2"]}
+{"id": 52, "lifted_sentence_prop_ids": [1, 0, 1], "grounded_sentence": ["prop_1", "until", "prop_1"]}
+{"id": 7171, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "or", "prop_2"]}
+{"id": 5547, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "until", "at", "some", "time", "prop_2"]}
+{"id": 1429, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "means", "that", "at", "any", "time", "prop_2"]}
+{"id": 1408, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2, 3, 4], "grounded_sentence": ["prop_1", "until", "at", "any", "time", "prop_2", "prop_3", "prop_4"]}
+{"id": 431, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "and", "never", "prop_2"]}
+{"id": 1430, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "and", "at", "some", "time", "prop_2"]}
+{"id": 5678, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "or", "prop_2"]}
+{"id": 3015, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["if", "at", "any", "time", "present", "at", "prop_1", ",", "never", "drop", "prop_2"]}
+{"id": 1949, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "at", "any", "time", "prop_2"]}
+{"id": 3250, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2, 0, 3], "grounded_sentence": ["when", "prop_1", ",", "at", "some", "time", "prop_2", "at", "prop_3"]}
+{"id": 5502, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["whenever", "prop_1", "and", "prop_2"]}
+{"id": 3955, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "and", "whenever", "prop_2"]}
+{"id": 2188, "lifted_sentence_prop_ids": [0, 1, 0, 0, 1], "grounded_sentence": ["never", "prop_1", "and", "never", "prop_1"]}
+{"id": 725, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "and", "when", "possible", "prop_2"]}
+{"id": 46, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "and", "prop_2"]}
+{"id": 3574, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "can", "infer", "that", "whenever", "prop_2"]}
+{"id": 2585, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["never", "prop_1", "until", "at", "any", "time", "prop_2"]}
+{"id": 4452, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "at", "any", "time", "prop_2"]}
+{"id": 4906, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "or", "prop_2"]}
+{"id": 3746, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "and", "prop_2"]}
+{"id": 4932, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "and", "when", "possible", "prop_2"]}
+{"id": 7345, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "or", "prop_2"]}
+{"id": 473, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "never", "let", "go", "prop_2"]}
+{"id": 2877, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 3313, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "and", "prop_2"]}
+{"id": 5898, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "never", "prop_2"]}
+{"id": 515, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "whenever", "prop_2"]}
+{"id": 4616, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 1713, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["never", "prop_1", "or", "at", "any", "time", "prop_2"]}
+{"id": 3627, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "or", "when", "possible", "prop_2"]}
+{"id": 6960, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "prop_2"]}
+{"id": 7050, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "prop_2"]}
+{"id": 7289, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "and", "at", "any", "time", "prop_2"]}
+{"id": 4923, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "when", "possible", "prop_2"]}
+{"id": 2894, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "never", "prop_2"]}
+{"id": 1873, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2, 3], "grounded_sentence": ["prop_1", "and", "when", "possible", "prop_2", "prop_3"]}
+{"id": 3481, "lifted_sentence_prop_ids": [0, 1, 0, 2, 3, 4], "grounded_sentence": ["when", "prop_1", ",", "prop_2", "prop_3", "prop_4"]}
+{"id": 4698, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "until", "at", "any", "time", "prop_2"]}
+{"id": 2263, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["go", "prop_1", "and", "when", "possible", "go", "prop_2"]}
+{"id": 6535, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "or", "never", "prop_2"]}
+{"id": 6595, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "when", "possible", "prop_2"]}
+{"id": 167, "lifted_sentence_prop_ids": [1, 0, 0, 2, 3, 4], "grounded_sentence": ["prop_1", "until", "whenever", "prop_2", "prop_3", "prop_4"]}
+{"id": 4769, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "and", "at", "some", "time", "prop_2"]}
+{"id": 2378, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "when", "possible", "prop_2"]}
+{"id": 7440, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "or", "prop_2"]}
+{"id": 4225, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["hold", "prop_1", "and", "repeatedly", "prop_2"]}
+{"id": 1529, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "or", "when", "possible", "prop_2"]}
+{"id": 5085, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "until", "prop_2"]}
+{"id": 3188, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "whenever", "prop_2"]}
+{"id": 1591, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "when", "possible", "prop_2"]}
+{"id": 5488, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2, 3, 4], "grounded_sentence": ["when", "possible", "prop_1", "or", "never", "prop_2", "prop_3", "prop_4"]}
+{"id": 335, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "whenever", "prop_2"]}
+{"id": 6869, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["whenever", "prop_1", "and", "prop_2"]}
+{"id": 3376, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "and", "prop_2"]}
+{"id": 5586, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["don't", "let", "go", "prop_1", "or", "when", "possible", "snag", "prop_2"]}
+{"id": 5396, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "and", "at", "any", "time", "prop_2"]}
+{"id": 3187, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "can", "infer", "that", "whenever", "prop_2"]}
+{"id": 2058, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 2505, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"]}
+{"id": 5018, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "repeatedly", "prop_2"]}
+{"id": 1645, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["if", "whenever", "prop_1", ",", "at", "some", "time", "prop_2"]}
+{"id": 1762, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "or", "prop_2"]}
+{"id": 1758, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "whenever", "prop_2"]}
+{"id": 1383, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 1701, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "whenever", "prop_2"]}
+{"id": 6789, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "and", "at", "any", "time", "prop_2"]}
+{"id": 4240, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "whenever", "prop_2"]}
+{"id": 5862, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "and", "prop_2"]}
+{"id": 559, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["never", "prop_1", "until", "prop_2"]}
+{"id": 1216, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "be", "near", "prop_1", "or", "whenever", "prop_2"]}
+{"id": 2050, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "and", "when", "possible", "prop_2"]}
+{"id": 6976, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 3, 4], "grounded_sentence": ["at", "some", "time", "prop_1", "until", "prop_2", "prop_3", "prop_4"]}
+{"id": 2388, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 6457, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "means", "that", "at", "some", "time", "prop_2"]}
+{"id": 6361, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 0, 0, 3], "grounded_sentence": ["at", "some", "time", "prop_1", "until", "prop_2", "have", "in", "prop_3"]}
+{"id": 5064, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["repeatedly", "prop_1", "or", "forever", "prop_2"]}
+{"id": 410, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 2642, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "until", "when", "possible", "prop_2"]}
+{"id": 3419, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "or", "always", "have", "prop_2"]}
+{"id": 5250, "lifted_sentence_prop_ids": [1, 0, 0, 2, 3, 4], "grounded_sentence": ["prop_1", "or", "whenever", "prop_2", "prop_3", "prop_4"]}
+{"id": 6740, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "never", "prop_2"]}
+{"id": 2017, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "when", "possible", "prop_2"]}
+{"id": 1300, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "and", "prop_2"]}
+{"id": 3815, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "at", "any", "time", "prop_2"]}
+{"id": 954, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "when", "possible", "prop_2"]}
+{"id": 4757, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "and", "at", "some", "time", "prop_2"]}
+{"id": 3152, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2], "grounded_sentence": ["always", "prop_1", "or", "when", "possible", "prop_2"]}
+{"id": 6491, "lifted_sentence_prop_ids": [0, 1, 0, 2, 3, 4], "grounded_sentence": ["always", "prop_1", "until", "prop_2", "prop_3", "prop_4"]}
+{"id": 196, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2, 3], "grounded_sentence": ["whenever", "prop_1", "means", "that", "when", "possible", "prop_2", "prop_3"]}
+{"id": 3118, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["repeatedly", "prop_1", "or", "whenever", "prop_2"]}
+{"id": 3870, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "at", "some", "time", "prop_2"]}
+{"id": 6876, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"]}
+{"id": 275, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "whenever", "prop_2"]}
+{"id": 5248, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2, 3], "grounded_sentence": ["prop_1", "until", "at", "some", "time", "prop_2", "prop_3"]}
+{"id": 5030, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 3133, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["do", "not", "let", "go", "prop_1", "or", "at", "some", "time", "spend", "time", "at", "prop_2"]}
+{"id": 6408, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "whenever", "prop_2"]}
+{"id": 1333, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"]}
+{"id": 5607, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 4827, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "repeatedly", "prop_2"]}
+{"id": 5715, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "and", "at", "some", "time", "prop_2"]}
+{"id": 1999, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 1465, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "and", "when", "possible", "prop_2"]}
+{"id": 1183, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "when", "possible", "prop_2"]}
+{"id": 4713, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["when", "forever", "prop_1", ",", "whenever", "prop_2"]}
+{"id": 3479, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "and", "prop_2"]}
+{"id": 6390, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "until", "at", "any", "time", "prop_2"]}
+{"id": 1396, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["always", "prop_1", "or", "at", "any", "time", "prop_2"]}
+{"id": 909, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2], "grounded_sentence": ["always", "prop_1", "until", "when", "possible", "prop_2"]}
+{"id": 4180, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "until", "when", "possible", "prop_2"]}
+{"id": 4284, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "until", "at", "some", "time", "prop_2"]}
+{"id": 7308, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "prop_2"]}
+{"id": 2776, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["never", "prop_1", "or", "whenever", "prop_2"]}
+{"id": 4056, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "prop_2"]}
+{"id": 6444, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2, 3], "grounded_sentence": ["prop_1", "or", "when", "possible", "prop_2", "prop_3"]}
+{"id": 5599, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 1], "grounded_sentence": ["do", "not", "let", "prop_1", "and", "don't", "let", "prop_1"]}
+{"id": 6982, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "never", "prop_2"]}
+{"id": 896, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "means", "that", "whenever", "prop_2"]}
+{"id": 6665, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "until", "prop_2"]}
+{"id": 6325, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "when", "possible", "prop_2"]}
+{"id": 2099, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "or", "when", "possible", "prop_2"]}
+{"id": 267, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "when", "possible", "prop_2"]}
+{"id": 2784, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "whenever", "prop_2"]}
+{"id": 3782, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "or", "prop_2"]}
+{"id": 4142, "lifted_sentence_prop_ids": [1, 0, 1], "grounded_sentence": ["prop_1", "or", "prop_1"]}
+{"id": 364, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "and", "whenever", "prop_2"]}
+{"id": 2589, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "and", "when", "possible", "prop_2"]}
+{"id": 5690, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 1], "grounded_sentence": ["when", "possible", "prop_1", "or", "at", "some", "time", "prop_1"]}
+{"id": 6689, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["when", "prop_1", ",", "whenever", "prop_2"]}
+{"id": 6539, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "repeatedly", "prop_2"]}
+{"id": 6314, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 6555, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["do", "not", "let", "go", "prop_1", "or", "at", "some", "time", "clutch", "prop_2"]}
+{"id": 3578, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"]}
+{"id": 1247, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"]}
+{"id": 1514, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["if", "whenever", "prop_1", ",", "at", "any", "time", "prop_2"]}
+{"id": 5043, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "whenever", "prop_2"]}
+{"id": 2910, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "prop_2"]}
+{"id": 1602, "lifted_sentence_prop_ids": [1, 0, 0, 2, 3, 4], "grounded_sentence": ["prop_1", "and", "whenever", "prop_2", "prop_3", "prop_4"]}
+{"id": 3134, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 3], "grounded_sentence": ["when", "possible", "prop_1", ",", "prop_2", "prop_3"]}
+{"id": 5821, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "means", "that", "prop_2"]}
+{"id": 7470, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "whenever", "prop_2"]}
+{"id": 6372, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "when", "possible", "prop_2"]}
+{"id": 1222, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "means", "that", "at", "any", "time", "prop_2"]}
+{"id": 4035, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["whenever", "prop_1", "and", "prop_2"]}
+{"id": 2952, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "means", "that", "when", "possible", "present", "at", "prop_2"]}
+{"id": 4011, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "prop_2"]}
+{"id": 511, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 6548, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 763, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["if", "when", "possible", "prop_1", ",", "when", "possible", "prop_2"]}
+{"id": 2293, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "whenever", "prop_2"]}
+{"id": 516, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["forever", "have", "prop_1", "and", "when", "possible", "travel", "by", "prop_2"]}
+{"id": 1389, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "whenever", "prop_2"]}
+{"id": 4587, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["whenever", "prop_1", "and", "prop_2"]}
+{"id": 6224, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "whenever", "prop_2"]}
+{"id": 143, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "or", "prop_2"]}
+{"id": 5220, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "and", "at", "any", "time", "prop_2"]}
+{"id": 1409, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "whenever", "prop_2"]}
+{"id": 2548, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "until", "at", "any", "time", "prop_2"]}
+{"id": 6461, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "or", "whenever", "prop_2"]}
+{"id": 4605, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "or", "whenever", "prop_2"]}
+{"id": 1490, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "and", "when", "possible", "prop_2"]}
+{"id": 1805, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["repeatedly", "prop_1", "or", "never", "prop_2"]}
+{"id": 6419, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["if", "prop_1", ",", "whenever", "prop_2"]}
+{"id": 5097, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "when", "possible", "prop_2"]}
+{"id": 1790, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["never", "prop_1", "or", "prop_2"]}
+{"id": 6973, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 3], "grounded_sentence": ["when", "whenever", "prop_1", ",", "prop_2", "prop_3"]}
+{"id": 1982, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "until", "when", "possible", "prop_2"]}
+{"id": 1487, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "and", "prop_2"]}
+{"id": 3053, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["never", "prop_1", "and", "prop_2"]}
+{"id": 4997, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2, 3], "grounded_sentence": ["keep", "prop_1", "or", "when", "possible", "prop_2", "prop_3"]}
+{"id": 5415, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "and", "whenever", "prop_2"]}
+{"id": 5172, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "at", "some", "time", "prop_2"]}
+{"id": 5143, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "or", "forever", "prop_2"]}
+{"id": 5593, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "means", "that", "at", "any", "time", "prop_2"]}
+{"id": 5049, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2, 3], "grounded_sentence": ["keep", "prop_1", "or", "at", "some", "time", "prop_2", "prop_3"]}
+{"id": 3739, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"]}
+{"id": 6480, "lifted_sentence_prop_ids": [1, 0, 0, 2, 0, 3], "grounded_sentence": ["prop_1", "and", "whenever", "prop_2", "of", "prop_3"]}
+{"id": 1059, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 5507, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 1], "grounded_sentence": ["prop_1", "and", "do", "not", "let", "go", "prop_1"]}
+{"id": 4055, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "never", "prop_2"]}
+{"id": 197, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 3741, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "always", "prop_2"]}
+{"id": 2715, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "whenever", "prop_2"]}
+{"id": 3824, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "never", "prop_2"]}
+{"id": 3786, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"]}
+{"id": 4350, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "prop_2"]}
+{"id": 5553, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "until", "at", "some", "time", "prop_2"]}
+{"id": 4014, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "until", "whenever", "prop_2"]}
+{"id": 3875, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "and", "at", "any", "time", "prop_2"]}
+{"id": 4168, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 5992, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "at", "any", "time", "prop_2"]}
+{"id": 6678, "lifted_sentence_prop_ids": [1, 0, 0, 2, 3, 4], "grounded_sentence": ["prop_1", "or", "whenever", "prop_2", "prop_3", "prop_4"]}
+{"id": 2439, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["go", "by", "prop_1", "or", "whenever", "go", "by", "prop_2"]}
+{"id": 6978, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "and", "never", "prop_2"]}
+{"id": 581, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2, 0, 3], "grounded_sentence": ["when", "possible", "prop_1", "or", "when", "possible", "prop_2", "near", "prop_3"]}
+{"id": 7055, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2, 3], "grounded_sentence": ["never", "prop_1", "or", "at", "any", "time", "prop_2", "prop_3"]}
+{"id": 6807, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["never", "let", "go", "prop_1", "or", "at", "some", "time", "capture", "prop_2"]}
+{"id": 300, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "repeatedly", "prop_2"]}
+{"id": 434, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "when", "possible", "prop_2"]}
+{"id": 3833, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "and", "at", "some", "time", "prop_2"]}
+{"id": 4032, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2, 0], "grounded_sentence": ["whenever", "prop_1", "or", "do", "not", "prop_2", "anything"]}
+{"id": 2880, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 3428, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "when", "possible", "prop_2"]}
+{"id": 1080, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "and", "prop_2"]}
+{"id": 854, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "and", "at", "some", "time", "prop_2"]}
+{"id": 81, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["forever", "prop_1", "until", "prop_2"]}
+{"id": 3970, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 5249, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "and", "at", "some", "time", "prop_2"]}
+{"id": 1579, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "prop_2"]}
+{"id": 2750, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "at", "some", "time", "prop_2"]}
+{"id": 446, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2, 3], "grounded_sentence": ["when", "possible", "prop_1", "or", "at", "any", "time", "prop_2", "prop_3"]}
+{"id": 1137, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "don't", "let", "go", "prop_2"]}
+{"id": 5995, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "when", "possible", "prop_2"]}
+{"id": 3737, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "when", "possible", "prop_2"]}
+{"id": 5554, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2, 3], "grounded_sentence": ["when", "possible", "prop_1", "or", "at", "any", "time", "prop_2", "prop_3"]}
+{"id": 4578, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 3], "grounded_sentence": ["when", "repeatedly", "prop_1", ",", "prop_2", "prop_3"]}
+{"id": 2981, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "and", "forever", "prop_2"]}
+{"id": 7387, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "or", "prop_2"]}
+{"id": 3378, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "and", "whenever", "prop_2"]}
+{"id": 901, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "whenever", "prop_2"]}
+{"id": 7392, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["whenever", "prop_1", "and", "prop_2"]}
+{"id": 4972, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "and", "when", "possible", "prop_2"]}
+{"id": 5217, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "at", "any", "time", "prop_2"]}
+{"id": 2456, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "when", "possible", "prop_2"]}
+{"id": 2870, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "prop_2"]}
+{"id": 171, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "or", "whenever", "prop_2"]}
+{"id": 5959, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "until", "when", "possible", "prop_2"]}
+{"id": 7182, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["never", "let", "go", "prop_1", "until", "at", "some", "time", "collect", "prop_2"]}
+{"id": 6703, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2, 0, 3], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "forever", "prop_2", "in", "prop_3"]}
+{"id": 49, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "and", "whenever", "prop_2"]}
+{"id": 6078, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["never", "prop_1", "and", "prop_2"]}
+{"id": 3893, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "and", "never", "prop_2"]}
+{"id": 3432, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "can", "infer", "that", "at", "any", "time", "prop_2"]}
+{"id": 2403, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 1], "grounded_sentence": ["when", "possible", "prop_1", "and", "when", "possible", "prop_1"]}
+{"id": 4795, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "and", "at", "some", "time", "prop_2"]}
+{"id": 2809, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 1], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "when", "possible", "prop_1"]}
+{"id": 6951, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "whenever", "prop_2"]}
+{"id": 3371, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["always", "prop_1", "can", "infer", "that", "whenever", "prop_2"]}
+{"id": 6901, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2, 3, 4], "grounded_sentence": ["when", "possible", "prop_1", "means", "that", "prop_2", "prop_3", "prop_4"]}
+{"id": 2217, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "until", "prop_2"]}
+{"id": 1929, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "and", "at", "some", "time", "prop_2"]}
+{"id": 6116, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "and", "at", "any", "time", "prop_2"]}
+{"id": 1794, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 1], "grounded_sentence": ["don't", "let", "go", "prop_1", "means", "that", "take", "prop_1"]}
+{"id": 5394, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "or", "prop_2"]}
+{"id": 3055, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "when", "possible", "prop_2"]}
+{"id": 64, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "prop_2"]}
+{"id": 136, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "prop_2"]}
+{"id": 5779, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "until", "prop_2"]}
+{"id": 1702, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 2], "grounded_sentence": ["if", "at", "some", "time", "prop_1", ",", "whenever", "prop_2"]}
+{"id": 1502, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "and", "prop_2"]}
+{"id": 1410, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 5643, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "when", "possible", "prop_2"]}
+{"id": 1576, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "be", "at", "prop_1", "means", "that", "when", "possible", "reach", "prop_2"]}
+{"id": 5511, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["don't", "let", "prop_1", "and", "prop_2"]}
+{"id": 7437, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "prop_2"]}
+{"id": 6715, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "when", "possible", "prop_2"]}
+{"id": 2392, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "when", "possible", "prop_2"]}
+{"id": 2287, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "never", "let", "go", "prop_2"]}
+{"id": 782, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "and", "whenever", "prop_2"]}
+{"id": 7207, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "when", "possible", "prop_2"]}
+{"id": 6828, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "and", "at", "some", "time", "prop_2"]}
+{"id": 6481, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "at", "any", "time", "prop_2"]}
+{"id": 546, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "prop_2"]}
+{"id": 1109, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "prop_2"]}
+{"id": 5062, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "and", "whenever", "prop_2"]}
+{"id": 6779, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["always", "have", "in", "prop_1", "or", "when", "possible", "be", "in", "prop_2's", "vicinity"]}
+{"id": 4873, "lifted_sentence_prop_ids": [1, 0, 0, 2, 3], "grounded_sentence": ["prop_1", "or", "never", "prop_2", "prop_3"]}
+{"id": 2720, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "or", "prop_2"]}
+{"id": 2885, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2, 3], "grounded_sentence": ["hold", "prop_1", "and", "when", "possible", "prop_2", "prop_3"]}
+{"id": 7316, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "means", "that", "repeatedly", "prop_2"]}
+{"id": 4368, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "at", "any", "time", "prop_2"]}
+{"id": 5298, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "and", "at", "any", "time", "prop_2"]}
+{"id": 2977, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "means", "that", "at", "some", "time", "prop_2"]}
+{"id": 5472, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["never", "prop_1", "or", "prop_2"]}
+{"id": 55, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"]}
+{"id": 5781, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "can", "infer", "that", "when", "possible", "make", "your", "way", "prop_2"]}
+{"id": 4160, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2, 3, 4], "grounded_sentence": ["prop_1", "and", "at", "some", "time", "prop_2", "prop_3", "prop_4"]}
+{"id": 2320, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "at", "some", "time", "prop_2"]}
+{"id": 653, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "or", "at", "any", "time", "prop_2"]}
+{"id": 3030, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "whenever", "prop_2"]}
+{"id": 2982, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["when", "prop_1", ",", "at", "some", "time", "prop_2"]}
+{"id": 5513, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 1], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "whenever", "prop_1"]}
+{"id": 6844, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "or", "at", "any", "time", "prop_2"]}
+{"id": 5432, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2, 3], "grounded_sentence": ["when", "possible", "prop_1", "or", "never", "let", "prop_2", "prop_3"]}
+{"id": 4487, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "at", "any", "time", "prop_2"]}
+{"id": 4817, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "at", "some", "time", "prop_2"]}
+{"id": 980, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "until", "when", "possible", "prop_2"]}
+{"id": 1032, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "and", "repeatedly", "prop_2"]}
+{"id": 1994, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "and", "prop_2"]}
+{"id": 6783, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "at", "any", "time", "prop_2"]}
+{"id": 6217, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2, 0, 3], "grounded_sentence": ["prop_1", "and", "at", "any", "time", "prop_2", "near", "prop_3"]}
+{"id": 6152, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "or", "prop_2"]}
+{"id": 5350, "lifted_sentence_prop_ids": [1, 0, 1], "grounded_sentence": ["prop_1", "or", "prop_1"]}
+{"id": 2509, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "and", "at", "any", "time", "prop_2"]}
+{"id": 6656, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 7472, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"]}
+{"id": 5282, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "at", "any", "time", "prop_2"]}
+{"id": 6373, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["when", "prop_1", ",", "prop_2"]}
+{"id": 5359, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 2], "grounded_sentence": ["if", "at", "some", "time", "prop_1", ",", "prop_2"]}
+{"id": 891, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "at", "any", "time", "prop_2"]}
+{"id": 2105, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "and", "prop_2"]}
+{"id": 5548, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "and", "whenever", "prop_2"]}
+{"id": 2348, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["never", "prop_1", "and", "prop_2"]}
+{"id": 4701, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "and", "prop_2"]}
+{"id": 3989, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "prop_2"]}
+{"id": 6649, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "at", "any", "time", "prop_2"]}
+{"id": 365, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "at", "any", "time", "prop_2"]}
+{"id": 4126, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 3], "grounded_sentence": ["if", "when", "possible", "prop_1", ",", "prop_2", "prop_3"]}
+{"id": 4223, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2, 0, 3], "grounded_sentence": ["never", "prop_1", "or", "at", "any", "time", "prop_2", "at", "prop_3"]}
+{"id": 3192, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["do", "not", "let", "go", "prop_1", "and", "get", "to", "prop_2"]}
+{"id": 1104, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "when", "possible", "prop_2"]}
+{"id": 3946, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "or", "never", "prop_2"]}
+{"id": 4330, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "never", "prop_2"]}
+{"id": 4510, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "can", "infer", "that", "when", "possible", "prop_2"]}
+{"id": 193, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "and", "at", "any", "time", "prop_2"]}
+{"id": 5422, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "never", "prop_2"]}
+{"id": 6425, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "prop_2"]}
+{"id": 4407, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "at", "any", "time", "prop_2"]}
+{"id": 2820, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "at", "some", "time", "present", "at", "prop_2"]}
+{"id": 4469, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "repeatedly", "prop_2"]}
+{"id": 5825, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "and", "at", "some", "time", "prop_2"]}
+{"id": 5358, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["do", "not", "let", "prop_1", "and", "at", "some", "time", "procure", "prop_2"]}
+{"id": 4281, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "and", "prop_2"]}
+{"id": 7452, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 2], "grounded_sentence": ["if", "at", "some", "time", "prop_1", ",", "prop_2"]}
+{"id": 2544, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "or", "whenever", "prop_2"]}
+{"id": 1277, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "and", "when", "possible", "prop_2"]}
+{"id": 2250, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "always", "hold", "on", "prop_2"]}
+{"id": 4662, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["never", "prop_1", "or", "whenever", "prop_2"]}
+{"id": 6094, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2, 0, 1], "grounded_sentence": ["when", "possible", "prop_1", "or", "always", "prop_2", "on", "prop_1"]}
+{"id": 5274, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "when", "possible", "prop_2"]}
+{"id": 5856, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["repeatedly", "prop_1", "or", "at", "any", "time", "prop_2"]}
+{"id": 4755, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["never", "let", "prop_1", "or", "when", "possible", "have", "prop_2"]}
+{"id": 2302, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "at", "any", "time", "prop_2"]}
+{"id": 4022, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "and", "when", "possible", "prop_2"]}
+{"id": 423, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "at", "any", "time", "prop_2"]}
+{"id": 3228, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 3685, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 4316, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "and", "prop_2"]}
+{"id": 4727, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "until", "when", "possible", "prop_2"]}
+{"id": 6051, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "or", "prop_2"]}
+{"id": 3453, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "can", "infer", "that", "when", "possible", "prop_2"]}
+{"id": 3222, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "prop_2"]}
+{"id": 260, "lifted_sentence_prop_ids": [1, 0, 1], "grounded_sentence": ["prop_1", "until", "prop_1"]}
+{"id": 2518, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 2963, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 3], "grounded_sentence": ["forever", "prop_1", "or", "whenever", "prop_2", "prop_3"]}
+{"id": 5389, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "and", "whenever", "prop_2"]}
+{"id": 6293, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "or", "at", "any", "time", "prop_2"]}
+{"id": 4675, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "at", "any", "time", "prop_2"]}
+{"id": 3471, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "until", "at", "some", "time", "prop_2"]}
+{"id": 347, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["whenever", "prop_1", "and", "prop_2"]}
+{"id": 3431, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["when", "don't", "let", "go", "prop_1", ",", "when", "possible", "lay", "hold", "of", "prop_2"]}
+{"id": 2521, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 3592, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "and", "at", "some", "time", "prop_2"]}
+{"id": 3804, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2, 3, 4], "grounded_sentence": ["keep", "prop_1", "until", "at", "any", "time", "prop_2", "prop_3", "prop_4"]}
+{"id": 5352, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "prop_2"]}
+{"id": 6684, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "or", "prop_2"]}
+{"id": 3940, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "or", "prop_2"]}
+{"id": 4973, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"]}
+{"id": 6886, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "when", "possible", "prop_2"]}
+{"id": 612, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["do", "not", "let", "go", "prop_1", "or", "at", "any", "time", "venture", "prop_2"]}
+{"id": 1739, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 3], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "prop_2", "prop_3"]}
+{"id": 3961, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "prop_2"]}
+{"id": 7433, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2, 0, 3], "grounded_sentence": ["if", "always", "prop_1", ",", "at", "any", "time", "prop_2", "by", "prop_3"]}
+{"id": 3580, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "and", "at", "any", "time", "prop_2"]}
+{"id": 1776, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "at", "any", "time", "prop_2"]}
+{"id": 3071, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 53, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["always", "prop_1", "or", "at", "any", "time", "prop_2"]}
+{"id": 3691, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "prop_2"]}
+{"id": 4782, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "and", "prop_2"]}
+{"id": 7024, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "at", "any", "time", "prop_2"]}
+{"id": 361, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 6586, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "when", "possible", "prop_2"]}
+{"id": 2331, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 1], "grounded_sentence": ["never", "let", "go", "or", "at", "any", "time", "prop_1"]}
+{"id": 6639, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "and", "when", "possible", "prop_2"]}
+{"id": 5343, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2, 0, 3], "grounded_sentence": ["prop_1", "or", "when", "possible", "prop_2", "by", "prop_3"]}
+{"id": 5509, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "forever", "have", "in", "prop_2"]}
+{"id": 2727, "lifted_sentence_prop_ids": [1, 0, 0, 2, 3, 0, 1], "grounded_sentence": ["prop_1", "or", "whenever", "prop_2", "prop_3", "for", "prop_1"]}
+{"id": 5477, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "whenever", "prop_2"]}
+{"id": 6082, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "prop_2"]}
+{"id": 1246, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "prop_2"]}
+{"id": 2732, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["go", "to", "prop_1", "until", "whenever", "migrate", "to", "prop_2"]}
+{"id": 2199, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "and", "at", "some", "time", "prop_2"]}
+{"id": 3938, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "and", "when", "possible", "prop_2"]}
+{"id": 2541, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"]}
+{"id": 5634, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "and", "at", "any", "time", "prop_2"]}
+{"id": 3909, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 2], "grounded_sentence": ["always", "have", "prop_1", "and", "at", "some", "time", "acquire", "prop_2"]}
+{"id": 6198, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 3269, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "prop_2"]}
+{"id": 2095, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "or", "never", "prop_2"]}
+{"id": 343, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 1], "grounded_sentence": ["hold", "prop_1", "and", "at", "any", "time", "obtain", "prop_1"]}
+{"id": 4393, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "or", "when", "possible", "prop_2"]}
+{"id": 865, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "until", "prop_2"]}
+{"id": 3649, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "until", "at", "any", "time", "prop_2"]}
+{"id": 627, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "and", "when", "possible", "prop_2"]}
+{"id": 1569, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["repeatedly", "prop_1", "and", "prop_2"]}
+{"id": 1040, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "whenever", "prop_2"]}
+{"id": 568, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "when", "possible", "prop_2"]}
+{"id": 7086, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["repeatedly", "prop_1", "or", "whenever", "prop_2"]}
+{"id": 6475, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["do", "not", "let", "prop_1", "and", "repeatedly", "grab", "prop_2"]}
+{"id": 3083, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "prop_2"]}
+{"id": 6294, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "at", "any", "time", "prop_2"]}
+{"id": 2139, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "whenever", "prop_2"]}
+{"id": 3045, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "prop_2"]}
+{"id": 186, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 1], "grounded_sentence": ["when", "possible", "prop_1", "and", "when", "possible", "prop_1"]}
+{"id": 3661, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2, 3], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "never", "prop_2", "prop_3"]}
+{"id": 5291, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["when", "possible", "let", "prop_1", ",", "at", "some", "time", "prop_2"]}
+{"id": 4919, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2], "grounded_sentence": ["never", "let", "go", "prop_1", "or", "approach", "prop_2"]}
+{"id": 6710, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "prop_2"]}
+{"id": 2394, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "or", "at", "any", "time", "prop_2"]}
+{"id": 6256, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 0, 0, 2, 3], "grounded_sentence": ["when", "possible", "be", "near", "prop_1", "and", "at", "some", "time", "prop_2", "prop_3"]}
+{"id": 1829, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 7284, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["always", "have", "prop_1", "or", "whenever", "prop_2"]}
+{"id": 6252, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "always", "prop_2"]}
+{"id": 724, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "and", "prop_2"]}
+{"id": 3121, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "and", "prop_2"]}
+{"id": 2991, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "prop_2"]}
+{"id": 784, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "and", "whenever", "prop_2"]}
+{"id": 3362, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 1912, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2, 3], "grounded_sentence": ["never", "let", "prop_1", "or", "whenever", "prop_2", "prop_3"]}
+{"id": 2889, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "prop_2"]}
+{"id": 6174, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["forever", "have", "prop_1", "or", "at", "any", "time", "prop_2"]}
+{"id": 3048, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "can", "infer", "that", "whenever", "prop_2"]}
+{"id": 2998, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "or", "whenever", "prop_2"]}
+{"id": 7219, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "forever", "prop_2"]}
+{"id": 1775, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "and", "prop_2"]}
+{"id": 7250, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "and", "at", "any", "time", "prop_2"]}
+{"id": 6054, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["whenever", "prop_1", "and", "prop_2"]}
+{"id": 2549, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "and", "whenever", "prop_2"]}
+{"id": 2487, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "when", "possible", "prop_2"]}
+{"id": 2918, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 2, 3], "grounded_sentence": ["at", "any", "time", "prop_1", "and", "never", "prop_2", "prop_3"]}
+{"id": 3010, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "until", "at", "any", "time", "prop_2"]}
+{"id": 4397, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "prop_2"]}
+{"id": 2699, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["when", "whenever", "prop_1", ",", "prop_2"]}
+{"id": 2211, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["whenever", "prop_1", "and", "prop_2"]}
+{"id": 2863, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "or", "prop_2"]}
+{"id": 1828, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 3, 4], "grounded_sentence": ["at", "any", "time", "prop_1", "until", "prop_2", "prop_3", "prop_4"]}
+{"id": 7096, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "or", "prop_2"]}
+{"id": 108, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["forever", "prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 1308, "lifted_sentence_prop_ids": [0, 1, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "prop_2"]}
+{"id": 1927, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "and", "prop_2"]}
+{"id": 4155, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "and", "at", "some", "time", "prop_2"]}
+{"id": 1341, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["at", "some", "time", "prop_1", "and", "when", "possible", "prop_2"]}
+{"id": 3625, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "until", "whenever", "prop_2"]}
+{"id": 5755, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "and", "don't", "pick", "up", "anything"]}
+{"id": 5496, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["never", "prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 1455, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2], "grounded_sentence": ["never", "prop_1", "and", "when", "possible", "prop_2"]}
+{"id": 3985, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "and", "at", "any", "time", "prop_2"]}
+{"id": 6755, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "or", "at", "any", "time", "prop_2"]}
+{"id": 1505, "lifted_sentence_prop_ids": [0, 0, 0, 1, 2, 0, 0, 3, 4], "grounded_sentence": ["at", "any", "time", "prop_1", "prop_2", "or", "whenever", "prop_3", "prop_4"]}
+{"id": 5479, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "and", "at", "some", "time", "prop_2"]}
+{"id": 718, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 1], "grounded_sentence": ["forever", "have", "prop_1", "or", "at", "some", "time", "grab", "prop_1"]}
+{"id": 5860, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "whenever", "prop_2"]}
+{"id": 1334, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "prop_2"]}
+{"id": 6752, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["forever", "prop_1", "or", "whenever", "prop_2"]}
+{"id": 3716, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 0, 0, 2, 3, 4], "grounded_sentence": ["when", "possible", "be", "near", "prop_1", "or", "at", "some", "time", "prop_2", "prop_3", "prop_4"]}
+{"id": 3935, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "always", "prop_2"]}
+{"id": 2090, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "never", "prop_2"]}
+{"id": 2789, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "whenever", "prop_2"]}
+{"id": 6669, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "forever", "have", "prop_2"]}
+{"id": 5928, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["when", "prop_1", ",", "at", "some", "time", "prop_2"]}
+{"id": 2621, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "or", "when", "possible", "prop_2"]}
+{"id": 6192, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "until", "whenever", "prop_2"]}
+{"id": 4044, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "until", "prop_2"]}
+{"id": 352, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 3], "grounded_sentence": ["when", "never", "prop_1", ",", "prop_2", "prop_3"]}
+{"id": 3088, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2, 1], "grounded_sentence": ["always", "have", "prop_1", "and", "at", "some", "time", "prop_2", "prop_1"]}
+{"id": 5000, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "or", "at", "some", "time", "prop_2"]}
+{"id": 6725, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "be", "in", "prop_1", "or", "repeatedly", "grab", "prop_2"]}
+{"id": 700, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2, 3], "grounded_sentence": ["repeatedly", "prop_1", "or", "do", "not", "prop_2", "prop_3"]}
+{"id": 2285, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "or", "when", "possible", "prop_2"]}
+{"id": 2384, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "whenever", "prop_2"]}
+{"id": 1833, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2], "grounded_sentence": ["at", "any", "time", "prop_1", "and", "prop_2"]}
+{"id": 5763, "lifted_sentence_prop_ids": [1, 0, 0, 2], "grounded_sentence": ["prop_1", "until", "whenever", "prop_2"]}
+{"id": 4451, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2], "grounded_sentence": ["when", "possible", "prop_1", "or", "whenever", "prop_2"]}
+{"id": 5902, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "or", "when", "possible", "prop_2"]}
+{"id": 115, "lifted_sentence_prop_ids": [1, 0, 2], "grounded_sentence": ["prop_1", "and", "prop_2"]}
+{"id": 6544, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["if", "prop_1", ",", "at", "some", "time", "prop_2"]}
+{"id": 2901, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2, 0, 3], "grounded_sentence": ["prop_1", "and", "when", "possible", "prop_2", "by", "prop_3"]}
+{"id": 6550, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2], "grounded_sentence": ["forever", "prop_1", "or", "when", "possible", "prop_2"]}
+{"id": 6731, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["whenever", "prop_1", "and", "at", "any", "time", "prop_2"]}
+{"id": 2706, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 2], "grounded_sentence": ["if", "whenever", "prop_1", ",", "at", "any", "time", "prop_2"]}
+{"id": 3470, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 2], "grounded_sentence": ["prop_1", "or", "always", "have", "in", "prop_2"]}

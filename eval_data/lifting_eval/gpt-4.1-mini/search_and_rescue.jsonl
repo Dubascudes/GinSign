@@ -1,0 +1,500 @@
+{"id": 4249, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 7765, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 2, 0], "grounded_sentence": ["This", "controller", "must", "always", "prop_1", "prop_2", "prop_3."]}
+{"id": 8523, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0], "grounded_sentence": ["The", "robot", "must", "always", "prop_1", "prop_2."]}
+{"id": 7657, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 0], "grounded_sentence": ["From", "some", "point", "onwards,", "prop_1", "never", "occurs", "again."]}
+{"id": 9494, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 2879, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0], "grounded_sentence": ["In", "this", "task,", "prop_1,", "then", "prop_2."]}
+{"id": 5144, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 3, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "and", "prop_2", "next,", "then", "prop_3", "in", "the", "step", "after", "that."]}
+{"id": 9557, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 3, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "holds", "and", "prop_2", "next,", "then", "prop_3", "in", "the", "step", "after", "that."]}
+{"id": 3920, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 0], "grounded_sentence": ["Either", "prop_1", "or", "prop_2", "happens", "infinitely", "often."]}
+{"id": 9945, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2", "holds,", "prop_3", "eventually", "holds."]}
+{"id": 7422, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 9673, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "ever", "holds,", "prop_2", "must", "have", "held", "beforehand."]}
+{"id": 9232, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 6272, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "and", "prop_2", "will", "each", "happen", "at", "some", "point."]}
+{"id": 342, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "and", "prop_2", "never", "coincide,", "yet", "one", "of", "them", "is", "always", "true."]}
+{"id": 2964, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2", "holds,", "prop_3", "eventually", "holds."]}
+{"id": 2020, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["This", "controller", "must", "eventually", "prop_1", "and", "prop_2."]}
+{"id": 6678, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["You", "must", "always", "have", "either", "prop_1", "or", "prop_2."]}
+{"id": 6056, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0], "grounded_sentence": ["This", "controller", "must", "prop_1", "and", "then", "prop_2."]}
+{"id": 4855, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2", "holds,", "prop_3", "eventually", "holds."]}
+{"id": 9741, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "can", "only", "happen", "after", "prop_2."]}
+{"id": 8152, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 1973, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "holds,", "prop_2", "holds", "as", "well."]}
+{"id": 318, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "happens", "infinitely", "often,", "then", "so", "does", "prop_2."]}
+{"id": 5065, "lifted_sentence_prop_ids": [1, 0, 0, 0], "grounded_sentence": ["prop_1", "at", "all", "times."]}
+{"id": 2547, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 2, 3, 0], "grounded_sentence": ["From", "some", "point", "onwards,", "prop_1", "prop_2", "prop_3", "prop_4."]}
+{"id": 6746, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 4, 0], "grounded_sentence": ["If", "prop_1,", "then", "in", "the", "next", "step", "prop_2", "until", "prop_3,", "or", "else", "prop_4", "forever."]}
+{"id": 2385, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2,", "prop_3."]}
+{"id": 1542, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "holds", "and", "prop_2", "holds", "next,", "then", "prop_3", "holds", "in", "the", "step", "after", "that."]}
+{"id": 7957, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0], "grounded_sentence": ["Provide", "prop_1", "at", "all", "times."]}
+{"id": 5668, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0], "grounded_sentence": ["The", "system", "must", "eventually,", "prop_1."]}
+{"id": 2597, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0], "grounded_sentence": ["The", "robot", "must", "prop_1", "should", "always", "hold,", "with", "at", "most", "a", "prop_2", "for", "recovery."]}
+{"id": 7000, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["Once", "prop_1", "has", "occurred,", "prop_2", "will", "never", "occur", "again."]}
+{"id": 2570, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0], "grounded_sentence": ["Stay", "away", "from", "prop_1", "must", "keep", "holding", "until,", "from", "some", "point", "on,", "prop_2", "holds", "infinitely", "often."]}
+{"id": 3275, "lifted_sentence_prop_ids": [0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1,", "eventually", "prop_2."]}
+{"id": 8561, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 0], "grounded_sentence": ["Either", "prop_1", "or", "prop_2", "happens", "infinitely", "often."]}
+{"id": 2587, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["Our", "agent", "must", "eventually", "prop_1", "or", "prop_2."]}
+{"id": 254, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0], "grounded_sentence": ["prop_1", "must", "keep", "holding", "until,", "from", "some", "point", "on,", "prop_2", "holds", "infinitely", "often."]}
+{"id": 8344, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "should", "always", "hold,", "with", "at", "most", "a", "two-step", "grace", "period", "for", "recovery."]}
+{"id": 2101, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 2049, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["At", "every", "step,", "prop_1", "equals", "the", "value", "of", "prop_2", "in", "the", "next", "step."]}
+{"id": 285, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 3, 0, 0, 0, 2, 0, 0], "grounded_sentence": ["If", "prop_1", "holds,", "then", "in", "the", "next", "step", "prop_2", "persists", "until", "prop_3", "holds,", "or", "else", "prop_2", "holds", "forever."]}
+{"id": 4021, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["At", "every", "step,", "prop_1", "equals", "the", "value", "of", "prop_2", "in", "the", "next", "step."]}
+{"id": 9209, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2", "holds,", "prop_3", "eventually", "holds."]}
+{"id": 1645, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0], "grounded_sentence": ["Whenever", "do", "not", "prop_1,", "from", "the", "next", "step", "onwards", "prop_2", "will", "eventually", "hold."]}
+{"id": 6279, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "can", "only", "happen", "after", "prop_2."]}
+{"id": 4776, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 0], "grounded_sentence": ["Either", "prop_1", "or", "prop_2", "happens", "infinitely", "often."]}
+{"id": 2903, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "should", "always", "hold,", "with", "at", "most", "a", "two-step", "grace", "period", "for", "recovery."]}
+{"id": 2013, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 5369, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "holds,", "from", "the", "next", "step", "onwards", "prop_2", "will", "eventually", "hold."]}
+{"id": 2047, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "happens", "infinitely", "often,", "then", "so", "does", "prop_2."]}
+{"id": 8818, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "holds,", "from", "the", "next", "step", "onwards", "do", "not", "prop_2."]}
+{"id": 2244, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 0], "grounded_sentence": ["From", "some", "point", "onwards,", "prop_1", "never", "occurs", "again."]}
+{"id": 9358, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 2, 0], "grounded_sentence": ["This", "controller", "must", "always", "prop_1", "prop_2", "prop_3."]}
+{"id": 8754, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 7378, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "holds,", "begin", "prop_2", "holds", "as", "well."]}
+{"id": 5012, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 5425, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "and", "prop_2", "never", "coincide,", "yet", "one", "of", "them", "is", "always", "true."]}
+{"id": 8488, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 4260, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 3, 0, 0, 0, 0, 0], "grounded_sentence": ["Provide", "prop_1", "to", "the", "prop_2", "prop_3", "can", "only", "happen", "after", "prop_4."]}
+{"id": 5125, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 0], "grounded_sentence": ["Either", "prop_1", "or", "prop_2", "happens", "infinitely", "often."]}
+{"id": 6638, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["Our", "agent", "must", "prop_1", "and", "prop_2", "are", "mutually", "exclusive", "at", "all", "times."]}
+{"id": 4114, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0], "grounded_sentence": ["Our", "agent", "must", "always", "prop_1."]}
+{"id": 1403, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["Every", "prop_1", "is", "directly", "followed", "by", "prop_2", "in", "the", "next", "step."]}
+{"id": 8976, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0], "grounded_sentence": ["Provide", "prop_1", "at", "all", "times."]}
+{"id": 6727, "lifted_sentence_prop_ids": [1, 0, 0, 0], "grounded_sentence": ["prop_1", "at", "all", "times."]}
+{"id": 3692, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "happens", "infinitely", "often,", "then", "so", "does", "prop_2."]}
+{"id": 3933, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2, 0], "grounded_sentence": ["Globally,", "if", "prop_1", "occurs", "then", "finally", "prop_2", "happens."]}
+{"id": 3376, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2", "holds,", "prop_3", "eventually", "holds."]}
+{"id": 4956, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 0], "grounded_sentence": ["From", "some", "point", "onwards,", "prop_1", "never", "occurs", "again."]}
+{"id": 3704, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0], "grounded_sentence": ["This", "controller", "must", "eventually,", "prop_1."]}
+{"id": 4259, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 1162, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "should", "always", "hold,", "with", "at", "most", "a", "two-step", "grace", "period", "for", "recovery."]}
+{"id": 7165, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0], "grounded_sentence": ["Our", "agent", "must", "eventually,", "prop_1."]}
+{"id": 7538, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0], "grounded_sentence": ["Globally,", "it", "is", "not", "the", "case", "that", "both", "prop_1", "and", "prop_2", "simultaneously."]}
+{"id": 9239, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["Begin", "prop_1", "should", "always", "hold,", "with", "at", "most", "a", "two-step", "grace", "period", "for", "recovery."]}
+{"id": 8822, "lifted_sentence_prop_ids": [0, 0, 2, 0, 0], "grounded_sentence": ["Whenever", "prop_1,", "prop_2", "as", "well."]}
+{"id": 3433, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2", "holds,", "prop_3", "eventually", "holds."]}
+{"id": 80, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 3, 0, 0, 0, 2, 0, 0], "grounded_sentence": ["If", "prop_1", "holds,", "then", "in", "the", "next", "step", "prop_2", "persists", "until", "doing", "not", "prop_3", "holds,", "or", "else", "prop_2", "holds", "forever."]}
+{"id": 1314, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 5212, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 3654, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 2148, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["The", "robot", "must", "always", "have", "either", "prop_1", "or", "prop_2."]}
+{"id": 5712, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 2, 3, 0], "grounded_sentence": ["The", "system", "must", "always", "prop_1", "prop_2", "prop_3", "prop_4."]}
+{"id": 9964, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["The", "system", "must", "always", "maintain", "both", "prop_1", "and", "prop_2."]}
+{"id": 4246, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2, 0], "grounded_sentence": ["Globally,", "if", "prop_1", "then", "finally", "prop_2", "happens."]}
+{"id": 4089, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2, 0], "grounded_sentence": ["Globally,", "if", "prop_1", "occurs", "then", "finally", "prop_2", "happens."]}
+{"id": 8747, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0], "grounded_sentence": ["The", "system", "must", "always", "prop_1."]}
+{"id": 5083, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2, 0], "grounded_sentence": ["Globally,", "if", "prop_1", "occurs", "then", "finally", "prop_2", "happens."]}
+{"id": 4011, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2, 0], "grounded_sentence": ["Globally,", "if", "prop_1", "then", "finally", "prop_2", "happens."]}
+{"id": 4271, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "happens", "infinitely", "often,", "then", "so", "does", "prop_2."]}
+{"id": 3956, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 8262, "lifted_sentence_prop_ids": [0, 0, 0, 0], "grounded_sentence": ["You", "must", "eventually,", "prop_1."]}
+{"id": 6491, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 3, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2,", "prop_3", "eventually", "holds."]}
+{"id": 1096, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["At", "every", "step,", "prop_1", "equals", "the", "value", "of", "prop_2", "in", "the", "next", "step."]}
+{"id": 9586, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["This", "controller", "must", "always", "have", "either", "prop_1", "or", "prop_2."]}
+{"id": 5762, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 3, 0, 0, 0, 2, 0, 0], "grounded_sentence": ["If", "prop_1", "holds,", "then", "in", "the", "next", "step", "prop_2", "persists", "until", "prop_3", "holds,", "or", "else", "prop_2", "holds", "forever."]}
+{"id": 4773, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "and", "prop_2", "never", "coincide,", "yet", "one", "of", "them", "is", "always", "true."]}
+{"id": 64, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 0, 2, 0, 0], "grounded_sentence": ["The", "system", "must", "Eventually,", "both", "prop_1", "and", "prop_2", "hold", "simultaneously."]}
+{"id": 9702, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["This", "controller", "must", "always", "have", "either", "prop_1", "or", "prop_2."]}
+{"id": 8389, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 0], "grounded_sentence": ["From", "some", "point", "onwards,", "prop_1", "never", "occurs", "again."]}
+{"id": 7900, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "holds,", "stay", "away", "from", "prop_2", "exactly", "three", "steps", "later."]}
+{"id": 7575, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["When", "prop_1", "happens,", "prop_2", "must", "hold", "now", "or", "in", "the", "next", "step."]}
+{"id": 1435, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2", "holds,", "prop_3", "eventually", "holds."]}
+{"id": 9143, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2, 0], "grounded_sentence": ["Globally,", "if", "prop_1", "occurs", "then", "finally", "prop_2", "happens."]}
+{"id": 9778, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "and", "do", "not", "prop_2", "never", "coincide,", "yet", "one", "of", "them", "is", "always", "true."]}
+{"id": 6975, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0], "grounded_sentence": ["The", "system", "must", "always", "prop_1."]}
+{"id": 8781, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 0, 0, 0], "grounded_sentence": ["Either", "do", "not", "prop_1", "or", "prop_2", "happens", "infinitely", "often."]}
+{"id": 556, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["Once", "prop_1", "has", "occurred,", "prop_2", "will", "never", "occur", "again."]}
+{"id": 7610, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["Every", "prop_1", "is", "directly", "followed", "by", "prop_2", "in", "the", "next", "step."]}
+{"id": 5247, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 2, 3, 4, 5, 0], "grounded_sentence": ["The", "system", "must", "eventually,", "prop_1", "prop_2", "prop_3", "prop_4", "prop_5", "prop_6."]}
+{"id": 6065, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 0, 3, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["This", "controller", "must", "prop_1", "must", "prop_2", "until", "prop_3", "does,", "or", "else", "prop_1", "holds", "forever."]}
+{"id": 6902, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 3, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2,", "prop_3", "eventually", "holds."]}
+{"id": 9495, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["You", "must", "always", "maintain", "both", "prop_1", "and", "prop_2."]}
+{"id": 8128, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 7996, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0], "grounded_sentence": ["This", "controller", "must", "eventually,", "prop_1", "prop_2."]}
+{"id": 4560, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "should", "always", "hold,", "with", "at", "most", "a", "two-step", "grace", "period", "for", "recovery."]}
+{"id": 945, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "holds", "and", "prop_2", "holds", "next,", "then", "prop_3", "holds", "in", "the", "step", "after", "that."]}
+{"id": 6367, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["Our", "agent", "must", "always", "maintain", "both", "prop_1", "and", "prop_2."]}
+{"id": 9791, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "holds,", "from", "the", "next", "step", "onwards", "prop_2", "will", "eventually", "hold."]}
+{"id": 2635, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0], "grounded_sentence": ["prop_1", "must", "keep", "holding", "until,", "from", "some", "point", "on,", "prop_2", "holds", "infinitely", "often."]}
+{"id": 8309, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 21, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 2, 0], "grounded_sentence": ["In", "this", "task,", "prop_1,", "then", "prop_2", "prop_3."]}
+{"id": 8679, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 4, 0, 0], "grounded_sentence": ["prop_1", "must", "keep", "holding", "until,", "from", "some", "point", "on,", "prop_2", "prop_3", "prop_4", "infinitely", "often."]}
+{"id": 7537, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0], "grounded_sentence": ["The", "system", "must", "eventually,", "prop_1."]}
+{"id": 2790, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 3, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2", "holds,", "avoid", "prop_3", "eventually", "holds."]}
+{"id": 8808, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 8828, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["prop_1", "must", "hold", "until", "prop_2", "does,", "or", "else", "prop_1", "holds", "forever."]}
+{"id": 2845, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 446, "lifted_sentence_prop_ids": [0, 0, 0, 0], "grounded_sentence": ["You", "must", "eventually,", "prop_1."]}
+{"id": 3384, "lifted_sentence_prop_ids": [0, 0, 2, 0, 0], "grounded_sentence": ["Whenever", "prop_1,", "prop_2", "as", "well."]}
+{"id": 430, "lifted_sentence_prop_ids": [0, 0, 0, 0], "grounded_sentence": ["You", "must", "eventually,", "prop_1."]}
+{"id": 2098, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 1, 0, 0, 0], "grounded_sentence": ["From", "some", "point", "onwards,", "do", "not", "prop_1", "never", "occurs", "again."]}
+{"id": 2391, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "can", "only", "happen", "after", "prop_2."]}
+{"id": 6714, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 4, 0, 0], "grounded_sentence": ["If", "prop_1,", "then", "in", "the", "next", "step", "prop_2", "persists", "until", "prop_3,", "or", "else", "prop_4", "holds", "forever."]}
+{"id": 692, "lifted_sentence_prop_ids": [0, 0, 0, 0], "grounded_sentence": ["Either", "prop_1,", "or", "prop_2."]}
+{"id": 5483, "lifted_sentence_prop_ids": [0, 0, 0, 0], "grounded_sentence": ["You", "must", "always", "prop_1."]}
+{"id": 4057, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0], "grounded_sentence": ["prop_1", "must", "keep", "holding", "until,", "from", "some", "point", "on,", "prop_2", "holds", "infinitely", "often."]}
+{"id": 558, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2", "holds,", "get", "help", "eventually", "holds."]}
+{"id": 6451, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "holds", "at", "all", "times."]}
+{"id": 4800, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "begin", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 5036, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["At", "every", "step,", "prop_1", "equals", "the", "value", "of", "prop_2", "in", "the", "next", "step."]}
+{"id": 3836, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 3, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2,", "request", "prop_3", "eventually", "prop_4."]}
+{"id": 9090, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0], "grounded_sentence": ["prop_1", "should", "always", "hold,", "with", "at", "most", "a", "prop_2", "for", "recovery."]}
+{"id": 912, "lifted_sentence_prop_ids": [0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1,", "eventually", "prop_2."]}
+{"id": 462, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "and", "prop_2", "next,", "then", "do", "not", "prop_3", "in", "the", "step", "after", "that."]}
+{"id": 4212, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0], "grounded_sentence": ["prop_1", "should", "always", "hold,", "with", "at", "most", "a", "prop_2", "for", "recovery."]}
+{"id": 9395, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 2860, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "holds,", "prop_2", "holds", "as", "well."]}
+{"id": 9425, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "and", "prop_2", "are", "mutually", "exclusive", "at", "all", "times."]}
+{"id": 5529, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["At", "every", "step,", "do", "not", "prop_1", "equals", "the", "value", "of", "prop_2", "in", "the", "next", "step."]}
+{"id": 5429, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 0], "grounded_sentence": ["From", "some", "point", "onwards,", "prop_1", "never", "occurs", "again."]}
+{"id": 1594, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0], "grounded_sentence": ["prop_1", "should", "always", "hold,", "with", "at", "most", "a", "prop_2", "for", "recovery."]}
+{"id": 5854, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2", "holds,", "prop_3", "eventually", "holds."]}
+{"id": 6525, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2, 0], "grounded_sentence": ["Globally,", "if", "prop_1", "occurs", "then", "finally", "prop_2", "happens."]}
+{"id": 9772, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0], "grounded_sentence": ["In", "this", "task,", "prop_1,", "then", "prop_2."]}
+{"id": 7918, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 3592, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 3, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "and", "prop_2", "next,", "then", "prop_3", "in", "the", "step", "after", "that."]}
+{"id": 7877, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["Our", "agent", "must", "always", "maintain", "both", "prop_1", "and", "prop_2."]}
+{"id": 1394, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 726, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 4514, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 0], "grounded_sentence": ["From", "some", "point", "onwards,", "prop_1", "never", "occurs", "again."]}
+{"id": 6424, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["Once", "prop_1", "has", "occurred,", "prop_2", "will", "never", "occur", "again."]}
+{"id": 6550, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 0, 2, 0], "grounded_sentence": ["The", "system", "must", "Eventually,", "both", "prop_1", "and", "prop_2", "simultaneously."]}
+{"id": 5846, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 4750, "lifted_sentence_prop_ids": [1, 0, 0, 0], "grounded_sentence": ["prop_1", "at", "all", "times."]}
+{"id": 3065, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 0], "grounded_sentence": ["Whenever", "prop_1,", "eventually", "prop_2", "will", "hold."]}
+{"id": 4504, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["prop_1", "must", "hold", "until", "prop_2", "does,", "or", "else", "prop_1", "holds", "forever."]}
+{"id": 9987, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2, 0, 0, 3, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "and", "do", "not", "prop_2", "next,", "then", "prop_3", "in", "the", "step", "after", "that."]}
+{"id": 1143, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 0], "grounded_sentence": ["From", "some", "point", "onwards,", "prop_1", "never", "occurs", "again."]}
+{"id": 1125, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["At", "every", "step,", "prop_1", "equals", "the", "value", "of", "prop_2", "in", "the", "next", "step."]}
+{"id": 1212, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["The", "robot", "must", "eventually", "prop_1", "or", "prop_2."]}
+{"id": 2421, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "holds,", "from", "the", "next", "step", "onwards", "begin", "prop_2", "will", "eventually", "hold."]}
+{"id": 7558, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 2, 0], "grounded_sentence": ["This", "controller", "must", "eventually,", "prop_1", "prop_2", "prop_3."]}
+{"id": 6122, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 0], "grounded_sentence": ["Both", "prop_1", "and", "prop_2", "at", "every", "step."]}
+{"id": 4034, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 3, 0, 0, 0, 2, 0, 0], "grounded_sentence": ["If", "prop_1", "holds,", "then", "in", "the", "next", "step", "prop_2", "persists", "until", "prop_3", "holds,", "or", "else", "prop_2", "holds", "forever."]}
+{"id": 7450, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "should", "always", "hold,", "with", "at", "most", "a", "two-step", "grace", "period", "for", "recovery."]}
+{"id": 472, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "holds,", "provide", "assistance", "to", "prop_2", "as", "well."]}
+{"id": 265, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "and", "prop_2", "are", "mutually", "exclusive", "at", "all", "times."]}
+{"id": 9379, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 0], "grounded_sentence": ["From", "some", "point", "onwards,", "prop_1", "never", "occurs", "again."]}
+{"id": 7729, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["At", "every", "step,", "prop_1", "equals", "the", "value", "of", "prop_2", "in", "the", "next", "step."]}
+{"id": 2481, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2, 0], "grounded_sentence": ["Globally,", "if", "prop_1", "occurs", "then", "finally", "prop_2", "happens."]}
+{"id": 1617, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0], "grounded_sentence": ["You", "must", "eventually", "prop_1", "or", "prop_2."]}
+{"id": 2220, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 6482, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 3, 0, 0, 0, 2, 0, 0], "grounded_sentence": ["If", "prop_1", "holds,", "then", "in", "the", "next", "step", "prop_2", "persists", "until", "prop_3", "holds,", "or", "else", "prop_2", "holds", "forever."]}
+{"id": 5642, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["prop_1", "must", "hold", "until", "prop_2", "does,", "or", "else", "prop_1", "holds", "forever."]}
+{"id": 2732, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2, 0, 0, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "do", "not", "prop_2", "are", "equal,", "do", "not", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 4626, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0], "grounded_sentence": ["This", "controller", "must", "always", "prop_1."]}
+{"id": 8938, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 0, 3, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "holds", "and", "prop_2", "holds", "next,", "then", "prop_3", "in", "the", "step", "after", "that."]}
+{"id": 120, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["Provide", "prop_1", "and", "prop_2", "will", "each", "happen", "at", "some", "point."]}
+{"id": 6062, "lifted_sentence_prop_ids": [0, 0, 0, 2, 0, 0], "grounded_sentence": ["Whenever", "prop_1,", "eventually", "prop_2", "will", "hold."]}
+{"id": 4821, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 2, 3, 0], "grounded_sentence": ["The", "robot", "must", "always", "prop_1", "prop_2", "prop_3", "prop_4."]}
+{"id": 6485, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0], "grounded_sentence": ["Our", "agent", "must", "always", "prop_1", "prop_2."]}
+{"id": 2496, "lifted_sentence_prop_ids": [0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1,", "prop_2", "exactly", "three", "steps", "later."]}
+{"id": 7096, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "should", "always", "hold,", "with", "at", "most", "a", "two-step", "grace", "period", "for", "recovery."]}
+{"id": 2796, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["Every", "prop_1", "is", "directly", "followed", "by", "prop_2", "in", "the", "next", "step."]}
+{"id": 3820, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "doing", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 6016, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0], "grounded_sentence": ["The", "system", "must", "eventually,", "avoid", "prop_1."]}
+{"id": 4516, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "holds,", "begin", "prop_2", "holds", "as", "well."]}
+{"id": 9129, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 0], "grounded_sentence": ["From", "some", "point", "onwards,", "prop_1", "never", "occurs", "again."]}
+{"id": 8705, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 0], "grounded_sentence": ["From", "some", "point", "onwards,", "prop_1", "never", "occurs", "again."]}
+{"id": 1174, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "ever", "holds,", "prop_2", "must", "have", "held", "beforehand."]}
+{"id": 5043, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 0, 2, 0], "grounded_sentence": ["The", "system", "must", "Eventually,", "both", "prop_1", "and", "prop_2", "simultaneously."]}
+{"id": 7762, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 5192, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 4, 0], "grounded_sentence": ["If", "prop_1,", "then", "in", "the", "next", "step", "prop_2", "until", "prop_3,", "or", "else", "prop_4", "forever."]}
+{"id": 1088, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0], "grounded_sentence": ["Globally,", "it", "is", "not", "the", "case", "that", "both", "prop_1", "and", "prop_2", "simultaneously."]}
+{"id": 2431, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "holds", "and", "prop_2", "holds", "next,", "then", "prop_3", "holds", "in", "the", "step", "after", "that."]}
+{"id": 5421, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0], "grounded_sentence": ["The", "system", "must", "prop_1", "and", "then", "prop_2."]}
+{"id": 4906, "lifted_sentence_prop_ids": [0], "grounded_sentence": ["prop_1."]}
+{"id": 9505, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2", "holds,", "communicate", "with", "the", "safe", "victim", "eventually", "holds."]}
+{"id": 7142, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 0], "grounded_sentence": ["Globally,", "it", "is", "not", "the", "case", "that", "both", "prop_1", "and", "prop_2", "hold", "simultaneously."]}
+{"id": 7346, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 0], "grounded_sentence": ["Either", "prop_1", "or", "prop_2", "happens", "infinitely", "often."]}
+{"id": 6885, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 4, 0, 0], "grounded_sentence": ["If", "prop_1,", "then", "in", "the", "next", "step", "prop_2", "persists", "until", "prop_3,", "or", "else", "prop_4", "holds", "forever."]}
+{"id": 7590, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 1567, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 9603, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2, 0], "grounded_sentence": ["Globally,", "if", "prop_1", "occurs", "then", "finally", "prop_2", "happens."]}
+{"id": 2901, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "holds", "at", "all", "times."]}
+{"id": 9575, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 3, 0, 0, 0, 2, 0, 0], "grounded_sentence": ["If", "do", "not", "prop_1", "holds,", "then", "in", "the", "next", "step", "prop_2", "persists", "until", "prop_3", "holds,", "or", "else", "prop_2", "holds", "forever."]}
+{"id": 2780, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 0, 2, 0], "grounded_sentence": ["The", "system", "must", "Eventually,", "both", "prop_1", "and", "prop_2", "simultaneously."]}
+{"id": 7205, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "happens", "infinitely", "often,", "then", "so", "does", "prop_2."]}
+{"id": 9176, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2", "holds,", "prop_3", "eventually", "holds."]}
+{"id": 9718, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 3, 0, 0, 0, 2, 0, 0], "grounded_sentence": ["If", "prop_1", "holds,", "then", "in", "the", "next", "step", "prop_2", "persists", "until", "prop_3", "holds,", "or", "else", "prop_2", "holds", "forever."]}
+{"id": 4935, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "holds", "at", "all", "times."]}
+{"id": 6154, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "and", "prop_2", "will", "each", "happen", "at", "some", "point."]}
+{"id": 6448, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 3, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "and", "prop_2", "next,", "then", "prop_3", "in", "the", "step", "after", "that."]}
+{"id": 7706, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 3, 0, 0, 0, 4, 0, 0], "grounded_sentence": ["If", "prop_1", "holds,", "then", "in", "the", "next", "step", "prop_2", "persists", "until", "prop_3", "holds,", "or", "else", "prop_4", "holds", "forever."]}
+{"id": 2691, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2", "holds,", "prop_3", "holds."]}
+{"id": 3718, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0], "grounded_sentence": ["prop_1", "should", "always", "hold,", "with", "at", "most", "a", "prop_2", "for", "prop_3."]}
+{"id": 1535, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0], "grounded_sentence": ["The", "robot", "must", "eventually,", "prop_1", "prop_2."]}
+{"id": 8325, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "holds", "and", "prop_2", "holds", "next,", "then", "prop_3", "holds", "in", "the", "step", "after", "that."]}
+{"id": 6191, "lifted_sentence_prop_ids": [1, 2, 0, 0, 0], "grounded_sentence": ["prop_1", "prop_2", "at", "all", "times."]}
+{"id": 458, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2", "holds,", "prop_3", "eventually", "holds."]}
+{"id": 9378, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0], "grounded_sentence": ["Our", "agent", "must", "prop_1", "at", "all", "times."]}
+{"id": 8586, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["At", "every", "step,", "do", "not", "prop_1", "equals", "the", "value", "of", "prop_2", "in", "the", "next", "step."]}
+{"id": 2996, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["At", "every", "step,", "prop_1", "equals", "the", "value", "of", "prop_2", "in", "the", "next", "step."]}
+{"id": 6509, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["Once", "prop_1", "has", "occurred,", "prop_2", "will", "never", "occur", "again."]}
+{"id": 7034, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "holds,", "prop_2", "holds", "exactly", "three", "steps", "later."]}
+{"id": 2125, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "can", "only", "happen", "after", "prop_2."]}
+{"id": 9858, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 9820, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 0], "grounded_sentence": ["Either", "prop_1", "or", "prop_2", "happens", "infinitely", "often."]}
+{"id": 8276, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 3, 0, 0, 0, 0, 0, 4, 0, 0], "grounded_sentence": ["If", "prop_1", "holds,", "then", "in", "the", "next", "step", "do", "not", "prop_2", "persists", "until", "prop_3", "holds,", "or", "else", "do", "not", "prop_4", "holds", "forever."]}
+{"id": 4697, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 3, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2,", "prop_3", "eventually", "prop_4."]}
+{"id": 9887, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 0], "grounded_sentence": ["From", "some", "point", "onwards,", "prop_1", "never", "occurs", "again."]}
+{"id": 8109, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0], "grounded_sentence": ["Our", "agent", "must", "always", "prop_1."]}
+{"id": 4760, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "should", "always", "hold,", "with", "at", "most", "a", "two-step", "grace", "period", "for", "recovery."]}
+{"id": 6321, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 3, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2", "holds,", "begin", "prop_3", "eventually", "holds."]}
+{"id": 2686, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["The", "system", "must", "eventually", "prop_1", "and", "prop_2."]}
+{"id": 6269, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["When", "prop_1", "happens,", "prop_2", "must", "hold", "now", "or", "in", "the", "next", "step."]}
+{"id": 3102, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2", "holds,", "prop_3", "eventually", "holds."]}
+{"id": 4307, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 3, 0, 0, 0, 2, 0, 0], "grounded_sentence": ["If", "prop_1", "holds,", "then", "in", "the", "next", "step", "prop_2", "persists", "until", "prop_3", "holds,", "or", "else", "prop_2", "holds", "forever."]}
+{"id": 3031, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0], "grounded_sentence": ["The", "robot", "must", "eventually,", "prop_1", "prop_2."]}
+{"id": 2662, "lifted_sentence_prop_ids": [1, 0, 0, 0], "grounded_sentence": ["prop_1", "at", "all", "times."]}
+{"id": 1895, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 1269, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 1109, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "do", "not", "go", "near", "prop_3", "are", "equal", "as", "well."]}
+{"id": 2074, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "holds", "at", "all", "times."]}
+{"id": 426, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 1496, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 2, 0], "grounded_sentence": ["This", "controller", "must", "eventually,", "prop_1", "prop_2", "prop_3."]}
+{"id": 42, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2, 0], "grounded_sentence": ["Globally,", "if", "prop_1", "occurs", "then", "finally", "prop_2", "happens."]}
+{"id": 7104, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["The", "system", "must", "eventually", "prop_1", "or", "prop_2."]}
+{"id": 966, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0], "grounded_sentence": ["Either", "prop_1", "happens", "infinitely", "often,", "or", "do", "not", "prop_2", "happens", "in", "the", "next", "step."]}
+{"id": 5370, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2, 0, 0, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "do", "not", "prop_2", "are", "equal,", "do", "not", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 4339, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 0], "grounded_sentence": ["From", "some", "point", "onwards,", "prop_1", "never", "occurs", "again."]}
+{"id": 3799, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 6394, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["At", "every", "step,", "prop_1", "equals", "the", "value", "of", "prop_2", "in", "the", "next", "step."]}
+{"id": 2878, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 3, 0, 0, 0, 2, 0, 0], "grounded_sentence": ["If", "prop_1", "holds,", "then", "in", "the", "next", "step", "prop_2", "persists", "until", "prop_3", "holds,", "or", "else", "prop_2", "holds", "forever."]}
+{"id": 1172, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0], "grounded_sentence": ["prop_1", "must", "keep", "holding", "until,", "from", "some", "point", "on,", "prop_2", "holds", "infinitely", "often."]}
+{"id": 1233, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 5500, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0], "grounded_sentence": ["The", "system", "must", "always", "prop_1."]}
+{"id": 7827, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 2558, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 3, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "and", "prop_2", "next,", "then", "prop_3", "in", "the", "step", "after", "that."]}
+{"id": 4066, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 0], "grounded_sentence": ["Either", "prop_1", "or", "prop_2", "happens", "infinitely", "often."]}
+{"id": 8608, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2,", "prop_3."]}
+{"id": 784, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 0], "grounded_sentence": ["Either", "prop_1", "or", "prop_2", "happens", "infinitely", "often."]}
+{"id": 8558, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 3, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2,", "prop_3", "eventually", "prop_4."]}
+{"id": 9021, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["Once", "prop_1", "has", "occurred,", "stay", "away", "from", "prop_2", "will", "never", "occur", "again."]}
+{"id": 5696, "lifted_sentence_prop_ids": [0, 1, 0, 2, 3, 0, 0, 0], "grounded_sentence": ["Both", "prop_1", "and", "prop_2", "prop_3", "at", "every", "step."]}
+{"id": 4822, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 2, 0], "grounded_sentence": ["Globally,", "if", "prop_1", "then", "finally", "prop_2", "happens."]}
+{"id": 4116, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0], "grounded_sentence": ["Either", "prop_1", "happens", "infinitely", "often,", "or", "prop_2", "happens", "in", "the", "next", "step."]}
+{"id": 2593, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["Every", "prop_1", "is", "directly", "followed", "by", "prop_2", "in", "the", "next", "step."]}
+{"id": 5240, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0], "grounded_sentence": ["The", "robot", "must", "eventually,", "prop_1", "prop_2."]}
+{"id": 8508, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 5136, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "holds,", "eventually", "prop_2", "will", "hold."]}
+{"id": 8983, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "holds,", "prop_2", "holds", "as", "well."]}
+{"id": 2449, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0], "grounded_sentence": ["The", "robot", "must", "always", "avoid", "prop_1."]}
+{"id": 6095, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["Our", "agent", "must", "eventually", "prop_1", "or", "prop_2."]}
+{"id": 5559, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0], "grounded_sentence": ["Either", "prop_1", "happens", "infinitely", "often,", "or", "prop_2", "happens", "in", "the", "next", "step."]}
+{"id": 7230, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0], "grounded_sentence": ["This", "controller", "must", "eventually,", "prop_1."]}
+{"id": 9881, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 4, 0], "grounded_sentence": ["If", "prop_1,", "then", "in", "the", "next", "step", "prop_2", "persists", "until", "prop_3,", "or", "else", "prop_4", "forever."]}
+{"id": 3618, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["Stay", "away", "from", "prop_1", "can", "only", "happen", "after", "doing", "prop_2."]}
+{"id": 6164, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 1211, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 4256, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 3, 0, 0, 0, 2, 0, 0], "grounded_sentence": ["If", "prop_1", "holds,", "then", "in", "the", "next", "step", "prop_2", "persists", "until", "doing", "not", "prop_3", "holds,", "or", "else", "prop_2", "holds", "forever."]}
+{"id": 8694, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "and", "prop_2", "will", "each", "happen", "at", "some", "point."]}
+{"id": 4804, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 4, 0], "grounded_sentence": ["If", "prop_1,", "then", "in", "the", "next", "step", "prop_2", "until", "prop_3,", "or", "else", "prop_4", "forever."]}
+{"id": 7750, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1,", "eventually", "do", "not", "prop_2."]}
+{"id": 1748, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2, 0], "grounded_sentence": ["Globally,", "if", "prop_1", "occurs", "then", "finally", "prop_2", "happens."]}
+{"id": 5531, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0], "grounded_sentence": ["prop_1", "should", "always", "hold,", "with", "at", "most", "a", "prop_2", "for", "prop_3."]}
+{"id": 1046, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 0], "grounded_sentence": ["From", "some", "point", "onwards,", "prop_1", "never", "occurs", "again."]}
+{"id": 7358, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 9088, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0], "grounded_sentence": ["When", "prop_1", "happens,", "prop_2", "or", "prop_3."]}
+{"id": 2400, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["The", "system", "must", "prop_1", "and", "prop_2", "never", "coincide,", "yet", "one", "of", "them", "is", "always", "true."]}
+{"id": 8832, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2", "holds,", "request", "assistance", "eventually", "holds."]}
+{"id": 2535, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "and", "prop_2", "will", "each", "happen", "at", "some", "point."]}
+{"id": 8837, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2,", "prop_3."]}
+{"id": 9258, "lifted_sentence_prop_ids": [0, 0, 0, 0], "grounded_sentence": ["You", "must", "eventually,", "prop_1."]}
+{"id": 3325, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 0], "grounded_sentence": ["From", "some", "point", "onwards,", "prop_1", "never", "occurs", "again."]}
+{"id": 3446, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 2, 0, 0], "grounded_sentence": ["This", "controller", "must", "eventually,", "prop_1", "prop_2", "from", "prop_3."]}
+{"id": 130, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0], "grounded_sentence": ["This", "controller", "must", "always", "prop_1."]}
+{"id": 6968, "lifted_sentence_prop_ids": [0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1,", "prop_2", "exactly", "three", "steps", "later."]}
+{"id": 8001, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["Our", "agent", "must", "eventually", "prop_1", "or", "prop_2."]}
+{"id": 7770, "lifted_sentence_prop_ids": [0, 0, 0, 0], "grounded_sentence": ["You", "must", "eventually,", "prop_1."]}
+{"id": 3367, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "and", "prop_2", "never", "coincide,", "yet", "one", "of", "them", "is", "always", "true."]}
+{"id": 3952, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "should", "always", "hold,", "with", "at", "most", "a", "two-step", "grace", "period", "for", "recovery."]}
+{"id": 7934, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "do", "not", "prop_1", "happens", "infinitely", "often,", "then", "so", "does", "prop_2."]}
+{"id": 644, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 1926, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 3, 0, 0, 0, 2, 0, 0], "grounded_sentence": ["If", "prop_1", "holds,", "then", "in", "the", "next", "step", "prop_2", "persists", "until", "doing", "prop_3", "holds,", "or", "else", "prop_2", "holds", "forever."]}
+{"id": 1790, "lifted_sentence_prop_ids": [1, 0, 0, 0], "grounded_sentence": ["prop_1", "at", "all", "times."]}
+{"id": 5987, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 8620, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 2, 0], "grounded_sentence": ["You", "must", "Eventually,", "both", "prop_1", "and", "prop_2", "simultaneously."]}
+{"id": 1821, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "should", "always", "hold,", "with", "at", "most", "a", "prop_2", "grace", "period", "for", "prop_3."]}
+{"id": 481, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["The", "system", "must", "always", "maintain", "both", "prop_1", "and", "prop_2."]}
+{"id": 269, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 3, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "and", "prop_2", "next,", "then", "prop_3", "in", "the", "step", "after", "that."]}
+{"id": 7984, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 0], "grounded_sentence": ["Both", "prop_1", "and", "prop_2", "at", "every", "step."]}
+{"id": 2866, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["At", "every", "step,", "prop_1", "equals", "the", "value", "of", "prop_2", "in", "the", "next", "step."]}
+{"id": 5798, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "holds,", "begin", "prop_2", "exactly", "three", "steps", "later."]}
+{"id": 5681, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0], "grounded_sentence": ["Either", "prop_1", "happens", "infinitely", "often,", "or", "prop_2", "happens", "in", "the", "next", "step."]}
+{"id": 856, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "and", "prop_2", "will", "each", "happen", "at", "some", "point."]}
+{"id": 4543, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 0, 0, 3, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "do", "not", "prop_1", "and", "prop_2", "next,", "then", "prop_3", "in", "the", "step", "after", "that."]}
+{"id": 5757, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0], "grounded_sentence": ["prop_1", "should", "always", "hold,", "with", "at", "most", "a", "prop_2", "for", "prop_3."]}
+{"id": 9377, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 6648, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2", "holds,", "prop_3", "eventually", "holds."]}
+{"id": 4265, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 7141, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0], "grounded_sentence": ["The", "robot", "must", "eventually,", "prop_1."]}
+{"id": 8653, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["Our", "agent", "must", "always", "maintain", "both", "prop_1", "and", "prop_2."]}
+{"id": 3174, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 5040, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["Every", "prop_1", "is", "directly", "followed", "by", "prop_2", "in", "the", "next", "step."]}
+{"id": 47, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["Our", "agent", "must", "eventually", "prop_1", "and", "prop_2."]}
+{"id": 3088, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 0, 2, 0], "grounded_sentence": ["The", "robot", "must", "Eventually,", "both", "prop_1", "and", "prop_2", "simultaneously."]}
+{"id": 8491, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "and", "do", "not", "prop_2", "never", "coincide,", "yet", "one", "of", "them", "is", "always", "true."]}
+{"id": 2187, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 3, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2,", "prop_3", "eventually", "holds."]}
+{"id": 4079, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "and", "prop_2", "never", "coincide,", "yet", "one", "of", "them", "is", "always", "true."]}
+{"id": 8463, "lifted_sentence_prop_ids": [1, 0, 0, 0], "grounded_sentence": ["prop_1", "at", "all", "times."]}
+{"id": 3033, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2", "holds,", "prop_3", "eventually", "holds."]}
+{"id": 3299, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "should", "always", "hold,", "with", "at", "most", "a", "two-step", "grace", "period", "for", "recovery."]}
+{"id": 4675, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0], "grounded_sentence": ["Globally,", "it", "is", "not", "the", "case", "that", "both", "prop_1", "and", "prop_2", "simultaneously."]}
+{"id": 9800, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 0], "grounded_sentence": ["From", "some", "point", "onwards,", "prop_1", "never", "occurs", "again."]}
+{"id": 3893, "lifted_sentence_prop_ids": [0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1,", "eventually", "prop_2."]}
+{"id": 8380, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 3, 0, 0, 0, 2, 0, 0], "grounded_sentence": ["If", "prop_1", "holds,", "then", "in", "the", "next", "step", "prop_2", "persists", "until", "prop_3", "holds,", "or", "else", "prop_2", "holds", "forever."]}
+{"id": 1488, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "and", "prop_2", "are", "mutually", "exclusive", "at", "all", "times."]}
+{"id": 6299, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2,", "prop_3."]}
+{"id": 97, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 0], "grounded_sentence": ["From", "some", "point", "onwards,", "prop_1", "never", "occurs", "again."]}
+{"id": 4141, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0], "grounded_sentence": ["The", "system", "must", "always", "prop_1."]}
+{"id": 96, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 6099, "lifted_sentence_prop_ids": [0, 0, 2, 0, 0], "grounded_sentence": ["Whenever", "prop_1,", "prop_2", "as", "well."]}
+{"id": 523, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0], "grounded_sentence": ["The", "system", "must", "always", "prop_1", "prop_2."]}
+{"id": 6841, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 0], "grounded_sentence": ["Globally,", "it", "is", "not", "the", "case", "that", "both", "do", "not", "prop_1", "and", "prop_2", "hold", "simultaneously."]}
+{"id": 4592, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0], "grounded_sentence": ["Globally,", "it", "is", "not", "the", "case", "that", "both", "prop_1", "and", "prop_2", "simultaneously."]}
+{"id": 180, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 5573, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["This", "controller", "must", "eventually", "prop_1", "and", "prop_2."]}
+{"id": 2381, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "happens", "infinitely", "often,", "then", "so", "does", "prop_2."]}
+{"id": 2813, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 2571, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0], "grounded_sentence": ["Globally,", "it", "is", "not", "the", "case", "that", "both", "prop_1", "and", "prop_2", "simultaneously."]}
+{"id": 3478, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0], "grounded_sentence": ["This", "controller", "must", "eventually,", "prop_1."]}
+{"id": 4542, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 0], "grounded_sentence": ["Either", "prop_1", "or", "prop_2", "happens", "infinitely", "often."]}
+{"id": 2231, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 3205, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "holds,", "eventually", "prop_2", "will", "hold."]}
+{"id": 8817, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "ever", "holds,", "begin", "prop_2", "must", "have", "held", "beforehand."]}
+{"id": 7647, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 0, 2, 0], "grounded_sentence": ["Our", "agent", "must", "Eventually,", "both", "prop_1", "and", "prop_2", "simultaneously."]}
+{"id": 9142, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["The", "robot", "must", "always", "have", "either", "prop_1", "or", "prop_2."]}
+{"id": 827, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["You", "must", "always", "have", "either", "prop_1", "or", "prop_2."]}
+{"id": 3831, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 4, 0], "grounded_sentence": ["If", "prop_1,", "then", "in", "the", "next", "step", "prop_2", "persists", "until", "prop_3,", "or", "else", "prop_4", "forever."]}
+{"id": 5414, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0], "grounded_sentence": ["The", "robot", "must", "prop_1", "and", "then", "prop_2."]}
+{"id": 9610, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "holds,", "eventually", "prop_2", "will", "hold."]}
+{"id": 2117, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0], "grounded_sentence": ["Our", "agent", "must", "eventually,", "prop_1."]}
+{"id": 1192, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 3929, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 0, 0, 3, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2", "holds,", "avoid", "the", "prop_3", "eventually", "holds."]}
+{"id": 8699, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "ever", "holds,", "prop_2", "must", "have", "held", "beforehand."]}
+{"id": 3271, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["You", "must", "always", "maintain", "both", "prop_1", "and", "prop_2."]}
+{"id": 6963, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 3, 0, 0, 0, 2, 0, 0], "grounded_sentence": ["If", "prop_1", "holds,", "then", "in", "the", "next", "step", "prop_2", "persists", "until", "prop_3", "holds,", "or", "else", "prop_2", "holds", "forever."]}
+{"id": 6964, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["The", "system", "must", "eventually", "prop_1", "or", "prop_2."]}
+{"id": 3763, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 3, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2,", "communicate", "with", "prop_3", "eventually", "holds."]}
+{"id": 8089, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "holds", "and", "prop_2", "holds", "next,", "then", "prop_3", "holds", "in", "the", "step", "after", "that."]}
+{"id": 1524, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 0, 0, 3, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "do", "not", "prop_1", "and", "prop_2", "next,", "then", "prop_3", "in", "the", "step", "after", "that."]}
+{"id": 9994, "lifted_sentence_prop_ids": [1, 0, 0, 0], "grounded_sentence": ["prop_1", "at", "all", "times."]}
+{"id": 50, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "should", "always", "hold,", "with", "at", "most", "a", "two-step", "grace", "period", "for", "recovery."]}
+{"id": 1598, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 4, 0], "grounded_sentence": ["If", "prop_1,", "then", "in", "the", "next", "step", "prop_2", "until", "prop_3,", "or", "else", "prop_4", "forever."]}
+{"id": 8819, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 0], "grounded_sentence": ["From", "some", "point", "onwards,", "prop_1", "never", "occurs", "again."]}
+{"id": 6007, "lifted_sentence_prop_ids": [1, 0, 0, 0, 2, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["prop_1", "must", "hold", "until", "prop_2", "does,", "or", "else", "prop_1", "holds", "forever."]}
+{"id": 3343, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2", "holds,", "prop_3", "eventually", "holds."]}
+{"id": 5020, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["You", "must", "always", "have", "either", "prop_1", "or", "prop_2."]}
+{"id": 8888, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "holds", "and", "prop_2", "holds", "next,", "then", "prop_3", "holds", "in", "the", "step", "after", "that."]}
+{"id": 425, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["Our", "agent", "must", "eventually", "prop_1", "or", "prop_2."]}
+{"id": 9286, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["The", "robot", "must", "eventually", "prop_1", "and", "prop_2."]}
+{"id": 2924, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 9957, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 0], "grounded_sentence": ["Globally,", "it", "is", "not", "the", "case", "that", "both", "prop_1", "and", "prop_2", "hold", "simultaneously."]}
+{"id": 4328, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 2773, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "holds,", "prop_2", "holds", "as", "well."]}
+{"id": 1341, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "holds,", "prop_2", "holds", "as", "well."]}
+{"id": 4566, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 6143, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 4099, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "holds,", "avoid", "prop_2", "holds", "exactly", "three", "steps", "later."]}
+{"id": 741, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["Once", "prop_1", "has", "occurred,", "prop_2", "will", "never", "occur", "again."]}
+{"id": 274, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "happens", "infinitely", "often,", "then", "so", "does", "prop_2."]}
+{"id": 1384, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 9833, "lifted_sentence_prop_ids": [1, 0, 0, 0], "grounded_sentence": ["prop_1", "at", "all", "times."]}
+{"id": 9854, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 8626, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 0], "grounded_sentence": ["You", "must", "do", "not", "prop_1", "at", "all", "times."]}
+{"id": 2320, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0], "grounded_sentence": ["Our", "agent", "must", "eventually,", "prop_1."]}
+{"id": 4601, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["Our", "agent", "must", "always", "maintain", "both", "prop_1", "and", "prop_2."]}
+{"id": 5725, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["Our", "agent", "must", "prop_1", "and", "prop_2", "never", "coincide,", "yet", "one", "of", "them", "is", "always", "true."]}
+{"id": 6878, "lifted_sentence_prop_ids": [0, 0, 2, 0, 0], "grounded_sentence": ["Whenever", "prop_1,", "prop_2", "as", "well."]}
+{"id": 6810, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 4545, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["Our", "agent", "must", "always", "maintain", "both", "prop_1", "and", "prop_2."]}
+{"id": 7210, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 0], "grounded_sentence": ["Either", "prop_1", "or", "prop_2", "happens", "infinitely", "often."]}
+{"id": 9313, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 2, 0, 0], "grounded_sentence": ["You", "must", "Eventually,", "both", "prop_1", "and", "prop_2", "hold", "simultaneously."]}
+{"id": 1424, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["The", "system", "must", "always", "have", "either", "prop_1", "or", "prop_2."]}
+{"id": 6540, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 2491, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["This", "controller", "must", "always", "maintain", "both", "prop_1", "and", "prop_2."]}
+{"id": 4625, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1,", "from", "the", "next", "step", "onwards", "prop_2", "will", "eventually", "hold."]}
+{"id": 3849, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0], "grounded_sentence": ["In", "this", "task,", "prop_1,", "then", "prop_2."]}
+{"id": 881, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "holds,", "from", "the", "next", "step", "onwards", "prop_2", "will", "eventually", "hold."]}
+{"id": 4576, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0, 0], "grounded_sentence": ["From", "some", "point", "onwards,", "prop_1", "never", "occurs", "again."]}
+{"id": 8078, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 3, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "holds", "and", "prop_2", "next,", "then", "prop_3", "in", "the", "step", "after", "that."]}
+{"id": 6863, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 0], "grounded_sentence": ["Globally,", "it", "is", "not", "the", "case", "that", "both", "prop_1", "and", "prop_2", "hold", "simultaneously."]}
+{"id": 950, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "happens", "infinitely", "often,", "then", "so", "does", "prop_2."]}
+{"id": 5254, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 4, 0], "grounded_sentence": ["If", "prop_1,", "then", "in", "the", "next", "step", "prop_2", "until", "prop_3,", "or", "else", "prop_4", "forever."]}
+{"id": 7889, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 0], "grounded_sentence": ["From", "prop_1", "onwards,", "prop_2", "never", "occurs", "again."]}
+{"id": 7929, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "should", "always", "hold,", "with", "at", "most", "a", "two-step", "grace", "period", "for", "recovery."]}
+{"id": 8826, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 5395, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "should", "always", "hold,", "with", "at", "most", "a", "two-step", "grace", "period", "for", "recovery."]}
+{"id": 5375, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["Both", "do", "not", "prop_1", "and", "do", "not", "prop_2", "hold", "at", "every", "step."]}
+{"id": 1389, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "and", "prop_2", "are", "mutually", "exclusive", "at", "all", "times."]}
+{"id": 29, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 0, 2, 0], "grounded_sentence": ["The", "robot", "must", "Eventually,", "both", "prop_1", "and", "prop_2", "simultaneously."]}
+{"id": 9168, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "holds", "and", "prop_2", "holds", "next,", "then", "do", "not", "prop_3", "in", "the", "step", "after", "that."]}
+{"id": 6793, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "happens", "infinitely", "often,", "then", "so", "does", "prop_2."]}
+{"id": 5157, "lifted_sentence_prop_ids": [0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1,", "eventually", "prop_2."]}
+{"id": 9275, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 3, 0, 0, 0, 4, 0, 0], "grounded_sentence": ["If", "prop_1", "holds,", "then", "in", "the", "next", "step", "prop_2", "persists", "until", "prop_3", "holds,", "or", "else", "prop_4", "holds", "forever."]}
+{"id": 6495, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 2829, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0], "grounded_sentence": ["You", "must", "eventually", "prop_1", "or", "prop_2."]}
+{"id": 3225, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 4534, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0], "grounded_sentence": ["This", "controller", "must", "prop_1", "and", "then", "prop_2."]}
+{"id": 7116, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["This", "controller", "must", "eventually", "prop_1", "and", "prop_2."]}
+{"id": 2494, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2,", "prop_3."]}
+{"id": 6044, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 1499, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 5286, "lifted_sentence_prop_ids": [0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1,", "prop_2", "exactly", "three", "steps", "later."]}
+{"id": 7231, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 2, 3, 0], "grounded_sentence": ["This", "controller", "must", "eventually,", "prop_1", "prop_2", "prop_3", "prop_4."]}
+{"id": 7400, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "should", "always", "hold,", "with", "at", "most", "a", "two-step", "grace", "period", "for", "recovery."]}
+{"id": 4946, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "holds", "at", "all", "times."]}
+{"id": 1289, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0], "grounded_sentence": ["Either", "do", "not", "prop_1", "or", "prop_2."]}
+{"id": 313, "lifted_sentence_prop_ids": [1, 0, 0, 0], "grounded_sentence": ["prop_1", "at", "all", "times."]}
+{"id": 4537, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0], "grounded_sentence": ["The", "system", "must", "always", "prop_1."]}
+{"id": 9593, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 2, 0], "grounded_sentence": ["Globally,", "if", "prop_1", "occurs", "then", "finally", "prop_2", "happens."]}
+{"id": 9401, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["At", "every", "step,", "prop_1", "equals", "the", "value", "of", "prop_2", "in", "the", "next", "step."]}
+{"id": 9093, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "do", "not", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 8468, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "holds,", "prop_2", "as", "well."]}
+{"id": 763, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "happens", "infinitely", "often,", "then", "so", "does", "prop_2."]}
+{"id": 3700, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "holds", "at", "all", "times."]}
+{"id": 8652, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 3, 0, 0, 0, 2, 0, 0], "grounded_sentence": ["If", "prop_1", "holds,", "then", "in", "the", "next", "step", "prop_2", "persists", "until", "prop_3", "holds,", "or", "else", "prop_2", "holds", "forever."]}
+{"id": 4088, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["Our", "agent", "must", "always", "maintain", "both", "prop_1", "and", "prop_2."]}
+{"id": 6361, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2", "holds,", "prop_3", "eventually", "holds."]}
+{"id": 9154, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 2, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["Go", "back", "to", "prop_1", "should", "always", "hold,", "with", "at", "most", "a", "two-step", "grace", "period", "for", "recovery."]}
+{"id": 6808, "lifted_sentence_prop_ids": [1, 0, 0, 0], "grounded_sentence": ["prop_1", "at", "all", "times."]}
+{"id": 6433, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["You", "must", "always", "maintain", "both", "prop_1", "and", "prop_2."]}
+{"id": 9044, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 2, 0], "grounded_sentence": ["Our", "agent", "must", "eventually,", "prop_1", "prop_2", "prop_3."]}
+{"id": 7087, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["This", "controller", "must", "do", "not", "prop_1", "and", "prop_2", "never", "coincide,", "yet", "one", "of", "them", "is", "always", "true."]}
+{"id": 9567, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 2914, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "holds,", "from", "the", "next", "step", "onwards", "prop_2", "will", "eventually", "hold."]}
+{"id": 3424, "lifted_sentence_prop_ids": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0], "grounded_sentence": ["Globally,", "it", "is", "not", "the", "case", "that", "both", "do", "not", "prop_1", "and", "prop_2", "simultaneously."]}
+{"id": 7377, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "holds,", "from", "the", "next", "step", "onwards", "prop_2", "will", "eventually", "hold."]}
+{"id": 3493, "lifted_sentence_prop_ids": [1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "and", "prop_2", "never", "coincide,", "yet", "one", "of", "them", "is", "always", "true."]}
+{"id": 8083, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "ever", "holds,", "prop_2", "must", "have", "held", "beforehand."]}
+{"id": 5937, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "and", "prop_2", "next,", "then", "do", "not", "prop_3", "in", "the", "step", "after", "that."]}
+{"id": 1433, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["This", "controller", "must", "prop_1", "and", "prop_2", "are", "mutually", "exclusive", "at", "all", "times."]}
+{"id": 2841, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "should", "always", "hold,", "with", "at", "most", "a", "two-step", "grace", "period", "for", "recovery."]}
+{"id": 152, "lifted_sentence_prop_ids": [1, 0, 0, 0], "grounded_sentence": ["prop_1", "at", "all", "times."]}
+{"id": 2180, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "happens", "infinitely", "often,", "then", "so", "does", "prop_2."]}
+{"id": 8308, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 2, 0, 0, 3, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "holds", "and", "do", "not", "prop_2", "next,", "then", "prop_3", "in", "the", "step", "after", "that."]}
+{"id": 6769, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 2, 0], "grounded_sentence": ["You", "must", "Eventually,", "both", "prop_1", "and", "prop_2", "simultaneously."]}
+{"id": 6980, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 9172, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 3, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "and", "prop_2", "next,", "then", "prop_3", "in", "the", "step", "after", "that."]}
+{"id": 8605, "lifted_sentence_prop_ids": [0, 0, 1, 0, 2, 0, 3, 0, 0], "grounded_sentence": ["Whenever", "neither", "prop_1", "nor", "prop_2", "holds,", "prop_3", "eventually", "holds."]}
+{"id": 126, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "prop_3", "must", "occur", "infinitely", "often."]}
+{"id": 7522, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 2649, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 2678, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["This", "controller", "must", "eventually", "prop_1", "or", "prop_2."]}
+{"id": 3095, "lifted_sentence_prop_ids": [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["Stay", "away", "from", "prop_1", "should", "always", "hold,", "with", "at", "most", "a", "two-step", "grace", "period", "for", "recovery."]}
+{"id": 7043, "lifted_sentence_prop_ids": [0, 0, 0, 0, 1, 0, 0], "grounded_sentence": ["This", "controller", "must", "eventually", "prop_1", "or", "prop_2."]}
+{"id": 3008, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "holds", "and", "prop_2", "holds", "next,", "then", "prop_3", "holds", "in", "the", "step", "after", "that."]}
+{"id": 9736, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 8552, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 2, 0, 0, 0, 4, 0, 0], "grounded_sentence": ["If", "prop_1", "and", "do", "not", "prop_2", "near", "prop_3,", "then", "prop_4", "in", "prop_5."]}
+{"id": 9047, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "holds", "at", "all", "times."]}
+{"id": 3368, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "holds", "at", "all", "times."]}
+{"id": 3805, "lifted_sentence_prop_ids": [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "every", "prop_1", "is", "eventually", "followed", "by", "prop_2,", "then", "avoid", "the", "impending", "gas", "leak", "must", "occur", "infinitely", "often."]}
+{"id": 1092, "lifted_sentence_prop_ids": [1, 0, 0, 0, 0, 0], "grounded_sentence": ["prop_1", "can", "only", "happen", "after", "prop_2."]}
+{"id": 6344, "lifted_sentence_prop_ids": [0, 1, 0, 0, 2, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0], "grounded_sentence": ["If", "prop_1", "holds", "and", "prop_2", "holds", "next,", "then", "prop_3", "holds", "in", "the", "step", "after", "that."]}
+{"id": 9974, "lifted_sentence_prop_ids": [0, 1, 0, 2, 0, 0, 2, 0, 3, 0, 0, 0, 0], "grounded_sentence": ["Whenever", "prop_1", "and", "prop_2", "are", "equal,", "prop_2", "and", "prop_3", "are", "equal", "as", "well."]}
+{"id": 926, "lifted_sentence_prop_ids": [0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 3, 0, 0, 0, 2, 0, 0], "grounded_sentence": ["If", "prop_1", "holds,", "then", "in", "the", "next", "step", "prop_2", "persists", "until", "prop_3", "holds,", "or", "else", "prop_2", "holds", "forever."]}
