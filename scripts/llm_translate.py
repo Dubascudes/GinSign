@@ -242,6 +242,130 @@ def cmd_collect(args):
 
     print(f"\nTotal: {n_ok} predictions, {n_empty} empty")
 
+    # Check for missing rows (failed in batch) and report
+    all_cids_in_index = set(index.keys())
+    all_cids_in_results = set()
+    for line in result_content.splitlines():
+        all_cids_in_results.add(json.loads(line)["custom_id"])
+    missing = all_cids_in_index - all_cids_in_results
+    if missing:
+        print(f"\n{len(missing)} requests missing from results (failed in batch)")
+        missing_path = BATCH_DIR / "translate_missing.jsonl"
+        with missing_path.open("w") as f:
+            for cid in sorted(missing):
+                f.write(json.dumps(index[cid]) + "\n")
+        print(f"Missing IDs written to {missing_path}")
+
+    # Download error file if present
+    batch = client.batches.retrieve(batch_id)
+    if batch.error_file_id:
+        err_content = client.files.content(batch.error_file_id).text
+        err_path = BATCH_DIR / "translate_errors.jsonl"
+        err_path.write_text(err_content)
+        print(f"Error details written to {err_path}")
+
+
+# ---------------------------------------------------------------------------
+# Retry failed requests
+# ---------------------------------------------------------------------------
+
+def cmd_retry(args):
+    """Resubmit just the missing/failed requests from a prior batch."""
+    client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
+
+    missing_path = BATCH_DIR / "translate_missing.jsonl"
+    if not missing_path.exists():
+        print("No missing requests file found. Run 'collect' first.")
+        return
+
+    requests = []
+    with missing_path.open() as f:
+        for line in f:
+            entry = json.loads(line)
+            row = entry["row"]
+            lifted = " ".join(row.get("grounded_sentence", row.get("sentence", [])))
+            requests.append({
+                "custom_id": entry["custom_id"],
+                "method": "POST",
+                "url": "/v1/chat/completions",
+                "body": {
+                    "model": args.model,
+                    "messages": build_messages(lifted),
+                    "max_completion_tokens": 4096,
+                },
+            })
+
+    print(f"Retrying {len(requests)} failed requests")
+
+    batch_file = BATCH_DIR / "translate_retry_request.jsonl"
+    with batch_file.open("w") as f:
+        for req in requests:
+            f.write(json.dumps(req) + "\n")
+
+    uploaded = client.files.create(file=batch_file.open("rb"), purpose="batch")
+    batch = client.batches.create(
+        input_file_id=uploaded.id,
+        endpoint="/v1/chat/completions",
+        completion_window="24h",
+    )
+    print(f"Retry batch: {batch.id}  status={batch.status}")
+    (BATCH_DIR / "latest_batch_id.txt").write_text(batch.id + "\n")
+
+
+# ---------------------------------------------------------------------------
+# Merge: combine original + retry results into final outputs
+# ---------------------------------------------------------------------------
+
+def cmd_merge(args):
+    """Merge results from original + retry batches into final per-domain files."""
+    result_files = [
+        BATCH_DIR / "translate_results.jsonl",
+        BATCH_DIR / "translate_retry_results.jsonl",
+    ]
+
+    index: dict = {}
+    index_path = BATCH_DIR / "translate_index.jsonl"
+    with index_path.open() as f:
+        for line in f:
+            entry = json.loads(line)
+            index[entry["custom_id"]] = entry
+
+    per_domain: dict[str, dict] = {}  # domain -> {cid -> row}
+    n_ok = 0
+    for rf in result_files:
+        if not rf.exists():
+            continue
+        for line in rf.read_text().splitlines():
+            result = json.loads(line)
+            cid = result["custom_id"]
+            entry = index.get(cid)
+            if entry is None:
+                continue
+            domain = entry["domain"]
+            row = entry["row"]
+
+            resp = result.get("response", {})
+            choices = resp.get("body", {}).get("choices", [])
+            prediction = ""
+            if choices:
+                prediction = choices[0].get("message", {}).get("content", "").strip()
+            if not prediction:
+                continue
+
+            row["prediction"] = prediction
+            per_domain.setdefault(domain, {})[cid] = row
+            n_ok += 1
+
+    for domain in sorted(per_domain):
+        rows = list(per_domain[domain].values())
+        out_path = OUTPUT_DIR / f"{domain}.jsonl"
+        with out_path.open("w") as f:
+            for r in rows:
+                f.write(json.dumps(r) + "\n")
+        print(f"[{domain}] {len(rows)} predictions written to {out_path}")
+
+    print(f"\nTotal merged: {n_ok} predictions")
+
 
 # ---------------------------------------------------------------------------
 # CLI
@@ -263,6 +387,11 @@ def main():
     p_collect.add_argument("--batch-id", default=None)
     p_collect.add_argument("--domains", nargs="+", default=None)
 
+    p_retry = sub.add_parser("retry")
+    p_retry.add_argument("--model", default="gpt-5")
+
+    sub.add_parser("merge")
+
     args = p.parse_args()
     if args.cmd == "submit":
         cmd_submit(args)
@@ -270,6 +399,10 @@ def main():
         cmd_poll(args)
     elif args.cmd == "collect":
         cmd_collect(args)
+    elif args.cmd == "retry":
+        cmd_retry(args)
+    elif args.cmd == "merge":
+        cmd_merge(args)
 
 
 if __name__ == "__main__":

@@ -23,6 +23,11 @@ from .eval import evaluate
 from .grounding_dataset import GroundingDataset, make_collate_fn
 from .ptr_grounder import PointerJointGrounder
 from .signature_builder import load_cluster_map
+
+try:
+    import wandb as _wandb
+except ImportError:
+    _wandb = None
 from .signature_io import Signature, load_signature
 
 
@@ -79,6 +84,16 @@ def train(config: TrainingConfig) -> dict:
 
     _set_seed(config.seed)
     device = _resolve_device(config.device)
+
+    use_wandb = _wandb is not None and config.wandb_project is not None
+    if use_wandb:
+        _wandb.init(
+            project=config.wandb_project,
+            entity=config.wandb_entity,
+            name=config.wandb_run_name or Path(config.output_dir).name,
+            config=json.loads(config.to_json()),
+            dir=str(out_dir),
+        )
 
     signature = load_signature(config.signature_path)
     collate = make_collate_fn(signature)
@@ -162,14 +177,23 @@ def train(config: TrainingConfig) -> dict:
             step += 1
             if step % 50 == 0 or step == 1:
                 elapsed = time.time() - t0
+                lr_now = scheduler.get_last_lr()[0]
                 print(
                     f"  step {step}/{total_steps}  "
                     f"loss={loss.item():.4f}  "
                     f"pred={out['pred_loss'].item():.4f}  "
                     f"arg={out['arg_loss'].item():.4f}  "
-                    f"lr={scheduler.get_last_lr()[0]:.2e}  "
+                    f"lr={lr_now:.2e}  "
                     f"{step/elapsed:.1f} step/s"
                 )
+                if use_wandb:
+                    _wandb.log({
+                        "train/loss": loss.item(),
+                        "train/pred_loss": out["pred_loss"].item(),
+                        "train/arg_loss": out["arg_loss"].item(),
+                        "train/lr": lr_now,
+                        "train/step_per_sec": step / elapsed,
+                    }, step=step)
 
             if step % config.eval_every == 0 or step == total_steps:
                 metrics = evaluate(model, dev_loader, signature, device)
@@ -184,6 +208,13 @@ def train(config: TrainingConfig) -> dict:
                     f"joint={metrics['joint_acc']:.3f}  "
                     f"(saving={'yes' if m > best_metric else 'no'})"
                 )
+                if use_wandb:
+                    _wandb.log({
+                        "eval/pred_acc": metrics["pred_acc"],
+                        "eval/pred_f1_macro": metrics["pred_f1_macro"],
+                        "eval/arg_acc_full_tuple": metrics["arg_acc_full_tuple"],
+                        "eval/joint_acc": metrics["joint_acc"],
+                    }, step=step)
                 if m > best_metric:
                     best_metric = m
                     patience_counter = 0
@@ -213,4 +244,7 @@ def train(config: TrainingConfig) -> dict:
     final["step"] = step
     (out_dir / "eval.json").write_text(json.dumps(final, indent=2) + "\n")
     print(f"[train] done. best {config.save_best_metric}={best_metric:.3f}")
+    if use_wandb:
+        _wandb.log({"final/" + k: v for k, v in final.items() if isinstance(v, (int, float))})
+        _wandb.finish()
     return final

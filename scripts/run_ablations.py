@@ -185,6 +185,20 @@ def _train_multi_domain(
     _set_seed(hp.get("seed", 0))
     out_dir.mkdir(parents=True, exist_ok=True)
 
+    use_wandb = hp.get("wandb_project") is not None
+    if use_wandb:
+        try:
+            import wandb
+            wandb.init(
+                project=hp["wandb_project"],
+                entity=hp.get("wandb_entity"),
+                name=exp_name,
+                config={"train_domains": train_names, **hp},
+                dir=str(out_dir),
+            )
+        except Exception:
+            use_wandb = False
+
     model = PointerJointGrounder(bert_name=hp.get("model_name", "bert-base-cased")).to(device)
     optimizer = AdamW(model.parameters(), lr=hp.get("lr", 2e-5),
                       weight_decay=hp.get("weight_decay", 0.01))
@@ -232,6 +246,11 @@ def _train_multi_domain(
                 elapsed = time.time() - t0
                 print(f"  step {step}/{total_steps} loss={out['loss'].item():.4f} "
                       f"{step/elapsed:.1f} s/s")
+                if use_wandb:
+                    import wandb
+                    wandb.log({"train/loss": out["loss"].item(),
+                               "train/pred_loss": out["pred_loss"].item(),
+                               "train/arg_loss": out["arg_loss"].item()}, step=step)
 
             if step % eval_every == 0 or step == total_steps:
                 metrics = evaluate(model, dev_loader, sig0, device)
@@ -241,6 +260,11 @@ def _train_multi_domain(
                 m = metrics.get("joint_acc", 0)
                 improved = m > best_metric
                 print(f"  eval@{step}: joint={m:.3f} (saving={'yes' if improved else 'no'})")
+                if use_wandb:
+                    import wandb
+                    wandb.log({"eval/pred_acc": metrics["pred_acc"],
+                               "eval/arg_acc_full_tuple": metrics["arg_acc_full_tuple"],
+                               "eval/joint_acc": m}, step=step)
                 if improved:
                     best_metric = m
                     patience_counter = 0
@@ -260,6 +284,9 @@ def _train_multi_domain(
                 break
 
     print(f"[{exp_name}] done. best joint_acc={best_metric:.3f}")
+    if use_wandb:
+        import wandb
+        wandb.finish()
     return out_dir
 
 
@@ -371,6 +398,8 @@ def main():
     p.add_argument("--patience", type=int, default=5)
     p.add_argument("--warmup-steps", type=int, default=100)
     p.add_argument("--seed", type=int, default=0)
+    p.add_argument("--wandb-project", default=None)
+    p.add_argument("--wandb-entity", default=None)
     p.add_argument("--dry-run", action="store_true")
     args = p.parse_args()
 
@@ -379,6 +408,7 @@ def main():
         "lr": args.lr, "max_epochs": args.epochs, "eval_every": args.eval_every,
         "patience": args.patience, "warmup_steps": args.warmup_steps,
         "seed": args.seed, "batch_size": args.batch_size,
+        "wandb_project": args.wandb_project, "wandb_entity": args.wandb_entity,
     }
     axes = set(args.axes)
     if "all" in axes:

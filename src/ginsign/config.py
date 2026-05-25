@@ -40,6 +40,11 @@ class TrainingConfig:
     output_dir: str = "outputs/run"
     save_best_metric: str = "joint_acc"     # one of pred_acc / arg_acc_full_tuple / joint_acc
 
+    # Logging
+    wandb_project: Optional[str] = None     # None = disable wandb
+    wandb_entity: Optional[str] = None
+    wandb_run_name: Optional[str] = None
+
     # Misc
     num_workers: int = 0
     device: str = "auto"                    # "auto" / "cpu" / "cuda"
