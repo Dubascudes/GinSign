@@ -48,6 +48,11 @@ eval_data/
 
 # Training outputs land here by default; checkpoints are large
 outputs/
+logs/
+
+# Environment / secrets
+.env
+.env.*
 
 # Raw-data archives (we ship the unpacked tree under data/)
 data/*.zip

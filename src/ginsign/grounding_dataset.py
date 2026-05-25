@@ -60,6 +60,8 @@ class GroundingDataset(Dataset):
             for line in fh:
                 d = json.loads(line)
                 for _, info in (d.get("prop_dict") or {}).items():
+                    if info is None:
+                        continue
                     raw_action = info.get("action_canon")
                     if raw_action is None or raw_action in self.drop_set:
                         continue

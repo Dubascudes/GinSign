@@ -223,13 +223,20 @@ class PointerJointGrounder(nn.Module):
     parsing offsets manually.
     """
 
-    def __init__(self, bert_name: str = "bert-base-cased"):
+    def __init__(self, bert_name: str = "bert-base-cased", max_per_shard: int = 80):
         super().__init__()
         self.bert = BertModel.from_pretrained(bert_name)
         self.tokenizer = BertTokenizerFast.from_pretrained(bert_name)
         H = self.bert.config.hidden_size
         self.pred_head = PointerHead(H)
         self.arg_decoder = ARArgDecoder(H)
+        # When a slot's candidate count exceeds this, encode_stage splits
+        # the candidate list into shards of <= max_per_shard candidates,
+        # runs one BERT forward per shard, and concatenates the resulting
+        # per-candidate representations. Keeps BERT-base inputs under its
+        # 512-subtoken cap and avoids the truncation-induced -inf logit
+        # at the gold position.
+        self.max_per_shard = max_per_shard
 
     @property
     def hidden_size(self) -> int:
@@ -241,15 +248,83 @@ class PointerJointGrounder(nn.Module):
         candidate_lists: Sequence[Sequence[str]],
         type_masks: Optional[Sequence[Sequence[bool]]] = None,
         device: Optional[torch.device] = None,
-    ) -> Tuple[torch.Tensor, torch.Tensor, torch.Tensor, CandidateSpans]:
+    ) -> Tuple[Optional[torch.Tensor], torch.Tensor, torch.Tensor, CandidateSpans]:
         """Encode one stage's batch.
 
-        Returns (H, ap_repr, cand_reprs, spans) where H is the full
-        encoder output, ap_repr is the mean-pooled AP text, cand_reprs
-        is per-candidate after span pooling, and spans carries offsets +
-        masks for downstream use (e.g., the arg decoder's beam search).
+        Returns (H, ap_repr, cand_reprs, spans). When sharding is
+        triggered (any item has > max_per_shard candidates), H is None
+        because we concatenate cand_reprs from multiple BERT forwards;
+        ap_repr is the first shard's pooled AP, and spans.starts/ends
+        are zeroed since their subtoken offsets are no longer well-
+        defined globally — downstream code only uses spans.mask and
+        spans.type_mask.
         """
         device = device or next(self.parameters()).device
+        max_n = max(len(c) for c in candidate_lists)
+        if max_n > self.max_per_shard:
+            return self._encode_sharded(ap_texts, candidate_lists, type_masks, device)
+        return self._encode_single(ap_texts, candidate_lists, type_masks, device)
+
+    def _encode_sharded(
+        self,
+        ap_texts: Sequence[str],
+        candidate_lists: Sequence[Sequence[str]],
+        type_masks: Optional[Sequence[Sequence[bool]]],
+        device: torch.device,
+    ) -> Tuple[None, torch.Tensor, torch.Tensor, CandidateSpans]:
+        max_n = max(len(c) for c in candidate_lists)
+        M = self.max_per_shard
+        K = (max_n + M - 1) // M
+
+        cand_repr_chunks: List[torch.Tensor] = []
+        mask_chunks: List[torch.Tensor] = []
+        type_mask_chunks: List[torch.Tensor] = []
+        ap_repr_first: Optional[torch.Tensor] = None
+
+        for k in range(K):
+            sub_cands: List[List[str]] = []
+            sub_type_masks: Optional[List[List[bool]]] = (
+                [] if type_masks is not None else None
+            )
+            for i, cands in enumerate(candidate_lists):
+                slice_ = list(cands[k * M : (k + 1) * M])
+                if not slice_:
+                    slice_ = ["[PAD]"]
+                sub_cands.append(slice_)
+                if type_masks is not None:
+                    tm_slice = list(type_masks[i][k * M : (k + 1) * M])
+                    if not tm_slice:
+                        tm_slice = [False]
+                    sub_type_masks.append(tm_slice)
+            _, ap_repr_k, cand_reprs_k, spans_k = self._encode_single(
+                ap_texts, sub_cands, sub_type_masks, device
+            )
+            if ap_repr_first is None:
+                ap_repr_first = ap_repr_k
+            cand_repr_chunks.append(cand_reprs_k)
+            mask_chunks.append(spans_k.mask)
+            type_mask_chunks.append(spans_k.type_mask)
+
+        cand_reprs = torch.cat(cand_repr_chunks, dim=1)
+        mask = torch.cat(mask_chunks, dim=1)
+        type_mask = torch.cat(type_mask_chunks, dim=1)
+        B, N = mask.shape
+        starts = torch.zeros(B, N, dtype=torch.long, device=device)
+        ends = torch.zeros(B, N, dtype=torch.long, device=device)
+        spans = CandidateSpans(starts=starts, ends=ends, mask=mask, type_mask=type_mask)
+        assert ap_repr_first is not None
+        return None, ap_repr_first, cand_reprs, spans
+
+    def _encode_single(
+        self,
+        ap_texts: Sequence[str],
+        candidate_lists: Sequence[Sequence[str]],
+        type_masks: Optional[Sequence[Sequence[bool]]],
+        device: torch.device,
+    ) -> Tuple[torch.Tensor, torch.Tensor, torch.Tensor, CandidateSpans]:
+        """Original single-forward path. Caller is responsible for staying
+        under BERT's max-sequence cap — sharding is enforced by encode_stage.
+        """
         max_n = max(len(c) for c in candidate_lists)
         padded_cands, mask_rows, type_rows = [], [], []
         for i, cands in enumerate(candidate_lists):
