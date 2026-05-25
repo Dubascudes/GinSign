@@ -46,43 +46,42 @@ def load_ground_truth(domain):
 
 def parse_llm_content(content):
     content = content.strip()
-    # Strip markdown fences
-    content = re.sub(r"^```(?:json)?\s*", "", content)
-    content = re.sub(r"\s*```$", "", content)
+    # Strip markdown fences (handle multiline)
+    content = re.sub(r"^```(?:json)?\s*\n?", "", content)
+    content = re.sub(r"\n?```\s*$", "", content)
     # Strip leading "prop_dict:" or "**prop_dict**:" prefix
     content = re.sub(r"^\*{0,2}prop_dict\*{0,2}\s*:\s*", "", content.strip())
 
-    def _try_parse(s):
-        try:
-            parsed = json.loads(s)
-        except json.JSONDecodeError:
-            return None
-        if not isinstance(parsed, dict):
-            return None
-        # Unwrap {"prop_dict": {...}} wrapper if present
-        if "prop_dict" in parsed and isinstance(parsed["prop_dict"], dict):
-            parsed = parsed["prop_dict"]
-        return parsed
+    def _unwrap(d):
+        if isinstance(d, dict) and "prop_dict" in d and isinstance(d["prop_dict"], dict):
+            return d["prop_dict"]
+        return d
 
-    # Try direct parse first
-    result = _try_parse(content.strip())
-    if result is not None:
-        return result
+    # Try direct parse
+    try:
+        d = json.loads(content.strip())
+        if isinstance(d, dict):
+            return _unwrap(d)
+    except json.JSONDecodeError:
+        pass
 
-    # Extract JSON objects from mixed text (reasoning + JSON)
-    brace_depth = 0
-    last_start = -1
+    # Fallback: find every top-level {...} block and try parsing each
+    depth = 0
+    start = -1
     for i, ch in enumerate(content):
         if ch == "{":
-            if brace_depth == 0:
-                last_start = i
-            brace_depth += 1
+            if depth == 0:
+                start = i
+            depth += 1
         elif ch == "}":
-            brace_depth -= 1
-            if brace_depth == 0 and last_start >= 0:
-                result = _try_parse(content[last_start : i + 1])
-                if result is not None:
-                    return result
+            depth -= 1
+            if depth == 0 and start >= 0:
+                try:
+                    d = json.loads(content[start : i + 1])
+                    if isinstance(d, dict):
+                        return _unwrap(d)
+                except json.JSONDecodeError:
+                    pass
     return None
 
 
@@ -417,9 +416,8 @@ def main():
     lines.append(r"\label{tab:main-results}")
     lines.append(r"\small")
     lines.append(r"\setlength{\tabcolsep}{4pt}")
-    lines.append(r"\begin{tabular}{ll|ccc|cccc}")
+    lines.append(r"\begin{tabular}{ll|ccccccc}")
     lines.append(r"\toprule")
-    lines.append(r" & & \multicolumn{3}{c|}{VLTL-Bench} & \multicolumn{4}{c}{Prior Work} \\")
     lines.append(r"Lift + Translate & Grounding & TL & S\&R & WH & CW & CF & GLTL & Navi \\")
     lines.append(r"\midrule")
 
