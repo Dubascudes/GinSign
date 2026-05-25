@@ -24,7 +24,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Dict, List, Optional
 
-os.environ.setdefault("PYTORCH_CUDA_ALLOC_CONF", "expandable_segments:True")
+os.environ.setdefault("PYTORCH_ALLOC_CONF", "expandable_segments:True")
 
 import torch
 from torch.utils.data import DataLoader
@@ -335,10 +335,19 @@ def _train_multi_domain(
     return out_dir
 
 
+def _strip_compiled_keys(state_dict):
+    """Strip torch.compile's _orig_mod. prefix from state_dict keys."""
+    fixed = {}
+    for k, v in state_dict.items():
+        fixed[k.replace("._orig_mod.", ".")] = v
+    return fixed
+
+
 def _load_checkpoint(ckpt_path, device):
     model = PointerJointGrounder(bert_name="bert-base-cased").to(device)
     ckpt = torch.load(ckpt_path, map_location=device, weights_only=False)
-    model.load_state_dict(ckpt["state_dict"])
+    sd = _strip_compiled_keys(ckpt["state_dict"])
+    model.load_state_dict(sd)
     model.eval()
     return model
 

@@ -171,7 +171,8 @@ def main():
 
     model = PointerJointGrounder(bert_name=args.model_name).to(device)
     ckpt = torch.load(args.checkpoint, map_location=device, weights_only=False)
-    model.load_state_dict(ckpt["state_dict"])
+    sd = {k.replace("._orig_mod.", "."): v for k, v in ckpt["state_dict"].items()}
+    model.load_state_dict(sd)
 
     records = predict_all(model, loader, sig, device)
 
