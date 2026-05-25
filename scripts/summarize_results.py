@@ -48,10 +48,29 @@ def parse_llm_content(content):
     content = content.strip()
     content = re.sub(r"^```(?:json)?\s*", "", content)
     content = re.sub(r"\s*```$", "", content)
+    # Try direct parse first
     try:
         return json.loads(content.strip())
     except json.JSONDecodeError:
-        return None
+        pass
+    # Extract the last JSON object from mixed text (e.g. reasoning + JSON)
+    # Find all { ... } blocks and try parsing from the last one
+    brace_depth = 0
+    last_start = -1
+    for i, ch in enumerate(content):
+        if ch == "{":
+            if brace_depth == 0:
+                last_start = i
+            brace_depth += 1
+        elif ch == "}":
+            brace_depth -= 1
+            if brace_depth == 0 and last_start >= 0:
+                candidate = content[last_start : i + 1]
+                try:
+                    return json.loads(candidate)
+                except json.JSONDecodeError:
+                    pass
+    return None
 
 
 def atom_str(predicate, args):
@@ -108,108 +127,67 @@ def load_lang2ltl_grounding(domain):
     return preds
 
 
-def load_ginsign_grounding(domain):
-    """Run the GinSign BERT pointer grounder checkpoint."""
-    import torch
-    from torch.utils.data import DataLoader
-    from ginsign.grounding_dataset import GroundingDataset, make_collate_fn
-    from ginsign.ptr_grounder import PointerJointGrounder
-    from ginsign.signature_io import load_signature
+def _load_cluster_map(domain):
+    """Load raw→canonical predicate mapping if it exists."""
+    cm_path = ROOT / "data" / "signatures" / f"{domain}_clusters.json"
+    if not cm_path.exists():
+        return {}
+    raw = json.loads(cm_path.read_text())
+    mapping = {}
+    for canon, raws in raw.get("canonical_to_raw", {}).items():
+        for r in raws:
+            mapping[r] = canon
+    return mapping
 
-    ckpt_path = ROOT / "outputs" / domain / "best.pt"
-    sig_path = ROOT / "data" / "signatures" / f"{domain}.json"
+
+def load_ginsign_grounding(domain):
+    """Load pre-computed GinSign BERT pointer grounder predictions."""
+    pred_path = ROOT / "results" / f"{domain}_predictions.jsonl"
     corpus = EVAL / "translation_eval" / "nl2tl" / "raw_nl" / f"{domain}.jsonl"
-    if not ckpt_path.exists():
+    if not pred_path.exists():
         return {}
 
-    device = torch.device("cpu")
-    sig = load_signature(sig_path)
-    ds = GroundingDataset(str(corpus), sig)
-    loader = DataLoader(ds, batch_size=16, shuffle=False, collate_fn=make_collate_fn(sig))
+    cluster_map = _load_cluster_map(domain)
 
-    model = PointerJointGrounder(bert_name="bert-base-cased").to(device)
-    ckpt = torch.load(ckpt_path, map_location=device, weights_only=False)
-    model.load_state_dict(ckpt["state_dict"], strict=False)
-    model.eval()
-
-    pred_names = sig.predicate_names()
-
-    # Reconstruct the (sample_id, prop_key) ordering that GroundingDataset uses
+    # Build (sample_id, prop_key, ap_text) from the corpus
     flat_keys = []
     for row in load_jsonl(corpus):
         for pk in sorted(row.get("prop_dict", {})):
             pv = row["prop_dict"][pk]
             if pv is None:
                 continue
-            cn = pv["action_canon"]
-            if cn not in sig.predicates:
-                continue
-            if len(pv.get("args_canon", [])) != sig.arity_of(cn):
-                continue
-            ar = pv.get("action_ref", cn)
-            arefs = pv.get("args_ref", pv.get("args_canon", []))
-            if not (ar + " " + " ".join(arefs)).strip():
-                continue
-            flat_keys.append((row["id"], pk))
+            action_ref = pv.get("action_ref", pv["action_canon"])
+            args_ref = pv.get("args_ref", pv.get("args_canon", []))
+            ap_text = (action_ref + " " + " ".join(args_ref)).strip()
+            flat_keys.append((row["id"], pk, ap_text))
+
+    # Index predictions by ap_text for matching
+    pred_rows = load_jsonl(pred_path)
+    pred_by_ap = {}
+    for pr in pred_rows:
+        pred_by_ap.setdefault(pr["ap_text"], []).append(pr)
 
     preds = {}
-    idx = 0
-    with torch.no_grad():
-        for batch in loader:
-            pred_logits, ap_repr, pred_cand_reprs, _ = model.ground_predicate(
-                batch["ap_texts"], batch["predicate_lists"]
-            )
-            B = pred_logits.size(0)
-            H = model.hidden_size
-            pp_idx = pred_logits.argmax(dim=-1)
-            pred_repr = pred_cand_reprs[torch.arange(B), pp_idx]
-
-            gold_arg_idx = batch["gold_arg_idx"].to(device)
-            slot_cands, slot_masks = [], []
-            gold_arg_reprs = torch.zeros(
-                B, len(batch["slot_candidate_lists"]), H, device=device
-            )
-            for r, (cr, tm) in enumerate(
-                zip(batch["slot_candidate_lists"], batch["slot_type_masks"])
-            ):
-                _, _, cr_emb, sp = model.encode_stage(
-                    batch["ap_texts"], cr, tm, device=device
-                )
-                slot_cands.append(cr_emb)
-                slot_masks.append(sp.effective_mask())
-                gr = gold_arg_idx[:, r]
-                present = gr >= 0
-                if present.any():
-                    safe = gr.clamp(min=0)
-                    gold_arg_reprs[:, r, :] = (
-                        cr_emb[torch.arange(B), safe] * present.unsqueeze(-1).float()
-                    )
-
-            arg_preds = []
-            for r in range(len(slot_cands)):
-                prev = gold_arg_reprs[:, :r, :] if r > 0 else None
-                logits = model.arg_decoder.step(
-                    ap_repr, pred_repr, prev, slot_cands[r], slot_masks[r]
-                )
-                arg_preds.append(logits.argmax(dim=-1))
-
-            for b in range(B):
-                if idx >= len(flat_keys):
-                    break
-                sid, pk = flat_keys[idx]
-                idx += 1
-                pred_p = pred_names[pp_idx[b].item()]
-                arity = sig.arity_of(pred_p)
-                args = []
-                for r in range(arity):
-                    cl = batch["slot_candidate_lists"][r]
-                    ai = arg_preds[r][b].item()
-                    args.append(cl[b][ai] if ai < len(cl[b]) else "?")
-                if sid not in preds:
-                    preds[sid] = {}
-                preds[sid][pk] = atom_str(pred_p, args)
+    for sid, pk, ap_text in flat_keys:
+        candidates = pred_by_ap.get(ap_text, [])
+        if not candidates:
+            continue
+        pr = candidates.pop(0)
+        if sid not in preds:
+            preds[sid] = {}
+        preds[sid][pk] = atom_str(pr["pred_pred"], pr["pred_args"])
 
     return preds
+
+
+# Also update evaluate_combination to apply cluster maps for GT comparison
+_cluster_maps = {}
+
+
+def _get_cluster_map(domain):
+    if domain not in _cluster_maps:
+        _cluster_maps[domain] = _load_cluster_map(domain)
+    return _cluster_maps[domain]
 
 
 # ---------------------------------------------------------------------------
@@ -296,7 +274,10 @@ def evaluate_combination(lifted, groundings, gt_by_domain, domain):
                 break
             pred_p, pred_a = parse_atom(pred_atom)
             gt_args = clean_args(gt_prop.get("args_canon", []))
-            if pred_p != gt_prop["action_canon"] or clean_args(pred_a) != gt_args:
+            gt_action = gt_prop["action_canon"]
+            cm = _get_cluster_map(domain)
+            gt_action_canon = cm.get(gt_action, gt_action)
+            if pred_p != gt_action_canon or clean_args(pred_a) != gt_args:
                 all_correct = False
                 break
         if all_correct:
@@ -376,8 +357,8 @@ def main():
                 print(f" {r['gle']:>{cw}.1f}", end="")
             print()
 
-        # Ground truth row = LE ceiling (perfect grounding always passes)
-        print(f"{'':>18s}  {'Ground Truth':>15s}", end="")
+        # Upper bound row = LE ceiling (perfect grounding always passes)
+        print(f"{'':>18s}  {'Upper Bound':>15s}", end="")
         for domain in ALL_DOMAINS:
             if domain not in ldomains:
                 print(f" {'—':>{cw}s}", end="")
@@ -400,7 +381,103 @@ def main():
 
     print()
     print("  GLE = Grounded Logical Equivalence (end-to-end correctness)")
-    print("  Ground Truth row = LE ceiling (perfect grounding)")
+    print("  Upper Bound row = LE ceiling (perfect grounding)")
+
+    # --- LaTeX output ---
+    latex_path = ROOT / "paper" / "tables" / "main_results.tex"
+    latex_path.parent.mkdir(parents=True, exist_ok=True)
+
+    n_grounding = len(grounding_specs)
+    n_rows_per_block = n_grounding + 1  # +1 for upper bound
+
+    lines = []
+    lines.append(r"\begin{table*}[t]")
+    lines.append(r"\centering")
+    lines.append(r"\caption{Grounded Logical Equivalence (GLE, \%) across lifted translation frameworks and grounding methods.")
+    lines.append(r"  GLE requires that the predicted formula is both structurally correct and that every atomic proposition")
+    lines.append(r"  is correctly grounded in the system signature.")
+    lines.append(r"  The \emph{Upper Bound} row shows the LE ceiling (perfect grounding) for each translation method.}")
+    lines.append(r"\label{tab:main-results}")
+    lines.append(r"\small")
+    lines.append(r"\setlength{\tabcolsep}{4pt}")
+    lines.append(r"\begin{tabular}{ll|ccc|cccc}")
+    lines.append(r"\toprule")
+    lines.append(r" & & \multicolumn{3}{c|}{VLTL-Bench} & \multicolumn{4}{c}{Prior Work} \\")
+    lines.append(r"Lift + Translate & Grounding & TL & S\&R & WH & CW & CF & GLTL & Navi \\")
+    lines.append(r"\midrule")
+
+    for li, (lname, lpath, ldomains) in enumerate(lifting_methods):
+        # Collect all GLE values for this block to find best per column
+        block_data = {}
+        for gname, _ in grounding_specs:
+            block_data[gname] = {}
+            for domain in ALL_DOMAINS:
+                if domain not in ldomains:
+                    block_data[gname][domain] = None
+                    continue
+                lifted = load_lifted_translations(lpath, domain)
+                grd = gcache[gname].get(domain, {})
+                if not lifted or not grd:
+                    block_data[gname][domain] = None
+                    continue
+                r = evaluate_combination(lifted, grd, gt_by_domain, domain)
+                block_data[gname][domain] = r["gle"]
+
+        # Find best GLE per domain (among non-None values)
+        best_per_domain = {}
+        for domain in ALL_DOMAINS:
+            vals = [block_data[gn][domain] for gn in block_data
+                    if block_data[gn][domain] is not None]
+            best_per_domain[domain] = max(vals) if vals else None
+
+        # Grounding rows
+        for gi, (gname, _) in enumerate(grounding_specs):
+            lift_cell = r"\multirow{" + str(n_rows_per_block) + "}{*}{" + lname + "}" if gi == 0 else ""
+            cells = []
+            for domain in ALL_DOMAINS:
+                v = block_data[gname][domain]
+                if v is None:
+                    cells.append("---")
+                elif best_per_domain[domain] is not None and v == best_per_domain[domain]:
+                    cells.append(r"\textbf{" + f"{v:.1f}" + "}")
+                else:
+                    cells.append(f"{v:.1f}")
+            grounding_label = gname
+            if gname == "GinSign":
+                grounding_label = "GinSign (ours)"
+            lines.append(f"{lift_cell} & {grounding_label} & {' & '.join(cells)} \\\\")
+
+        # Upper bound row
+        lines.append(r" \cdashline{2-9}")
+        ub_cells = []
+        for domain in ALL_DOMAINS:
+            if domain not in ldomains:
+                ub_cells.append(r"\textcolor{gray}{---}")
+                continue
+            lifted = load_lifted_translations(lpath, domain)
+            gt = gt_by_domain[domain]
+            le_ok = total = 0
+            for sid, masked_pred in lifted.items():
+                if sid not in gt:
+                    continue
+                gt_masked = normalize(" ".join(gt[sid].get("masked_tl", [])))
+                total += 1
+                if gt_masked and normalize(masked_pred) == gt_masked:
+                    le_ok += 1
+            gle = 100.0 * le_ok / total if total else 0
+            ub_cells.append(r"\textcolor{gray}{" + f"{gle:.1f}" + "}")
+        lines.append(r" & \textcolor{gray}{Upper Bound} & " + " & ".join(ub_cells) + r" \\")
+
+        if li < len(lifting_methods) - 1:
+            lines.append(r"\midrule")
+
+    lines.append(r"\bottomrule")
+    lines.append(r"\end{tabular}")
+    lines.append(r"\end{table*}")
+
+    with open(latex_path, "w") as f:
+        f.write("\n".join(lines) + "\n")
+    print(f"\n  LaTeX table written to {latex_path}")
 
 
 if __name__ == "__main__":
