@@ -297,15 +297,19 @@ def evaluate_combination(lifted, groundings, gt_by_domain, domain):
 def main():
     gt_by_domain = {d: load_ground_truth(d) for d in ALL_DOMAINS}
 
+    # Check if gpt-oss-120b results exist
+    oss_trans = EVAL / "translation_eval" / "llm_direct" / "gpt-oss-120b"
+    has_oss = oss_trans.exists() and any(oss_trans.glob("*.jsonl"))
+
     lifting_methods = [
-        ("LLM Prompting", EVAL / "translation_eval" / "llm_direct" / "gpt-5", VLTL_DOMAINS),
+        ("LLM Prompting", oss_trans if has_oss else EVAL / "translation_eval" / "llm_direct" / "gpt-5", ALL_DOMAINS if has_oss else VLTL_DOMAINS),
         ("NL2TL", EVAL / "translation_eval" / "nl2tl" / "llm_masked_nl" / "gpt4_1_lifting", ALL_DOMAINS),
         ("GraFT", EVAL / "translation_eval" / "nl2tl" / "gt_lifting", ALL_DOMAINS),
     ]
 
     grounding_specs = [
         ("GPT-4o",        lambda d: load_llm_grounding("gpt-4o", d)),
-        ("GPT-5",         lambda d: load_llm_grounding("gpt-5", d)),
+        ("GPT-oss-120B",  lambda d: load_llm_grounding("gpt-oss-120b", d)),
         ("Claude Sonnet", lambda d: load_llm_grounding("claude-sonnet", d)),
         ("Lang2LTL",      load_lang2ltl_grounding),
         ("GinSign",       load_ginsign_grounding),
