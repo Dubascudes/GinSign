@@ -83,7 +83,25 @@ def test_merge_overlapping_predicates_same_arity():
     assert set(merged.constants["room"]) == {"r1", "r2"}
 
 
-def test_merge_conflicting_arity_raises():
+def test_merge_conflicting_arity_disambiguates():
+    sig_a = Signature(
+        name="a", sorts=["x"],
+        predicates={"go": PredicateDef("go", [["x"]])},
+        constants={"x": ["a"]},
+    )
+    sig_b = Signature(
+        name="b", sorts=["x", "y"],
+        predicates={"go": PredicateDef("go", [["x"], ["y"]])},
+        constants={"x": ["b"], "y": ["c"]},
+    )
+    merged = merge_signatures([sig_a, sig_b])
+    assert "a/go" in merged.predicates
+    assert "b/go" in merged.predicates
+    assert merged.predicates["a/go"].arity == 1
+    assert merged.predicates["b/go"].arity == 2
+
+
+def test_merge_conflicting_arity_raises_when_disabled():
     sig_a = Signature(
         name="a", sorts=["x"],
         predicates={"go": PredicateDef("go", [["x"]])},
@@ -95,7 +113,7 @@ def test_merge_conflicting_arity_raises():
         constants={"x": ["b"], "y": ["c"]},
     )
     with pytest.raises(ValueError, match="arity"):
-        merge_signatures([sig_a, sig_b])
+        merge_signatures([sig_a, sig_b], disambiguate=False)
 
 
 # ---------------------------------------------------------------------------

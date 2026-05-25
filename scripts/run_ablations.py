@@ -158,12 +158,9 @@ def _train_multi_domain(
         return out_dir
 
     configs = [_domain_data_config(n) for n in train_names]
-    sigs = [c.signature for c in configs]
-    merged = merge_signatures(sigs, name=exp_name)
-    union_preds = merged.predicate_names()
 
     train_ds = MultiDomainDataset(configs)
-    collate = make_multi_domain_collate_fn(union_predicates=union_preds)
+    collate = make_multi_domain_collate_fn(union_predicates=None)
 
     # Build a dummy dev loader from the first training domain for eval during training.
     # Real per-domain eval happens after training.
