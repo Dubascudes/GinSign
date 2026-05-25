@@ -75,6 +75,8 @@ class PointerHead(nn.Module):
 
     def __init__(self, hidden_size: int, dropout: float = 0.1):
         super().__init__()
+        self.query_norm = nn.LayerNorm(hidden_size)
+        self.cand_norm = nn.LayerNorm(hidden_size)
         self.score = nn.Sequential(
             nn.Linear(3 * hidden_size, hidden_size),
             nn.GELU(),
@@ -88,8 +90,9 @@ class PointerHead(nn.Module):
         cand_reprs: torch.Tensor,      # [B, N, H]
         valid_mask: torch.Tensor,      # [B, N]  bool
     ) -> torch.Tensor:                  # [B, N]
-        q = query.unsqueeze(1).expand_as(cand_reprs)
-        feats = torch.cat([q, cand_reprs, q * cand_reprs], dim=-1)
+        q = self.query_norm(query).unsqueeze(1).expand_as(cand_reprs)
+        c = self.cand_norm(cand_reprs)
+        feats = torch.cat([q, c, q * c], dim=-1)
         logits = self.score(feats).squeeze(-1)
         return logits.masked_fill(~valid_mask, float("-inf"))
 
@@ -127,9 +130,10 @@ class ARArgDecoder(nn.Module):
         self.slot_emb = nn.Embedding(self.MAX_ARITY + 1, hidden_size)
         self.ap_proj = nn.Linear(hidden_size, hidden_size)
         self.pred_proj = nn.Linear(hidden_size, hidden_size)
+        self.bos_norm = nn.LayerNorm(hidden_size)
 
     def _bos(self, ap_repr: torch.Tensor, pred_repr: torch.Tensor) -> torch.Tensor:
-        return self.ap_proj(ap_repr) + self.pred_proj(pred_repr)
+        return self.bos_norm(self.ap_proj(ap_repr) + self.pred_proj(pred_repr))
 
     def _attach_slot_pos(self, tgt: torch.Tensor) -> torch.Tensor:
         B, T, _ = tgt.shape
