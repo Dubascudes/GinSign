@@ -151,39 +151,47 @@ def _eval_domain_transformed(model, domain_name, sig_transform, device, batch_si
 
 def _train_multi_domain(
     train_names: List[str],
+    eval_names: List[str],
     exp_name: str,
     device: torch.device,
     hp: dict,
 ) -> Path:
+    """Train on train_names domains, eval on ALL eval_names at each checkpoint."""
     out_dir = OUT_ROOT / exp_name
     if (out_dir / "best.pt").exists():
         print(f"[{exp_name}] checkpoint exists, skipping training")
         return out_dir
 
-    configs = [_domain_data_config(n) for n in train_names]
+    import math, time, json as json_
+    from torch.optim import AdamW
+    from torch.utils.data import WeightedRandomSampler
+    from ginsign.training import _linear_warmup_decay
 
+    configs = [_domain_data_config(n) for n in train_names]
     train_ds = MultiDomainDataset(configs)
     collate = make_multi_domain_collate_fn(union_predicates=None)
 
-    # Build a dummy dev loader from the first training domain for eval during training.
-    # Real per-domain eval happens after training.
-    d0 = DOMAINS[train_names[0]]
-    sig0 = d0.signature
-    cm0, ds0 = None, set()
-    if d0.cluster_map:
-        cm0, _, ds0 = load_cluster_map(Path(d0.cluster_map))
-    dev_ds = GroundingDataset(d0.test_corpus, sig0, cluster_map=cm0, drop_set=ds0)
-    dev_collate = make_collate_fn(sig0)
-
-    batch_size = hp.get("batch_size", 16)
-    train_loader = DataLoader(train_ds, batch_size=batch_size, shuffle=True,
+    batch_size = hp.get("batch_size", 8)
+    # Domain-balanced sampling: each domain gets equal representation
+    weights = train_ds.balanced_sampler_weights()
+    sampler = WeightedRandomSampler(weights, num_samples=len(train_ds), replacement=True)
+    train_loader = DataLoader(train_ds, batch_size=batch_size, sampler=sampler,
                               collate_fn=collate, num_workers=0)
-    dev_loader = DataLoader(dev_ds, batch_size=batch_size, shuffle=False,
-                            collate_fn=dev_collate, num_workers=0)
 
-    import math, time, json as json_
-    from ginsign.training import _linear_warmup_decay
-    from torch.optim import AdamW
+    # Build per-domain dev loaders for comprehensive eval
+    dev_loaders: Dict[str, tuple] = {}
+    for dn in eval_names:
+        d = DOMAINS[dn]
+        sig = d.signature
+        cm, ds = None, set()
+        if d.cluster_map:
+            cm, _, ds = load_cluster_map(Path(d.cluster_map))
+        dev_ds = GroundingDataset(d.test_corpus, sig, cluster_map=cm, drop_set=ds)
+        dev_loaders[dn] = (
+            DataLoader(dev_ds, batch_size=batch_size, shuffle=False,
+                       collate_fn=make_collate_fn(sig), num_workers=0),
+            sig,
+        )
 
     _set_seed(hp.get("seed", 0))
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -196,7 +204,7 @@ def _train_multi_domain(
                 project=hp["wandb_project"],
                 entity=hp.get("wandb_entity"),
                 name=exp_name,
-                config={"train_domains": train_names, **hp},
+                config={"train_domains": train_names, "eval_domains": eval_names, **hp},
                 dir=str(out_dir),
             )
         except Exception:
@@ -223,7 +231,9 @@ def _train_multi_domain(
     metrics_path.write_text("")
     done = False
 
-    print(f"[{exp_name}] |train|={len(train_ds)} domains={train_names} steps={total_steps}")
+    per_domain_sizes = {n: len(train_ds.domain_indices.get(n, [])) for n in train_names}
+    print(f"[{exp_name}] |train|={len(train_ds)} domains={train_names} "
+          f"sizes={per_domain_sizes} steps={total_steps}")
     t0 = time.time()
     for epoch in range(max_epochs):
         if done:
@@ -256,29 +266,46 @@ def _train_multi_domain(
                                "train/arg_loss": out["arg_loss"].item()}, step=step)
 
             if step % eval_every == 0 or step == total_steps:
-                metrics = evaluate(model, dev_loader, sig0, device)
-                metrics["step"] = step
-                with metrics_path.open("a") as f:
-                    f.write(json_.dumps(metrics) + "\n")
-                m = metrics.get("joint_acc", 0)
-                improved = m > best_metric
-                print(f"  eval@{step}: joint={m:.3f} (saving={'yes' if improved else 'no'})")
+                # Eval on ALL domains (train + held-out)
+                all_metrics = {}
+                mean_joint = 0.0
+                for dn, (loader, sig) in dev_loaders.items():
+                    m = evaluate(model, loader, sig, device)
+                    all_metrics[dn] = m
+                    tag = "HELD" if dn not in train_names else "seen"
+                    print(f"    {dn} ({tag}): joint={m['joint_acc']:.3f}")
+                    mean_joint += m["joint_acc"]
+                    if use_wandb:
+                        import wandb
+                        wandb.log({
+                            f"eval/{dn}/pred_acc": m["pred_acc"],
+                            f"eval/{dn}/arg_full": m["arg_acc_full_tuple"],
+                            f"eval/{dn}/joint": m["joint_acc"],
+                        }, step=step)
+                mean_joint /= max(len(dev_loaders), 1)
                 if use_wandb:
                     import wandb
-                    wandb.log({"eval/pred_acc": metrics["pred_acc"],
-                               "eval/arg_acc_full_tuple": metrics["arg_acc_full_tuple"],
-                               "eval/joint_acc": m}, step=step)
+                    wandb.log({"eval/mean_joint": mean_joint}, step=step)
+
+                record = {"step": step, "mean_joint": mean_joint,
+                          "per_domain": {dn: m["joint_acc"] for dn, m in all_metrics.items()}}
+                with metrics_path.open("a") as f:
+                    f.write(json_.dumps(record) + "\n")
+
+                improved = mean_joint > best_metric
+                print(f"  eval@{step}: mean_joint={mean_joint:.3f} "
+                      f"(saving={'yes' if improved else 'no'})")
                 if improved:
-                    best_metric = m
+                    best_metric = mean_joint
                     patience_counter = 0
                     torch.save({"state_dict": {k: v.cpu().clone() for k, v in model.state_dict().items()},
-                                "metrics": metrics}, out_dir / "best.pt")
+                                "metrics": record}, out_dir / "best.pt")
                 elif patience >= 0:
                     patience_counter += 1
                     if patience_counter >= patience:
                         print(f"  early stopping at step {step}")
                         done = True
-                torch.save({"state_dict": model.state_dict(), "metrics": metrics},
+                torch.save({"state_dict": model.state_dict(), "metrics": record},
                            out_dir / "last.pt")
                 model.train()
 
@@ -286,7 +313,7 @@ def _train_multi_domain(
                 done = True
                 break
 
-    print(f"[{exp_name}] done. best joint_acc={best_metric:.3f}")
+    print(f"[{exp_name}] done. best mean_joint={best_metric:.3f}")
     if use_wandb:
         import wandb
         wandb.finish()
@@ -305,49 +332,71 @@ def _load_checkpoint(ckpt_path, device):
 # Experiment generators
 # ---------------------------------------------------------------------------
 
-def run_loo(device, hp, batch_size=16):
-    """Leave-one-out within each family."""
+ALL_NAMES = VLTL_NAMES + PW_NAMES
+
+
+def run_loo(device, hp, batch_size=8):
+    """Leave-one-out: within each family AND across all 7 domains."""
+    # Within-family LOO
     for family, names in [("vltl", VLTL_NAMES), ("priorwork", PW_NAMES)]:
         for holdout in names:
             train_names = [n for n in names if n != holdout]
             exp_name = f"loo_{family}__held_{holdout}"
-            out_dir = _train_multi_domain(train_names, exp_name, device, hp)
+            eval_names = list(names)
+            out_dir = _train_multi_domain(train_names, eval_names, exp_name, device, hp)
+            # Post-training per-domain eval already done during training;
+            # write final evals from best checkpoint
             model = _load_checkpoint(out_dir / "best.pt", device)
-            for eval_dom in names:
+            for eval_dom in eval_names:
                 metrics = _eval_domain(model, eval_dom, device, batch_size)
                 eval_path = out_dir / f"eval_{eval_dom}.json"
                 eval_path.write_text(json.dumps(metrics, indent=2) + "\n")
                 tag = "HELD" if eval_dom == holdout else "seen"
-                print(f"  [{exp_name}] eval {eval_dom} ({tag}): joint={metrics['joint_acc']:.3f}")
+                print(f"  [{exp_name}] final {eval_dom} ({tag}): joint={metrics['joint_acc']:.3f}")
+
+    # All-7 LOO: train on 6, hold out 1 (mixes VLTL + priorwork)
+    for holdout in ALL_NAMES:
+        train_names = [n for n in ALL_NAMES if n != holdout]
+        exp_name = f"loo_all7__held_{holdout}"
+        out_dir = _train_multi_domain(train_names, ALL_NAMES, exp_name, device, hp)
+        model = _load_checkpoint(out_dir / "best.pt", device)
+        for eval_dom in ALL_NAMES:
+            metrics = _eval_domain(model, eval_dom, device, batch_size)
+            eval_path = out_dir / f"eval_{eval_dom}.json"
+            eval_path.write_text(json.dumps(metrics, indent=2) + "\n")
+            tag = "HELD" if eval_dom == holdout else "seen"
+            print(f"  [{exp_name}] final {eval_dom} ({tag}): joint={metrics['joint_acc']:.3f}")
 
 
-def run_joint(device, hp, batch_size=16):
-    """Joint training on all domains within each family."""
-    for family, names in [("vltl", VLTL_NAMES), ("priorwork", PW_NAMES)]:
+def run_joint(device, hp, batch_size=8):
+    """Joint training on all domains within each family + all 7."""
+    for family, names in [("vltl", VLTL_NAMES), ("priorwork", PW_NAMES), ("all7", ALL_NAMES)]:
         exp_name = f"joint_{family}"
-        out_dir = _train_multi_domain(names, exp_name, device, hp)
+        out_dir = _train_multi_domain(names, list(names), exp_name, device, hp)
         model = _load_checkpoint(out_dir / "best.pt", device)
         for eval_dom in names:
             metrics = _eval_domain(model, eval_dom, device, batch_size)
             eval_path = out_dir / f"eval_{eval_dom}.json"
             eval_path.write_text(json.dumps(metrics, indent=2) + "\n")
-            print(f"  [{exp_name}] eval {eval_dom}: joint={metrics['joint_acc']:.3f}")
+            print(f"  [{exp_name}] final {eval_dom}: joint={metrics['joint_acc']:.3f}")
 
 
-def run_cross(device, hp, batch_size=16):
+def run_cross(device, hp, batch_size=8):
     """Cross-dataset transfer: train on one family, eval on the other."""
     for train_family, eval_family, train_names, eval_names in [
         ("vltl", "priorwork", VLTL_NAMES, PW_NAMES),
         ("priorwork", "vltl", PW_NAMES, VLTL_NAMES),
     ]:
         exp_name = f"cross_{train_family}_to_{eval_family}"
-        out_dir = _train_multi_domain(train_names, exp_name, device, hp)
+        all_eval = train_names + eval_names
+        out_dir = _train_multi_domain(train_names, all_eval, exp_name, device, hp)
         model = _load_checkpoint(out_dir / "best.pt", device)
-        for eval_dom in eval_names:
+        for eval_dom in all_eval:
             metrics = _eval_domain(model, eval_dom, device, batch_size)
             eval_path = out_dir / f"eval_{eval_dom}.json"
             eval_path.write_text(json.dumps(metrics, indent=2) + "\n")
-            print(f"  [{exp_name}] eval {eval_dom}: joint={metrics['joint_acc']:.3f}")
+            tag = "HELD" if eval_dom in eval_names else "seen"
+            print(f"  [{exp_name}] final {eval_dom} ({tag}): joint={metrics['joint_acc']:.3f}")
 
 
 def run_prefix(device, batch_size=16):

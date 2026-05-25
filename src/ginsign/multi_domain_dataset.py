@@ -43,6 +43,7 @@ class MultiDomainDataset(Dataset):
     def __init__(self, domain_configs: Sequence[DomainDataConfig]):
         self.examples: List[DomainGroundingExample] = []
         self.domain_names: List[str] = []
+        self.domain_indices: Dict[str, List[int]] = {}
         for cfg in domain_configs:
             ds = GroundingDataset(
                 cfg.jsonl_path, cfg.signature,
@@ -50,7 +51,9 @@ class MultiDomainDataset(Dataset):
                 drop_set=cfg.drop_set,
             )
             self.domain_names.append(cfg.domain_name)
+            self.domain_indices[cfg.domain_name] = []
             for ex in ds.examples:
+                self.domain_indices[cfg.domain_name].append(len(self.examples))
                 self.examples.append(DomainGroundingExample(
                     ap_text=ex.ap_text,
                     gold_pred=ex.gold_pred,
@@ -64,6 +67,15 @@ class MultiDomainDataset(Dataset):
 
     def __getitem__(self, idx: int) -> DomainGroundingExample:
         return self.examples[idx]
+
+    def balanced_sampler_weights(self) -> List[float]:
+        """Per-example weight so each domain has equal total weight."""
+        weights = [0.0] * len(self.examples)
+        for domain, indices in self.domain_indices.items():
+            w = 1.0 / (len(self.domain_indices) * len(indices)) if indices else 0.0
+            for i in indices:
+                weights[i] = w
+        return weights
 
 
 def collate_multi_domain_batch(
