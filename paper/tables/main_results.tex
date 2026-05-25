@@ -1,0 +1,39 @@
+\begin{table*}[t]
+\centering
+\caption{Grounded Logical Equivalence (GLE, \%) across lifted translation frameworks and grounding methods.
+  GLE requires that the predicted formula is both structurally correct and that every atomic proposition
+  is correctly grounded in the system signature.
+  $^\dagger$~This framework does not distinguish between predicate and argument grounding.}
+\label{tab:main-results}
+\small
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{ll|c|c|c}
+\toprule
+\textbf{Lift + Translate} & \textbf{Grounding} & \textbf{Traffic Light} & \textbf{Search \& Rescue} & \textbf{Warehouse} \\
+\midrule
+\multirow{6}{*}{LLM Prompting} & GPT-4o & 25.2 & 38.6 & 12.0 \\
+ & GPT-5 & 24.4 & 31.2 & 14.6 \\
+ & Claude Sonnet & 12.0 & 6.2 & 3.4 \\
+ & Lang2LTL$^\dagger$ & 29.0 & 34.4 & 23.8 \\
+ & GinSign (ours) & \textbf{37.2} & \textbf{42.2} & \textbf{37.6} \\
+ \cdashline{2-5}
+ & Ground Truth & \color{gray}37.2 & \color{gray}42.2 & \color{gray}37.8 \\
+\midrule
+\multirow{6}{*}{NL2TL} & GPT-4o & 56.2 & 66.2 & 11.6 \\
+ & GPT-5 & 50.2 & 56.2 & 15.2 \\
+ & Claude Sonnet & 27.8 & 15.4 & 6.2 \\
+ & Lang2LTL$^\dagger$ & 56.8 & 57.6 & 35.8 \\
+ & GinSign (ours) & \textbf{79.6} & \textbf{73.6} & \textbf{65.6} \\
+ \cdashline{2-5}
+ & Ground Truth & \color{gray}79.6 & \color{gray}73.6 & \color{gray}66.6 \\
+\midrule
+\multirow{6}{*}{GraFT} & GPT-4o & 71.0 & 90.0 & 22.6 \\
+ & GPT-5 & 63.6 & 75.6 & 28.8 \\
+ & Claude Sonnet & 34.2 & 16.4 & 10.6 \\
+ & Lang2LTL$^\dagger$ & 71.4 & 77.8 & 56.2 \\
+ & GinSign (ours) & \textbf{100.0} & \textbf{100.0} & \textbf{98.6} \\
+ \cdashline{2-5}
+ & Ground Truth & \color{gray}100.0 & \color{gray}100.0 & \color{gray}100.0 \\
+\bottomrule
+\end{tabular}
+\end{table*}
