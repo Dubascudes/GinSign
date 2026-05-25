@@ -21,6 +21,9 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest>=7", "nbformat"]
+wandb = ["wandb>=0.16"]
+openai = ["openai>=1.0", "python-dotenv"]
+all = ["wandb>=0.16", "openai>=1.0", "python-dotenv"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
