@@ -27,11 +27,14 @@ class TrainingConfig:
 
     # Training loop
     batch_size: int = 16
+    eval_batch_size: int = -1               # -1 = 4x batch_size (no grads → can go bigger)
     max_epochs: int = 3
     max_steps: int = -1                     # -1 = no cap, use max_epochs
     eval_every: int = 500                   # in optimizer steps
     patience: int = 5                       # -1 = no early stopping
     seed: int = 0
+    use_bf16: bool = False                  # autocast bf16 for train + eval
+    compile_model: bool = False             # torch.compile the BERT encoder
 
     # Loss
     lambda_arg: float = 1.0

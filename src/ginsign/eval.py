@@ -9,6 +9,7 @@ matching what compute_loss optimizes.
 from __future__ import annotations
 
 from collections import defaultdict
+from contextlib import nullcontext
 from typing import Iterable
 
 import torch
@@ -25,9 +26,13 @@ def evaluate(
     loader: Iterable,
     signature: Signature,
     device: torch.device,
+    use_bf16: bool = False,
 ) -> dict:
     """Return metrics over the loader. Loader must yield collator dicts."""
     model.eval()
+    amp_ctx = torch.amp.autocast("cuda", dtype=torch.bfloat16) if (
+        use_bf16 and device.type == "cuda"
+    ) else nullcontext()
 
     pred_correct = 0
     pred_total = 0
@@ -50,10 +55,56 @@ def evaluate(
         gold_pred_idx = batch["gold_pred_idx"].to(device)
         gold_arg_idx = batch["gold_arg_idx"].to(device)
 
-        pred_logits, ap_repr, pred_cand_reprs, _ = model.ground_predicate(
-            batch["ap_texts"], batch["predicate_lists"]
-        )
-        pred_pred_idx = pred_logits.argmax(dim=-1)
+        with amp_ctx:
+            pred_logits, ap_repr, pred_cand_reprs, _ = model.ground_predicate(
+                batch["ap_texts"], batch["predicate_lists"]
+            )
+            pred_pred_idx = pred_logits.argmax(dim=-1)
+
+            B = pred_logits.size(0)
+            H = model.hidden_size
+            pred_repr = pred_cand_reprs[torch.arange(B), gold_pred_idx]
+
+            slot_cand_reprs_list = []
+            slot_valid_masks_list = []
+            gold_arg_reprs = torch.zeros(
+                B, len(batch["slot_candidate_lists"]), H, device=device
+            )
+            for r, (cands_r, tm_r) in enumerate(
+                zip(batch["slot_candidate_lists"], batch["slot_type_masks"])
+            ):
+                _, _, cand_reprs_r, spans_r = model.encode_stage(
+                    batch["ap_texts"], cands_r, tm_r, device=device
+                )
+                slot_cand_reprs_list.append(cand_reprs_r)
+                slot_valid_masks_list.append(spans_r.effective_mask())
+                gold_r = gold_arg_idx[:, r]
+                present = gold_r >= 0
+                if present.any():
+                    safe_idx = gold_r.clamp(min=0)
+                    gold_arg_reprs[:, r, :] = (
+                        cand_reprs_r[torch.arange(B), safe_idx]
+                        * present.unsqueeze(-1).float()
+                    )
+
+            per_example_tuple_correct = torch.ones(B, dtype=torch.bool, device=device)
+            per_example_has_args = torch.zeros(B, dtype=torch.bool, device=device)
+            for r in range(len(slot_cand_reprs_list)):
+                cand_r = slot_cand_reprs_list[r]
+                mask_r = slot_valid_masks_list[r]
+                prev = gold_arg_reprs[:, :r, :] if r > 0 else None
+                logits_r = model.arg_decoder.step(
+                    ap_repr, pred_repr, prev, cand_r, mask_r
+                )
+                pred_arg = logits_r.argmax(dim=-1)
+                gold_r = gold_arg_idx[:, r]
+                present = gold_r >= 0
+                per_example_has_args |= present
+                if present.any():
+                    correct = (pred_arg == gold_r) & present
+                    slot_correct[r] += int(correct.sum().item())
+                    slot_total[r] += int(present.sum().item())
+                    per_example_tuple_correct &= correct | ~present
 
         # Predicate metrics
         for gold_i, pred_i in zip(gold_pred_idx.tolist(), pred_pred_idx.tolist()):
@@ -66,56 +117,6 @@ def evaluate(
             else:
                 per_pred_fp[pred_name] += 1
                 per_pred_fn[gold_name] += 1
-
-        # Argument metrics under teacher-forced predicate (same as compute_loss).
-        B = pred_logits.size(0)
-        H = model.hidden_size
-        pred_repr = pred_cand_reprs[torch.arange(B), gold_pred_idx]
-
-        slot_cand_reprs_list = []
-        slot_valid_masks_list = []
-        gold_arg_reprs = torch.zeros(
-            B, len(batch["slot_candidate_lists"]), H, device=device
-        )
-        for r, (cands_r, tm_r) in enumerate(
-            zip(batch["slot_candidate_lists"], batch["slot_type_masks"])
-        ):
-            _, _, cand_reprs_r, spans_r = model.encode_stage(
-                batch["ap_texts"], cands_r, tm_r, device=device
-            )
-            slot_cand_reprs_list.append(cand_reprs_r)
-            slot_valid_masks_list.append(spans_r.effective_mask())
-            gold_r = gold_arg_idx[:, r]
-            present = gold_r >= 0
-            if present.any():
-                safe_idx = gold_r.clamp(min=0)
-                gold_arg_reprs[:, r, :] = (
-                    cand_reprs_r[torch.arange(B), safe_idx]
-                    * present.unsqueeze(-1).float()
-                )
-
-        # Run the AR decoder in *free* mode (greedy) so eval reflects
-        # what inference would actually do. Use teacher forcing for the
-        # state up to the current slot.
-        per_example_tuple_correct = torch.ones(B, dtype=torch.bool, device=device)
-        per_example_has_args = torch.zeros(B, dtype=torch.bool, device=device)
-        for r in range(len(slot_cand_reprs_list)):
-            cand_r = slot_cand_reprs_list[r]
-            mask_r = slot_valid_masks_list[r]
-            prev = gold_arg_reprs[:, :r, :] if r > 0 else None
-            logits_r = model.arg_decoder.step(
-                ap_repr, pred_repr, prev, cand_r, mask_r
-            )
-            pred_arg = logits_r.argmax(dim=-1)
-            gold_r = gold_arg_idx[:, r]
-            present = gold_r >= 0
-            per_example_has_args |= present
-            if present.any():
-                correct = (pred_arg == gold_r) & present
-                slot_correct[r] += int(correct.sum().item())
-                slot_total[r] += int(present.sum().item())
-                # An example loses tuple-correctness if any present slot is wrong
-                per_example_tuple_correct &= correct | ~present
 
         for b in range(B):
             joint_total += 1

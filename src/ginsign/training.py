@@ -10,6 +10,7 @@ import json
 import math
 import random
 import time
+from contextlib import nullcontext
 from pathlib import Path
 from typing import Optional
 
@@ -110,6 +111,7 @@ def train(config: TrainingConfig) -> dict:
         f"device={device}"
     )
 
+    eval_bs = config.eval_batch_size if config.eval_batch_size > 0 else config.batch_size * 4
     train_loader = DataLoader(
         train_ds,
         batch_size=config.batch_size,
@@ -120,13 +122,16 @@ def train(config: TrainingConfig) -> dict:
     )
     dev_loader = DataLoader(
         dev_ds,
-        batch_size=config.batch_size,
+        batch_size=eval_bs,
         shuffle=False,
         num_workers=config.num_workers,
         collate_fn=collate,
     )
 
     model = PointerJointGrounder(bert_name=config.model_name).to(device)
+    if config.compile_model and hasattr(torch, "compile"):
+        print("[train] compiling BERT encoder with torch.compile")
+        model.bert = torch.compile(model.bert)
     optimizer = AdamW(
         model.parameters(),
         lr=config.lr,
@@ -151,6 +156,12 @@ def train(config: TrainingConfig) -> dict:
     best_state: Optional[dict] = None
     patience_counter = 0
 
+    amp_ctx = torch.amp.autocast("cuda", dtype=torch.bfloat16) if (
+        config.use_bf16 and device.type == "cuda"
+    ) else nullcontext()
+    if config.use_bf16:
+        print(f"[train] using bf16 autocast")
+
     t0 = time.time()
     done = False
     for epoch in range(config.max_epochs):
@@ -158,15 +169,16 @@ def train(config: TrainingConfig) -> dict:
             break
         model.train()
         for batch in train_loader:
-            out = model.compute_loss(
-                ap_texts=batch["ap_texts"],
-                predicate_lists=batch["predicate_lists"],
-                gold_pred_idx=batch["gold_pred_idx"],
-                slot_candidate_lists=batch["slot_candidate_lists"],
-                slot_type_masks=batch["slot_type_masks"],
-                gold_arg_idx=batch["gold_arg_idx"],
-                lambda_arg=config.lambda_arg,
-            )
+            with amp_ctx:
+                out = model.compute_loss(
+                    ap_texts=batch["ap_texts"],
+                    predicate_lists=batch["predicate_lists"],
+                    gold_pred_idx=batch["gold_pred_idx"],
+                    slot_candidate_lists=batch["slot_candidate_lists"],
+                    slot_type_masks=batch["slot_type_masks"],
+                    gold_arg_idx=batch["gold_arg_idx"],
+                    lambda_arg=config.lambda_arg,
+                )
             loss = out["loss"]
             loss.backward()
             torch.nn.utils.clip_grad_norm_(model.parameters(), config.max_grad_norm)
@@ -196,7 +208,7 @@ def train(config: TrainingConfig) -> dict:
                     }, step=step)
 
             if step % config.eval_every == 0 or step == total_steps:
-                metrics = evaluate(model, dev_loader, signature, device)
+                metrics = evaluate(model, dev_loader, signature, device, use_bf16=config.use_bf16)
                 metrics["step"] = step
                 metrics["epoch"] = epoch
                 with metrics_path.open("a") as fh:
@@ -240,7 +252,7 @@ def train(config: TrainingConfig) -> dict:
                 break
 
     # Final eval (also writes a clean summary)
-    final = evaluate(model, dev_loader, signature, device)
+    final = evaluate(model, dev_loader, signature, device, use_bf16=config.use_bf16)
     final["step"] = step
     (out_dir / "eval.json").write_text(json.dumps(final, indent=2) + "\n")
     print(f"[train] done. best {config.save_best_metric}={best_metric:.3f}")
