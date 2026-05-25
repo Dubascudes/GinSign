@@ -19,6 +19,7 @@ import itertools
 import json
 import os
 import sys
+from contextlib import nullcontext
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Dict, List, Optional
@@ -172,6 +173,10 @@ def _train_multi_domain(
     collate = make_multi_domain_collate_fn(union_predicates=None)
 
     batch_size = hp.get("batch_size", 8)
+    eval_bs_raw = hp.get("eval_batch_size", -1)
+    eval_bs = eval_bs_raw if eval_bs_raw > 0 else batch_size * 4
+    use_bf16 = hp.get("use_bf16", False)
+
     # Domain-balanced sampling: each domain gets equal representation
     weights = train_ds.balanced_sampler_weights()
     sampler = WeightedRandomSampler(weights, num_samples=len(train_ds), replacement=True)
@@ -188,7 +193,7 @@ def _train_multi_domain(
             cm, _, ds = load_cluster_map(Path(d.cluster_map))
         dev_ds = GroundingDataset(d.test_corpus, sig, cluster_map=cm, drop_set=ds)
         dev_loaders[dn] = (
-            DataLoader(dev_ds, batch_size=batch_size, shuffle=False,
+            DataLoader(dev_ds, batch_size=eval_bs, shuffle=False,
                        collate_fn=make_collate_fn(sig), num_workers=0),
             sig,
         )
@@ -211,8 +216,17 @@ def _train_multi_domain(
             use_wandb = False
 
     model = PointerJointGrounder(bert_name=hp.get("model_name", "bert-base-cased")).to(device)
+    if hp.get("compile_model") and hasattr(torch, "compile"):
+        print(f"[{exp_name}] compiling BERT encoder")
+        model.bert = torch.compile(model.bert)
     optimizer = AdamW(model.parameters(), lr=hp.get("lr", 2e-5),
                       weight_decay=hp.get("weight_decay", 0.01))
+
+    amp_ctx = torch.amp.autocast("cuda", dtype=torch.bfloat16) if (
+        use_bf16 and device.type == "cuda"
+    ) else nullcontext()
+    if use_bf16:
+        print(f"[{exp_name}] using bf16 autocast")
 
     max_epochs = hp.get("max_epochs", 5)
     steps_per_epoch = max(1, math.ceil(len(train_ds) / batch_size))
@@ -240,14 +254,15 @@ def _train_multi_domain(
             break
         model.train()
         for batch in train_loader:
-            out = model.compute_loss(
-                ap_texts=batch["ap_texts"],
-                predicate_lists=batch["predicate_lists"],
-                gold_pred_idx=batch["gold_pred_idx"],
-                slot_candidate_lists=batch["slot_candidate_lists"],
-                slot_type_masks=batch["slot_type_masks"],
-                gold_arg_idx=batch["gold_arg_idx"],
-            )
+            with amp_ctx:
+                out = model.compute_loss(
+                    ap_texts=batch["ap_texts"],
+                    predicate_lists=batch["predicate_lists"],
+                    gold_pred_idx=batch["gold_pred_idx"],
+                    slot_candidate_lists=batch["slot_candidate_lists"],
+                    slot_type_masks=batch["slot_type_masks"],
+                    gold_arg_idx=batch["gold_arg_idx"],
+                )
             out["loss"].backward()
             torch.nn.utils.clip_grad_norm_(model.parameters(), hp.get("max_grad_norm", 1.0))
             optimizer.step()
@@ -270,7 +285,7 @@ def _train_multi_domain(
                 all_metrics = {}
                 mean_joint = 0.0
                 for dn, (loader, sig) in dev_loaders.items():
-                    m = evaluate(model, loader, sig, device)
+                    m = evaluate(model, loader, sig, device, use_bf16=use_bf16)
                     all_metrics[dn] = m
                     tag = "HELD" if dn not in train_names else "seen"
                     print(f"    {dn} ({tag}): joint={m['joint_acc']:.3f}")
@@ -450,6 +465,9 @@ def main():
     p.add_argument("--patience", type=int, default=5)
     p.add_argument("--warmup-steps", type=int, default=100)
     p.add_argument("--seed", type=int, default=0)
+    p.add_argument("--eval-batch-size", type=int, default=-1)
+    p.add_argument("--bf16", action="store_true")
+    p.add_argument("--compile", action="store_true")
     p.add_argument("--wandb-project", default=None)
     p.add_argument("--wandb-entity", default=None)
     p.add_argument("--dry-run", action="store_true")
@@ -460,6 +478,8 @@ def main():
         "lr": args.lr, "max_epochs": args.epochs, "eval_every": args.eval_every,
         "patience": args.patience, "warmup_steps": args.warmup_steps,
         "seed": args.seed, "batch_size": args.batch_size,
+        "eval_batch_size": args.eval_batch_size,
+        "use_bf16": args.bf16, "compile_model": args.compile,
         "wandb_project": args.wandb_project, "wandb_entity": args.wandb_entity,
     }
     axes = set(args.axes)

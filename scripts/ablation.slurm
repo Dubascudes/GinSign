@@ -34,7 +34,10 @@ echo "Started: $(date)"
 python scripts/run_ablations.py \
     --axes all \
     --device cuda \
-    --batch-size 8 \
+    --batch-size 128 \
+    --eval-batch-size 512 \
+    --bf16 \
+    --compile \
     --patience 3 \
     --eval-every 100 \
     --wandb-project ginsign-ablations \
