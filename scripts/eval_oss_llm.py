@@ -268,18 +268,21 @@ async def run_translation(client, model, domains, tag, concurrency):
 # Task 3: Grounding
 # ---------------------------------------------------------------------------
 
-GROUNDING_PROMPT = """Scenario Configuration: {scenario}
+GROUNDING_PROMPT = """The following system signature defines ALL valid predicates and constants:
+
+{scenario}
+
+IMPORTANT: You must select action_canon from ONLY these predicates: {predicate_list}
+You must select args_canon values from ONLY the constants listed under Types above.
+
 Sentence: {sentence}
 Lifted Sentence: {lifted_sentence}
 
-For each prop_n in the lifted sentence, identify which predicate from the \
-Scenario Configuration it corresponds to, and which constants are its arguments. \
-Use ONLY predicate names and constant names that appear in the Scenario Configuration above.
-
-Output ONLY a JSON object (no explanation, no markdown) in this exact form:
+For each prop_n, output the matching predicate and its constant arguments.
+Output ONLY a JSON object (no explanation, no markdown):
 {{
-  "prop_1": {{"action_canon": "<predicate_name>", "args_canon": ["<const1>", "<const2>"]}},
-  "prop_2": {{"action_canon": "<predicate_name>", "args_canon": ["<const1>"]}}
+  "prop_1": {{"action_canon": "<predicate>", "args_canon": ["<const1>", "<const2>"]}},
+  "prop_2": {{"action_canon": "<predicate>", "args_canon": ["<const1>"]}}
 }}"""
 
 
@@ -292,7 +295,10 @@ async def run_grounding(client, model, domains, tag, concurrency):
     out_dir.mkdir(parents=True, exist_ok=True)
 
     for domain in domains:
+        from ginsign.signature_io import load_signature as _load_sig
+        sig = _load_sig(ROOT / "data" / "signatures" / f"{domain}.json")
         scenario = format_signature(domain)
+        predicate_list = ", ".join(sig.predicate_names())
         rows = load_raw_nl(domain)
         requests = []
         for row in rows:
@@ -300,6 +306,7 @@ async def run_grounding(client, model, domains, tag, concurrency):
             lifted = " ".join(row.get("grounded_sentence", []))
             prompt = GROUNDING_PROMPT.format(
                 scenario=scenario, sentence=sentence, lifted_sentence=lifted,
+                predicate_list=predicate_list,
             )
             msgs = [{"role": "user", "content": prompt}]
             requests.append((msgs, 1024))
