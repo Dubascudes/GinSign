@@ -1,0 +1,34 @@
+{
+  "domain": "traffic_light",
+  "gpu": "NVIDIA GeForce RTX 4070 Ti SUPER",
+  "params_millions": 124.082178,
+  "ms_per_ap_batch1": 13.464172726031393,
+  "ms_per_ap_batch8": 12.073826443986036,
+  "latency_vs_signature_size": [
+    {
+      "n_distractors_per_sort": 0,
+      "total_constants": 175,
+      "ms_per_ap_batch8": 12.083245165995322
+    },
+    {
+      "n_distractors_per_sort": 40,
+      "total_constants": 335,
+      "ms_per_ap_batch8": 15.653263878077269
+    },
+    {
+      "n_distractors_per_sort": 80,
+      "total_constants": 495,
+      "ms_per_ap_batch8": 19.21848089993
+    },
+    {
+      "n_distractors_per_sort": 160,
+      "total_constants": 556,
+      "ms_per_ap_batch8": 21.212590176030062
+    },
+    {
+      "n_distractors_per_sort": 320,
+      "total_constants": 556,
+      "ms_per_ap_batch8": 19.024305156082846
+    }
+  ]
+}

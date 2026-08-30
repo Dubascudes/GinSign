@@ -29,6 +29,7 @@ def main() -> None:
     p.add_argument("--corpus", required=True)
     p.add_argument("--cluster-map", default=None)
     p.add_argument("--model-name", default="bert-base-cased")
+    p.add_argument("--max-per-shard", type=int, default=80)
     p.add_argument("--batch-size", type=int, default=16)
     p.add_argument("--device", default="auto")
     args = p.parse_args()
@@ -51,7 +52,9 @@ def main() -> None:
         collate_fn=make_collate_fn(sig),
     )
 
-    model = PointerJointGrounder(bert_name=args.model_name).to(device)
+    model = PointerJointGrounder(
+        bert_name=args.model_name, max_per_shard=args.max_per_shard
+    ).to(device)
     ckpt = torch.load(args.checkpoint, map_location=device, weights_only=False)
     sd = {k.replace("._orig_mod.", "."): v for k, v in ckpt["state_dict"].items()}
     model.load_state_dict(sd)

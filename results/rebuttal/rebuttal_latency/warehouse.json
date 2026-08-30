@@ -1,0 +1,35 @@
+{
+  "domain": "warehouse",
+  "gpu": "NVIDIA GeForce RTX 4070 Ti SUPER",
+  "params_millions": 124.082178,
+  "ms_per_ap_batch1": 6.403305914020166,
+  "ms_per_ap_batch16": 3.2148302659625188,
+  "ms_per_ap_batch64": 2.706228092079982,
+  "latency_vs_signature_size": [
+    {
+      "n_distractors_per_sort": 0,
+      "total_constants": 82,
+      "ms_per_ap_batch16": 3.1988537260331213
+    },
+    {
+      "n_distractors_per_sort": 40,
+      "total_constants": 162,
+      "ms_per_ap_batch16": 6.518114772043191
+    },
+    {
+      "n_distractors_per_sort": 80,
+      "total_constants": 242,
+      "ms_per_ap_batch16": 10.243124471977353
+    },
+    {
+      "n_distractors_per_sort": 160,
+      "total_constants": 402,
+      "ms_per_ap_batch16": 17.570459282025695
+    },
+    {
+      "n_distractors_per_sort": 320,
+      "total_constants": 556,
+      "ms_per_ap_batch16": 24.967101098038256
+    }
+  ]
+}

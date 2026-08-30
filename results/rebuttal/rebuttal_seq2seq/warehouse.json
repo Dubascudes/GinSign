@@ -1,0 +1,10 @@
+{
+  "domain": "warehouse",
+  "n": 4663,
+  "pred_acc": 1.0,
+  "arg_acc": 0.9931374651511902,
+  "joint_acc": 0.9931374651511902,
+  "halluc_pred_rate": 0.0,
+  "halluc_arg_rate": 0.0,
+  "params_millions": 222.903552
+}

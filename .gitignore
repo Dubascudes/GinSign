@@ -44,7 +44,7 @@ grounding_data_combined_*/
 
 # Misc legacy artifacts kept locally
 cross_encoder_eval_results/
-eval_data/
+# eval_data/
 
 # Training outputs land here by default; checkpoints are large
 outputs/
@@ -59,3 +59,13 @@ data/*.zip
 
 # HF cache (if cached locally)
 .cache/
+
+# Session tooling
+.claude/
+
+# Submission PDFs (do not track binaries)
+paper/*.pdf
+
+# Internal notes
+docs/rebuttal_strategy.md
+docs/todo.md

@@ -426,8 +426,9 @@ def run_cross(device, hp, batch_size=8):
 def run_prefix(device, batch_size=16):
     """Prefix content ablations on per-domain checkpoints."""
     all_sigs = [DOMAINS[n].signature for n in DOMAINS]
+    ckpt_root = Path(os.environ.get("GINSIGN_CKPT_ROOT", str(ROOT / "outputs")))
     for domain_name in DOMAINS:
-        ckpt_path = ROOT / "outputs" / domain_name / "best.pt"
+        ckpt_path = ckpt_root / domain_name / "best.pt"
         if not ckpt_path.exists():
             print(f"[prefix] skipping {domain_name}: no per-domain checkpoint")
             continue

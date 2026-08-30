@@ -46,14 +46,18 @@ def inject_distractors(
     for ds in donor_sigs:
         for cs in ds.constants.values():
             all_donor_consts.extend(cs)
-    all_donor_consts = list(set(all_donor_consts))
+    all_donor_consts = sorted(set(all_donor_consts))
 
+    # A constant may appear in at most one sort of the target signature:
+    # exclude anything already present anywhere, and remove each pick from
+    # the shared pool so no distractor lands in two sorts.
+    existing_anywhere = {c for cs in sig.constants.values() for c in cs}
+    pool = [c for c in all_donor_consts if c not in existing_anywhere]
+    rng.shuffle(pool)
     new_constants = {}
     for sort, cs in sig.constants.items():
-        existing = set(cs)
-        pool = [c for c in all_donor_consts if c not in existing]
         k = min(n_per_sort, len(pool))
-        distractors = rng.sample(pool, k) if k > 0 else []
+        distractors = [pool.pop() for _ in range(k)]
         new_constants[sort] = list(cs) + distractors
     return Signature(
         name=sig.name,

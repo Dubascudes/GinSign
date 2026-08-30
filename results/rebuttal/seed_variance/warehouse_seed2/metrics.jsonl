@@ -1,0 +1,6 @@
+{"n": 4663, "pred_acc": 1.0, "pred_f1_macro": 1.0, "arg_acc_per_slot": {"0": 0.9096140825998645, "1": 1.0}, "arg_acc_full_tuple": 0.9096140825998645, "joint_acc": 0.9427407248552434, "step": 200, "epoch": 0}
+{"n": 4663, "pred_acc": 1.0, "pred_f1_macro": 1.0, "arg_acc_per_slot": {"0": 0.972241029113067, "1": 1.0}, "arg_acc_full_tuple": 0.972241029113067, "joint_acc": 0.982414754449925, "step": 400, "epoch": 1}
+{"n": 4663, "pred_acc": 0.9993566373579241, "pred_f1_macro": 0.9993860857078964, "arg_acc_per_slot": {"0": 0.990521327014218, "1": 1.0}, "arg_acc_full_tuple": 0.990521327014218, "joint_acc": 0.9933519193652155, "step": 600, "epoch": 1}
+{"n": 4663, "pred_acc": 1.0, "pred_f1_macro": 1.0, "arg_acc_per_slot": {"0": 0.9908598510494245, "1": 1.0}, "arg_acc_full_tuple": 0.9908598510494245, "joint_acc": 0.9942097362213167, "step": 800, "epoch": 2}
+{"n": 4663, "pred_acc": 1.0, "pred_f1_macro": 1.0, "arg_acc_per_slot": {"0": 0.9908598510494245, "1": 1.0}, "arg_acc_full_tuple": 0.9908598510494245, "joint_acc": 0.9942097362213167, "step": 1000, "epoch": 2}
+{"n": 4663, "pred_acc": 1.0, "pred_f1_macro": 1.0, "arg_acc_per_slot": {"0": 0.991198375084631, "1": 1.0}, "arg_acc_full_tuple": 0.991198375084631, "joint_acc": 0.994424190435342, "step": 1011, "epoch": 2}

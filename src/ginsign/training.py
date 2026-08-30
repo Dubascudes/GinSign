@@ -128,7 +128,10 @@ def train(config: TrainingConfig) -> dict:
         collate_fn=collate,
     )
 
-    model = PointerJointGrounder(bert_name=config.model_name).to(device)
+    model = PointerJointGrounder(
+        bert_name=config.model_name,
+        max_per_shard=getattr(config, "max_per_shard", 80),
+    ).to(device)
     if config.compile_model and hasattr(torch, "compile"):
         print("[train] compiling BERT encoder with torch.compile")
         model.bert = torch.compile(model.bert)

@@ -1,0 +1,3 @@
+{"n": 1869, "pred_acc": 1.0, "pred_f1_macro": 1.0, "arg_acc_per_slot": {"0": 1.0}, "arg_acc_full_tuple": 1.0, "joint_acc": 1.0, "step": 200, "epoch": 1}
+{"n": 1869, "pred_acc": 1.0, "pred_f1_macro": 1.0, "arg_acc_per_slot": {"0": 1.0}, "arg_acc_full_tuple": 1.0, "joint_acc": 1.0, "step": 400, "epoch": 2}
+{"n": 1869, "pred_acc": 1.0, "pred_f1_macro": 1.0, "arg_acc_per_slot": {"0": 1.0}, "arg_acc_full_tuple": 1.0, "joint_acc": 1.0, "step": 414, "epoch": 2}

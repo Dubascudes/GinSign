@@ -32,6 +32,7 @@ def main() -> None:
     p.add_argument("--output", required=True, dest="output_dir")
     p.add_argument("--cluster-map", default=None)
     p.add_argument("--model-name", default="bert-base-cased")
+    p.add_argument("--max-per-shard", type=int, default=80, dest="max_per_shard")
     p.add_argument("--epochs", type=int, default=3, dest="max_epochs")
     p.add_argument("--max-steps", type=int, default=-1)
     p.add_argument("--batch-size", type=int, default=16)

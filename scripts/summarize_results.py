@@ -303,6 +303,118 @@ def evaluate_combination(lifted, groundings, gt_by_domain, domain):
 
 
 # ---------------------------------------------------------------------------
+# Isolated Grounding Table
+# ---------------------------------------------------------------------------
+
+def compute_grounding_accuracy(groundings, gt_by_domain, domain):
+    """Compute per-AP joint accuracy (predicate + all args correct)."""
+    gt = gt_by_domain[domain]
+    cm = _get_cluster_map(domain)
+    correct = total = 0
+    for sid, gmap in groundings.items():
+        if sid not in gt:
+            continue
+        gt_props = gt[sid].get("prop_dict", {})
+        for pk, gt_prop in gt_props.items():
+            if gt_prop is None:
+                continue
+            total += 1
+            pred_atom = gmap.get(pk)
+            if pred_atom is None:
+                continue
+            pred_p, pred_a = parse_atom(pred_atom)
+            gt_action = cm.get(gt_prop["action_canon"], gt_prop["action_canon"])
+            gt_args = clean_args(gt_prop.get("args_canon", []))
+            if pred_p == gt_action and clean_args(pred_a) == gt_args:
+                correct += 1
+    return 100.0 * correct / total if total else 0
+
+
+def build_grounding_table(gt_by_domain, gcache):
+    """Build isolated grounding evaluation table (per-AP joint accuracy)."""
+    print()
+    cw = 7
+    total_w = 18 + len(ALL_DOMAINS) * (cw + 1) + 4
+    print("=" * total_w)
+    print("  Isolated Grounding Evaluation (per-AP joint accuracy %)")
+    print("=" * total_w)
+
+    hdr = f"{'Grounder':>18s}"
+    for d in ALL_DOMAINS:
+        hdr += f" {DOMAIN_SHORT[d]:>{cw}s}"
+    print(f"\n{hdr}")
+    print("-" * total_w)
+
+    for gname in gcache:
+        print(f"{gname:>18s}", end="")
+        for domain in ALL_DOMAINS:
+            grd = gcache[gname].get(domain, {})
+            if not grd:
+                print(f" {'—':>{cw}s}", end="")
+                continue
+            acc = compute_grounding_accuracy(grd, gt_by_domain, domain)
+            print(f" {acc:>{cw}.1f}", end="")
+        print()
+
+    print()
+
+    # LaTeX
+    latex_path = ROOT / "paper" / "tables" / "grounding_table.tex"
+    latex_path.parent.mkdir(parents=True, exist_ok=True)
+
+    # Collect all data to find best per column
+    all_data = {}
+    for gname in gcache:
+        all_data[gname] = {}
+        for domain in ALL_DOMAINS:
+            grd = gcache[gname].get(domain, {})
+            if grd:
+                all_data[gname][domain] = compute_grounding_accuracy(grd, gt_by_domain, domain)
+            else:
+                all_data[gname][domain] = None
+
+    best_per_domain = {}
+    for domain in ALL_DOMAINS:
+        vals = [all_data[gn][domain] for gn in all_data if all_data[gn][domain] is not None]
+        best_per_domain[domain] = max(vals) if vals else None
+
+    lines = []
+    lines.append(r"\begin{table}[t]")
+    lines.append(r"\centering")
+    lines.append(r"\caption{Isolated grounding evaluation: per-AP joint accuracy (\%).")
+    lines.append(r"  Each grounding method receives the ground-truth lifted APs and must predict")
+    lines.append(r"  the correct predicate and all arguments from the system signature.}")
+    lines.append(r"\label{tab:grounding}")
+    lines.append(r"\small")
+    lines.append(r"\setlength{\tabcolsep}{4pt}")
+    lines.append(r"\begin{tabular}{l|ccccccc}")
+    lines.append(r"\toprule")
+    lines.append(r"Grounder & TL & S\&R & WH & CW & CF & GLTL & Navi \\")
+    lines.append(r"\midrule")
+
+    for gname in gcache:
+        label = "GinSign (ours)" if gname == "GinSign" else gname
+        cells = []
+        for domain in ALL_DOMAINS:
+            v = all_data[gname][domain]
+            if v is None:
+                cells.append("---")
+            elif best_per_domain[domain] is not None and v == best_per_domain[domain]:
+                cells.append(r"\textbf{" + f"{v:.1f}" + "}")
+            else:
+                cells.append(f"{v:.1f}")
+        lines.append(f"{label} & {' & '.join(cells)} \\\\")
+
+    lines.append(r"\bottomrule")
+    lines.append(r"\end{tabular}")
+    lines.append(r"\end{table}")
+
+    with open(latex_path, "w") as f:
+        f.write("\n".join(lines) + "\n")
+    print(f"  LaTeX grounding table written to {latex_path}")
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -327,17 +439,37 @@ def main():
         ("GinSign",       load_ginsign_grounding),
     ]
 
+    # Extended list for the isolated grounding table (includes VLTL-only models)
+    all_grounding_specs = [
+        ("GPT-3.5 Turbo", lambda d: load_llm_grounding("3_5_turbo", d)),
+        ("GPT-4.1 Mini",  lambda d: load_llm_grounding("4_1_mini", d)),
+        ("GPT-4o Mini",   lambda d: load_llm_grounding("4o_mini", d)),
+        ("GPT-4o",        lambda d: load_llm_grounding("gpt-4o", d)),
+        ("GPT-oss-120B",  lambda d: load_llm_grounding("gpt-oss-120b", d)),
+        ("Claude Sonnet", lambda d: load_llm_grounding("claude-sonnet", d)),
+        ("Lang2LTL",      load_lang2ltl_grounding),
+        ("GinSign",       load_ginsign_grounding),
+    ]
+
     print("Loading grounding predictions...", flush=True)
     gcache = {}
-    for gname, gfn in grounding_specs:
-        gcache[gname] = {}
+    gcache_all = {}
+    loaded_names = set()
+    for gname, gfn in all_grounding_specs:
+        gcache_all[gname] = {}
         for domain in ALL_DOMAINS:
             try:
-                gcache[gname][domain] = gfn(domain)
+                gcache_all[gname][domain] = gfn(domain)
             except Exception as e:
-                print(f"  {gname}/{domain}: skipped ({e})")
-                gcache[gname][domain] = {}
+                if gname not in loaded_names:
+                    pass  # suppress duplicate skip messages
+                gcache_all[gname][domain] = {}
+        loaded_names.add(gname)
         print(f"  {gname}: loaded", flush=True)
+
+    # Subset for the main cross-table
+    for gname, _ in grounding_specs:
+        gcache[gname] = gcache_all[gname]
 
     # Table
     print()
@@ -493,6 +625,9 @@ def main():
     with open(latex_path, "w") as f:
         f.write("\n".join(lines) + "\n")
     print(f"\n  LaTeX table written to {latex_path}")
+
+    # --- Isolated grounding table ---
+    build_grounding_table(gt_by_domain, gcache_all)
 
 
 if __name__ == "__main__":

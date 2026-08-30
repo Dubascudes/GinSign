@@ -18,6 +18,7 @@ class TrainingConfig:
 
     # Model
     model_name: str = "bert-base-cased"
+    max_per_shard: int = 80
 
     # Optimizer
     lr: float = 2e-5

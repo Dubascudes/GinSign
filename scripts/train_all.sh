@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
-PY=/home/will.english/miniconda3/envs/py312/bin/python
+PY=python
 export PYTHONPATH=
 
 ARGS=(--epochs 3 --batch-size 32 --lr 2e-5 --eval-every 200 --device cuda)
